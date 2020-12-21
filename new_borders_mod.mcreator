@@ -1933,6 +1933,15 @@
       "registry_name": "cumarmorrecipe"
     },
     {
+      "name": "LollipopEssence",
+      "type": "item",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lollipop_essence"
+    },
+    {
       "name": "CandyBlock",
       "type": "block",
       "sortid": 199,
@@ -1951,293 +1960,175 @@
       "registry_name": "lollipop_ore"
     },
     {
-      "name": "LollipopEssence",
-      "type": "item",
-      "sortid": 201,
+      "name": "GhostShipCaptainTrasure",
+      "type": "loottable",
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "lollipop_essence"
+      "registry_name": "ghost_ship_captain_trasure"
     },
     {
-      "name": "StatueItemRightClickedOnBlock",
-      "type": "procedure",
+      "name": "PrismarineCutlass",
+      "type": "tool",
       "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "statue_item_right_clicked_on_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "prismarine_cutlass"
     },
     {
-      "name": "SeagullEntityFalls",
-      "type": "procedure",
-      "sortid": 210,
+      "name": "PrismarineCutlassRecipe",
+      "type": "recipe",
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "seagull_entity_falls",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "prismarine_cutlass_recipe"
     },
     {
-      "name": "LollipopCharge",
-      "type": "gun",
+      "name": "GhostShipSupplies",
+      "type": "loottable",
       "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "lollipop_charge"
+      "registry_name": "ghost_ship_supplies"
     },
     {
-      "name": "StatueThisEntityKillsAnotherOne",
-      "type": "procedure",
-      "sortid": 202,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "statue_this_entity_kills_another_one",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Sentinel",
-      "type": "mob",
-      "sortid": 212,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sentinel"
-    },
-    {
-      "name": "StatueItem",
-      "type": "item",
-      "sortid": 203,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "statue_item"
-    },
-    {
-      "name": "StatueRecipe",
-      "type": "recipe",
+      "name": "GhostShipTNT",
+      "type": "loottable",
       "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "statue_recipe"
+      "registry_name": "ghost_ship_tnt"
     },
     {
-      "name": "CleanerSentinel",
-      "type": "mob",
-      "sortid": 213,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cleaner_sentinel"
-    },
-    {
-      "name": "SeagullStay",
-      "type": "mob",
-      "sortid": 209,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "seagull_stay"
-    },
-    {
-      "name": "Mosquito",
-      "type": "mob",
-      "sortid": 211,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mosquito"
-    },
-    {
-      "name": "Statue",
-      "type": "mob",
-      "sortid": 202,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "statue"
-    },
-    {
-      "name": "LollipopSmelt",
-      "type": "recipe",
+      "name": "GhostShipJail",
+      "type": "loottable",
       "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "lollipop_smelt"
+      "registry_name": "ghost_ship_jail"
     },
     {
-      "name": "Seagull",
+      "name": "DrownedPirate",
       "type": "mob",
       "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "seagull"
+      "registry_name": "drowned_pirate"
     },
     {
-      "name": "StatueRightClickedOnEntity",
-      "type": "procedure",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "statue_right_clicked_on_entity",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "SeagullStayEntityIsHurt",
-      "type": "procedure",
+      "name": "ThirteenRecipe",
+      "type": "recipe",
       "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "seagull_stay_entity_is_hurt",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "thirteen_recipe"
     },
     {
-      "name": "SentinelEntityDies",
-      "type": "procedure",
+      "name": "CatRecipe",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cat_recipe"
+    },
+    {
+      "name": "BlocksDiscRecipe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blocks_disc_recipe"
+    },
+    {
+      "name": "ChirpRecipe",
+      "type": "recipe",
       "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sentinel_entity_dies",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "chirp_recipe"
+    },
+    {
+      "name": "FarRecipe",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "far_recipe"
+    },
+    {
+      "name": "MallRecipe",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mall_recipe"
+    },
+    {
+      "name": "MellohiRecipe",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mellohi_recipe"
+    },
+    {
+      "name": "StalRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stal_recipe"
+    },
+    {
+      "name": "StradRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strad_recipe"
+    },
+    {
+      "name": "WardRecipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ward_recipe"
+    },
+    {
+      "name": "ElevenRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eleven_recipe"
+    },
+    {
+      "name": "WaitRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wait_recipe"
     }
   ],
   "variable_elements": [],
@@ -2340,96 +2231,18 @@
       ],
       "category": "record",
       "subtitle": "Poopifers"
-    },
-    {
-      "name": "sentinel",
-      "files": [
-        "sentinel"
-      ],
-      "category": "neutral",
-      "subtitle": "Sentinel Computer Sounds"
-    },
-    {
-      "name": "misquito",
-      "files": [
-        "mosquitito"
-      ],
-      "category": "hostile",
-      "subtitle": "Flying Mosquito"
-    },
-    {
-      "name": "msoquitao",
-      "files": [
-        "msuquito"
-      ],
-      "category": "hostile",
-      "subtitle": "Flying Mosquito"
-    },
-    {
-      "name": "seagulldamage",
-      "files": [
-        "seagulldamage"
-      ],
-      "category": "neutral",
-      "subtitle": "Seagull Damage"
-    },
-    {
-      "name": "aah",
-      "files": [
-        "statue"
-      ],
-      "category": "neutral",
-      "subtitle": "aah"
-    },
-    {
-      "name": "cleanersentinelsound",
-      "files": [
-        "cleanersentinel"
-      ],
-      "category": "neutral",
-      "subtitle": "Cleaner Sentinel Computer Sounds"
-    },
-    {
-      "name": "aaaaaaaaaaaaaah",
-      "files": [
-        "aah"
-      ],
-      "category": "neutral",
-      "subtitle": "Statue  Aah"
-    },
-    {
-      "name": "mosquito",
-      "files": [
-        "mosquito"
-      ],
-      "category": "hostile",
-      "subtitle": "Mosquito Flying"
-    },
-    {
-      "name": "seagull_sound",
-      "files": [
-        "seagullsound"
-      ],
-      "category": "neutral",
-      "subtitle": "Seagull Noises"
     }
   ],
   "language_map": {
     "en_us": {
-      "item.new_borders_mod.lollipop_charge": "Lollipop Charge",
-      "subtitles.msoquitao": "Flying Mosquito",
       "item.new_borders_mod.cooked_pinon": "Cooked Pinon",
       "subtitles.pifer": "Poopifers",
       "item.new_borders_mod.viola_enluarada": "Viola Enluarada",
-      "entity.new_borders_mod.seagull": "Seagull",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
-      "item.new_borders_mod.seagull_spawn_egg": "Seagull Spawn Egg",
-      "item.new_borders_mod.candy_sword": "Candy Sword",
-      "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
       "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
+      "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
+      "item.new_borders_mod.candy_sword": "Candy Sword",
       "item.new_borders_mod.cobalt_armor_helmet": "Cobalt Armor Helmet",
-      "subtitles.misquito": "Flying Mosquito",
-      "entity.new_borders_mod.sentinel": "Sentinel",
       "block.new_borders_mod.cobalt_door": "Cobalt Door",
       "block.new_borders_mod.rose": "Rose",
       "biome.new_borders_mod.tropical_savanna": "Tropical Savanna",
@@ -2439,7 +2252,6 @@
       "item.new_borders_mod.tapetes_guardanapos_cetins": "Tapetes Guardanapos Cetins",
       "block.new_borders_mod.cobalt_bomb": "Cobalt Bomb",
       "block.new_borders_mod.candy_leaves": "Candy Leaves",
-      "item.new_borders_mod.statue_item": "Statue",
       "block.new_borders_mod.redwood_planks": "Redwood Planks",
       "item.new_borders_mod.compact_cobalt": "Compact Cobalt",
       "block.new_borders_mod.redwoodair_3": "Redwoodair 3",
@@ -2449,9 +2261,8 @@
       "block.new_borders_mod.cobalt_59_block": "Cobalt 59 Block",
       "block.new_borders_mod.stripped_redwood_log": "Stripped Redwood Log",
       "item.new_borders_mod.mais_que_amor": "Mais Que Amor",
-      "subtitles.cleanersentinelsound": "Cleaner Sentinel Computer Sounds",
-      "biome.new_borders_mod.steppe": "Steppe",
       "block.new_borders_mod.ipe_log": "Ipe Log",
+      "biome.new_borders_mod.steppe": "Steppe",
       "block.new_borders_mod.glass_door": "Glass Door",
       "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
       "block.new_borders_mod.big_candy_air": "Big Candy Air",
@@ -2460,17 +2271,13 @@
       "biome.new_borders_mod.plateau": "Plateau",
       "block.new_borders_mod.redwood_fence": "Redwood Fence",
       "block.new_borders_mod.candy_ore": "Candy Ore",
-      "entity.new_borders_mod.mosquito": "Mosquito",
       "block.new_borders_mod.redwood_air_2": "Redwood Air 2",
-      "entity.new_borders_mod.cleaner_sentinel": "Cleaner Sentinel",
-      "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
       "advancements.music.title": "Music!",
+      "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003": "The Poopifers - The First Shit (Album) (2003)",
       "block.new_borders_mod.ipe_air": "Ipe Air",
       "item.new_borders_mod.licorice": "Licorice",
       "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
-      "entity.new_borders_mod.seagull_stay": "Seagull",
-      "subtitles.mosquito": "Mosquito Flying",
       "block.new_borders_mod.lollipop_ore": "Lollipop Ore",
       "biome.new_borders_mod.glowshroom_jungle": "Glowshroom Forest",
       "block.new_borders_mod.cobalt_lamp": "Cobalt Lamp",
@@ -2485,24 +2292,24 @@
       "block.new_borders_mod.cobalt_60_blocks": "Cobalt 60 Block",
       "item.new_borders_mod.lead_ingot": "Lead Ingot",
       "entity.new_borders_mod.jungle_skeleton": "Jungle Skeleton",
-      "item.new_borders_mod.statue_spawn_egg": "Statue Spawn Egg",
       "block.new_borders_mod.cyan_rose": "Cyan Rose",
       "item.new_borders_mod.samba_de_verao": "Samba De Verao",
       "item.new_borders_mod.estrelar.desc": "Marcos Valle - Estrelar ",
       "biome.new_borders_mod.candy_forest": "Candy Forest",
       "item.new_borders_mod.dia_d": "Dia D",
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
+      "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
       "item.new_borders_mod.waste_water_bucket": "WasteWater Bucket",
+      "item.new_borders_mod.prismarine_cutlass": "Prismarine Cutlass",
       "item.new_borders_mod.mais_que_amor.desc": "Marcos Valle - Mais Que Amor",
       "block.new_borders_mod.redwood_stairs": "Redwood Stairs",
       "block.new_borders_mod.redwood_air": "Redwood Air",
       "item.new_borders_mod.empty_music_d_isc": "Empty Music Disc",
-      "item.new_borders_mod.seagull_stay_spawn_egg": "Seagull Spawn Egg",
+      "item.new_borders_mod.drowned_pirate_spawn_egg": "Drowned Pirate Spawn Egg",
       "item.new_borders_mod.estrelar": "Estrelar",
       "block.new_borders_mod.redwood_slab": "Redwood Slab",
       "item.new_borders_mod.cobalt_armor_boots": "Cobalt Armor Boots",
       "item.new_borders_mod.tapa_no_real": "Tapa No Real",
-      "subtitles.seagull_sound": "Seagull Noises",
       "block.new_borders_mod.redwood_log": "Redwood Log",
       "fluid.waste_water": "WasteWater",
       "block.new_borders_mod.lead_block": "Lead Block",
@@ -2515,7 +2322,6 @@
       "block.new_borders_mod.redwood_leaves": "Redwood Leaves",
       "block.new_borders_mod.pinon": "Pinon Fruit",
       "item.new_borders_mod.cesium_137": "Cesium 137",
-      "subtitles.seagulldamage": "Seagull Damage",
       "item.new_borders_mod.timberman_spawn_egg": "Lamberjack Spawn Egg",
       "item.new_borders_mod.fogo_do_sol": "Fogo Do Sol",
       "block.new_borders_mod.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",
@@ -2525,22 +2331,15 @@
       "biome.new_borders_mod.ridge": "Ridge",
       "block.new_borders_mod.white_lamp": "Lamp",
       "block.new_borders_mod.glowshroom": "Glowshroom",
-      "subtitles.sentinel": "Sentinel Computer Sounds",
       "item.new_borders_mod.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg",
-      "subtitles.aaaaaaaaaaaaaah": "Statue  Aah",
       "item.new_borders_mod.cobalt_59": "Cobalt 59",
       "item.new_borders_mod.unandium": "Unandium",
       "item.new_borders_mod.pinon_nut": "Pinon",
       "item.new_borders_mod.cobalt_60": "Cobalt 60",
       "block.new_borders_mod.candy_log": "Candy Log",
-      "item.new_borders_mod.cleaner_sentinel_spawn_egg": "Cleaner Sentinel Spawn Egg",
-      "subtitles.aah": "Aaah",
-      "item.new_borders_mod.mosquito_spawn_egg": "Mosquito Spawn Egg",
       "item.new_borders_mod.lollipop_essence": "Lollipop Essence",
       "block.new_borders_mod.cobalt": "Cobalt",
-      "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
-      "entity.new_borders_mod.statue": "Statue",
-      "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg"
+      "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold"
     }
   },
   "workspaceSettings": {

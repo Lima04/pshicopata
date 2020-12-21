@@ -1,0 +1,33 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "prismarine_cutlass",
+    "customModelName": "Normal",
+    "name": "Prismarine Cutlass",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 1.7999999999999998,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 170,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.PRISMARINE_SHARD"
+      },
+      {
+        "value": "Items.PRISMARINE_CRYSTALS"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": true
+  }
+}

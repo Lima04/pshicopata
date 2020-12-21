@@ -1,0 +1,42 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:kelp"
+    },
+    "1": {
+      "item": "minecraft:jungle_leaves"
+    },
+    "2": {
+      "item": "minecraft:kelp"
+    },
+    "3": {
+      "item": "minecraft:jungle_leaves"
+    },
+    "4": {
+      "item": "new_borders_mod:empty_music_d_isc"
+    },
+    "5": {
+      "item": "minecraft:jungle_leaves"
+    },
+    "6": {
+      "item": "minecraft:kelp"
+    },
+    "7": {
+      "item": "minecraft:jungle_leaves"
+    },
+    "8": {
+      "item": "minecraft:kelp"
+    }
+  },
+  "result": {
+    "item": "minecraft:music_disc_strad",
+    "count": 1
+  }
+}

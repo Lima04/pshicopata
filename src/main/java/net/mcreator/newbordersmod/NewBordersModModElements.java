@@ -75,23 +75,6 @@ public class NewBordersModModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "violaenluarada")));
 		sounds.put(new ResourceLocation("new_borders_mod", "pifer"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "pifer")));
-		sounds.put(new ResourceLocation("new_borders_mod", "sentinel"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "sentinel")));
-		sounds.put(new ResourceLocation("new_borders_mod", "misquito"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "misquito")));
-		sounds.put(new ResourceLocation("new_borders_mod", "msoquitao"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "msoquitao")));
-		sounds.put(new ResourceLocation("new_borders_mod", "seagulldamage"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "seagulldamage")));
-		sounds.put(new ResourceLocation("new_borders_mod", "aah"), new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "aah")));
-		sounds.put(new ResourceLocation("new_borders_mod", "cleanersentinelsound"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "cleanersentinelsound")));
-		sounds.put(new ResourceLocation("new_borders_mod", "aaaaaaaaaaaaaah"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "aaaaaaaaaaaaaah")));
-		sounds.put(new ResourceLocation("new_borders_mod", "mosquito"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "mosquito")));
-		sounds.put(new ResourceLocation("new_borders_mod", "seagull_sound"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "seagull_sound")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("new_borders_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

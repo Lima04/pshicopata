@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.CHORUS_FRUIT_POPPED"
+      },
+      {
+        "value": "Blocks.WATERLILY"
+      },
+      {
+        "value": "Items.CHORUS_FRUIT_POPPED"
+      },
+      {
+        "value": "Blocks.WATERLILY"
+      },
+      {
+        "value": "CUSTOM:EmptyMusicDIsc"
+      },
+      {
+        "value": "Blocks.WATERLILY"
+      },
+      {
+        "value": "Items.CHORUS_FRUIT_POPPED"
+      },
+      {
+        "value": "Blocks.WATERLILY"
+      },
+      {
+        "value": "Items.CHORUS_FRUIT_POPPED"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.RECORD_MALL"
+    },
+    "name": "mall_recipe",
+    "namespace": "mod"
+  }
+}

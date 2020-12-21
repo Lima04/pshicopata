@@ -36,7 +36,7 @@
     "treesPerChunk": 0,
     "grassPerChunk": 20,
     "seagrassPerChunk": 20,
-    "flowersPerChunk": 4,
+    "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
     "sandPathcesPerChunk": 0,
@@ -52,7 +52,7 @@
     "biomeType": "WARM",
     "biomeCategory": "FOREST",
     "parent": {
-      "value": "roofed_forest"
+      "value": "No parent"
     },
     "spawnStronghold": true,
     "spawnMineshaft": true,

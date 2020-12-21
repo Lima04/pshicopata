@@ -1,0 +1,42 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "1": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "2": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "3": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "4": {
+      "item": "new_borders_mod:empty_music_d_isc"
+    },
+    "5": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "6": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "7": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "8": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "minecraft:music_disc_mellohi",
+    "count": 1
+  }
+}

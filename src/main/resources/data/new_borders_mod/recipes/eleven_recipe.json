@@ -1,0 +1,42 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:cobalt_60"
+    },
+    "1": {
+      "item": "new_borders_mod:cobalt_60"
+    },
+    "2": {
+      "item": "new_borders_mod:cobalt_60"
+    },
+    "3": {
+      "item": "new_borders_mod:cobalt_60"
+    },
+    "4": {
+      "item": "new_borders_mod:empty_music_d_isc"
+    },
+    "5": {
+      "item": "new_borders_mod:cobalt_60"
+    },
+    "6": {
+      "item": "new_borders_mod:cobalt_60"
+    },
+    "7": {
+      "item": "new_borders_mod:cobalt_60"
+    },
+    "8": {
+      "item": "new_borders_mod:cobalt_60"
+    }
+  },
+  "result": {
+    "item": "minecraft:music_disc_11",
+    "count": 1
+  }
+}

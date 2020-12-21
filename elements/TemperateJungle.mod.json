@@ -44,7 +44,7 @@
     "biomeType": "WARM",
     "biomeCategory": "JUNGLE",
     "parent": {
-      "value": "forest"
+      "value": "No parent"
     },
     "spawnStronghold": false,
     "spawnMineshaft": false,

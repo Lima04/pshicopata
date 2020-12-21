@@ -1,0 +1,152 @@
+{
+  "_fv": 13,
+  "_type": "biome",
+  "definition": {
+    "name": "Redwood Taiga",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#1"
+    },
+    "treeType": 0,
+    "vanillaTreeType": "Mega pine trees",
+    "minHeight": 10,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeStem": {
+      "value": "CUSTOM:RedwoodLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:RedwoodLeaves"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "treesPerChunk": 0,
+    "grassPerChunk": 6,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 10,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 3,
+    "gravelPatchesPerChunk": 10,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 3,
+    "rainingPossibility": 0.0,
+    "temperature": 0.2,
+    "baseHeight": 2.0,
+    "heightVariation": 0.5,
+    "spawnBiome": true,
+    "biomeWeight": 6,
+    "biomeType": "COOL",
+    "biomeCategory": "MESA",
+    "parent": {
+      "value": "badlands"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "taiga",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "biomeDictionaryTypes": [],
+    "defaultFeatures": [
+      "Caves",
+      "MonsterRooms",
+      "Structures",
+      "Ores",
+      "Lakes"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityChicken"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityHusk"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 8,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityWolf"
+        },
+        "minGroup": 1,
+        "maxGroup": 7,
+        "weight": 4,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityEnderman"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityOcelot"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCreeper"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySkeleton"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 50,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityStray"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 50,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

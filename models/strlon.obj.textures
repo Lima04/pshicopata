@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_3": "redstonelampon",
+        "m_2": "street",
+        "m_1": "polishedandesite"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "dia_d",
+    "name": "Dia D",
+    "description": "Marcos Valle - Dia D",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:diad"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "new_borders_mod:redwood_log"
+  },
+  "result": "minecraft:spruce_log"
+}

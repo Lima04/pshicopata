@@ -1,0 +1,42 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_dye"
+    },
+    "1": {
+      "item": "minecraft:cyan_dye"
+    },
+    "2": {
+      "item": "minecraft:blue_dye"
+    },
+    "3": {
+      "item": "minecraft:sunflower"
+    },
+    "4": {
+      "item": "new_borders_mod:empty_music_d_isc"
+    },
+    "5": {
+      "item": "minecraft:blue_dye"
+    },
+    "6": {
+      "item": "minecraft:orange_dye"
+    },
+    "7": {
+      "item": "minecraft:cyan_dye"
+    },
+    "8": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:fogo_do_sol",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "tapetesguardanaposceints",
+    "name": "Tapetes Guardanapos Cetins",
+    "description": "Marcos Valle - Tapetes Guardanapos Cetins",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:tapetesguardanaposcetins"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

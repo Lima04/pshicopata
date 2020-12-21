@@ -1,0 +1,13 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "new_borders_mod:cyan_rose"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_dye",
+    "count": 1
+  }
+}

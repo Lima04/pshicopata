@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "new_borders_mod:blocks/cobaltlamp",
+    "top": "new_borders_mod:blocks/cobaltlamp",
+    "side": "new_borders_mod:blocks/cobaltlamp"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "new_borders_mod:blocks/glowshroom",
+    "particle": "new_borders_mod:blocks/glowshroom"
+  }
+}

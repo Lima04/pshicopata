@@ -1,0 +1,24 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 4 ",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dried_kelp_block"
+    },
+    "4": {
+      "item": "minecraft:moving_piston"
+    },
+    "8": {
+      "item": "minecraft:wet_sponge"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_ore",
+    "count": 64
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:cobalt_59"
+    },
+    "1": {
+      "item": "new_borders_mod:cobalt_59"
+    },
+    "2": {
+      "item": "new_borders_mod:cobalt_59"
+    },
+    "4": {
+      "item": "new_borders_mod:white_lamp"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:cobalt_lamp",
+    "count": 1
+  }
+}

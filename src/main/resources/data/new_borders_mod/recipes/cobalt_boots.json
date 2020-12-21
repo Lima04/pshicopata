@@ -1,0 +1,42 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:cobalt_59"
+    },
+    "1": {
+      "item": "new_borders_mod:cobalt_59"
+    },
+    "2": {
+      "item": "new_borders_mod:cobalt_59"
+    },
+    "3": {
+      "item": "new_borders_mod:cobalt_59"
+    },
+    "4": {
+      "item": "minecraft:diamond_boots"
+    },
+    "5": {
+      "item": "new_borders_mod:cobalt_59"
+    },
+    "6": {
+      "item": "new_borders_mod:cobalt_59"
+    },
+    "7": {
+      "item": "new_borders_mod:cobalt_59"
+    },
+    "8": {
+      "item": "new_borders_mod:cobalt_59"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:cobalt_armor_boots",
+    "count": 1
+  }
+}

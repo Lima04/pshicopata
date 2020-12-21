@@ -1,0 +1,24 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sunflower"
+    },
+    "1": {
+      "item": "new_borders_mod:empty_music_d_isc"
+    },
+    "2": {
+      "item": "minecraft:jungle_leaves"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:samba_de_verao",
+    "count": 1
+  }
+}

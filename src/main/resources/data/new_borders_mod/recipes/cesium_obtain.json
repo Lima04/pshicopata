@@ -1,0 +1,12 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "new_borders_mod:unandium"
+  },
+  "result": {
+    "item": "new_borders_mod:cesium_137"
+  }
+}

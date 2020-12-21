@@ -1,0 +1,2564 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "AlpineBorder",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_taiga"
+    },
+    {
+      "name": "RedwoodLog",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_log"
+    },
+    {
+      "name": "RedwoodLeaves",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_leaves"
+    },
+    {
+      "name": "Pinon",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pinon"
+    },
+    {
+      "name": "PinonNut",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pinon_nut"
+    },
+    {
+      "name": "CookedPinon",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_pinon"
+    },
+    {
+      "name": "RW1",
+      "type": "structure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rw_1"
+    },
+    {
+      "name": "Rw2",
+      "type": "structure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rw_2"
+    },
+    {
+      "name": "Rw3",
+      "type": "structure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rw_3"
+    },
+    {
+      "name": "PinonCook",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pinon_cook"
+    },
+    {
+      "name": "PinonSmokinf",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pinon_smokinf"
+    },
+    {
+      "name": "RedwoodPlanks",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_planks"
+    },
+    {
+      "name": "RedwoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_planks_recipe"
+    },
+    {
+      "name": "RedwoodPlanksDye",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_planks_dye"
+    },
+    {
+      "name": "RedwoodCraftingTable",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_crafting_table"
+    },
+    {
+      "name": "RedwoodSticks",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_sticks"
+    },
+    {
+      "name": "RedwoodPickaxe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_pickaxe"
+    },
+    {
+      "name": "RedwoodShovel",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_shovel"
+    },
+    {
+      "name": "RedwoodAxe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_axe"
+    },
+    {
+      "name": "RedwoodAxe2",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_axe_2"
+    },
+    {
+      "name": "RedwoodSord",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_sord"
+    },
+    {
+      "name": "RedwoodHoe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_hoe"
+    },
+    {
+      "name": "RedwoodHoe2",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_hoe_2"
+    },
+    {
+      "name": "RedwoodStairs",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_stairs"
+    },
+    {
+      "name": "RedwoodSlab",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_slab"
+    },
+    {
+      "name": "RedwoodFence",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_fence"
+    },
+    {
+      "name": "RedwoodDoor",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_door"
+    },
+    {
+      "name": "RedwoodTrapdoor",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_trapdoor"
+    },
+    {
+      "name": "RedwoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_stairs_recipe"
+    },
+    {
+      "name": "StrippedRedwoodLog",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_redwood_log"
+    },
+    {
+      "name": "StrippedRedwoodLogRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_redwood_log_recipe"
+    },
+    {
+      "name": "Log",
+      "type": "tag",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "log"
+    },
+    {
+      "name": "PinonBlockGravity",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pinon_block_gravity"
+    },
+    {
+      "name": "PinonNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pinon_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DriedBush",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dried_bush"
+    },
+    {
+      "name": "Timberman",
+      "type": "mob",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "timberman"
+    },
+    {
+      "name": "TimbermanExchange",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "timberman_exchange",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TimbermanExchangeGUI",
+      "type": "gui",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "timberman_exchange_gui"
+    },
+    {
+      "name": "LamberjackHouse1",
+      "type": "structure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lamberjack_house_1"
+    },
+    {
+      "name": "Lamberjackhouse2",
+      "type": "structure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lamberjackhouse_2"
+    },
+    {
+      "name": "RW1AdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rw_1_additional_generation_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedwoodAir",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_air"
+    },
+    {
+      "name": "Rw1spawnblock",
+      "type": "structure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rw_1spawnblock"
+    },
+    {
+      "name": "Rw1spawnblockAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rw_1spawnblock_additional_generation_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedwoodAir2",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_air_2"
+    },
+    {
+      "name": "Rw2spawnblock",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rw_2spawnblock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Redwo0odair3",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwoodair_3"
+    },
+    {
+      "name": "Rw3spawnblock",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rw_3spawnblock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rw2Block",
+      "type": "structure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rw_2_block"
+    },
+    {
+      "name": "Rw3Block",
+      "type": "structure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rw_3_block"
+    },
+    {
+      "name": "DRIEDbUSHsTRUCTURE",
+      "type": "structure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drie_db_us_hs_tructure"
+    },
+    {
+      "name": "Plateau",
+      "type": "biome",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plateau"
+    },
+    {
+      "name": "Estrelar",
+      "type": "musicdisc",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "estrelar"
+    },
+    {
+      "name": "EmptyMusicDIsc",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "empty_music_d_isc"
+    },
+    {
+      "name": "EmptyMusicDiscRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "empty_music_disc_recipe"
+    },
+    {
+      "name": "Estrelarrecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "estrelarrecipe"
+    },
+    {
+      "name": "FogoDoSol",
+      "type": "musicdisc",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fogo_do_sol"
+    },
+    {
+      "name": "FogoDoSolRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fogo_do_sol_recipe"
+    },
+    {
+      "name": "SambaDeVerao",
+      "type": "musicdisc",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "samba_de_verao"
+    },
+    {
+      "name": "Sambadeveraorecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sambadeveraorecipe"
+    },
+    {
+      "name": "ParaOsFilhosDeAbraao",
+      "type": "musicdisc",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "para_os_filhos_de_abraao"
+    },
+    {
+      "name": "POFDARecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pofda_recipe"
+    },
+    {
+      "name": "Naturalmente",
+      "type": "musicdisc",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naturalmente"
+    },
+    {
+      "name": "NaturalmenteRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naturalmente_recipe"
+    },
+    {
+      "name": "TapaNoReal",
+      "type": "musicdisc",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tapa_no_real"
+    },
+    {
+      "name": "TapaNoRealRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tapa_no_real_recipe"
+    },
+    {
+      "name": "TapetesGuardanaposCetins",
+      "type": "musicdisc",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tapetes_guardanapos_cetins"
+    },
+    {
+      "name": "TapetesGuardanaposCetinsRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tapetes_guardanapos_cetins_recipe"
+    },
+    {
+      "name": "DiaD",
+      "type": "musicdisc",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dia_d"
+    },
+    {
+      "name": "DiaDRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dia_d_recipe"
+    },
+    {
+      "name": "MaisQueAmor",
+      "type": "musicdisc",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mais_que_amor"
+    },
+    {
+      "name": "MaisQueAmorRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mais_que_amor_recipe"
+    },
+    {
+      "name": "ViolaEnluarada",
+      "type": "musicdisc",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viola_enluarada"
+    },
+    {
+      "name": "ViolaEnluaradaRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viola_enluarada_recipe"
+    },
+    {
+      "name": "Ridge",
+      "type": "biome",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ridge"
+    },
+    {
+      "name": "IpeLog",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_log"
+    },
+    {
+      "name": "IpeLeaves",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_leaves"
+    },
+    {
+      "name": "IpeLogPlank",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_log_plank"
+    },
+    {
+      "name": "Ipair",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_air"
+    },
+    {
+      "name": "TallIpeAir",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tall_ipe_air"
+    },
+    {
+      "name": "Ipe",
+      "type": "structure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe"
+    },
+    {
+      "name": "IpeSpawn",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IpeGenerator",
+      "type": "structure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_generator"
+    },
+    {
+      "name": "Tallipe",
+      "type": "structure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tallipe"
+    },
+    {
+      "name": "TallIpeGenerator",
+      "type": "structure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tall_ipe_generator"
+    },
+    {
+      "name": "TallIpeSpawn",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tall_ipe_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bushs",
+      "type": "structure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bushs"
+    },
+    {
+      "name": "Discos",
+      "type": "tag",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "discos"
+    },
+    {
+      "name": "TropicalSavanna",
+      "type": "biome",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tropical_savanna"
+    },
+    {
+      "name": "JungleSkeleton",
+      "type": "mob",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jungle_skeleton"
+    },
+    {
+      "name": "PolishedDioriteBricks",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_diorite_bricks"
+    },
+    {
+      "name": "PolishedDioriteBricksRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_diorite_bricks_recipe"
+    },
+    {
+      "name": "Mount",
+      "type": "biome",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mount"
+    },
+    {
+      "name": "PolishedDioriteBricksStairs",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_diorite_bricks_stairs"
+    },
+    {
+      "name": "PolishedDioriteBricksSlab",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_diorite_bricks_slab"
+    },
+    {
+      "name": "Music",
+      "type": "achievement",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music"
+    },
+    {
+      "name": "Steppe",
+      "type": "biome",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steppe"
+    },
+    {
+      "name": "Cobalt",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt"
+    },
+    {
+      "name": "CobaltShard",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_shard"
+    },
+    {
+      "name": "CompactCobalt",
+      "type": "item",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compact_cobalt"
+    },
+    {
+      "name": "CompactRcipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compact_rcipe"
+    },
+    {
+      "name": "Cobalt59",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_59"
+    },
+    {
+      "name": "MeltComp0act",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "melt_comp_0act"
+    },
+    {
+      "name": "MeltCompactFast",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "melt_compact_fast"
+    },
+    {
+      "name": "Cobalt60",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_60"
+    },
+    {
+      "name": "Cobalt60Recipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_60_recipe"
+    },
+    {
+      "name": "Cobalt60ItemInHandTick",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_60_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cobalt59Bolck",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_59_block"
+    },
+    {
+      "name": "Cobalt59BlockRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_59_block_recipe"
+    },
+    {
+      "name": "CobaltBombRedstoneOn",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_bomb_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CobaltBomb",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_bomb"
+    },
+    {
+      "name": "Cobalt60RightClickedInAir",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_60_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cobalt60RightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_60_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cobaltitems",
+      "type": "tag",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobaltitems"
+    },
+    {
+      "name": "Cobalt60Blocks",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_60_blocks"
+    },
+    {
+      "name": "CobaltScaffold",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_scaffold"
+    },
+    {
+      "name": "Cobalt60BlockRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_60_block_recipe"
+    },
+    {
+      "name": "CobaltScaffoldRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_scaffold_recipe"
+    },
+    {
+      "name": "CobaltArmor",
+      "type": "armor",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CobaltBombRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_bomb_recipe"
+    },
+    {
+      "name": "CobaltHelmet",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_helmet"
+    },
+    {
+      "name": "CobaltChestplate",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_chestplate"
+    },
+    {
+      "name": "CobaltLeggings",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_leggings"
+    },
+    {
+      "name": "CobaltBoots",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_boots"
+    },
+    {
+      "name": "WhiteLamp",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_lamp"
+    },
+    {
+      "name": "Lamp",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lamp"
+    },
+    {
+      "name": "CobaltLamp",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_lamp"
+    },
+    {
+      "name": "CobaltLampRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_lamp_recipe"
+    },
+    {
+      "name": "LeadIngot",
+      "type": "item",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_ingot"
+    },
+    {
+      "name": "LeadOre",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_ore"
+    },
+    {
+      "name": "LeadMelt",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_melt"
+    },
+    {
+      "name": "LeadSmelt",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_smelt"
+    },
+    {
+      "name": "Unandium",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unandium"
+    },
+    {
+      "name": "UnandiumRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unandium_recipe"
+    },
+    {
+      "name": "Cesium137",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cesium_137"
+    },
+    {
+      "name": "CesiumObtain",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cesium_obtain"
+    },
+    {
+      "name": "CesiumSmelt",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cesium_smelt"
+    },
+    {
+      "name": "CesiumReactor",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cesium_reactor"
+    },
+    {
+      "name": "CesiumReactorImput",
+      "type": "gui",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cesium_reactor_imput"
+    },
+    {
+      "name": "CesiumReactorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cesium_reactor_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WasteWater",
+      "type": "fluid",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waste_water"
+    },
+    {
+      "name": "NuclearWaste",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nuclear_waste"
+    },
+    {
+      "name": "UnandiumRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unandium_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnButton",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "on_button",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LeadBlockEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_block_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LeadBlock",
+      "type": "block",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_block"
+    },
+    {
+      "name": "CesiumReactorRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cesium_reactor_recipe"
+    },
+    {
+      "name": "LeadBlockRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_block_recipe"
+    },
+    {
+      "name": "Rose",
+      "type": "plant",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rose"
+    },
+    {
+      "name": "RoseDye",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rose_dye"
+    },
+    {
+      "name": "CyanRose",
+      "type": "plant",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cyan_rose"
+    },
+    {
+      "name": "CyanRoseDye",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cyan_rose_dye"
+    },
+    {
+      "name": "CobaltDoor",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_door"
+    },
+    {
+      "name": "GlassDoor",
+      "type": "block",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_door"
+    },
+    {
+      "name": "AbandonedFactory",
+      "type": "structure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abandoned_factory"
+    },
+    {
+      "name": "CandyLog",
+      "type": "block",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy_log"
+    },
+    {
+      "name": "ThePoopifersTheFirstShit2003",
+      "type": "musicdisc",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_poopifers_the_first_shit_2003"
+    },
+    {
+      "name": "CandyLeaves",
+      "type": "block",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy_leaves"
+    },
+    {
+      "name": "CandyForest",
+      "type": "biome",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy_forest"
+    },
+    {
+      "name": "Candy",
+      "type": "food",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy"
+    },
+    {
+      "name": "CandyFoodEaten",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TemperateJungle",
+      "type": "biome",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temperate_jungle"
+    },
+    {
+      "name": "Licorice",
+      "type": "food",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "licorice"
+    },
+    {
+      "name": "LicoriceSword",
+      "type": "tool",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy_sword"
+    },
+    {
+      "name": "LicoriceSwordRecipe",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "licorice_sword_recipe"
+    },
+    {
+      "name": "BigCandyAir",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_candy_air"
+    },
+    {
+      "name": "BigCandyTree",
+      "type": "structure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_candy_tree"
+    },
+    {
+      "name": "BigCandyAirSpawn",
+      "type": "structure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_candy_air_spawn"
+    },
+    {
+      "name": "BigCandySpawn",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_candy_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlowshroomBlock",
+      "type": "block",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom_block"
+    },
+    {
+      "name": "GiantGlowshroomVariant3",
+      "type": "structure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giant_glowshroom_variant_3"
+    },
+    {
+      "name": "GlowshroomJungle",
+      "type": "biome",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom_jungle"
+    },
+    {
+      "name": "GiantGlowshroomVariant2",
+      "type": "structure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giant_glowshroom_variant_2"
+    },
+    {
+      "name": "GlowshroomBlockDrop",
+      "type": "loottable",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom_block_drop"
+    },
+    {
+      "name": "GiantGlowshroomVariant1",
+      "type": "structure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giant_glowshroom_variant_1"
+    },
+    {
+      "name": "Glowshroom",
+      "type": "block",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom"
+    },
+    {
+      "name": "Cumarmorrecipe",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumarmorrecipe"
+    },
+    {
+      "name": "CandyBlock",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy_ore"
+    },
+    {
+      "name": "LollipopOre",
+      "type": "block",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lollipop_ore"
+    },
+    {
+      "name": "LollipopEssence",
+      "type": "item",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lollipop_essence"
+    },
+    {
+      "name": "StatueItemRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "statue_item_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SeagullEntityFalls",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seagull_entity_falls",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LollipopCharge",
+      "type": "gun",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lollipop_charge"
+    },
+    {
+      "name": "StatueThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "statue_this_entity_kills_another_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sentinel",
+      "type": "mob",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sentinel"
+    },
+    {
+      "name": "StatueItem",
+      "type": "item",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "statue_item"
+    },
+    {
+      "name": "StatueRecipe",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "statue_recipe"
+    },
+    {
+      "name": "CleanerSentinel",
+      "type": "mob",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cleaner_sentinel"
+    },
+    {
+      "name": "SeagullStay",
+      "type": "mob",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seagull_stay"
+    },
+    {
+      "name": "Mosquito",
+      "type": "mob",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mosquito"
+    },
+    {
+      "name": "Statue",
+      "type": "mob",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "statue"
+    },
+    {
+      "name": "LollipopSmelt",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lollipop_smelt"
+    },
+    {
+      "name": "Seagull",
+      "type": "mob",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seagull"
+    },
+    {
+      "name": "StatueRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "statue_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SeagullStayEntityIsHurt",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seagull_stay_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SentinelEntityDies",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sentinel_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "estrelar",
+      "files": [
+        "marcos_valle_-_estrelar"
+      ],
+      "category": "record"
+    },
+    {
+      "name": "estrelarmv",
+      "files": [
+        "marcos_valle_-_estrelar"
+      ],
+      "category": "music"
+    },
+    {
+      "name": "estrela",
+      "files": [
+        "marcos_valle_-_estrelar"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "estrelarmv2",
+      "files": [
+        "estrekar"
+      ],
+      "category": "record"
+    },
+    {
+      "name": "fogodosol",
+      "files": [
+        "fogo_do_sol"
+      ],
+      "category": "record"
+    },
+    {
+      "name": "sambadeverao",
+      "files": [
+        "samba_de_verao"
+      ],
+      "category": "record"
+    },
+    {
+      "name": "paraosfilhosdeabraao",
+      "files": [
+        "para_os_filhos_de_abraao"
+      ],
+      "category": "record"
+    },
+    {
+      "name": "naturalmente",
+      "files": [
+        "marcos_valle_-_naturalmente"
+      ],
+      "category": "record"
+    },
+    {
+      "name": "tapanoreal",
+      "files": [
+        "marcos_valle_-_tapa_no_real"
+      ],
+      "category": "record"
+    },
+    {
+      "name": "tapetesguardanaposcetins",
+      "files": [
+        "tapetes_guardanapos_cetins"
+      ],
+      "category": "record"
+    },
+    {
+      "name": "diad",
+      "files": [
+        "dia_d"
+      ],
+      "category": "record"
+    },
+    {
+      "name": "maisqueamor",
+      "files": [
+        "mais_que_amor"
+      ],
+      "category": "record"
+    },
+    {
+      "name": "violaenluarada",
+      "files": [
+        "viola_enluarada"
+      ],
+      "category": "record"
+    },
+    {
+      "name": "pifer",
+      "files": [
+        "the_pooppifers_-_the_first_shit_2003_full_album"
+      ],
+      "category": "record",
+      "subtitle": "Poopifers"
+    },
+    {
+      "name": "sentinel",
+      "files": [
+        "sentinel"
+      ],
+      "category": "neutral",
+      "subtitle": "Sentinel Computer Sounds"
+    },
+    {
+      "name": "misquito",
+      "files": [
+        "mosquitito"
+      ],
+      "category": "hostile",
+      "subtitle": "Flying Mosquito"
+    },
+    {
+      "name": "msoquitao",
+      "files": [
+        "msuquito"
+      ],
+      "category": "hostile",
+      "subtitle": "Flying Mosquito"
+    },
+    {
+      "name": "seagulldamage",
+      "files": [
+        "seagulldamage"
+      ],
+      "category": "neutral",
+      "subtitle": "Seagull Damage"
+    },
+    {
+      "name": "aah",
+      "files": [
+        "statue"
+      ],
+      "category": "neutral",
+      "subtitle": "aah"
+    },
+    {
+      "name": "cleanersentinelsound",
+      "files": [
+        "cleanersentinel"
+      ],
+      "category": "neutral",
+      "subtitle": "Cleaner Sentinel Computer Sounds"
+    },
+    {
+      "name": "aaaaaaaaaaaaaah",
+      "files": [
+        "aah"
+      ],
+      "category": "neutral",
+      "subtitle": "Statue  Aah"
+    },
+    {
+      "name": "mosquito",
+      "files": [
+        "mosquito"
+      ],
+      "category": "hostile",
+      "subtitle": "Mosquito Flying"
+    },
+    {
+      "name": "seagull_sound",
+      "files": [
+        "seagullsound"
+      ],
+      "category": "neutral",
+      "subtitle": "Seagull Noises"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.new_borders_mod.lollipop_charge": "Lollipop Charge",
+      "subtitles.msoquitao": "Flying Mosquito",
+      "item.new_borders_mod.cooked_pinon": "Cooked Pinon",
+      "subtitles.pifer": "Poopifers",
+      "item.new_borders_mod.viola_enluarada": "Viola Enluarada",
+      "entity.new_borders_mod.seagull": "Seagull",
+      "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
+      "item.new_borders_mod.seagull_spawn_egg": "Seagull Spawn Egg",
+      "item.new_borders_mod.candy_sword": "Candy Sword",
+      "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
+      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
+      "item.new_borders_mod.cobalt_armor_helmet": "Cobalt Armor Helmet",
+      "subtitles.misquito": "Flying Mosquito",
+      "entity.new_borders_mod.sentinel": "Sentinel",
+      "block.new_borders_mod.cobalt_door": "Cobalt Door",
+      "block.new_borders_mod.rose": "Rose",
+      "biome.new_borders_mod.tropical_savanna": "Tropical Savanna",
+      "biome.new_borders_mod.mount": "Mount",
+      "block.new_borders_mod.lead_ore": "Lead Ore",
+      "block.new_borders_mod.ipe_leaves": "Ipe Leaves",
+      "item.new_borders_mod.tapetes_guardanapos_cetins": "Tapetes Guardanapos Cetins",
+      "block.new_borders_mod.cobalt_bomb": "Cobalt Bomb",
+      "block.new_borders_mod.candy_leaves": "Candy Leaves",
+      "item.new_borders_mod.statue_item": "Statue",
+      "block.new_borders_mod.redwood_planks": "Redwood Planks",
+      "item.new_borders_mod.compact_cobalt": "Compact Cobalt",
+      "block.new_borders_mod.redwoodair_3": "Redwoodair 3",
+      "advancements.music.descr": "And the beat goes on........",
+      "block.new_borders_mod.tall_ipe_air": "Tall Ipe Air",
+      "block.new_borders_mod.cesium_reactor": "Cesium Reactor",
+      "block.new_borders_mod.cobalt_59_block": "Cobalt 59 Block",
+      "block.new_borders_mod.stripped_redwood_log": "Stripped Redwood Log",
+      "item.new_borders_mod.mais_que_amor": "Mais Que Amor",
+      "subtitles.cleanersentinelsound": "Cleaner Sentinel Computer Sounds",
+      "biome.new_borders_mod.steppe": "Steppe",
+      "block.new_borders_mod.ipe_log": "Ipe Log",
+      "block.new_borders_mod.glass_door": "Glass Door",
+      "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
+      "block.new_borders_mod.big_candy_air": "Big Candy Air",
+      "biome.new_borders_mod.redwood_taiga": "Redwood Taiga",
+      "item.new_borders_mod.the_poopifers_the_first_shit_2003.desc": "The Poopifers - The First Shit (Album) (2003)",
+      "biome.new_borders_mod.plateau": "Plateau",
+      "block.new_borders_mod.redwood_fence": "Redwood Fence",
+      "block.new_borders_mod.candy_ore": "Candy Ore",
+      "entity.new_borders_mod.mosquito": "Mosquito",
+      "block.new_borders_mod.redwood_air_2": "Redwood Air 2",
+      "entity.new_borders_mod.cleaner_sentinel": "Cleaner Sentinel",
+      "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
+      "advancements.music.title": "Music!",
+      "item.new_borders_mod.the_poopifers_the_first_shit_2003": "The Poopifers - The First Shit (Album) (2003)",
+      "block.new_borders_mod.ipe_air": "Ipe Air",
+      "item.new_borders_mod.licorice": "Licorice",
+      "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
+      "entity.new_borders_mod.seagull_stay": "Seagull",
+      "subtitles.mosquito": "Mosquito Flying",
+      "block.new_borders_mod.lollipop_ore": "Lollipop Ore",
+      "biome.new_borders_mod.glowshroom_jungle": "Glowshroom Forest",
+      "block.new_borders_mod.cobalt_lamp": "Cobalt Lamp",
+      "item.new_borders_mod.timberman": "Lamberjack Spawn Egg",
+      "item.new_borders_mod.para_os_filhos_de_abraao.desc": "Marcos Valle - Para Os Filhos De Abraao",
+      "item.new_borders_mod.candy": "Candy",
+      "item.new_borders_mod.tapetes_guardanapos_cetins.desc": "Marcos Valle - Tapetes Guardanapos Cetins",
+      "biome.new_borders_mod.temperate_jungle": "Temperate Jungle",
+      "block.new_borders_mod.pinon_block_gravity": "Pinon Block(Gravity)",
+      "item.new_borders_mod.samba_de_verao.desc": "Marcos Valle - Samba De Verao",
+      "item.new_borders_mod.cobalt_shard": "Cobalt Shard",
+      "block.new_borders_mod.cobalt_60_blocks": "Cobalt 60 Block",
+      "item.new_borders_mod.lead_ingot": "Lead Ingot",
+      "entity.new_borders_mod.jungle_skeleton": "Jungle Skeleton",
+      "item.new_borders_mod.statue_spawn_egg": "Statue Spawn Egg",
+      "block.new_borders_mod.cyan_rose": "Cyan Rose",
+      "item.new_borders_mod.samba_de_verao": "Samba De Verao",
+      "item.new_borders_mod.estrelar.desc": "Marcos Valle - Estrelar ",
+      "biome.new_borders_mod.candy_forest": "Candy Forest",
+      "item.new_borders_mod.dia_d": "Dia D",
+      "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
+      "item.new_borders_mod.waste_water_bucket": "WasteWater Bucket",
+      "item.new_borders_mod.mais_que_amor.desc": "Marcos Valle - Mais Que Amor",
+      "block.new_borders_mod.redwood_stairs": "Redwood Stairs",
+      "block.new_borders_mod.redwood_air": "Redwood Air",
+      "item.new_borders_mod.empty_music_d_isc": "Empty Music Disc",
+      "item.new_borders_mod.seagull_stay_spawn_egg": "Seagull Spawn Egg",
+      "item.new_borders_mod.estrelar": "Estrelar",
+      "block.new_borders_mod.redwood_slab": "Redwood Slab",
+      "item.new_borders_mod.cobalt_armor_boots": "Cobalt Armor Boots",
+      "item.new_borders_mod.tapa_no_real": "Tapa No Real",
+      "subtitles.seagull_sound": "Seagull Noises",
+      "block.new_borders_mod.redwood_log": "Redwood Log",
+      "fluid.waste_water": "WasteWater",
+      "block.new_borders_mod.lead_block": "Lead Block",
+      "item.new_borders_mod.naturalmente": "Naturalmente",
+      "entity.new_borders_mod.timberman": "Lamberjack",
+      "item.new_borders_mod.para_os_filhos_de_abraao": "Para Os Filhos De Abraao",
+      "block.new_borders_mod.dried_bush": "Dried Bush",
+      "item.new_borders_mod.viola_enluarada.desc": "Marcos Valle - Viola Enluarada",
+      "item.new_borders_mod.cobalt_armor_leggings": "Cobalt Armor Leggings",
+      "block.new_borders_mod.redwood_leaves": "Redwood Leaves",
+      "block.new_borders_mod.pinon": "Pinon Fruit",
+      "item.new_borders_mod.cesium_137": "Cesium 137",
+      "subtitles.seagulldamage": "Seagull Damage",
+      "item.new_borders_mod.timberman_spawn_egg": "Lamberjack Spawn Egg",
+      "item.new_borders_mod.fogo_do_sol": "Fogo Do Sol",
+      "block.new_borders_mod.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",
+      "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Armor Body",
+      "item.new_borders_mod.nuclear_waste": "Nuclear Waste",
+      "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
+      "biome.new_borders_mod.ridge": "Ridge",
+      "block.new_borders_mod.white_lamp": "Lamp",
+      "block.new_borders_mod.glowshroom": "Glowshroom",
+      "subtitles.sentinel": "Sentinel Computer Sounds",
+      "item.new_borders_mod.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg",
+      "subtitles.aaaaaaaaaaaaaah": "Statue  Aah",
+      "item.new_borders_mod.cobalt_59": "Cobalt 59",
+      "item.new_borders_mod.unandium": "Unandium",
+      "item.new_borders_mod.pinon_nut": "Pinon",
+      "item.new_borders_mod.cobalt_60": "Cobalt 60",
+      "block.new_borders_mod.candy_log": "Candy Log",
+      "item.new_borders_mod.cleaner_sentinel_spawn_egg": "Cleaner Sentinel Spawn Egg",
+      "subtitles.aah": "Aaah",
+      "item.new_borders_mod.mosquito_spawn_egg": "Mosquito Spawn Egg",
+      "item.new_borders_mod.lollipop_essence": "Lollipop Essence",
+      "block.new_borders_mod.cobalt": "Cobalt",
+      "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
+      "entity.new_borders_mod.statue": "Statue",
+      "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "new_borders_mod",
+    "modName": "New Borders Mod",
+    "version": "1.0.0",
+    "author": "Lima, ZitsyZits",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.newbordersmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

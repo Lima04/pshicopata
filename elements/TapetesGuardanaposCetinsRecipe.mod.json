@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CARPET#14"
+      },
+      {
+        "value": "CUSTOM:EmptyMusicDIsc"
+      },
+      {
+        "value": "Blocks.PINK_BANNER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TapetesGuardanaposCetins"
+    },
+    "name": "tapetes_guardanapos_cetins_recipe",
+    "namespace": "mod"
+  }
+}

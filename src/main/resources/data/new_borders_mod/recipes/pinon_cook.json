@@ -1,0 +1,12 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:smelting",
+  "experience": 0,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "new_borders_mod:pinon_nut"
+  },
+  "result": {
+    "item": "new_borders_mod:cooked_pinon"
+  }
+}

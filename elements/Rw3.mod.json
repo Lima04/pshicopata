@@ -1,0 +1,33 @@
+{
+  "_fv": 13,
+  "_type": "structure",
+  "definition": {
+    "structure": "rw1",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 0,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 4,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -1,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.GRASS"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AlpineBorder"
+      }
+    ],
+    "ignoreBlocks": "AIR",
+    "onStructureGenerated": {
+      "name": "RW1AdditionalGenerationCondition"
+    }
+  }
+}

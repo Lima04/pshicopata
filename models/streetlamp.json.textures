@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "redstone_lamp",
+        "2": "redstone_lamp_on",
+        "3": "street",
+        "missing": "polished_andesite"
+      },
+      "name": "default"
+    }
+  }
+}

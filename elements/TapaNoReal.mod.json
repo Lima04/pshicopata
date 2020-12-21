@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "tapa_no_real",
+    "name": "Tapa No Real",
+    "description": "Marcos Valle - Tapa No Real",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:tapanoreal"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

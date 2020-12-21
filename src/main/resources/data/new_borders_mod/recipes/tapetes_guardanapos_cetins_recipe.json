@@ -1,0 +1,26 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:paper"
+    },
+    "3": {
+      "item": "minecraft:red_carpet"
+    },
+    "4": {
+      "item": "new_borders_mod:empty_music_d_isc"
+    },
+    "5": {
+      "item": "minecraft:pink_banner"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:tapetes_guardanapos_cetins",
+    "count": 1
+  }
+}

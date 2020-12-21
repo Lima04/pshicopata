@@ -1,0 +1,219 @@
+{
+  "estrelar": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "new_borders_mod:marcos_valle_-_estrelar",
+        "stream": true
+      }
+    ]
+  },
+  "estrelarmv": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "new_borders_mod:marcos_valle_-_estrelar",
+        "stream": true
+      }
+    ]
+  },
+  "estrela": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "new_borders_mod:marcos_valle_-_estrelar",
+        "stream": false
+      }
+    ]
+  },
+  "estrelarmv2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "new_borders_mod:estrekar",
+        "stream": true
+      }
+    ]
+  },
+  "fogodosol": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "new_borders_mod:fogo_do_sol",
+        "stream": true
+      }
+    ]
+  },
+  "sambadeverao": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "new_borders_mod:samba_de_verao",
+        "stream": true
+      }
+    ]
+  },
+  "paraosfilhosdeabraao": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "new_borders_mod:para_os_filhos_de_abraao",
+        "stream": true
+      }
+    ]
+  },
+  "naturalmente": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "new_borders_mod:marcos_valle_-_naturalmente",
+        "stream": true
+      }
+    ]
+  },
+  "tapanoreal": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "new_borders_mod:marcos_valle_-_tapa_no_real",
+        "stream": true
+      }
+    ]
+  },
+  "tapetesguardanaposcetins": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "new_borders_mod:tapetes_guardanapos_cetins",
+        "stream": true
+      }
+    ]
+  },
+  "diad": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "new_borders_mod:dia_d",
+        "stream": true
+      }
+    ]
+  },
+  "maisqueamor": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "new_borders_mod:mais_que_amor",
+        "stream": true
+      }
+    ]
+  },
+  "violaenluarada": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "new_borders_mod:viola_enluarada",
+        "stream": true
+      }
+    ]
+  },
+  "pifer": {
+    "category": "record",
+    "subtitle": "subtitles.pifer",
+    "sounds": [
+      {
+        "name": "new_borders_mod:the_pooppifers_-_the_first_shit_2003_full_album",
+        "stream": true
+      }
+    ]
+  },
+  "sentinel": {
+    "category": "neutral",
+    "subtitle": "subtitles.sentinel",
+    "sounds": [
+      {
+        "name": "new_borders_mod:sentinel",
+        "stream": false
+      }
+    ]
+  },
+  "misquito": {
+    "category": "hostile",
+    "subtitle": "subtitles.misquito",
+    "sounds": [
+      {
+        "name": "new_borders_mod:mosquitito",
+        "stream": false
+      }
+    ]
+  },
+  "msoquitao": {
+    "category": "hostile",
+    "subtitle": "subtitles.msoquitao",
+    "sounds": [
+      {
+        "name": "new_borders_mod:msuquito",
+        "stream": false
+      }
+    ]
+  },
+  "seagulldamage": {
+    "category": "neutral",
+    "subtitle": "subtitles.seagulldamage",
+    "sounds": [
+      {
+        "name": "new_borders_mod:seagulldamage",
+        "stream": false
+      }
+    ]
+  },
+  "aah": {
+    "category": "neutral",
+    "subtitle": "subtitles.aah",
+    "sounds": [
+      {
+        "name": "new_borders_mod:statue",
+        "stream": false
+      }
+    ]
+  },
+  "cleanersentinelsound": {
+    "category": "neutral",
+    "subtitle": "subtitles.cleanersentinelsound",
+    "sounds": [
+      {
+        "name": "new_borders_mod:cleanersentinel",
+        "stream": false
+      }
+    ]
+  },
+  "aaaaaaaaaaaaaah": {
+    "category": "neutral",
+    "subtitle": "subtitles.aaaaaaaaaaaaaah",
+    "sounds": [
+      {
+        "name": "new_borders_mod:aah",
+        "stream": false
+      }
+    ]
+  },
+  "mosquito": {
+    "category": "hostile",
+    "subtitle": "subtitles.mosquito",
+    "sounds": [
+      {
+        "name": "new_borders_mod:mosquito",
+        "stream": false
+      }
+    ]
+  },
+  "seagull_sound": {
+    "category": "neutral",
+    "subtitle": "subtitles.seagull_sound",
+    "sounds": [
+      {
+        "name": "new_borders_mod:seagullsound",
+        "stream": false
+      }
+    ]
+  }
+}

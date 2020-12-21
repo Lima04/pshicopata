@@ -1,0 +1,70 @@
+{
+  "_fv": 13,
+  "_type": "biome",
+  "definition": {
+    "name": "Tropical Savanna",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.STAINED_HARDENED_CLAY#8"
+    },
+    "treeType": 0,
+    "vanillaTreeType": "Savanna trees",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": ""
+    },
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "treesPerChunk": 1,
+    "grassPerChunk": 6,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 5,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 9,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 3,
+    "rainingPossibility": 0.5,
+    "temperature": 1.0,
+    "baseHeight": 0.4,
+    "heightVariation": 0.30000000000000004,
+    "spawnBiome": true,
+    "biomeWeight": 17,
+    "biomeType": "WARM",
+    "biomeCategory": "SAVANNA",
+    "parent": {
+      "value": "jungle"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "savanna",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "biomeDictionaryTypes": [],
+    "defaultFeatures": [
+      "Caves",
+      "MonsterRooms",
+      "Structures",
+      "Ores",
+      "Lakes"
+    ],
+    "spawnEntries": []
+  }
+}

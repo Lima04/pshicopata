@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "new_borders_mod:blocks/candy_logtop",
+    "up": "new_borders_mod:blocks/candy_logtop",
+    "north": "new_borders_mod:blocks/candy_forest",
+    "east": "new_borders_mod:blocks/candy_forest",
+    "south": "new_borders_mod:blocks/candy_forest",
+    "west": "new_borders_mod:blocks/candy_forest",
+    "particle": "new_borders_mod:blocks/candy_logtop"
+  }
+}

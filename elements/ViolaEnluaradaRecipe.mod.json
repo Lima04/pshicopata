@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": "CUSTOM:EmptyMusicDIsc"
+      },
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ViolaEnluarada"
+    },
+    "name": "viola_enluarada_recipe",
+    "namespace": "mod"
+  }
+}

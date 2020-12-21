@@ -1,0 +1,42 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:cobalt_shard"
+    },
+    "1": {
+      "item": "minecraft:stone"
+    },
+    "2": {
+      "item": "new_borders_mod:cobalt_shard"
+    },
+    "3": {
+      "item": "minecraft:stone"
+    },
+    "4": {
+      "item": "new_borders_mod:cobalt_shard"
+    },
+    "5": {
+      "item": "minecraft:stone"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "minecraft:iron_block"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:compact_cobalt",
+    "count": 1
+  }
+}

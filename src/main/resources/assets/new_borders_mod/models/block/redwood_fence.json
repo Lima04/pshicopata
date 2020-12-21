@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "new_borders_mod:blocks/rwplanksfinal",
+    "particle": "new_borders_mod:blocks/rwplanksfinal"
+  }
+}

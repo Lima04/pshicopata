@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mosquito_lamp",
+        "1": "polishedandesite",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

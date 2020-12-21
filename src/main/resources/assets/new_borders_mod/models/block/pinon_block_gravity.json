@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "new_borders_mod:blocks/pinhonne",
+    "up": "new_borders_mod:blocks/pinhonne",
+    "north": "new_borders_mod:blocks/pinhonne",
+    "east": "new_borders_mod:blocks/pinhonne",
+    "south": "new_borders_mod:blocks/pinhonne",
+    "west": "new_borders_mod:blocks/pinhonne",
+    "particle": "new_borders_mod:blocks/pinhonne"
+  }
+}

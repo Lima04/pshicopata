@@ -1,0 +1,16 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:cobalt_59_block"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:cobalt_scaffold",
+    "count": 32
+  }
+}

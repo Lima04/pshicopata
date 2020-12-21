@@ -1,0 +1,26 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:red_dye"
+    },
+    "3": {
+      "item": "minecraft:poppy"
+    },
+    "4": {
+      "item": "new_borders_mod:empty_music_d_isc"
+    },
+    "5": {
+      "item": "minecraft:poppy"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:mais_que_amor",
+    "count": 1
+  }
+}

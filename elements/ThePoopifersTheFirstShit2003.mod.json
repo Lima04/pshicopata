@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "thepoopifers",
+    "name": "The Poopifers - The First Shit (Album) (2003)",
+    "description": "The Poopifers - The First Shit (Album) (2003)",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:pifer"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

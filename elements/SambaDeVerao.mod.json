@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "sambadeverao",
+    "name": "Samba De Verao",
+    "description": "Marcos Valle - Samba De Verao",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:sambadeverao"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

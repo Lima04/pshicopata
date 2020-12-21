@@ -1,0 +1,42 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "minecraft:stone"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "minecraft:stone_slab"
+    },
+    "4": {
+      "item": "new_borders_mod:lollipop_essence"
+    },
+    "5": {
+      "item": "minecraft:stone_slab"
+    },
+    "6": {
+      "item": "minecraft:stone"
+    },
+    "7": {
+      "item": "minecraft:stone"
+    },
+    "8": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:statue_item",
+    "count": 1
+  }
+}

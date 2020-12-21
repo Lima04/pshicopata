@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "new_borders_mod:blocks/glass_door_bototm",
+    "top": "new_borders_mod:blocks/glass_door"
+  }
+}

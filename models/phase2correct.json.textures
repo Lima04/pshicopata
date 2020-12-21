@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pitaya_stem",
+        "1": "dragon_flower",
+        "missing": "dragon_fruit_complete"
+      },
+      "name": "default"
+    }
+  }
+}

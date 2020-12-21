@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "masiqueamro",
+    "name": "Mais Que Amor",
+    "description": "Marcos Valle - Mais Que Amor",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:maisqueamor"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

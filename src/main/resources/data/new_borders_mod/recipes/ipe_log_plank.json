@@ -1,0 +1,13 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "new_borders_mod:ipe_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:jungle_planks",
+    "count": 4
+  }
+}

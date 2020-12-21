@@ -1,0 +1,27 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:redwood_planks"
+    },
+    "1": {
+      "item": "new_borders_mod:redwood_planks"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_hoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Cobalt60"
+      },
+      {
+        "value": "CUSTOM:Cobalt60"
+      },
+      {
+        "value": "CUSTOM:Cobalt60"
+      },
+      {
+        "value": "CUSTOM:Cobalt60"
+      },
+      {
+        "value": "CUSTOM:Cobalt60"
+      },
+      {
+        "value": "CUSTOM:Cobalt60"
+      },
+      {
+        "value": "CUSTOM:Cobalt60"
+      },
+      {
+        "value": "CUSTOM:Cobalt60"
+      },
+      {
+        "value": "CUSTOM:Cobalt60"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Cobalt60Blocks"
+    },
+    "name": "cobalt_60_block_recipe",
+    "namespace": "mod"
+  }
+}

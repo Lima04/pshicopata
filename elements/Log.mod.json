@@ -1,0 +1,22 @@
+{
+  "_fv": 13,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:RedwoodLog"
+      },
+      {
+        "value": "CUSTOM:IpeLog"
+      },
+      {
+        "value": "CUSTOM:CandyLog"
+      }
+    ],
+    "functions": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CobaltShard"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "CUSTOM:CobaltShard"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "CUSTOM:CobaltShard"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CompactCobalt"
+    },
+    "name": "compact_rcipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 10000,
+  "ingredient": {
+    "item": "new_borders_mod:compact_cobalt"
+  },
+  "result": {
+    "item": "new_borders_mod:cobalt_59"
+  }
+}

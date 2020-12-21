@@ -1,0 +1,42 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:lead_block"
+    },
+    "1": {
+      "item": "minecraft:glass"
+    },
+    "2": {
+      "item": "new_borders_mod:lead_block"
+    },
+    "3": {
+      "item": "minecraft:smooth_stone"
+    },
+    "4": {
+      "item": "new_borders_mod:cesium_137"
+    },
+    "5": {
+      "item": "minecraft:smooth_stone"
+    },
+    "6": {
+      "item": "new_borders_mod:lead_block"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    },
+    "8": {
+      "item": "new_borders_mod:lead_block"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:cesium_reactor",
+    "count": 1
+  }
+}

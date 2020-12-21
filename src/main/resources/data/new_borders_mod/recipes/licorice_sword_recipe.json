@@ -1,0 +1,24 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:candy"
+    },
+    "1": {
+      "item": "new_borders_mod:candy"
+    },
+    "2": {
+      "item": "new_borders_mod:licorice"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:candy_sword",
+    "count": 1
+  }
+}

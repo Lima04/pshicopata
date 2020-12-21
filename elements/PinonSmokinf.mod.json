@@ -1,0 +1,20 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "xpReward": 0.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:PinonNut"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedPinon"
+    },
+    "name": "pinon_smoking",
+    "namespace": "mod"
+  }
+}

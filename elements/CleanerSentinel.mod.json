@@ -1,0 +1,119 @@
+{
+  "_fv": 13,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Cleaner Sentinel",
+    "mobLabel": "",
+    "mobModelName": "ModelSentinel",
+    "mobModelTexture": "cleanersentinel.png",
+    "mobModelGlowTexture": "",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -6710887,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -16763905,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 6,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "health": 30,
+    "xpAmount": 0,
+    "waterMob": false,
+    "flyingMob": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "CUSTOM:cleanersentinelsound"
+    },
+    "hurtSound": {
+      "value": "entity.irongolem.hurt"
+    },
+    "deathSound": {
+      "value": "entity.irongolem.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "whenMobDies": {
+      "name": "SentinelEntityDies"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"167\" y=\"57\"><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">32</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.TALLGRASS#1</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">32</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.DOUBLE_PLANT#2</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">32</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.TALLGRASS#2</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">32</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.COBBLESTONE</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">32</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.TALLGRASS#0</field></block></value><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 10,
+    "mobSpawningType": "ambient",
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 8,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

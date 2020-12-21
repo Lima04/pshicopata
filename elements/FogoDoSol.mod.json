@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "fogodosol",
+    "name": "Fogo Do Sol",
+    "description": "Marcos Valle - Fogo Do Sol",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:fogodosol"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

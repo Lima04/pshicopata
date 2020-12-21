@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "new_borders_mod:blocks/cyan_rose",
+    "particle": "new_borders_mod:blocks/cyan_rose"
+  }
+}

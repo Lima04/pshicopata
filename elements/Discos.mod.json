@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:EmptyMusicDIsc"
+      },
+      {
+        "value": "CUSTOM:Estrelar"
+      },
+      {
+        "value": "CUSTOM:FogoDoSol"
+      },
+      {
+        "value": "CUSTOM:SambaDeVerao"
+      },
+      {
+        "value": "CUSTOM:ParaOsFilhosDeAbraao"
+      },
+      {
+        "value": "CUSTOM:Naturalmente"
+      },
+      {
+        "value": "CUSTOM:TapaNoReal"
+      },
+      {
+        "value": "CUSTOM:TapetesGuardanaposCetins"
+      },
+      {
+        "value": "CUSTOM:DiaD"
+      },
+      {
+        "value": "CUSTOM:MaisQueAmor"
+      },
+      {
+        "value": "CUSTOM:ViolaEnluarada"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "discos",
+    "namespace": "minecraft"
+  }
+}

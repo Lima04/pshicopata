@@ -75,6 +75,17 @@ public class NewBordersModModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "violaenluarada")));
 		sounds.put(new ResourceLocation("new_borders_mod", "pifer"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "pifer")));
+		sounds.put(new ResourceLocation("new_borders_mod", "aah"), new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "aah")));
+		sounds.put(new ResourceLocation("new_borders_mod", "sentinel1"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "sentinel1")));
+		sounds.put(new ResourceLocation("new_borders_mod", "sentinel2"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "sentinel2")));
+		sounds.put(new ResourceLocation("new_borders_mod", "seagull_living"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "seagull_living")));
+		sounds.put(new ResourceLocation("new_borders_mod", "seagull_hurt"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "seagull_hurt")));
+		sounds.put(new ResourceLocation("new_borders_mod", "mosquito"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "mosquito")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("new_borders_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

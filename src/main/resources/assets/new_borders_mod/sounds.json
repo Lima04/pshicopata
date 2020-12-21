@@ -125,5 +125,65 @@
         "stream": true
       }
     ]
+  },
+  "aah": {
+    "category": "neutral",
+    "subtitle": "subtitles.aah",
+    "sounds": [
+      {
+        "name": "new_borders_mod:aah",
+        "stream": false
+      }
+    ]
+  },
+  "sentinel1": {
+    "category": "neutral",
+    "subtitle": "subtitles.sentinel1",
+    "sounds": [
+      {
+        "name": "new_borders_mod:sentinel",
+        "stream": false
+      }
+    ]
+  },
+  "sentinel2": {
+    "category": "neutral",
+    "subtitle": "subtitles.sentinel2",
+    "sounds": [
+      {
+        "name": "new_borders_mod:cleanersentinel",
+        "stream": false
+      }
+    ]
+  },
+  "seagull_living": {
+    "category": "neutral",
+    "subtitle": "subtitles.seagull_living",
+    "sounds": [
+      {
+        "name": "new_borders_mod:seagullsound",
+        "stream": false
+      }
+    ]
+  },
+  "seagull_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.seagull_hurt",
+    "sounds": [
+      {
+        "name": "new_borders_mod:seagulldamage",
+        "stream": false
+      }
+    ]
+  },
+  "mosquito": {
+    "category": "neutral",
+    "subtitle": "subtitles.mosquito",
+    "sounds": [
+      {
+        "name": "new_borders_mod:pernilango",
+        "stream": false
+      }
+    ]
   }
 }

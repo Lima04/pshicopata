@@ -26,7 +26,7 @@ public static class ModelMosquito extends EntityModel<Entity> {
 		Asar_r1.setTextureOffset(0, 0).addBox(-0.5F, 0.0F, -0.65F, 1.0F, 0.0F, 4.0F, 0.0F, false);
 
 		Asal_r1 = new ModelRenderer(this);
-		Asal_r1.setRotationPoint(0.6F, 0.0F, 0.0F);
+		Asal_r1.setRotationPoint(0.6F, -1.0F, 0.0F);
 		Asa.addChild(Asal_r1);
 		setRotationAngle(Asal_r1, 0.2793F, 0.3665F, 0.0F);
 		Asal_r1.setTextureOffset(2, 2).addBox(-0.5F, 0.0F, -0.65F, 1.0F, 0.0F, 4.0F, 0.0F, false);
@@ -34,15 +34,15 @@ public static class ModelMosquito extends EntityModel<Entity> {
 		bb_main = new ModelRenderer(this);
 		bb_main.setRotationPoint(0.0F, 24.0F, 0.0F);
 		bb_main.setTextureOffset(0, 5).addBox(0.0F, -3.0F, -2.0F, 1.0F, 1.0F, 1.0F, 0.0F, false);
-		bb_main.setTextureOffset(16, 4).addBox(0.2F, -2.8F, -1.1F, 0.0F, 0.0F, 0.0F, 0.0F, false);
+		bb_main.setTextureOffset(16, 4).addBox(0.5F, -2.8F, -1.1F, 0.0F, 0.0F, 0.0F, 0.0F, false);
 		bb_main.setTextureOffset(0, 0).addBox(0.0F, -3.0F, -0.7F, 1.0F, 1.0F, 1.0F, 0.0F, false);
-		bb_main.setTextureOffset(16, 7).addBox(0.2F, -2.8F, 0.6F, 0.0F, 0.0F, 0.0F, 0.0F, false);
+		bb_main.setTextureOffset(16, 7).addBox(0.5F, -2.8F, 0.6F, 0.0F, 0.0F, 0.0F, 0.0F, false);
 
 		cube_r1 = new ModelRenderer(this);
 		cube_r1.setRotationPoint(0.5F, -2.25F, -1.8F);
 		bb_main.addChild(cube_r1);
 		setRotationAngle(cube_r1, 1.5708F, 0.576F, 1.5708F);
-		cube_r1.setTextureOffset(12, 0).addBox(-0.3F, -0.25F, -0.2F, 2.0F, 0.0F, 0.0F, 0.0F, false);
+		cube_r1.setTextureOffset(12, 0).addBox(-0.3F, -0.25F, 0.0F, 2.0F, 0.0F, 0.0F, 0.0F, false);
 
 		cube_r2 = new ModelRenderer(this);
 		cube_r2.setRotationPoint(0.0F, -2.75F, -0.5F);

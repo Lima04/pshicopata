@@ -7,17 +7,17 @@
     "mobModelName": "ModelSentinel",
     "mobModelTexture": "cleanersentinel.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 0.6,
-    "modelHeight": 1.8,
-    "modelShadowSize": 0.5,
-    "mountedYOffset": 0.0,
+    "modelWidth": 0.7,
+    "modelHeight": 1.0,
+    "modelShadowSize": 0.2,
+    "mountedYOffset": 0.5,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -6710887,
+      "value": -13421773,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -16763905,
+      "value": -16777114,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -44,9 +44,9 @@
     "equipmentBoots": {
       "value": ""
     },
-    "mobBehaviourType": "Creature",
+    "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 6,
+    "attackStrength": 20,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
     "movementSpeed": 0.3,
@@ -63,19 +63,19 @@
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "immuneToArrows": false,
     "immuneToFallDamage": true,
     "immuneToCactus": true,
     "immuneToDrowning": true,
-    "immuneToLightning": false,
+    "immuneToLightning": true,
     "immuneToPotions": true,
     "immuneToPlayer": false,
     "mobDrop": {
       "value": ""
     },
     "livingSound": {
-      "value": "CUSTOM:cleanersentinelsound"
+      "value": "CUSTOM:sentinel2"
     },
     "hurtSound": {
       "value": "entity.irongolem.hurt"
@@ -98,7 +98,7 @@
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"167\" y=\"57\"><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">32</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.TALLGRASS#1</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">32</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.DOUBLE_PLANT#2</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">32</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.TALLGRASS#2</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">32</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.COBBLESTONE</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">32</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.TALLGRASS#0</field></block></value><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"535\" y=\"115\"><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.TALLGRASS#1</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.DOUBLE_PLANT#2</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.LOG</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.COBBLESTONE</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.SMOOTH_STONE</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.PLANKS#0</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.PLANKS#1</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.PLANKS#4</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.PLANKS#3</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.PLANKS#5</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.OAK_STAIRS</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.SPRUCE_STAIRS</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.BIRCH_STAIRS</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.JUNGLE_STAIRS</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.ACACIA_STAIRS</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">5</field><field name=\"y_max\">16</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CONCRETE#0</field></block></value><next><block type=\"fly\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -109,10 +109,10 @@
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 10,
+    "spawningProbability": 12,
     "mobSpawningType": "ambient",
-    "minNumberOfMobsPerGroup": 2,
-    "maxNumberOfMobsPerGroup": 8,
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 5,
     "restrictionBiomes": [],
     "spawnInDungeons": false
   }

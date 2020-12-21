@@ -8,25 +8,25 @@
     "name": "Lollipop Charge",
     "specialInfo": [],
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "COMBAT"
     },
-    "stackSize": 1,
+    "stackSize": 16,
     "ammoItem": {
       "value": ""
     },
     "shootConstantly": false,
     "usageCount": 100,
     "actionSound": {
-      "value": "entity.firework.blast"
+      "value": "entity.arrow.shoot"
     },
     "hasGlow": false,
     "animation": "block",
-    "enableMeleeDamage": true,
-    "damageVsEntity": 0.7000000000000001,
-    "bulletPower": 1.2,
-    "bulletDamage": 3.9999999999999996,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 1.5,
+    "bulletPower": 1.2000000000000002,
+    "bulletDamage": 6.0,
     "bulletKnockback": 0,
-    "bulletParticles": true,
+    "bulletParticles": false,
     "bulletIgnitesFire": true,
     "bulletItemTexture": {
       "value": "CUSTOM:LollipopCharge"

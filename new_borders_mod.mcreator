@@ -2376,6 +2376,62 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mosquito"
+    },
+    {
+      "name": "CasioKeyboardFromThe80s",
+      "type": "block",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "casio_keyboard_from_the_80s"
+    },
+    {
+      "name": "CasioKeyboardFromThe80sOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "casio_keyboard_from_the_80s_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CasioRecipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "casio_recipe"
+    },
+    {
+      "name": "DaftPunk",
+      "type": "achievement",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "daft_punk"
     }
   ],
   "variable_elements": [],
@@ -2526,6 +2582,22 @@
       ],
       "category": "neutral",
       "subtitle": "Mosquito Buzzing"
+    },
+    {
+      "name": "keyboard1",
+      "files": [
+        "keyboard1"
+      ],
+      "category": "neutral",
+      "subtitle": "Casio Keyboard Preset 1"
+    },
+    {
+      "name": "keyboard2",
+      "files": [
+        "keyboard2"
+      ],
+      "category": "neutral",
+      "subtitle": "Eletric Piano Note"
     }
   ],
   "language_map": {
@@ -2572,6 +2644,7 @@
       "biome.new_borders_mod.plateau": "Plateau",
       "block.new_borders_mod.redwood_fence": "Redwood Fence",
       "block.new_borders_mod.candy_ore": "Candy Ore",
+      "advancements.daft_punk.descr": "Look at this old casio keyboard from the 1980s i have found",
       "entity.new_borders_mod.mosquito": "Mosquito",
       "block.new_borders_mod.redwood_air_2": "Redwood Air 2",
       "entity.new_borders_mod.cleaner_sentinel": "Cleaner Sentinel",
@@ -2592,6 +2665,7 @@
       "item.new_borders_mod.para_os_filhos_de_abraao.desc": "Marcos Valle - Para Os Filhos De Abraao",
       "item.new_borders_mod.candy": "Candy",
       "item.new_borders_mod.tapetes_guardanapos_cetins.desc": "Marcos Valle - Tapetes Guardanapos Cetins",
+      "block.new_borders_mod.casio_keyboard_from_the_80s": "Casio Keyboard From The 80s",
       "biome.new_borders_mod.temperate_jungle": "Temperate Jungle",
       "block.new_borders_mod.pinon_block_gravity": "Pinon Block(Gravity)",
       "item.new_borders_mod.samba_de_verao.desc": "Marcos Valle - Samba De Verao",
@@ -2628,6 +2702,7 @@
       "entity.new_borders_mod.timberman": "Lamberjack",
       "item.new_borders_mod.para_os_filhos_de_abraao": "Para Os Filhos De Abraao",
       "block.new_borders_mod.dried_bush": "Dried Bush",
+      "subtitles.keyboard1": "Casio Keyboard Preset 1",
       "item.new_borders_mod.viola_enluarada.desc": "Marcos Valle - Viola Enluarada",
       "item.new_borders_mod.cobalt_armor_leggings": "Cobalt Armor Leggings",
       "block.new_borders_mod.redwood_leaves": "Redwood Leaves",
@@ -2635,12 +2710,14 @@
       "item.new_borders_mod.cesium_137": "Cesium 137",
       "item.new_borders_mod.timberman_spawn_egg": "Lamberjack Spawn Egg",
       "item.new_borders_mod.fogo_do_sol": "Fogo Do Sol",
+      "subtitles.keyboard2": "Eletric Piano Note",
       "block.new_borders_mod.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",
       "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Armor Body",
       "item.new_borders_mod.nuclear_waste": "Nuclear Waste",
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
       "biome.new_borders_mod.ridge": "Ridge",
       "block.new_borders_mod.white_lamp": "Lamp",
+      "advancements.daft_punk.title": "Daft Punk",
       "block.new_borders_mod.glowshroom": "Glowshroom",
       "item.new_borders_mod.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg",
       "item.new_borders_mod.cobalt_59": "Cobalt 59",

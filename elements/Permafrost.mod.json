@@ -4,10 +4,10 @@
   "definition": {
     "name": "Permafrost",
     "groundBlock": {
-      "value": "Blocks.SNOW_LAYER"
+      "value": "Blocks.SNOW"
     },
     "undergroundBlock": {
-      "value": "Blocks.ICE"
+      "value": "Blocks.BLUE_ICE"
     },
     "treeType": 0,
     "vanillaTreeType": "Default",

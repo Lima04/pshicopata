@@ -86,6 +86,10 @@ public class NewBordersModModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "seagull_hurt")));
 		sounds.put(new ResourceLocation("new_borders_mod", "mosquito"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "mosquito")));
+		sounds.put(new ResourceLocation("new_borders_mod", "keyboard1"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "keyboard1")));
+		sounds.put(new ResourceLocation("new_borders_mod", "keyboard2"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "keyboard2")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("new_borders_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

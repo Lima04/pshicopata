@@ -79,7 +79,7 @@ public class SentinelEntity extends NewBordersModModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 3, 1, 4));
+			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 1, 1, 1));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				MonsterEntity::canMonsterSpawn);
@@ -106,7 +106,6 @@ public class SentinelEntity extends NewBordersModModElements.ModElement {
 			super(type, world);
 			experienceValue = 0;
 			setNoAI(false);
-			enablePersistence();
 			this.moveController = new FlyingMovementController(this, 10, true);
 			this.navigator = new FlyingPathNavigator(this, this.world);
 		}
@@ -179,11 +178,6 @@ public class SentinelEntity extends NewBordersModModElements.ModElement {
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEFINED;
-		}
-
-		@Override
-		public boolean canDespawn(double distanceToClosestPlayer) {
-			return false;
 		}
 
 		@Override

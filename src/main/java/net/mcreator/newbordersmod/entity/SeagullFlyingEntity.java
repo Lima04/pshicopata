@@ -22,7 +22,6 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.pathfinding.FlyingPathNavigator;
 import net.minecraft.network.IPacket;
 import net.minecraft.entity.passive.fish.TropicalFishEntity;
-import net.minecraft.entity.passive.fish.SalmonEntity;
 import net.minecraft.entity.passive.fish.CodEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
@@ -90,7 +89,7 @@ public class SeagullFlyingEntity extends NewBordersModModElements.ModElement {
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
-			biome.getSpawns(EntityClassification.AMBIENT).add(new Biome.SpawnListEntry(entity, 15, 1, 8));
+			biome.getSpawns(EntityClassification.AMBIENT).add(new Biome.SpawnListEntry(entity, 8, 1, 8));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.NO_RESTRICTIONS,
 				Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, MobEntity::canSpawnOn);
@@ -183,7 +182,7 @@ public class SeagullFlyingEntity extends NewBordersModModElements.ModElement {
 			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));
 			this.goalSelector.addGoal(6, new LeapAtTargetGoal(this, (float) 0.5));
 			this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, CodEntity.class, true, false));
-			this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, SalmonEntity.class, true, false));
+			this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, TimbermanEntity.CustomEntity.class, true, false));
 			this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, TropicalFishEntity.class, true, false));
 		}
 

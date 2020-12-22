@@ -1,0 +1,25 @@
+{
+  "_fv": 13,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Daft Punk",
+    "achievementDescription": "Look at this old casio keyboard from the 1980s i have found",
+    "achievementIcon": {
+      "value": "CUSTOM:EmptyMusicDIsc"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Music"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"block_placed\" x=\"43\" y=\"27\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:CasioKeyboardFromThe80s</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

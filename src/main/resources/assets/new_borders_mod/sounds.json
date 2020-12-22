@@ -185,5 +185,25 @@
         "stream": false
       }
     ]
+  },
+  "keyboard1": {
+    "category": "neutral",
+    "subtitle": "subtitles.keyboard1",
+    "sounds": [
+      {
+        "name": "new_borders_mod:keyboard1",
+        "stream": false
+      }
+    ]
+  },
+  "keyboard2": {
+    "category": "neutral",
+    "subtitle": "subtitles.keyboard2",
+    "sounds": [
+      {
+        "name": "new_borders_mod:keyboard2",
+        "stream": false
+      }
+    ]
   }
 }

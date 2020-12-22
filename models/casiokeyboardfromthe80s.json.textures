@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "notaspretas",
+        "1": "casiokeyboard",
+        "2": "notes",
+        "3": "lateral",
+        "4": "bajo"
+      },
+      "name": "default"
+    }
+  }
+}

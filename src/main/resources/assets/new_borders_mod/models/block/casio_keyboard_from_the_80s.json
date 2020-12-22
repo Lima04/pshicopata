@@ -1,0 +1,12 @@
+{
+  "parent": "new_borders_mod:custom/casio",
+  "textures": {
+    "all": "new_borders_mod:blocks/lateral",
+    "particle": "new_borders_mod:blocks/lateral",
+    "1": "new_borders_mod:blocks/casiokeyboard",
+    "2": "new_borders_mod:blocks/notes",
+    "3": "new_borders_mod:blocks/lateral",
+    "4": "new_borders_mod:blocks/bajo",
+    "5": "new_borders_mod:blocks/texture"
+  }
+}

@@ -41,8 +41,8 @@ public class PermafrostBiome extends NewBordersModModElements.ModElement {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0.3f).depth(2.5f).scale(0f).temperature(-0.1f).precipitation(Biome.RainType.SNOW)
 					.category(Biome.Category.ICY).waterColor(4159204).waterFogColor(329011).parent("snowy_tundra")
-					.surfaceBuilder(SurfaceBuilder.DEFAULT,
-							new SurfaceBuilderConfig(Blocks.SNOW.getDefaultState(), Blocks.ICE.getDefaultState(), Blocks.ICE.getDefaultState())));
+					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.SNOW_BLOCK.getDefaultState(),
+							Blocks.BLUE_ICE.getDefaultState(), Blocks.BLUE_ICE.getDefaultState())));
 			setRegistryName("permafrost");
 			DefaultBiomeFeatures.addCarvers(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);

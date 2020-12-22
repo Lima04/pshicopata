@@ -1,0 +1,39 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "new_borders_mod:sentinel_hard_disc"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:stone_slab"
+    },
+    "4": {
+      "item": "minecraft:stone_slab"
+    },
+    "5": {
+      "item": "minecraft:stone_slab"
+    },
+    "6": {
+      "item": "minecraft:andesite_wall"
+    },
+    "8": {
+      "item": "minecraft:andesite_wall"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:casio_keyboard_from_the_80s",
+    "count": 1
+  }
+}

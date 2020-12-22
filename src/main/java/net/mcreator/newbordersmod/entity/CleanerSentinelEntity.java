@@ -76,7 +76,7 @@ public class CleanerSentinelEntity extends NewBordersModModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			biome.getSpawns(EntityClassification.AMBIENT).add(new Biome.SpawnListEntry(entity, 12, 1, 5));
+			biome.getSpawns(EntityClassification.AMBIENT).add(new Biome.SpawnListEntry(entity, 2, 1, 5));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.NO_RESTRICTIONS,
 				Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, MobEntity::canSpawnOn);

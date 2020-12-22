@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "new_borders_mod:block/casio_keyboard_from_the_80s"
+    },
+    "facing=east": {
+      "model": "new_borders_mod:block/casio_keyboard_from_the_80s",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "new_borders_mod:block/casio_keyboard_from_the_80s",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "new_borders_mod:block/casio_keyboard_from_the_80s",
+      "y": 270
+    }
+  }
+}

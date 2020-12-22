@@ -119,15 +119,6 @@
       "registry_name": "redwood_planks_recipe"
     },
     {
-      "name": "RedwoodPlanksDye",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "redwood_planks_dye"
-    },
-    {
       "name": "RedwoodCraftingTable",
       "type": "recipe",
       "sortid": 17,
@@ -2432,6 +2423,222 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "daft_punk"
+    },
+    {
+      "name": "SnowBricks",
+      "type": "block",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_bricks"
+    },
+    {
+      "name": "SnowBricksDrops",
+      "type": "loottable",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_bricks_drops"
+    },
+    {
+      "name": "SnowBrickSlab",
+      "type": "block",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_brick_slab"
+    },
+    {
+      "name": "SnowBrickSlabDrops",
+      "type": "loottable",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_brick_slab_drops"
+    },
+    {
+      "name": "SnowBrickStairs",
+      "type": "block",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_brick_stairs"
+    },
+    {
+      "name": "SnowBrickStairsDrops",
+      "type": "loottable",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_brick_stairs_drops"
+    },
+    {
+      "name": "CherryBlossomForest",
+      "type": "biome",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_blossom_forest"
+    },
+    {
+      "name": "CherryTreeLog",
+      "type": "block",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_log"
+    },
+    {
+      "name": "CherryTreePlanks",
+      "type": "block",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_planks"
+    },
+    {
+      "name": "CherryTreeSlab",
+      "type": "block",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_slab"
+    },
+    {
+      "name": "CherryTreeStairs",
+      "type": "block",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_stairs"
+    },
+    {
+      "name": "CherryTreePlankRecipe",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_plank_recipe"
+    },
+    {
+      "name": "CherryTreePlankWorkbench",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_plank_workbench"
+    },
+    {
+      "name": "CherryTreeSlabRecipe",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_slab_recipe"
+    },
+    {
+      "name": "CherryTreeStairRecipe",
+      "type": "recipe",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_stair_recipe"
+    },
+    {
+      "name": "CherrySticks",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_sticks"
+    },
+    {
+      "name": "CherrySword",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_sword"
+    },
+    {
+      "name": "CherryPickaxe",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_pickaxe"
+    },
+    {
+      "name": "CherryAxe",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_axe"
+    },
+    {
+      "name": "CherryAxe2",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_axe_2"
+    },
+    {
+      "name": "CherryShovel",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_shovel"
+    },
+    {
+      "name": "CherryHoe1",
+      "type": "recipe",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_hoe_1"
+    },
+    {
+      "name": "CherryHoe2",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_hoe_2"
+    },
+    {
+      "name": "CherryBlossoms",
+      "type": "block",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_blossoms"
     }
   ],
   "variable_elements": [],
@@ -2602,15 +2809,15 @@
   ],
   "language_map": {
     "en_us": {
-      "item.new_borders_mod.cooked_pinon": "Cooked Pinon",
       "item.new_borders_mod.lollipop_charge": "Lollipop Charge",
+      "item.new_borders_mod.cooked_pinon": "Cooked Pinon",
       "subtitles.pifer": "Poopifers",
       "item.new_borders_mod.viola_enluarada": "Viola Enluarada",
       "item.new_borders_mod.seagull_flying_spawn_egg": "Seagull Spawn Egg",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
-      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
-      "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
       "item.new_borders_mod.candy_sword": "Candy Sword",
+      "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
+      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "item.new_borders_mod.cobalt_armor_helmet": "Cobalt Armor Helmet",
       "entity.new_borders_mod.sentinel": "Sentinel",
       "block.new_borders_mod.cobalt_door": "Cobalt Door",
@@ -2635,6 +2842,8 @@
       "block.new_borders_mod.ipe_log": "Ipe Log",
       "biome.new_borders_mod.steppe": "Steppe",
       "block.new_borders_mod.glass_door": "Glass Door",
+      "block.new_borders_mod.snow_bricks": "Snow Bricks",
+      "block.new_borders_mod.snow_brick_stairs": "Snow Brick Stairs",
       "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
       "subtitles.sentinel1": "Sentinel Chipset",
       "block.new_borders_mod.big_candy_air": "Big Candy Air",
@@ -2667,7 +2876,9 @@
       "item.new_borders_mod.tapetes_guardanapos_cetins.desc": "Marcos Valle - Tapetes Guardanapos Cetins",
       "block.new_borders_mod.casio_keyboard_from_the_80s": "Casio Keyboard From The 80s",
       "biome.new_borders_mod.temperate_jungle": "Temperate Jungle",
+      "block.new_borders_mod.cherry_tree_planks": "Cherry Tree Planks",
       "block.new_borders_mod.pinon_block_gravity": "Pinon Block(Gravity)",
+      "block.new_borders_mod.snow_brick_slab": "Snow Brick Slab",
       "item.new_borders_mod.samba_de_verao.desc": "Marcos Valle - Samba De Verao",
       "item.new_borders_mod.cobalt_shard": "Cobalt Shard",
       "block.new_borders_mod.cobalt_60_blocks": "Cobalt 60 Block",
@@ -2717,6 +2928,7 @@
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
       "biome.new_borders_mod.ridge": "Ridge",
       "block.new_borders_mod.white_lamp": "Lamp",
+      "block.new_borders_mod.cherry_blossoms": "Cherry Blossoms",
       "advancements.daft_punk.title": "Daft Punk",
       "block.new_borders_mod.glowshroom": "Glowshroom",
       "item.new_borders_mod.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg",
@@ -2727,13 +2939,17 @@
       "block.new_borders_mod.candy_log": "Candy Log",
       "item.new_borders_mod.cleaner_sentinel_spawn_egg": "Cleaner Sentinel Spawn Egg",
       "subtitles.aah": "Statue Aah",
+      "biome.new_borders_mod.cherry_blossom_forest": "Cherry Blossom Forest",
+      "block.new_borders_mod.cherry_tree_slab": "Cherry Tree Slab",
       "item.new_borders_mod.mosquito_spawn_egg": "Mosquito Spawn Egg",
       "item.new_borders_mod.lollipop_essence": "Lollipop Essence",
       "item.new_borders_mod.sentinel_hard_disc": "Sentinel Hard Disc",
       "block.new_borders_mod.cobalt": "Cobalt",
       "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
       "entity.new_borders_mod.statue": "Statue",
-      "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg"
+      "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
+      "block.new_borders_mod.cherry_tree_stairs": "Cherry Tree Stairs",
+      "block.new_borders_mod.cherry_tree_log": "Cherry Tree Log"
     }
   },
   "workspaceSettings": {

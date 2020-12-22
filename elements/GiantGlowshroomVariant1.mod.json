@@ -5,7 +5,7 @@
     "structure": "giant_glowshroom_variant_1",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 0,
+    "spawnProbability": 140000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

@@ -5,7 +5,7 @@
     "structure": "giant_glowshroom_variant_2",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 0,
+    "spawnProbability": 180000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
@@ -21,6 +21,6 @@
         "value": "CUSTOM:GlowshroomJungle"
       }
     ],
-    "ignoreBlocks": "STRUCTURE_BLOCK"
+    "ignoreBlocks": "AIR"
   }
 }

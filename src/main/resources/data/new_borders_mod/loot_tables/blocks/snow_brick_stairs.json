@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:silk_touch",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "new_borders_mod:snow_brick_stairs",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:silk_touch",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

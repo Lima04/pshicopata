@@ -47,7 +47,7 @@ public class GiantGlowshroomVariant1Structure extends NewBordersModModElements.M
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 0) {
+				if ((random.nextInt(1000000) + 1) <= 140000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);

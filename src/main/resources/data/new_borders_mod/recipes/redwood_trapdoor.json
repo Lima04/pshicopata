@@ -2,9 +2,8 @@
   "group": "new_borders_mod",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23",
-    "45"
+    "012",
+    "345"
   ],
   "key": {
     "0": {
@@ -28,6 +27,6 @@
   },
   "result": {
     "item": "minecraft:spruce_trapdoor",
-    "count": 1
+    "count": 2
   }
 }

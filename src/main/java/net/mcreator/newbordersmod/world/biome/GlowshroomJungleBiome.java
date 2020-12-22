@@ -41,12 +41,12 @@ public class GlowshroomJungleBiome extends NewBordersModModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 6));
+		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 7));
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0.5f).depth(0.1f).scale(0.4f).temperature(0.5f).precipitation(Biome.RainType.RAIN)
-					.category(Biome.Category.FOREST).waterColor(4159204).waterFogColor(329011)
+					.category(Biome.Category.FOREST).waterColor(4159204).waterFogColor(329011).parent("dark_forest")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 							Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
 			setRegistryName("glowshroom_jungle");

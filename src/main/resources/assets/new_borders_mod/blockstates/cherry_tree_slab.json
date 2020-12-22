@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "new_borders_mod:block/cherry_tree_slab"
+    },
+    "type=top": {
+      "model": "new_borders_mod:block/cherry_tree_slab_top"
+    },
+    "type=double": {
+      "model": "new_borders_mod:block/cherry_tree_slab_full"
+    }
+  }
+}

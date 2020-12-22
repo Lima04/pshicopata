@@ -119,15 +119,6 @@
       "registry_name": "redwood_planks_recipe"
     },
     {
-      "name": "RedwoodPlanksDye",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "redwood_planks_dye"
-    },
-    {
       "name": "RedwoodCraftingTable",
       "type": "recipe",
       "sortid": 17,
@@ -2434,31 +2425,220 @@
       "registry_name": "daft_punk"
     },
     {
-      "name": "RockyDesert",
-      "type": "biome",
-      "sortid": 242,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rocky_desert"
-    },
-    {
-      "name": "PurpleBerryPlant",
-      "type": "block",
+      "name": "SnowBricksDrops",
+      "type": "loottable",
       "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "purple_berry_plant"
+      "registry_name": "snow_bricks_drops"
     },
     {
-      "name": "PurpleBerryPlantBerry",
+      "name": "CherryTreeStairRecipe",
+      "type": "recipe",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_stair_recipe"
+    },
+    {
+      "name": "SnowBricks",
+      "type": "block",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_bricks"
+    },
+    {
+      "name": "SnowBrickSlabDrops",
+      "type": "loottable",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_brick_slab_drops"
+    },
+    {
+      "name": "CherrySword",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_sword"
+    },
+    {
+      "name": "CherryPickaxe",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_pickaxe"
+    },
+    {
+      "name": "SnowBrickSlab",
       "type": "block",
       "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "purple_berry_plant_berry"
+      "registry_name": "snow_brick_slab"
+    },
+    {
+      "name": "CherryAxe",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_axe"
+    },
+    {
+      "name": "CherryTreeSlab",
+      "type": "block",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_slab"
+    },
+    {
+      "name": "CherryBlossomForest",
+      "type": "biome",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_blossom_forest"
+    },
+    {
+      "name": "CherryBlossoms",
+      "type": "block",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_blossoms"
+    },
+    {
+      "name": "CherryTreeStairs",
+      "type": "block",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_stairs"
+    },
+    {
+      "name": "CherryTreePlankWorkbench",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_plank_workbench"
+    },
+    {
+      "name": "CherryAxe2",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_axe_2"
+    },
+    {
+      "name": "CherryTreeSlabRecipe",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_slab_recipe"
+    },
+    {
+      "name": "CherryTreeLog",
+      "type": "block",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_log"
+    },
+    {
+      "name": "CherrySticks",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_sticks"
+    },
+    {
+      "name": "CherryTreePlanks",
+      "type": "block",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_planks"
+    },
+    {
+      "name": "SnowBrickStairs",
+      "type": "block",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_brick_stairs"
+    },
+    {
+      "name": "CherryTreePlankRecipe",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_plank_recipe"
+    },
+    {
+      "name": "CherryHoe1",
+      "type": "recipe",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_hoe_1"
+    },
+    {
+      "name": "SnowBrickStairsDrops",
+      "type": "loottable",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_brick_stairs_drops"
+    },
+    {
+      "name": "CherryHoe2",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_hoe_2"
+    },
+    {
+      "name": "CherryShovel",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_shovel"
     },
     {
       "name": "PurpleBerryFoodEaten",
@@ -2478,13 +2658,55 @@
       }
     },
     {
-      "name": "PurpleBerry",
-      "type": "food",
-      "sortid": 245,
+      "name": "PurpleBerryPlantBerry",
+      "type": "block",
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "purple_berry"
+      "registry_name": "purple_berry_plant_berry"
+    },
+    {
+      "name": "PurpleBerrySeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RockyDesert",
+      "type": "biome",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocky_desert"
     },
     {
       "name": "PurpleBerryPlantUpdateTick",
@@ -2545,37 +2767,31 @@
       }
     },
     {
-      "name": "PurpleBerrySeedsRightClickedOnBlock",
-      "type": "procedure",
-      "sortid": 248,
+      "name": "PurpleSeeds",
+      "type": "recipe",
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "purple_berry_seeds_right_clicked_on_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "purple_seeds"
+    },
+    {
+      "name": "PurpleBerry",
+      "type": "food",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry"
+    },
+    {
+      "name": "PurpleBerryPlant",
+      "type": "block",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_plant"
     },
     {
       "name": "PurpleBerrySeeds",
@@ -2585,15 +2801,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "purple_berry_seeds"
-    },
-    {
-      "name": "PurpleSeeds",
-      "type": "recipe",
-      "sortid": 249,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "purple_seeds"
     }
   ],
   "variable_elements": [],
@@ -2794,7 +3001,6 @@
       "block.new_borders_mod.cobalt_59_block": "Cobalt 59 Block",
       "block.new_borders_mod.stripped_redwood_log": "Stripped Redwood Log",
       "item.new_borders_mod.mais_que_amor": "Mais Que Amor",
-      "item.new_borders_mod.purple_berry": "Purple Berry",
       "block.new_borders_mod.ipe_log": "Ipe Log",
       "biome.new_borders_mod.steppe": "Steppe",
       "block.new_borders_mod.glass_door": "Glass Door",
@@ -2827,7 +3033,6 @@
       "item.new_borders_mod.timberman": "Lamberjack Spawn Egg",
       "item.new_borders_mod.para_os_filhos_de_abraao.desc": "Marcos Valle - Para Os Filhos De Abraao",
       "item.new_borders_mod.candy": "Candy",
-      "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
       "item.new_borders_mod.tapetes_guardanapos_cetins.desc": "Marcos Valle - Tapetes Guardanapos Cetins",
       "block.new_borders_mod.casio_keyboard_from_the_80s": "Casio Keyboard From The 80s",
       "biome.new_borders_mod.temperate_jungle": "Temperate Jungle",
@@ -2860,7 +3065,6 @@
       "block.new_borders_mod.redwood_slab": "Redwood Slab",
       "item.new_borders_mod.cobalt_armor_boots": "Cobalt Armor Boots",
       "item.new_borders_mod.tapa_no_real": "Tapa No Real",
-      "biome.new_borders_mod.rocky_desert": "Rocky Desert",
       "block.new_borders_mod.redwood_log": "Redwood Log",
       "fluid.waste_water": "WasteWater",
       "block.new_borders_mod.lead_block": "Lead Block",
@@ -2877,7 +3081,6 @@
       "item.new_borders_mod.timberman_spawn_egg": "Lamberjack Spawn Egg",
       "item.new_borders_mod.fogo_do_sol": "Fogo Do Sol",
       "subtitles.keyboard2": "Eletric Piano Note",
-      "block.new_borders_mod.purple_berry_plant": "Purple Berry Plant",
       "block.new_borders_mod.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",
       "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Armor Body",
       "item.new_borders_mod.nuclear_waste": "Nuclear Waste",

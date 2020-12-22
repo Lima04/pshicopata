@@ -48,11 +48,11 @@
     "baseHeight": 0.1,
     "heightVariation": 0.4,
     "spawnBiome": true,
-    "biomeWeight": 6,
+    "biomeWeight": 7,
     "biomeType": "WARM",
     "biomeCategory": "FOREST",
     "parent": {
-      "value": "No parent"
+      "value": "roofed_forest"
     },
     "spawnStronghold": true,
     "spawnMineshaft": true,

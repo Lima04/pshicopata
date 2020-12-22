@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "new_borders_mod:blocks/cherry_tree_planks",
+    "top": "new_borders_mod:blocks/cherry_tree_planks",
+    "side": "new_borders_mod:blocks/cherry_tree_planks"
+  }
+}

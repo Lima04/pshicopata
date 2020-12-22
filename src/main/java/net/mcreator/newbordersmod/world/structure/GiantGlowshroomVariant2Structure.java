@@ -47,7 +47,7 @@ public class GiantGlowshroomVariant2Structure extends NewBordersModModElements.M
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 0) {
+				if ((random.nextInt(1000000) + 1) <= 180000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
@@ -65,7 +65,7 @@ public class GiantGlowshroomVariant2Structure extends NewBordersModModElements.M
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
-								.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false));
+								.addProcessor(BlockIgnoreStructureProcessor.AIR).setChunk(null).setIgnoreEntities(false));
 					}
 				}
 				return true;

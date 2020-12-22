@@ -1,0 +1,13 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "new_borders_mod:cherry_tree_log"
+    }
+  ],
+  "result": {
+    "item": "new_borders_mod:cherry_tree_planks",
+    "count": 4
+  }
+}

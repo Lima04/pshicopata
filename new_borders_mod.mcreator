@@ -2432,6 +2432,168 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "daft_punk"
+    },
+    {
+      "name": "RockyDesert",
+      "type": "biome",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocky_desert"
+    },
+    {
+      "name": "PurpleBerryPlant",
+      "type": "block",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_plant"
+    },
+    {
+      "name": "PurpleBerryPlantBerry",
+      "type": "block",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_plant_berry"
+    },
+    {
+      "name": "PurpleBerryFoodEaten",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleBerry",
+      "type": "food",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry"
+    },
+    {
+      "name": "PurpleBerryPlantUpdateTick",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_plant_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleBerryPlantBerryOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_plant_berry_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleBerrySeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleBerrySeeds",
+      "type": "item",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_seeds"
+    },
+    {
+      "name": "PurpleSeeds",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_seeds"
     }
   ],
   "variable_elements": [],
@@ -2602,15 +2764,15 @@
   ],
   "language_map": {
     "en_us": {
-      "item.new_borders_mod.cooked_pinon": "Cooked Pinon",
       "item.new_borders_mod.lollipop_charge": "Lollipop Charge",
+      "item.new_borders_mod.cooked_pinon": "Cooked Pinon",
       "subtitles.pifer": "Poopifers",
       "item.new_borders_mod.viola_enluarada": "Viola Enluarada",
       "item.new_borders_mod.seagull_flying_spawn_egg": "Seagull Spawn Egg",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
-      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
-      "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
       "item.new_borders_mod.candy_sword": "Candy Sword",
+      "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
+      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "item.new_borders_mod.cobalt_armor_helmet": "Cobalt Armor Helmet",
       "entity.new_borders_mod.sentinel": "Sentinel",
       "block.new_borders_mod.cobalt_door": "Cobalt Door",
@@ -2632,6 +2794,7 @@
       "block.new_borders_mod.cobalt_59_block": "Cobalt 59 Block",
       "block.new_borders_mod.stripped_redwood_log": "Stripped Redwood Log",
       "item.new_borders_mod.mais_que_amor": "Mais Que Amor",
+      "item.new_borders_mod.purple_berry": "Purple Berry",
       "block.new_borders_mod.ipe_log": "Ipe Log",
       "biome.new_borders_mod.steppe": "Steppe",
       "block.new_borders_mod.glass_door": "Glass Door",
@@ -2664,6 +2827,7 @@
       "item.new_borders_mod.timberman": "Lamberjack Spawn Egg",
       "item.new_borders_mod.para_os_filhos_de_abraao.desc": "Marcos Valle - Para Os Filhos De Abraao",
       "item.new_borders_mod.candy": "Candy",
+      "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
       "item.new_borders_mod.tapetes_guardanapos_cetins.desc": "Marcos Valle - Tapetes Guardanapos Cetins",
       "block.new_borders_mod.casio_keyboard_from_the_80s": "Casio Keyboard From The 80s",
       "biome.new_borders_mod.temperate_jungle": "Temperate Jungle",
@@ -2679,6 +2843,7 @@
       "item.new_borders_mod.samba_de_verao": "Samba De Verao",
       "item.new_borders_mod.estrelar.desc": "Marcos Valle - Estrelar ",
       "biome.new_borders_mod.candy_forest": "Candy Forest",
+      "block.new_borders_mod.purple_berry_plant_berry": "Purple Berry Plant (Berry)",
       "item.new_borders_mod.dia_d": "Dia D",
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
@@ -2695,6 +2860,7 @@
       "block.new_borders_mod.redwood_slab": "Redwood Slab",
       "item.new_borders_mod.cobalt_armor_boots": "Cobalt Armor Boots",
       "item.new_borders_mod.tapa_no_real": "Tapa No Real",
+      "biome.new_borders_mod.rocky_desert": "Rocky Desert",
       "block.new_borders_mod.redwood_log": "Redwood Log",
       "fluid.waste_water": "WasteWater",
       "block.new_borders_mod.lead_block": "Lead Block",
@@ -2711,6 +2877,7 @@
       "item.new_borders_mod.timberman_spawn_egg": "Lamberjack Spawn Egg",
       "item.new_borders_mod.fogo_do_sol": "Fogo Do Sol",
       "subtitles.keyboard2": "Eletric Piano Note",
+      "block.new_borders_mod.purple_berry_plant": "Purple Berry Plant",
       "block.new_borders_mod.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",
       "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Armor Body",
       "item.new_borders_mod.nuclear_waste": "Nuclear Waste",

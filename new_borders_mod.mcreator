@@ -2425,15 +2425,6 @@
       "registry_name": "daft_punk"
     },
     {
-      "name": "SnowBricks",
-      "type": "block",
-      "sortid": 242,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "snow_bricks"
-    },
-    {
       "name": "SnowBricksDrops",
       "type": "loottable",
       "sortid": 243,
@@ -2441,114 +2432,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "snow_bricks_drops"
-    },
-    {
-      "name": "SnowBrickSlab",
-      "type": "block",
-      "sortid": 244,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "snow_brick_slab"
-    },
-    {
-      "name": "SnowBrickSlabDrops",
-      "type": "loottable",
-      "sortid": 245,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "snow_brick_slab_drops"
-    },
-    {
-      "name": "SnowBrickStairs",
-      "type": "block",
-      "sortid": 246,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "snow_brick_stairs"
-    },
-    {
-      "name": "SnowBrickStairsDrops",
-      "type": "loottable",
-      "sortid": 247,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "snow_brick_stairs_drops"
-    },
-    {
-      "name": "CherryBlossomForest",
-      "type": "biome",
-      "sortid": 248,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_blossom_forest"
-    },
-    {
-      "name": "CherryTreeLog",
-      "type": "block",
-      "sortid": 249,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_tree_log"
-    },
-    {
-      "name": "CherryTreePlanks",
-      "type": "block",
-      "sortid": 250,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_tree_planks"
-    },
-    {
-      "name": "CherryTreeSlab",
-      "type": "block",
-      "sortid": 251,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_tree_slab"
-    },
-    {
-      "name": "CherryTreeStairs",
-      "type": "block",
-      "sortid": 252,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_tree_stairs"
-    },
-    {
-      "name": "CherryTreePlankRecipe",
-      "type": "recipe",
-      "sortid": 253,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_tree_plank_recipe"
-    },
-    {
-      "name": "CherryTreePlankWorkbench",
-      "type": "recipe",
-      "sortid": 254,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_tree_plank_workbench"
-    },
-    {
-      "name": "CherryTreeSlabRecipe",
-      "type": "recipe",
-      "sortid": 255,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_tree_slab_recipe"
     },
     {
       "name": "CherryTreeStairRecipe",
@@ -2560,13 +2443,22 @@
       "registry_name": "cherry_tree_stair_recipe"
     },
     {
-      "name": "CherrySticks",
-      "type": "recipe",
-      "sortid": 257,
+      "name": "SnowBricks",
+      "type": "block",
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cherry_sticks"
+      "registry_name": "snow_bricks"
+    },
+    {
+      "name": "SnowBrickSlabDrops",
+      "type": "loottable",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_brick_slab_drops"
     },
     {
       "name": "CherrySword",
@@ -2587,6 +2479,15 @@
       "registry_name": "cherry_pickaxe"
     },
     {
+      "name": "SnowBrickSlab",
+      "type": "block",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_brick_slab"
+    },
+    {
       "name": "CherryAxe",
       "type": "recipe",
       "sortid": 260,
@@ -2594,6 +2495,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cherry_axe"
+    },
+    {
+      "name": "CherryTreeSlab",
+      "type": "block",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_slab"
+    },
+    {
+      "name": "CherryBlossomForest",
+      "type": "biome",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_blossom_forest"
+    },
+    {
+      "name": "CherryBlossoms",
+      "type": "block",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_blossoms"
+    },
+    {
+      "name": "CherryTreeStairs",
+      "type": "block",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_stairs"
+    },
+    {
+      "name": "CherryTreePlankWorkbench",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_plank_workbench"
     },
     {
       "name": "CherryAxe2",
@@ -2605,13 +2551,58 @@
       "registry_name": "cherry_axe_2"
     },
     {
-      "name": "CherryShovel",
+      "name": "CherryTreeSlabRecipe",
       "type": "recipe",
-      "sortid": 262,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cherry_shovel"
+      "registry_name": "cherry_tree_slab_recipe"
+    },
+    {
+      "name": "CherryTreeLog",
+      "type": "block",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_log"
+    },
+    {
+      "name": "CherrySticks",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_sticks"
+    },
+    {
+      "name": "CherryTreePlanks",
+      "type": "block",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_planks"
+    },
+    {
+      "name": "SnowBrickStairs",
+      "type": "block",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_brick_stairs"
+    },
+    {
+      "name": "CherryTreePlankRecipe",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_plank_recipe"
     },
     {
       "name": "CherryHoe1",
@@ -2623,6 +2614,15 @@
       "registry_name": "cherry_hoe_1"
     },
     {
+      "name": "SnowBrickStairsDrops",
+      "type": "loottable",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_brick_stairs_drops"
+    },
+    {
       "name": "CherryHoe2",
       "type": "recipe",
       "sortid": 264,
@@ -2632,13 +2632,175 @@
       "registry_name": "cherry_hoe_2"
     },
     {
-      "name": "CherryBlossoms",
-      "type": "block",
-      "sortid": 265,
+      "name": "CherryShovel",
+      "type": "recipe",
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cherry_blossoms"
+      "registry_name": "cherry_shovel"
+    },
+    {
+      "name": "PurpleBerryFoodEaten",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleBerryPlantBerry",
+      "type": "block",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_plant_berry"
+    },
+    {
+      "name": "PurpleBerrySeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RockyDesert",
+      "type": "biome",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocky_desert"
+    },
+    {
+      "name": "PurpleBerryPlantUpdateTick",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_plant_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleBerryPlantBerryOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_plant_berry_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleSeeds",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_seeds"
+    },
+    {
+      "name": "PurpleBerry",
+      "type": "food",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry"
+    },
+    {
+      "name": "PurpleBerryPlant",
+      "type": "block",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_plant"
+    },
+    {
+      "name": "PurpleBerrySeeds",
+      "type": "item",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_berry_seeds"
     }
   ],
   "variable_elements": [],
@@ -2842,8 +3004,6 @@
       "block.new_borders_mod.ipe_log": "Ipe Log",
       "biome.new_borders_mod.steppe": "Steppe",
       "block.new_borders_mod.glass_door": "Glass Door",
-      "block.new_borders_mod.snow_bricks": "Snow Bricks",
-      "block.new_borders_mod.snow_brick_stairs": "Snow Brick Stairs",
       "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
       "subtitles.sentinel1": "Sentinel Chipset",
       "block.new_borders_mod.big_candy_air": "Big Candy Air",
@@ -2876,9 +3036,7 @@
       "item.new_borders_mod.tapetes_guardanapos_cetins.desc": "Marcos Valle - Tapetes Guardanapos Cetins",
       "block.new_borders_mod.casio_keyboard_from_the_80s": "Casio Keyboard From The 80s",
       "biome.new_borders_mod.temperate_jungle": "Temperate Jungle",
-      "block.new_borders_mod.cherry_tree_planks": "Cherry Tree Planks",
       "block.new_borders_mod.pinon_block_gravity": "Pinon Block(Gravity)",
-      "block.new_borders_mod.snow_brick_slab": "Snow Brick Slab",
       "item.new_borders_mod.samba_de_verao.desc": "Marcos Valle - Samba De Verao",
       "item.new_borders_mod.cobalt_shard": "Cobalt Shard",
       "block.new_borders_mod.cobalt_60_blocks": "Cobalt 60 Block",
@@ -2890,6 +3048,7 @@
       "item.new_borders_mod.samba_de_verao": "Samba De Verao",
       "item.new_borders_mod.estrelar.desc": "Marcos Valle - Estrelar ",
       "biome.new_borders_mod.candy_forest": "Candy Forest",
+      "block.new_borders_mod.purple_berry_plant_berry": "Purple Berry Plant (Berry)",
       "item.new_borders_mod.dia_d": "Dia D",
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
@@ -2928,7 +3087,6 @@
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
       "biome.new_borders_mod.ridge": "Ridge",
       "block.new_borders_mod.white_lamp": "Lamp",
-      "block.new_borders_mod.cherry_blossoms": "Cherry Blossoms",
       "advancements.daft_punk.title": "Daft Punk",
       "block.new_borders_mod.glowshroom": "Glowshroom",
       "item.new_borders_mod.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg",
@@ -2939,17 +3097,13 @@
       "block.new_borders_mod.candy_log": "Candy Log",
       "item.new_borders_mod.cleaner_sentinel_spawn_egg": "Cleaner Sentinel Spawn Egg",
       "subtitles.aah": "Statue Aah",
-      "biome.new_borders_mod.cherry_blossom_forest": "Cherry Blossom Forest",
-      "block.new_borders_mod.cherry_tree_slab": "Cherry Tree Slab",
       "item.new_borders_mod.mosquito_spawn_egg": "Mosquito Spawn Egg",
       "item.new_borders_mod.lollipop_essence": "Lollipop Essence",
       "item.new_borders_mod.sentinel_hard_disc": "Sentinel Hard Disc",
       "block.new_borders_mod.cobalt": "Cobalt",
       "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
       "entity.new_borders_mod.statue": "Statue",
-      "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
-      "block.new_borders_mod.cherry_tree_stairs": "Cherry Tree Stairs",
-      "block.new_borders_mod.cherry_tree_log": "Cherry Tree Log"
+      "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg"
     }
   },
   "workspaceSettings": {

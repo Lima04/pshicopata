@@ -114,6 +114,7 @@ public class StatueEntity extends NewBordersModModElements.ModElement {
 			this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, CaveSpiderEntity.class, true, false));
 			this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, SentinelEntity.CustomEntity.class, true, false));
 			this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, DrownedPirateEntity.CustomEntity.class, true, false));
+			this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, MosquitoEntity.CustomEntity.class, true, false));
 			this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10) {
 				@Override
 				public boolean shouldContinueExecuting() {

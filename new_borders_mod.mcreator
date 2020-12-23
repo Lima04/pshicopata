@@ -3639,6 +3639,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "asphalt_block_recipe"
+    },
+    {
+      "name": "Pinto",
+      "type": "recipe",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pinto"
     }
   ],
   "variable_elements": [],

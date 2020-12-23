@@ -1,0 +1,16 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:moving_piston"
+    }
+  },
+  "result": {
+    "item": "minecraft:bubble_column",
+    "count": 1
+  }
+}

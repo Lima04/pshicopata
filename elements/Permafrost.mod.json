@@ -64,6 +64,124 @@
       "Structures",
       "Ores"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Penguin"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 8,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Sentinel"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityStray"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityZombie"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCreeper"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySpider"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityEnderman"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityPolarBear"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 5,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:CleanerSentinel"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 1,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityZombieVillager"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 8,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Mamooth"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 2,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "ambient"
+      }
+    ]
   }
 }

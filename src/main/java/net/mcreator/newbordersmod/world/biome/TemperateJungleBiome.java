@@ -11,7 +11,6 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.IPlacementConfig;
 import net.minecraft.world.gen.placement.FrequencyConfig;
 import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
-import net.minecraft.world.gen.feature.structure.ShipwreckConfig;
 import net.minecraft.world.gen.feature.SeaGrassConfig;
 import net.minecraft.world.gen.feature.MultipleRandomFeatureConfig;
 import net.minecraft.world.gen.feature.IFeatureConfig;
@@ -46,7 +45,7 @@ public class TemperateJungleBiome extends NewBordersModModElements.ModElement {
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(1f).depth(0.1f).scale(0.2f).temperature(0.5f).precipitation(Biome.RainType.RAIN)
-					.category(Biome.Category.JUNGLE).waterColor(4159204).waterFogColor(329011)
+					.category(Biome.Category.FOREST).waterColor(4159204).waterFogColor(329011)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 							Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
 			setRegistryName("temperate_jungle");
@@ -55,7 +54,6 @@ public class TemperateJungleBiome extends NewBordersModModElements.ModElement {
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addOres(this);
 			this.addStructure(Feature.JUNGLE_TEMPLE.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
-			this.addStructure(Feature.SHIPWRECK.withConfiguration(new ShipwreckConfig(false)));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.FLOWER.withConfiguration(DefaultBiomeFeatures.DEFAULT_FLOWER_CONFIG)
 					.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(4))));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_PATCH.withConfiguration(DefaultBiomeFeatures.GRASS_CONFIG)

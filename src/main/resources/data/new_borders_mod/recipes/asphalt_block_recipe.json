@@ -1,0 +1,33 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:lead_ingot"
+    },
+    "1": {
+      "tag": "minecraft:sand"
+    },
+    "3": {
+      "item": "minecraft:water_bucket"
+    },
+    "4": {
+      "item": "minecraft:black_concrete_powder"
+    },
+    "5": {
+      "item": "minecraft:water_bucket"
+    },
+    "7": {
+      "tag": "minecraft:sand"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:asphalt_block",
+    "count": 6
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "new_borders_mod:blocks/babacu_planks",
+    "top": "new_borders_mod:blocks/babacu_planks",
+    "side": "new_borders_mod:blocks/babacu_planks"
+  }
+}

@@ -49,7 +49,7 @@ public class IpairBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(0.1f, 10f).lightValue(0).notSolid());
+			super(Block.Properties.create(Material.AIR).sound(SoundType.GLASS).hardnessAndResistance(0.1f, 10f).lightValue(0).notSolid());
 			setRegistryName("ipe_air");
 		}
 

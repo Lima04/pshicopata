@@ -1,0 +1,8 @@
+{
+  "parent": "new_borders_mod:custom/babacuphase3",
+  "textures": {
+    "all": "new_borders_mod:blocks/babacustem",
+    "particle": "new_borders_mod:blocks/babacustem",
+    "0": "new_borders_mod:blocks/babacustem"
+  }
+}

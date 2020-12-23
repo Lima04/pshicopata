@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "new_borders_mod:blocks/babacu_log_top",
+    "up": "new_borders_mod:blocks/babacu_log_top",
+    "north": "new_borders_mod:blocks/babacu_log",
+    "east": "new_borders_mod:blocks/babacu_log",
+    "south": "new_borders_mod:blocks/babacu_log",
+    "west": "new_borders_mod:blocks/babacu_log",
+    "particle": "new_borders_mod:blocks/babacu_log_top"
+  }
+}

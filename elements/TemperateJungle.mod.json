@@ -42,7 +42,7 @@
     "spawnBiome": true,
     "biomeWeight": 4,
     "biomeType": "WARM",
-    "biomeCategory": "JUNGLE",
+    "biomeCategory": "FOREST",
     "parent": {
       "value": "No parent"
     },
@@ -55,7 +55,7 @@
     "spawnDesertPyramid": false,
     "spawnIgloo": false,
     "spawnOceanMonument": false,
-    "spawnShipwreck": true,
+    "spawnShipwreck": false,
     "oceanRuinType": "NONE",
     "biomeDictionaryTypes": [],
     "defaultFeatures": [

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "new_borders_mod:block/babacu_leaves_begining"
+    },
+    "facing=north": {
+      "model": "new_borders_mod:block/babacu_leaves_begining"
+    },
+    "facing=east": {
+      "model": "new_borders_mod:block/babacu_leaves_begining",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "new_borders_mod:block/babacu_leaves_begining",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "new_borders_mod:block/babacu_leaves_begining",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "new_borders_mod:block/babacu_leaves_begining",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

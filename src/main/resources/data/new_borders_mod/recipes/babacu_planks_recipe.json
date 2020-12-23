@@ -1,0 +1,13 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "new_borders_mod:babacu_log"
+    }
+  ],
+  "result": {
+    "item": "new_borders_mod:babacu_planks",
+    "count": 4
+  }
+}

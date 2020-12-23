@@ -2801,6 +2801,826 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "purple_berry_seeds"
+    },
+    {
+      "name": "Penguin",
+      "type": "mob",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penguin"
+    },
+    {
+      "name": "Mamooth",
+      "type": "mob",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mammooth"
+    },
+    {
+      "name": "TropicalSavannaHIlls",
+      "type": "biome",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tropical_savanna_hills"
+    },
+    {
+      "name": "BabacuLog",
+      "type": "block",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_log"
+    },
+    {
+      "name": "BabacuLeaves",
+      "type": "block",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_leaves_begining"
+    },
+    {
+      "name": "BabacuLeavess",
+      "type": "block",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_leavess"
+    },
+    {
+      "name": "BabacuPhase1",
+      "type": "block",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_phase_1"
+    },
+    {
+      "name": "BabacuPhase2",
+      "type": "block",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_phase_2"
+    },
+    {
+      "name": "BabacuPhase3",
+      "type": "block",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_phase_3"
+    },
+    {
+      "name": "BabacuPhase4",
+      "type": "block",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_phase_4"
+    },
+    {
+      "name": "BabacuPhase1UpdateTick",
+      "type": "procedure",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_phase_1_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabacuPhase2UpdateTick",
+      "type": "procedure",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_phase_2_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabacuPhase3UpdateTick",
+      "type": "procedure",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_phase_3_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabacuPhase4OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_phase_4_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabacuPhase5",
+      "type": "block",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_phase_5"
+    },
+    {
+      "name": "BabacuPhase4UpdateTick",
+      "type": "procedure",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_phase_4_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabacuCutting",
+      "type": "recipe",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_cutting"
+    },
+    {
+      "name": "BabacuPulp",
+      "type": "food",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_pulp"
+    },
+    {
+      "name": "BabacuSapling",
+      "type": "block",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_sapling"
+    },
+    {
+      "name": "BabacuType1",
+      "type": "structure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_type_1"
+    },
+    {
+      "name": "BabacuType1Fruit",
+      "type": "structure",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_type_1_fruit"
+    },
+    {
+      "name": "BabacuAir1",
+      "type": "block",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_air_1"
+    },
+    {
+      "name": "BabacuAir1Fruit",
+      "type": "block",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_air_1_fruit"
+    },
+    {
+      "name": "BabacuType1Air",
+      "type": "structure",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_type_1_air"
+    },
+    {
+      "name": "CocaisJungle",
+      "type": "biome",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cocais_jungle"
+    },
+    {
+      "name": "CocaisJungleHills",
+      "type": "biome",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cocais_jungle_hills"
+    },
+    {
+      "name": "BabacuAir1Generate",
+      "type": "procedure",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_air_1_generate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabacuType1AirFruit",
+      "type": "structure",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_type_1_air_fruit"
+    },
+    {
+      "name": "BabacuAir2Generte",
+      "type": "procedure",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_air_2_generte",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabacuType2",
+      "type": "structure",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_type_2"
+    },
+    {
+      "name": "BabacuAir2",
+      "type": "block",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_air_2"
+    },
+    {
+      "name": "BabacuAir2Generate",
+      "type": "procedure",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_air_2_generate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabacuType2Air",
+      "type": "structure",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_type_2_air"
+    },
+    {
+      "name": "BabacuType2Fruit",
+      "type": "structure",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_type_2_fruit"
+    },
+    {
+      "name": "BabacuAir2Fruit",
+      "type": "block",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_air_2_fruit"
+    },
+    {
+      "name": "BabacuType2AirFruit",
+      "type": "structure",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_type_2_air_fruit"
+    },
+    {
+      "name": "BabacuAir2FruitGenerate",
+      "type": "procedure",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_air_2_fruit_generate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Babacu3Air",
+      "type": "block",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_3_air"
+    },
+    {
+      "name": "Babacu3AirFruit",
+      "type": "block",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_3_air_fruit"
+    },
+    {
+      "name": "BabacuType3",
+      "type": "structure",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_type_3"
+    },
+    {
+      "name": "BabacuType3Fruit",
+      "type": "structure",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_type_3_fruit"
+    },
+    {
+      "name": "BabacuType3Air",
+      "type": "structure",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_type_3_air"
+    },
+    {
+      "name": "BabacuAir3Generator",
+      "type": "procedure",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_air_3_generator",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabacuType3AirFruit",
+      "type": "structure",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_type_3_air_fruit"
+    },
+    {
+      "name": "BabacuAir3GeneratorFruit",
+      "type": "procedure",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_air_3_generator_fruit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabacuStairRecipe",
+      "type": "recipe",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_stair_recipe"
+    },
+    {
+      "name": "BabacuPlanks",
+      "type": "block",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_planks"
+    },
+    {
+      "name": "BabacuStairs",
+      "type": "block",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_stairs"
+    },
+    {
+      "name": "BabacuSlab",
+      "type": "block",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_slab"
+    },
+    {
+      "name": "BabacuSword",
+      "type": "recipe",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_sword"
+    },
+    {
+      "name": "BabacuPickaxe",
+      "type": "recipe",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_pickaxe"
+    },
+    {
+      "name": "BabacuAxe",
+      "type": "recipe",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_axe"
+    },
+    {
+      "name": "BabacuCraftingTable",
+      "type": "recipe",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_crafting_table"
+    },
+    {
+      "name": "BabacuAxe2",
+      "type": "recipe",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_axe_2"
+    },
+    {
+      "name": "BabacuSlabs",
+      "type": "recipe",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_slabs"
+    },
+    {
+      "name": "BabacuSticks",
+      "type": "recipe",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_sticks"
+    },
+    {
+      "name": "BabacuPlanksRecipe",
+      "type": "recipe",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_planks_recipe"
+    },
+    {
+      "name": "BabacuHoe",
+      "type": "recipe",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_hoe"
+    },
+    {
+      "name": "BabacuHoe2",
+      "type": "recipe",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_hoe_2"
+    },
+    {
+      "name": "BabacuShovel",
+      "type": "recipe",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_shovel"
+    },
+    {
+      "name": "BabacuRanged",
+      "type": "gun",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_ranged"
+    },
+    {
+      "name": "BabacuSeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabacuSeeds",
+      "type": "item",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_seeds"
+    },
+    {
+      "name": "BrownRiver",
+      "type": "biome",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brown_river"
     }
   ],
   "variable_elements": [],
@@ -2987,6 +3807,7 @@
       "biome.new_borders_mod.tropical_savanna": "Tropical Savanna",
       "biome.new_borders_mod.mount": "Mount",
       "block.new_borders_mod.lead_ore": "Lead Ore",
+      "block.new_borders_mod.babacu_sapling": "Babacu Sapling",
       "block.new_borders_mod.ipe_leaves": "Ipe Leaves",
       "item.new_borders_mod.tapetes_guardanapos_cetins": "Tapetes Guardanapos Cetins",
       "block.new_borders_mod.cobalt_bomb": "Cobalt Bomb",
@@ -2998,12 +3819,17 @@
       "block.new_borders_mod.tall_ipe_air": "Tall Ipe Air",
       "advancements.music.descr": "And the beat goes on........",
       "block.new_borders_mod.cesium_reactor": "Cesium Reactor",
+      "biome.new_borders_mod.cocais_jungle": "Cocais Jungle",
       "block.new_borders_mod.cobalt_59_block": "Cobalt 59 Block",
       "block.new_borders_mod.stripped_redwood_log": "Stripped Redwood Log",
       "item.new_borders_mod.mais_que_amor": "Mais Que Amor",
+      "item.new_borders_mod.purple_berry": "Purple Berry",
       "block.new_borders_mod.ipe_log": "Ipe Log",
       "biome.new_borders_mod.steppe": "Steppe",
+      "item.new_borders_mod.babacu_pulp": "Babacu Pulp",
       "block.new_borders_mod.glass_door": "Glass Door",
+      "block.new_borders_mod.snow_bricks": "Snow Bricks",
+      "block.new_borders_mod.snow_brick_stairs": "Snow Brick Stairs",
       "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
       "subtitles.sentinel1": "Sentinel Chipset",
       "block.new_borders_mod.big_candy_air": "Big Candy Air",
@@ -3015,7 +3841,11 @@
       "block.new_borders_mod.candy_ore": "Candy Ore",
       "advancements.daft_punk.descr": "Look at this old casio keyboard from the 1980s i have found",
       "entity.new_borders_mod.mosquito": "Mosquito",
+      "biome.new_borders_mod.brown_river": "Brown River",
       "block.new_borders_mod.redwood_air_2": "Redwood Air 2",
+      "entity.new_borders_mod.mammooth": "Mammooth",
+      "item.new_borders_mod.penguin_spawn_egg": "Penguin Spawn Egg",
+      "block.new_borders_mod.babacu_slab": "Babacu Slab",
       "entity.new_borders_mod.cleaner_sentinel": "Cleaner Sentinel",
       "advancements.music.title": "Music!",
       "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
@@ -3024,21 +3854,34 @@
       "item.new_borders_mod.licorice": "Licorice",
       "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
       "biome.new_borders_mod.permafrost": "Permafrost",
+      "biome.new_borders_mod.tropical_savanna_hills": "Tropical Savanna Hills",
       "entity.new_borders_mod.seagull_stay": "Seagull",
       "subtitles.mosquito": "Mosquito Buzzing",
       "subtitles.seagull_hurt": "Seagull Hurt",
+      "block.new_borders_mod.babacu_leavess": "Babacu Leaves",
       "block.new_borders_mod.lollipop_ore": "Lollipop Ore",
       "biome.new_borders_mod.glowshroom_jungle": "Glowshroom Forest",
       "block.new_borders_mod.cobalt_lamp": "Cobalt Lamp",
       "item.new_borders_mod.timberman": "Lamberjack Spawn Egg",
+      "block.new_borders_mod.babacu_log": "Babacu Log",
       "item.new_borders_mod.para_os_filhos_de_abraao.desc": "Marcos Valle - Para Os Filhos De Abraao",
       "item.new_borders_mod.candy": "Candy",
+      "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
+      "block.new_borders_mod.babacu_phase_4": "Babacu Phase 3",
       "item.new_borders_mod.tapetes_guardanapos_cetins.desc": "Marcos Valle - Tapetes Guardanapos Cetins",
+      "block.new_borders_mod.babacu_phase_3": "Babacu Phase 3",
+      "block.new_borders_mod.babacu_phase_5": "Babacu Phase 5",
       "block.new_borders_mod.casio_keyboard_from_the_80s": "Casio Keyboard From The 80s",
       "biome.new_borders_mod.temperate_jungle": "Temperate Jungle",
+      "block.new_borders_mod.babacu_phase_2": "Babacu Phase 2",
+      "block.new_borders_mod.babacu_phase_1": "Babacu Phase 1",
+      "block.new_borders_mod.cherry_tree_planks": "Cherry Tree Planks",
       "block.new_borders_mod.pinon_block_gravity": "Pinon Block(Gravity)",
+      "block.new_borders_mod.snow_brick_slab": "Snow Brick Slab",
+      "block.new_borders_mod.babacu_leaves_begining": "Babacu Leaves Beginning",
       "item.new_borders_mod.samba_de_verao.desc": "Marcos Valle - Samba De Verao",
       "item.new_borders_mod.cobalt_shard": "Cobalt Shard",
+      "block.new_borders_mod.babacu_planks": "Babacu Planks",
       "block.new_borders_mod.cobalt_60_blocks": "Cobalt 60 Block",
       "item.new_borders_mod.lead_ingot": "Lead Ingot",
       "entity.new_borders_mod.seagull_flying": "Seagull",
@@ -3065,6 +3908,7 @@
       "block.new_borders_mod.redwood_slab": "Redwood Slab",
       "item.new_borders_mod.cobalt_armor_boots": "Cobalt Armor Boots",
       "item.new_borders_mod.tapa_no_real": "Tapa No Real",
+      "biome.new_borders_mod.rocky_desert": "Rocky Desert",
       "block.new_borders_mod.redwood_log": "Redwood Log",
       "fluid.waste_water": "WasteWater",
       "block.new_borders_mod.lead_block": "Lead Block",
@@ -3073,37 +3917,55 @@
       "item.new_borders_mod.para_os_filhos_de_abraao": "Para Os Filhos De Abraao",
       "block.new_borders_mod.dried_bush": "Dried Bush",
       "subtitles.keyboard1": "Casio Keyboard Preset 1",
+      "entity.new_borders_mod.penguin": "Penguin",
+      "item.new_borders_mod.mammooth_spawn_egg": "Mammooth Spawn Egg",
       "item.new_borders_mod.viola_enluarada.desc": "Marcos Valle - Viola Enluarada",
       "item.new_borders_mod.cobalt_armor_leggings": "Cobalt Armor Leggings",
       "block.new_borders_mod.redwood_leaves": "Redwood Leaves",
       "block.new_borders_mod.pinon": "Pinon Fruit",
       "item.new_borders_mod.cesium_137": "Cesium 137",
+      "block.new_borders_mod.babacu_air_1": "Babacu Air 1",
+      "block.new_borders_mod.babacu_air_2": "Babacu Air 1",
       "item.new_borders_mod.timberman_spawn_egg": "Lamberjack Spawn Egg",
       "item.new_borders_mod.fogo_do_sol": "Fogo Do Sol",
       "subtitles.keyboard2": "Eletric Piano Note",
+      "block.new_borders_mod.purple_berry_plant": "Purple Berry Plant",
       "block.new_borders_mod.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",
       "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Armor Body",
       "item.new_borders_mod.nuclear_waste": "Nuclear Waste",
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
+      "biome.new_borders_mod.cocais_jungle_hills": "Cocais Jungle Hills",
       "biome.new_borders_mod.ridge": "Ridge",
+      "block.new_borders_mod.babacu_3_air": "Babacu Air 1",
       "block.new_borders_mod.white_lamp": "Lamp",
+      "block.new_borders_mod.cherry_blossoms": "Cherry Blossoms",
       "advancements.daft_punk.title": "Daft Punk",
+      "item.new_borders_mod.babacu_ranged": "Babacu",
+      "block.new_borders_mod.babacu_air_2_fruit": "Babacu Air 1",
       "block.new_borders_mod.glowshroom": "Glowshroom",
       "item.new_borders_mod.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg",
       "item.new_borders_mod.cobalt_59": "Cobalt 59",
+      "block.new_borders_mod.babacu_stairs": "Babacu Stairs",
+      "item.new_borders_mod.babacu_seeds": "Babacu Seeds",
       "item.new_borders_mod.unandium": "Unandium",
       "item.new_borders_mod.pinon_nut": "Pinon",
       "item.new_borders_mod.cobalt_60": "Cobalt 60",
       "block.new_borders_mod.candy_log": "Candy Log",
       "item.new_borders_mod.cleaner_sentinel_spawn_egg": "Cleaner Sentinel Spawn Egg",
+      "block.new_borders_mod.babacu_3_air_fruit": "Babacu Air 1",
+      "block.new_borders_mod.babacu_air_1_fruit": "Babacu Air 1",
       "subtitles.aah": "Statue Aah",
+      "biome.new_borders_mod.cherry_blossom_forest": "Cherry Blossom Forest",
+      "block.new_borders_mod.cherry_tree_slab": "Cherry Tree Slab",
       "item.new_borders_mod.mosquito_spawn_egg": "Mosquito Spawn Egg",
       "item.new_borders_mod.lollipop_essence": "Lollipop Essence",
       "item.new_borders_mod.sentinel_hard_disc": "Sentinel Hard Disc",
       "block.new_borders_mod.cobalt": "Cobalt",
       "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
       "entity.new_borders_mod.statue": "Statue",
-      "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg"
+      "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
+      "block.new_borders_mod.cherry_tree_stairs": "Cherry Tree Stairs",
+      "block.new_borders_mod.cherry_tree_log": "Cherry Tree Log"
     }
   },
   "workspaceSettings": {

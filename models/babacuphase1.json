@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "Texturas/BabacuStem",
+		"particle": "Texturas/BabacuStem"
+	},
+	"elements": [
+		{
+			"name": "Baby",
+			"from": [4, 1, 4],
+			"to": [12, 16, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, -8, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 15], "texture": "#0"},
+				"east": {"uv": [0, 0, 8, 15], "texture": "#0"},
+				"south": {"uv": [0, 0, 8, 15], "texture": "#0"},
+				"west": {"uv": [0, 0, 8, 15], "texture": "#0"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#0"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Phase1",
+			"origin": [8, 8, 8],
+			"children": [0]
+		}
+	]
+}

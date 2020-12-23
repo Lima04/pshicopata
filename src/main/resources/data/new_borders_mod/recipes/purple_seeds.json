@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:purple_berry"
     }
   ],
   "result": {
-    "item": "new_borders_mod:unknown_element",
+    "item": "new_borders_mod:purple_berry_seeds",
     "count": 4
   }
 }

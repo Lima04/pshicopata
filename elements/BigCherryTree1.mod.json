@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "structure",
+  "definition": {
+    "structure": "big_cherry_tree_1",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 190000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.GRASS"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:CherryBlossomForest"
+      }
+    ],
+    "ignoreBlocks": "AIR"
+  }
+}

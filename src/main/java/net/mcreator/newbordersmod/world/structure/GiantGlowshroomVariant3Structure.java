@@ -23,6 +23,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Mirror;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.BlockState;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
@@ -54,6 +56,14 @@ public class GiantGlowshroomVariant3Structure extends NewBordersModModElements.M
 						int k = ck + random.nextInt(16);
 						int j = world.getHeight(Heightmap.Type.WORLD_SURFACE_WG, i, k);
 						j -= 1;
+						BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
+						boolean blockCriteria = false;
+						if (blockAt.getBlock() == Blocks.GRASS_BLOCK.getDefaultState().getBlock())
+							blockCriteria = true;
+						if (blockAt.getBlock() == Blocks.WATER.getDefaultState().getBlock())
+							blockCriteria = true;
+						if (!blockCriteria)
+							continue;
 						Rotation rotation = Rotation.NONE;
 						Mirror mirror = Mirror.NONE;
 						BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);

@@ -39,7 +39,7 @@
       "value": ""
     },
     "dropAmount": 0,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -51,17 +51,17 @@
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "PINK",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
+    "flammability": 60,
+    "fireSpreadSpeed": 30,
     "isLadder": false,
     "slipperiness": 0.6,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "DESTROY",
     "isNotColidable": false,
     "soundOnStep": {
       "value": "PLANT"

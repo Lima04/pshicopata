@@ -2801,6 +2801,122 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "purple_berry_seeds"
+    },
+    {
+      "name": "CherryChestRecipe",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_chest_recipe"
+    },
+    {
+      "name": "WhiteCherryBlossoms",
+      "type": "block",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_blossoms"
+    },
+    {
+      "name": "Cherry",
+      "type": "food",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry"
+    },
+    {
+      "name": "TwinCherriesFoodEaten",
+      "type": "procedure",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twin_cherries_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TwinCherries",
+      "type": "food",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twin_cherries"
+    },
+    {
+      "name": "CherryBlossomDrops",
+      "type": "loottable",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_blossom_drops"
+    },
+    {
+      "name": "WhiteCherryBlossomDrops",
+      "type": "loottable",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_blossom_drops"
+    },
+    {
+      "name": "BigCherryTree1",
+      "type": "structure",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_cherry_tree_1"
+    },
+    {
+      "name": "BigCherryTree2",
+      "type": "structure",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_cherry_tree_2"
+    },
+    {
+      "name": "SmallCherryTree1",
+      "type": "structure",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_cherry_tree_1"
+    },
+    {
+      "name": "SmallCherryTree2",
+      "type": "structure",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_cherry_tree_2"
+    },
+    {
+      "name": "BigCherryTree3",
+      "type": "structure",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_cherry_tree_3"
     }
   ],
   "variable_elements": [],
@@ -2991,6 +3107,7 @@
       "item.new_borders_mod.tapetes_guardanapos_cetins": "Tapetes Guardanapos Cetins",
       "block.new_borders_mod.cobalt_bomb": "Cobalt Bomb",
       "block.new_borders_mod.candy_leaves": "Candy Leaves",
+      "block.new_borders_mod.white_cherry_blossoms": "White Cherry Blossoms",
       "item.new_borders_mod.statue_item": "Statue",
       "block.new_borders_mod.redwood_planks": "Redwood Planks",
       "item.new_borders_mod.compact_cobalt": "Compact Cobalt",
@@ -3001,9 +3118,12 @@
       "block.new_borders_mod.cobalt_59_block": "Cobalt 59 Block",
       "block.new_borders_mod.stripped_redwood_log": "Stripped Redwood Log",
       "item.new_borders_mod.mais_que_amor": "Mais Que Amor",
+      "item.new_borders_mod.purple_berry": "Purple Berry",
       "block.new_borders_mod.ipe_log": "Ipe Log",
       "biome.new_borders_mod.steppe": "Steppe",
       "block.new_borders_mod.glass_door": "Glass Door",
+      "block.new_borders_mod.snow_bricks": "Snow Bricks",
+      "block.new_borders_mod.snow_brick_stairs": "Snow Brick Stairs",
       "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
       "subtitles.sentinel1": "Sentinel Chipset",
       "block.new_borders_mod.big_candy_air": "Big Candy Air",
@@ -3031,12 +3151,16 @@
       "biome.new_borders_mod.glowshroom_jungle": "Glowshroom Forest",
       "block.new_borders_mod.cobalt_lamp": "Cobalt Lamp",
       "item.new_borders_mod.timberman": "Lamberjack Spawn Egg",
+      "item.new_borders_mod.twin_cherries": "Twin Cherries",
       "item.new_borders_mod.para_os_filhos_de_abraao.desc": "Marcos Valle - Para Os Filhos De Abraao",
       "item.new_borders_mod.candy": "Candy",
+      "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
       "item.new_borders_mod.tapetes_guardanapos_cetins.desc": "Marcos Valle - Tapetes Guardanapos Cetins",
       "block.new_borders_mod.casio_keyboard_from_the_80s": "Casio Keyboard From The 80s",
       "biome.new_borders_mod.temperate_jungle": "Temperate Jungle",
+      "block.new_borders_mod.cherry_tree_planks": "Cherry Tree Planks",
       "block.new_borders_mod.pinon_block_gravity": "Pinon Block(Gravity)",
+      "block.new_borders_mod.snow_brick_slab": "Snow Brick Slab",
       "item.new_borders_mod.samba_de_verao.desc": "Marcos Valle - Samba De Verao",
       "item.new_borders_mod.cobalt_shard": "Cobalt Shard",
       "block.new_borders_mod.cobalt_60_blocks": "Cobalt 60 Block",
@@ -3065,6 +3189,7 @@
       "block.new_borders_mod.redwood_slab": "Redwood Slab",
       "item.new_borders_mod.cobalt_armor_boots": "Cobalt Armor Boots",
       "item.new_borders_mod.tapa_no_real": "Tapa No Real",
+      "biome.new_borders_mod.rocky_desert": "Rocky Desert",
       "block.new_borders_mod.redwood_log": "Redwood Log",
       "fluid.waste_water": "WasteWater",
       "block.new_borders_mod.lead_block": "Lead Block",
@@ -3081,14 +3206,17 @@
       "item.new_borders_mod.timberman_spawn_egg": "Lamberjack Spawn Egg",
       "item.new_borders_mod.fogo_do_sol": "Fogo Do Sol",
       "subtitles.keyboard2": "Eletric Piano Note",
+      "block.new_borders_mod.purple_berry_plant": "Purple Berry Plant",
       "block.new_borders_mod.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",
       "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Armor Body",
       "item.new_borders_mod.nuclear_waste": "Nuclear Waste",
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
       "biome.new_borders_mod.ridge": "Ridge",
       "block.new_borders_mod.white_lamp": "Lamp",
+      "block.new_borders_mod.cherry_blossoms": "Cherry Blossoms",
       "advancements.daft_punk.title": "Daft Punk",
       "block.new_borders_mod.glowshroom": "Glowshroom",
+      "item.new_borders_mod.cherry": "Cherry",
       "item.new_borders_mod.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg",
       "item.new_borders_mod.cobalt_59": "Cobalt 59",
       "item.new_borders_mod.unandium": "Unandium",
@@ -3097,13 +3225,17 @@
       "block.new_borders_mod.candy_log": "Candy Log",
       "item.new_borders_mod.cleaner_sentinel_spawn_egg": "Cleaner Sentinel Spawn Egg",
       "subtitles.aah": "Statue Aah",
+      "biome.new_borders_mod.cherry_blossom_forest": "Cherry Blossom Forest",
+      "block.new_borders_mod.cherry_tree_slab": "Cherry Tree Slab",
       "item.new_borders_mod.mosquito_spawn_egg": "Mosquito Spawn Egg",
       "item.new_borders_mod.lollipop_essence": "Lollipop Essence",
       "item.new_borders_mod.sentinel_hard_disc": "Sentinel Hard Disc",
       "block.new_borders_mod.cobalt": "Cobalt",
       "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
       "entity.new_borders_mod.statue": "Statue",
-      "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg"
+      "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
+      "block.new_borders_mod.cherry_tree_stairs": "Cherry Tree Stairs",
+      "block.new_borders_mod.cherry_tree_log": "Cherry Tree Log"
     }
   },
   "workspaceSettings": {

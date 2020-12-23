@@ -15,7 +15,14 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBlocks": [],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.WATER"
+      }
+    ],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:GlowshroomJungle"

@@ -25,7 +25,7 @@
     "treeFruits": {
       "value": ""
     },
-    "treesPerChunk": 3,
+    "treesPerChunk": 0,
     "grassPerChunk": 4,
     "seagrassPerChunk": 20,
     "flowersPerChunk": 4,
@@ -37,10 +37,10 @@
     "cactiPerChunk": 0,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
-    "baseHeight": 0.30000000000000004,
+    "baseHeight": 0.4,
     "heightVariation": 0.1,
     "spawnBiome": true,
-    "biomeWeight": 4,
+    "biomeWeight": 5,
     "biomeType": "WARM",
     "biomeCategory": "FOREST",
     "parent": {
@@ -52,7 +52,7 @@
     "villageType": "taiga",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
-    "spawnDesertPyramid": true,
+    "spawnDesertPyramid": false,
     "spawnIgloo": false,
     "spawnOceanMonument": false,
     "spawnShipwreck": false,

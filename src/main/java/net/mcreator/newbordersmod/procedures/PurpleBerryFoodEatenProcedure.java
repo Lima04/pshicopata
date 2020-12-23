@@ -24,7 +24,7 @@ public class PurpleBerryFoodEatenProcedure extends NewBordersModModElements.ModE
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((Math.random() < 0.41)) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 600, (int) 1, (false), (true)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 100, (int) 1, (false), (true)));
 		}
 	}
 }

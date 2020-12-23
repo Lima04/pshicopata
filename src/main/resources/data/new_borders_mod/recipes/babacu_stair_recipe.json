@@ -8,26 +8,26 @@
   ],
   "key": {
     "0": {
-      "item": "new_borders_mod:babacu_planks"
+      "item": "new_borders_mod:unknown_element"
     },
     "3": {
-      "item": "new_borders_mod:babacu_planks"
+      "item": "new_borders_mod:unknown_element"
     },
     "4": {
-      "item": "new_borders_mod:babacu_planks"
+      "item": "new_borders_mod:unknown_element"
     },
     "6": {
-      "item": "new_borders_mod:babacu_planks"
+      "item": "new_borders_mod:unknown_element"
     },
     "7": {
-      "item": "new_borders_mod:babacu_planks"
+      "item": "new_borders_mod:unknown_element"
     },
     "8": {
-      "item": "new_borders_mod:babacu_planks"
+      "item": "new_borders_mod:unknown_element"
     }
   },
   "result": {
-    "item": "new_borders_mod:babacu_stairs",
+    "item": "new_borders_mod:unknown_element",
     "count": 4
   }
 }

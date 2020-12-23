@@ -7,6 +7,6 @@
     "east": "new_borders_mod:blocks/cherry_tree_log_bark",
     "south": "new_borders_mod:blocks/cherry_tree_log_bark",
     "west": "new_borders_mod:blocks/cherry_tree_log_bark",
-    "particle": "new_borders_mod:blocks/cherry_tree_log_stump"
+    "particle": "new_borders_mod:blocks/cherry_tree_log_bark"
   }
 }

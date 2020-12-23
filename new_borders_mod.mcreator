@@ -3648,6 +3648,122 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pinto"
+    },
+    {
+      "name": "SmallCherryTree2",
+      "type": "structure",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_cherry_tree_2"
+    },
+    {
+      "name": "TwinCherries",
+      "type": "food",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twin_cherries"
+    },
+    {
+      "name": "Cherry",
+      "type": "food",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry"
+    },
+    {
+      "name": "TwinCherriesFoodEaten",
+      "type": "procedure",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twin_cherries_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhiteCherryBlossoms",
+      "type": "block",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_blossoms"
+    },
+    {
+      "name": "SmallCherryTree1",
+      "type": "structure",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_cherry_tree_1"
+    },
+    {
+      "name": "CherryChestRecipe",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_chest_recipe"
+    },
+    {
+      "name": "WhiteCherryBlossomDrops",
+      "type": "loottable",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_blossom_drops"
+    },
+    {
+      "name": "CherryBlossomDrops",
+      "type": "loottable",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_blossom_drops"
+    },
+    {
+      "name": "BigCherryTree2",
+      "type": "structure",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_cherry_tree_2"
+    },
+    {
+      "name": "BigCherryTree1",
+      "type": "structure",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_cherry_tree_1"
+    },
+    {
+      "name": "BigCherryTree3",
+      "type": "structure",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_cherry_tree_3"
     }
   ],
   "variable_elements": [],

@@ -3621,6 +3621,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "brown_river"
+    },
+    {
+      "name": "AsphaltBlock",
+      "type": "block",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asphalt_block"
+    },
+    {
+      "name": "AsphaltBlockRecipe",
+      "type": "recipe",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asphalt_block_recipe"
     }
   ],
   "variable_elements": [],
@@ -3819,6 +3837,7 @@
       "block.new_borders_mod.tall_ipe_air": "Tall Ipe Air",
       "advancements.music.descr": "And the beat goes on........",
       "block.new_borders_mod.cesium_reactor": "Cesium Reactor",
+      "block.new_borders_mod.asphalt_block": "Asphalt Block",
       "biome.new_borders_mod.cocais_jungle": "Cocais Jungle",
       "block.new_borders_mod.cobalt_59_block": "Cobalt 59 Block",
       "block.new_borders_mod.stripped_redwood_log": "Stripped Redwood Log",

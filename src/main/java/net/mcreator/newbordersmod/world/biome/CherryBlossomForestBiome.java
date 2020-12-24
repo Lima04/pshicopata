@@ -39,7 +39,7 @@ public class CherryBlossomForestBiome extends NewBordersModModElements.ModElemen
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 5));
+		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 10));
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {

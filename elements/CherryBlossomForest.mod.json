@@ -40,7 +40,7 @@
     "baseHeight": 0.4,
     "heightVariation": 0.1,
     "spawnBiome": true,
-    "biomeWeight": 5,
+    "biomeWeight": 10,
     "biomeType": "WARM",
     "biomeCategory": "FOREST",
     "parent": {

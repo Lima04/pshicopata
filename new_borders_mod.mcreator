@@ -3757,15 +3757,6 @@
       "registry_name": "babacu_slab"
     },
     {
-      "name": "SnowyBlossomForest",
-      "type": "biome",
-      "sortid": 333,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "snowy_blossom_forest"
-    },
-    {
       "name": "BigSnowyCherry1",
       "type": "structure",
       "sortid": 334,
@@ -3784,13 +3775,22 @@
       "registry_name": "big_snowy_cherry_2"
     },
     {
-      "name": "BigSnowyCherry3",
+      "name": "SmallSnowyCherry2",
       "type": "structure",
-      "sortid": 336,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "big_snowy_cherry_3"
+      "registry_name": "small_snowy_cherry_2"
+    },
+    {
+      "name": "SnowyBlossomForest",
+      "type": "biome",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snowy_blossom_forest"
     },
     {
       "name": "SmallSnowyCherry1",
@@ -3802,13 +3802,22 @@
       "registry_name": "small_snowy_cherry_1"
     },
     {
-      "name": "SmallSnowyCherry2",
+      "name": "BigSnowyCherry3",
       "type": "structure",
-      "sortid": 338,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "small_snowy_cherry_2"
+      "registry_name": "big_snowy_cherry_3"
+    },
+    {
+      "name": "Pinto",
+      "type": "recipe",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pinto"
     }
   ],
   "variable_elements": [],
@@ -4088,7 +4097,6 @@
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
       "item.new_borders_mod.waste_water_bucket": "WasteWater Bucket",
       "item.new_borders_mod.prismarine_cutlass": "Prismarine Cutlass",
-      "biome.new_borders_mod.snowy_blossom_forest": "Snowy Blossom Forest",
       "item.new_borders_mod.mais_que_amor.desc": "Marcos Valle - Mais Que Amor",
       "block.new_borders_mod.redwood_stairs": "Redwood Stairs",
       "block.new_borders_mod.redwood_air": "Redwood Air",

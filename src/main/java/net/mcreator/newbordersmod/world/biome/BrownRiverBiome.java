@@ -48,6 +48,9 @@ public class BrownRiverBiome extends NewBordersModModElements.ModElement {
 			DefaultBiomeFeatures.addMonsterRooms(this);
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addOres(this);
+			DefaultBiomeFeatures.addOceanCarvers(this);
+			DefaultBiomeFeatures.addSwampClayDisks(this);
+			DefaultBiomeFeatures.addTallSeagrassLush(this);
 			this.addStructure(Feature.SHIPWRECK.withConfiguration(new ShipwreckConfig(false)));
 			this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.SEAGRASS.withConfiguration(new SeaGrassConfig(27, 0.3D))
 					.withPlacement(Placement.TOP_SOLID_HEIGHTMAP.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));

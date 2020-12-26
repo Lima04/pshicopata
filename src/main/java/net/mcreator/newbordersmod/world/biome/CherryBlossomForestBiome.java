@@ -43,7 +43,7 @@ public class CherryBlossomForestBiome extends NewBordersModModElements.ModElemen
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
-			super(new Biome.Builder().downfall(0.5f).depth(0.4f).scale(0.1f).temperature(0.5f).precipitation(Biome.RainType.RAIN)
+			super(new Biome.Builder().downfall(0.5f).depth(0.4f).scale(0.1f).temperature(0.2f).precipitation(Biome.RainType.RAIN)
 					.category(Biome.Category.FOREST).waterColor(4159204).waterFogColor(329011).parent("taiga")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 							Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));

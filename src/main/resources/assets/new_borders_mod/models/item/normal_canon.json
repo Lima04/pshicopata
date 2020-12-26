@@ -1,0 +1,13 @@
+{
+  "parent": "new_borders_mod:custom/normal_canon_",
+  "textures": {
+    "0": "new_borders_mod:blocks/iron_block",
+    "1": "new_borders_mod:blocks/back",
+    "2": "new_borders_mod:blocks/real_amd",
+    "3": "new_borders_mod:blocks/leather",
+    "4": "new_borders_mod:blocks/street",
+    "5": "new_borders_mod:blocks/frontblock",
+    "missing": "new_borders_mod:blocks/iron_block",
+    "particle": "new_borders_mod:items/normalcanon"
+  }
+}

@@ -62,7 +62,11 @@
       "Caves",
       "MonsterRooms",
       "Structures",
-      "Ores"
+      "Ores",
+      "TaigaRocks",
+      "JungleGrass",
+      "JunglePlants",
+      "HugeMushrooms"
     ],
     "spawnEntries": []
   }

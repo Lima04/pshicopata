@@ -36,11 +36,11 @@ public class CobaltArmorItem extends NewBordersModModElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 750;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 1024;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{20, 50, 60, 20}[slot.getIndex()];
+				return new int[]{200, 500, 600, 200}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {

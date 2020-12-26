@@ -205,5 +205,25 @@
         "stream": false
       }
     ]
+  },
+  "normal_canon": {
+    "category": "neutral",
+    "subtitle": "subtitles.normal_canon",
+    "sounds": [
+      {
+        "name": "new_borders_mod:normal_canon",
+        "stream": false
+      }
+    ]
+  },
+  "heat_canon": {
+    "category": "neutral",
+    "subtitle": "subtitles.heat_canon",
+    "sounds": [
+      {
+        "name": "new_borders_mod:heatcanon",
+        "stream": false
+      }
+    ]
   }
 }

@@ -54,6 +54,9 @@ public class AlpineBorderBiome extends NewBordersModModElements.ModElement {
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addOres(this);
 			DefaultBiomeFeatures.addLakes(this);
+			DefaultBiomeFeatures.addTaigaGrassAndMushrooms(this);
+			DefaultBiomeFeatures.addTaigaRocks(this);
+			DefaultBiomeFeatures.addTaigaLargeFerns(this);
 			this.addStructure(Feature.STRONGHOLD.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
 			this.addStructure(Feature.PILLAGER_OUTPOST.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
 			this.addStructure(Feature.VILLAGE.withConfiguration(new VillageConfig("village/taiga/town_centers", 6)));

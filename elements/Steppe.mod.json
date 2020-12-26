@@ -63,7 +63,8 @@
       "MonsterRooms",
       "Structures",
       "Ores",
-      "Lakes"
+      "Lakes",
+      "PlainsTallGrass"
     ],
     "spawnEntries": []
   }

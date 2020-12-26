@@ -58,7 +58,7 @@ public class BabacuAir3GeneratorFruitProcedure extends NewBordersModModElements.
 						.getBlock())))) {
 			if (!world.getWorld().isRemote) {
 				Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-						.getTemplateDefaulted(new ResourceLocation("new_borders_mod", "babacu3fruit"));
+						.getTemplateDefaulted(new ResourceLocation("new_borders_mod", "babacu3fruita"));
 				if (template != null) {
 					template.addBlocksToWorld(world, new BlockPos((int) (x - 7), (int) ((y - (down)) + 1), (int) (z - 7)),
 							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));

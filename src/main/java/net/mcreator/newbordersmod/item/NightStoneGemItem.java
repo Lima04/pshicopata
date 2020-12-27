@@ -1,24 +1,29 @@
 
 package net.mcreator.newbordersmod.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.newbordersmod.NewBordersModModElements;
+
 @NewBordersModModElements.ModElement.Tag
 public class NightStoneGemItem extends NewBordersModModElements.ModElement {
-
 	@ObjectHolder("new_borders_mod:night_stone_gem")
 	public static final Item block = null;
-
 	public NightStoneGemItem(NewBordersModModElements instance) {
 		super(instance, 356);
-
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("night_stone_gem");
@@ -38,7 +43,5 @@ public class NightStoneGemItem extends NewBordersModModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
-
 	}
-
 }

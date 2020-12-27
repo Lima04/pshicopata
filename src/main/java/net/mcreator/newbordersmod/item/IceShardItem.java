@@ -12,11 +12,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 @NewBordersModModElements.ModElement.Tag
-public class SunstoneGemItem extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:sunstone_gem")
+public class IceShardItem extends NewBordersModModElements.ModElement {
+	@ObjectHolder("new_borders_mod:ice_shard")
 	public static final Item block = null;
-	public SunstoneGemItem(NewBordersModModElements instance) {
-		super(instance, 361);
+	public IceShardItem(NewBordersModModElements instance) {
+		super(instance, 368);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class SunstoneGemItem extends NewBordersModModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("sunstone_gem");
+			setRegistryName("ice_shard");
 		}
 
 		@Override

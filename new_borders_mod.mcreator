@@ -4185,6 +4185,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "WinterfellPillager",
+      "type": "mob",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "winterfell_pillager"
     }
   ],
   "variable_elements": [],
@@ -4505,6 +4514,7 @@
       "advancements.daft_punk.descr": "Look at this old casio keyboard from the 1980s i have found",
       "block.new_borders_mod.eucalyptus_leaves": "Eucalyptus Leaves",
       "entity.new_borders_mod.mosquito": "Mosquito",
+      "entity.new_borders_mod.winterfell_pillager": "Winterfell Pillager",
       "entity.new_borders_mod.mammooth": "Mammooth",
       "block.new_borders_mod.ipe_air": "Ipe Air",
       "biome.new_borders_mod.permafrost": "Permafrost",
@@ -4531,6 +4541,7 @@
       "item.new_borders_mod.normal_canon": "Normal Canon",
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
+      "item.new_borders_mod.winterfell_pillager_spawn_egg": "Winterfell Pillager Spawn Egg",
       "biome.new_borders_mod.snowy_blossom_forest": "Snowy Blossom Forest",
       "block.new_borders_mod.redwood_air": "Redwood Air",
       "item.new_borders_mod.drowned_pirate_spawn_egg": "Drowned Pirate Spawn Egg",

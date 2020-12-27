@@ -90,16 +90,20 @@ public class NewBordersModModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "keyboard1")));
 		sounds.put(new ResourceLocation("new_borders_mod", "keyboard2"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "keyboard2")));
-		sounds.put(new ResourceLocation("new_borders_mod", "freezesay"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "freezesay")));
 		sounds.put(new ResourceLocation("new_borders_mod", "frostbittenambient"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "frostbittenambient")));
-		sounds.put(new ResourceLocation("new_borders_mod", "frostbittensteps"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "frostbittensteps")));
 		sounds.put(new ResourceLocation("new_borders_mod", "frostbittenhurt"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "frostbittenhurt")));
+		sounds.put(new ResourceLocation("new_borders_mod", "frostbittensteps"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "frostbittensteps")));
 		sounds.put(new ResourceLocation("new_borders_mod", "frostbittendeath"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "frostbittendeath")));
+		sounds.put(new ResourceLocation("new_borders_mod", "freezesay"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "freezesay")));
+		sounds.put(new ResourceLocation("new_borders_mod", "normal_canon"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "normal_canon")));
+		sounds.put(new ResourceLocation("new_borders_mod", "heat_canon"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "heat_canon")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("new_borders_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -63,7 +63,7 @@ public class BabacuRangedItem extends NewBordersModModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(100));
+			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(1));
 			setRegistryName("babacu_ranged");
 		}
 
@@ -91,7 +91,7 @@ public class BabacuRangedItem extends NewBordersModModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1.1f, 10, 5);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1.1f, 6.5, 5);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 				}
@@ -176,7 +176,7 @@ public class BabacuRangedItem extends NewBordersModModElements.ModElement {
 		double d3 = target.getPosZ() - entity.getPosZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.1f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(10);
+		entityarrow.setDamage(6.5);
 		entityarrow.setKnockbackStrength(5);
 		entityarrow.setIsCritical(false);
 		entity.world.addEntity(entityarrow);

@@ -63,7 +63,9 @@
       "MonsterRooms",
       "Structures",
       "Ores",
-      "Lakes"
+      "Lakes",
+      "JungleGrass",
+      "JunglePlants"
     ],
     "spawnEntries": []
   }

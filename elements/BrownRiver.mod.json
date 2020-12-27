@@ -70,7 +70,10 @@
       "Caves",
       "MonsterRooms",
       "Structures",
-      "Ores"
+      "Ores",
+      "OceanCaves",
+      "SwampClayDisks",
+      "TallSeagrassLush"
     ],
     "spawnEntries": []
   }

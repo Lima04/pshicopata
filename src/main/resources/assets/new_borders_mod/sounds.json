@@ -206,9 +206,9 @@
       }
     ]
   },
-  "freezesay": {
+  "frostbittenambient": {
     "category": "ambient",
-    "subtitle": "subtitles.freezesay",
+    "subtitle": "subtitles.frostbittenambient",
     "sounds": [
       {
         "name": "new_borders_mod:freezesay1",
@@ -224,20 +224,16 @@
       }
     ]
   },
-  "frostbittenambient": {
-    "category": "ambient",
-    "subtitle": "subtitles.frostbittenambient",
+  "frostbittenhurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.frostbittenhurt",
     "sounds": [
       {
-        "name": "new_borders_mod:freezesay1",
+        "name": "new_borders_mod:freezehurt1",
         "stream": false
       },
       {
-        "name": "new_borders_mod:freezesay2",
-        "stream": false
-      },
-      {
-        "name": "new_borders_mod:freezesay3",
+        "name": "new_borders_mod:freezehurt2",
         "stream": false
       }
     ]
@@ -264,26 +260,50 @@
       }
     ]
   },
-  "frostbittenhurt": {
-    "category": "hostile",
-    "subtitle": "subtitles.frostbittenhurt",
-    "sounds": [
-      {
-        "name": "new_borders_mod:freezehurt1",
-        "stream": false
-      },
-      {
-        "name": "new_borders_mod:freezehurt2",
-        "stream": false
-      }
-    ]
-  },
   "frostbittendeath": {
     "category": "hostile",
     "subtitle": "subtitles.frostbittendeath",
     "sounds": [
       {
         "name": "new_borders_mod:freezedeath",
+        "stream": false
+      }
+    ]
+  },
+  "freezesay": {
+    "category": "ambient",
+    "subtitle": "subtitles.freezesay",
+    "sounds": [
+      {
+        "name": "new_borders_mod:freezesay1",
+        "stream": false
+      },
+      {
+        "name": "new_borders_mod:freezesay2",
+        "stream": false
+      },
+      {
+        "name": "new_borders_mod:freezesay3",
+        "stream": false
+      }
+    ]
+  },
+  "normal_canon": {
+    "category": "neutral",
+    "subtitle": "subtitles.normal_canon",
+    "sounds": [
+      {
+        "name": "new_borders_mod:normal_canon",
+        "stream": false
+      }
+    ]
+  },
+  "heat_canon": {
+    "category": "neutral",
+    "subtitle": "subtitles.heat_canon",
+    "sounds": [
+      {
+        "name": "new_borders_mod:heatcanon",
         "stream": false
       }
     ]

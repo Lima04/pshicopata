@@ -3,8 +3,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " 1 ",
-    "345",
-    " 7 "
+    "345"
   ],
   "key": {
     "1": {
@@ -18,9 +17,6 @@
     },
     "5": {
       "item": "new_borders_mod:lead_ingot"
-    },
-    "7": {
-      "item": "minecraft:lava_bucket"
     }
   },
   "result": {

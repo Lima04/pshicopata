@@ -7,7 +7,7 @@
     "cookingTime": 200,
     "recipeRetstackSize": 6,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": "CUSTOM:LeadIngot"
@@ -19,13 +19,13 @@
         "value": ""
       },
       {
-        "value": "Items.WATER_BUCKET"
+        "value": ""
       },
       {
         "value": "Blocks.CONCRETE_POWDER#15"
       },
       {
-        "value": "Items.WATER_BUCKET"
+        "value": ""
       },
       {
         "value": ""

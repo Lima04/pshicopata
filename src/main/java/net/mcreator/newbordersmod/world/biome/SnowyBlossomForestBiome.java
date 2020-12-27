@@ -43,7 +43,7 @@ public class SnowyBlossomForestBiome extends NewBordersModModElements.ModElement
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
-			super(new Biome.Builder().downfall(0.5f).depth(0.5f).scale(0.1f).temperature(0.1f).precipitation(Biome.RainType.SNOW)
+			super(new Biome.Builder().downfall(0.5f).depth(0.5f).scale(0.1f).temperature(0f).precipitation(Biome.RainType.SNOW)
 					.category(Biome.Category.FOREST).waterColor(4159204).waterFogColor(329011).parent("snowy_taiga")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 							Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));

@@ -1,0 +1,40 @@
+{
+  "_fv": 13,
+  "_type": "gun",
+  "definition": {
+    "renderType": 1,
+    "texture": "normalcanon",
+    "customModelName": "normal_canon_:default",
+    "name": "Heat Canon",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:LeadIngot"
+    },
+    "shootConstantly": false,
+    "usageCount": 1551,
+    "actionSound": {
+      "value": "CUSTOM:normal_canon"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 3.0,
+    "bulletDamage": 7.3999999999999995,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:HeatedLead"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "HeatCanonBulletHitsBlock"
+    }
+  }
+}

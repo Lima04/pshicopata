@@ -2993,15 +2993,6 @@
       "registry_name": "babacu_seeds"
     },
     {
-      "name": "BabacuType1",
-      "type": "structure",
-      "sortid": 286,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_type_1"
-    },
-    {
       "name": "CocaisJungleHills",
       "type": "biome",
       "sortid": 292,
@@ -3054,33 +3045,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "babacu_log"
-    },
-    {
-      "name": "BabacuType2Fruit",
-      "type": "structure",
-      "sortid": 300,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_type_2_fruit"
-    },
-    {
-      "name": "BabacuType2",
-      "type": "structure",
-      "sortid": 297,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_type_2"
-    },
-    {
-      "name": "BabacuType3",
-      "type": "structure",
-      "sortid": 307,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_type_3"
     },
     {
       "name": "Babacu3Air",
@@ -3137,15 +3101,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "babacu_type_1_air"
-    },
-    {
-      "name": "BabacuType3Fruit",
-      "type": "structure",
-      "sortid": 308,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_type_3_fruit"
     },
     {
       "name": "BabacuPhase3",
@@ -3663,15 +3618,6 @@
       }
     },
     {
-      "name": "BabacuType1Fruit",
-      "type": "structure",
-      "sortid": 287,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_type_1_fruit"
-    },
-    {
       "name": "Mamooth",
       "type": "mob",
       "sortid": 267,
@@ -3818,6 +3764,427 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pinto"
+    },
+    {
+      "name": "NormalCanonBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "normal_canon_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightstoneOreEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nightstone_ore_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EucalyptusAir",
+      "type": "block",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eucalyptus_air"
+    },
+    {
+      "name": "SunSword",
+      "type": "tool",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sun_sword"
+    },
+    {
+      "name": "EucalyptusAir2s",
+      "type": "structure",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eucalyptus_air_2s"
+    },
+    {
+      "name": "EucalyptusForest",
+      "type": "biome",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eucalyptus_forest"
+    },
+    {
+      "name": "SunstoneOre",
+      "type": "block",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sunstone_ore"
+    },
+    {
+      "name": "NormalCanonRecipe",
+      "type": "recipe",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "normal_canon_recipe"
+    },
+    {
+      "name": "BabacuSaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_sapling_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeatCanon",
+      "type": "gun",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heat_canon"
+    },
+    {
+      "name": "HeatCanonBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heat_canon_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeatedLead",
+      "type": "item",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heated_lead"
+    },
+    {
+      "name": "NightStoneGem",
+      "type": "item",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "night_stone_gem"
+    },
+    {
+      "name": "NightSwordRecipe",
+      "type": "recipe",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "night_sword_recipe"
+    },
+    {
+      "name": "SunstoneGem",
+      "type": "item",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sunstone_gem"
+    },
+    {
+      "name": "EucalyptusAirGenerator",
+      "type": "procedure",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eucalyptus_air_generator",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightSword",
+      "type": "tool",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "night_sword"
+    },
+    {
+      "name": "EucalyptusAir2",
+      "type": "block",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eucalyptus_air_2"
+    },
+    {
+      "name": "EucalyptusAirGenerator3",
+      "type": "procedure",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eucalyptus_air_generator_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NormalCanon",
+      "type": "gun",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "normal_canon"
+    },
+    {
+      "name": "EucalyptusLeaves",
+      "type": "block",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eucalyptus_leaves"
+    },
+    {
+      "name": "EucalyptusAirGenerator2",
+      "type": "procedure",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eucalyptus_air_generator_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EucalyptusAirs",
+      "type": "structure",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eucalyptus_airs"
+    },
+    {
+      "name": "EucalyptusAir3",
+      "type": "block",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eucalyptus_air_3"
+    },
+    {
+      "name": "EucalyptusAir3s",
+      "type": "structure",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eucalyptus_air_3s"
+    },
+    {
+      "name": "SunSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sun_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightstoneOre",
+      "type": "block",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nightstone_ore"
+    },
+    {
+      "name": "SunstoneOreEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sunstone_ore_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "night_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3986,7 +4353,7 @@
       "subtitle": "Eletric Piano Note"
     },
     {
-      "name": "freezesay",
+      "name": "frostbittenambient",
       "files": [
         "freezesay1",
         "freezesay2",
@@ -3996,14 +4363,13 @@
       "subtitle": "Frostbitten groans"
     },
     {
-      "name": "frostbittenambient",
+      "name": "frostbittenhurt",
       "files": [
-        "freezesay1",
-        "freezesay2",
-        "freezesay3"
+        "freezehurt1",
+        "freezehurt2"
       ],
-      "category": "ambient",
-      "subtitle": "Frostbitten groans"
+      "category": "hostile",
+      "subtitle": "Frostbitten hurts"
     },
     {
       "name": "frostbittensteps",
@@ -4017,21 +4383,38 @@
       "subtitle": "Footsteps"
     },
     {
-      "name": "frostbittenhurt",
-      "files": [
-        "freezehurt1",
-        "freezehurt2"
-      ],
-      "category": "hostile",
-      "subtitle": "Frostbitten hurts"
-    },
-    {
       "name": "frostbittendeath",
       "files": [
         "freezedeath"
       ],
       "category": "hostile",
       "subtitle": "Frostbitten dies"
+    },
+    {
+      "name": "freezesay",
+      "files": [
+        "freezesay1",
+        "freezesay2",
+        "freezesay3"
+      ],
+      "category": "ambient",
+      "subtitle": "Frostbitten groans"
+    },
+    {
+      "name": "normal_canon",
+      "files": [
+        "normal_canon"
+      ],
+      "category": "neutral",
+      "subtitle": "Normal Canon Shoot"
+    },
+    {
+      "name": "heat_canon",
+      "files": [
+        "heatcanon"
+      ],
+      "category": "neutral",
+      "subtitle": "Heat Canon Blasting"
     }
   ],
   "language_map": {

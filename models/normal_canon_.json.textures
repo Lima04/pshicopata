@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "iron_block",
+        "1": "back",
+        "2": "real_amd",
+        "3": "leather",
+        "4": "street",
+        "5": "frontblock",
+        "missing": "iron_block"
+      },
+      "name": "default"
+    }
+  }
+}

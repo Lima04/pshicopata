@@ -53,6 +53,10 @@ public class TemperateJungleBiome extends NewBordersModModElements.ModElement {
 			DefaultBiomeFeatures.addMonsterRooms(this);
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addOres(this);
+			DefaultBiomeFeatures.addTaigaRocks(this);
+			DefaultBiomeFeatures.addJungleGrass(this);
+			DefaultBiomeFeatures.addJunglePlants(this);
+			DefaultBiomeFeatures.addHugeMushrooms(this);
 			this.addStructure(Feature.JUNGLE_TEMPLE.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.FLOWER.withConfiguration(DefaultBiomeFeatures.DEFAULT_FLOWER_CONFIG)
 					.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(4))));

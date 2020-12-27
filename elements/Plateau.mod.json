@@ -63,7 +63,9 @@
       "MonsterRooms",
       "Structures",
       "Ores",
-      "Lakes"
+      "Lakes",
+      "TaigaRocks",
+      "TaigaLargeFerns"
     ],
     "spawnEntries": [
       {

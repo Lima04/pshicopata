@@ -225,5 +225,87 @@
         "stream": false
       }
     ]
+  },
+  "frostbittenambient": {
+    "category": "ambient",
+    "subtitle": "subtitles.frostbittenambient",
+    "sounds": [
+      {
+        "name": "new_borders_mod:freezesay1",
+        "stream": false
+      },
+      {
+        "name": "new_borders_mod:freezesay2",
+        "stream": false
+      },
+      {
+        "name": "new_borders_mod:freezesay3",
+        "stream": false
+      }
+    ]
+  },
+  "frostbittenhurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.frostbittenhurt",
+    "sounds": [
+      {
+        "name": "new_borders_mod:freezehurt1",
+        "stream": false
+      },
+      {
+        "name": "new_borders_mod:freezehurt2",
+        "stream": false
+      }
+    ]
+  },
+  "frostbittensteps": {
+    "category": "hostile",
+    "subtitle": "subtitles.frostbittensteps",
+    "sounds": [
+      {
+        "name": "new_borders_mod:freezestep1",
+        "stream": false
+      },
+      {
+        "name": "new_borders_mod:freezestep2",
+        "stream": false
+      },
+      {
+        "name": "new_borders_mod:freezestep3",
+        "stream": false
+      },
+      {
+        "name": "new_borders_mod:freezestep4",
+        "stream": false
+      }
+    ]
+  },
+  "frostbittendeath": {
+    "category": "hostile",
+    "subtitle": "subtitles.frostbittendeath",
+    "sounds": [
+      {
+        "name": "new_borders_mod:freezedeath",
+        "stream": false
+      }
+    ]
+  },
+  "freezesay": {
+    "category": "ambient",
+    "subtitle": "subtitles.freezesay",
+    "sounds": [
+      {
+        "name": "new_borders_mod:freezesay1",
+        "stream": false
+      },
+      {
+        "name": "new_borders_mod:freezesay2",
+        "stream": false
+      },
+      {
+        "name": "new_borders_mod:freezesay3",
+        "stream": false
+      }
+    ]
   }
 }

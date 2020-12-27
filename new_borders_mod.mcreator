@@ -4194,6 +4194,60 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "winterfell_pillager"
+    },
+    {
+      "name": "FrostbittenDrops",
+      "type": "loottable",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frostbitten_drops"
+    },
+    {
+      "name": "Icewithshards",
+      "type": "recipe",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "icewithshards"
+    },
+    {
+      "name": "BlueIceShardDrop",
+      "type": "loottable",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ice_shard_drop"
+    },
+    {
+      "name": "Frostbitten",
+      "type": "mob",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frostbitten"
+    },
+    {
+      "name": "IceShard",
+      "type": "item",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_shard"
+    },
+    {
+      "name": "PackedIceShardDrop",
+      "type": "loottable",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "packed_ice_shard_drop"
     }
   ],
   "variable_elements": [],
@@ -4376,6 +4430,54 @@
       ],
       "category": "neutral",
       "subtitle": "Heat Canon Blasting"
+    },
+    {
+      "name": "frostbittenambient",
+      "files": [
+        "freezesay1",
+        "freezesay2",
+        "freezesay3"
+      ],
+      "category": "ambient",
+      "subtitle": "Frostbitten groans"
+    },
+    {
+      "name": "frostbittenhurt",
+      "files": [
+        "freezehurt1",
+        "freezehurt2"
+      ],
+      "category": "hostile",
+      "subtitle": "Frostbitten hurts"
+    },
+    {
+      "name": "frostbittensteps",
+      "files": [
+        "freezestep1",
+        "freezestep2",
+        "freezestep3",
+        "freezestep4"
+      ],
+      "category": "hostile",
+      "subtitle": "Footsteps"
+    },
+    {
+      "name": "frostbittendeath",
+      "files": [
+        "freezedeath"
+      ],
+      "category": "hostile",
+      "subtitle": "Frostbitten dies"
+    },
+    {
+      "name": "freezesay",
+      "files": [
+        "freezesay1",
+        "freezesay2",
+        "freezesay3"
+      ],
+      "category": "ambient",
+      "subtitle": "Frostbitten groans"
     }
   ],
   "language_map": {
@@ -4383,8 +4485,8 @@
       "item.new_borders_mod.cooked_pinon": "Cooked Pinon",
       "subtitles.pifer": "Poopifers",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
-      "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
       "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
+      "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
       "entity.new_borders_mod.sentinel": "Sentinel",
       "biome.new_borders_mod.tropical_savanna": "Tropical Savanna",
       "biome.new_borders_mod.mount": "Mount",
@@ -4420,18 +4522,18 @@
       "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003": "The Poopifers - The First Shit (Album) (2003)",
       "item.new_borders_mod.licorice": "Licorice",
-      "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
       "biome.new_borders_mod.tropical_savanna_hills": "Tropical Savanna Hills",
+      "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
       "entity.new_borders_mod.seagull_stay": "Seagull",
-      "block.new_borders_mod.babacu_leavess": "Babacu Leaves",
       "block.new_borders_mod.eucalyptus_air_3": "Eucalyptus Air 3",
+      "block.new_borders_mod.babacu_leavess": "Babacu Leaves",
       "block.new_borders_mod.lollipop_ore": "Lollipop Ore",
       "biome.new_borders_mod.glowshroom_jungle": "Glowshroom Forest",
       "item.new_borders_mod.twin_cherries": "Twin Cherries",
       "block.new_borders_mod.eucalyptus_air_2": "Eucalyptus Air 2",
-      "item.new_borders_mod.candy": "Candy",
-      "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
       "block.new_borders_mod.babacu_phase_4": "Babacu Phase 3",
+      "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
+      "item.new_borders_mod.candy": "Candy",
       "block.new_borders_mod.babacu_phase_3": "Babacu Phase 3",
       "block.new_borders_mod.babacu_phase_5": "Babacu Phase 5",
       "block.new_borders_mod.casio_keyboard_from_the_80s": "Casio Keyboard From The 80s",
@@ -4442,14 +4544,15 @@
       "item.new_borders_mod.cobalt_shard": "Cobalt Shard",
       "block.new_borders_mod.babacu_planks": "Babacu Planks",
       "entity.new_borders_mod.seagull_flying": "Seagull",
-      "biome.new_borders_mod.candy_forest": "Candy Forest",
       "item.new_borders_mod.estrelar.desc": "Marcos Valle - Estrelar ",
+      "biome.new_borders_mod.candy_forest": "Candy Forest",
       "item.new_borders_mod.dia_d": "Dia D",
+      "subtitles.frostbittensteps": "Footsteps",
       "item.new_borders_mod.waste_water_bucket": "WasteWater Bucket",
       "item.new_borders_mod.prismarine_cutlass": "Prismarine Cutlass",
       "item.new_borders_mod.mais_que_amor.desc": "Marcos Valle - Mais Que Amor",
-      "block.new_borders_mod.redwood_stairs": "Redwood Stairs",
       "item.new_borders_mod.empty_music_d_isc": "Empty Music Disc",
+      "block.new_borders_mod.redwood_stairs": "Redwood Stairs",
       "item.new_borders_mod.seagull_stay_spawn_egg": "Seagull Spawn Egg",
       "subtitles.seagull_living": "Seagull Chirping",
       "block.new_borders_mod.redwood_slab": "Redwood Slab",
@@ -4457,10 +4560,13 @@
       "item.new_borders_mod.cobalt_armor_boots": "Cobalt Armor Boots",
       "block.new_borders_mod.lead_block": "Lead Block",
       "item.new_borders_mod.naturalmente": "Naturalmente",
+      "entity.new_borders_mod.frostbitten": "Frostbitten",
       "item.new_borders_mod.para_os_filhos_de_abraao": "Para Os Filhos De Abraao",
       "item.new_borders_mod.mammooth_spawn_egg": "Mammooth Spawn Egg",
-      "item.new_borders_mod.cobalt_armor_leggings": "Cobalt Armor Leggings",
+      "item.new_borders_mod.frostbitten_spawn_egg": "Frostbitten Spawn Egg",
       "item.new_borders_mod.viola_enluarada.desc": "Marcos Valle - Viola Enluarada",
+      "item.new_borders_mod.cobalt_armor_leggings": "Cobalt Armor Leggings",
+      "subtitles.frostbittendeath": "Frostbitten dies",
       "block.new_borders_mod.redwood_leaves": "Redwood Leaves",
       "block.new_borders_mod.pinon": "Pinon Fruit",
       "block.new_borders_mod.babacu_air_1": "Babacu Air 1",
@@ -4495,10 +4601,10 @@
       "block.new_borders_mod.cobalt_door": "Cobalt Door",
       "block.new_borders_mod.rose": "Rose",
       "item.new_borders_mod.night_stone_gem": "Nightstone Gem",
-      "subtitles.heat_canon": "Heat Canon Blasting",
       "block.new_borders_mod.babacu_sapling": "Babacu Sapling",
       "block.new_borders_mod.candy_leaves": "Candy Leaves",
       "block.new_borders_mod.white_cherry_blossoms": "White Cherry Blossoms",
+      "subtitles.frostbittenambient": "Frostbitten groans",
       "block.new_borders_mod.redwood_planks": "Redwood Planks",
       "block.new_borders_mod.redwoodair_3": "Redwoodair 3",
       "advancements.music.descr": "And the beat goes on........",
@@ -4514,7 +4620,6 @@
       "advancements.daft_punk.descr": "Look at this old casio keyboard from the 1980s i have found",
       "block.new_borders_mod.eucalyptus_leaves": "Eucalyptus Leaves",
       "entity.new_borders_mod.mosquito": "Mosquito",
-      "entity.new_borders_mod.winterfell_pillager": "Winterfell Pillager",
       "entity.new_borders_mod.mammooth": "Mammooth",
       "block.new_borders_mod.ipe_air": "Ipe Air",
       "biome.new_borders_mod.permafrost": "Permafrost",
@@ -4541,13 +4646,14 @@
       "item.new_borders_mod.normal_canon": "Normal Canon",
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
-      "item.new_borders_mod.winterfell_pillager_spawn_egg": "Winterfell Pillager Spawn Egg",
       "biome.new_borders_mod.snowy_blossom_forest": "Snowy Blossom Forest",
       "block.new_borders_mod.redwood_air": "Redwood Air",
       "item.new_borders_mod.drowned_pirate_spawn_egg": "Drowned Pirate Spawn Egg",
       "item.new_borders_mod.estrelar": "Estrelar",
       "item.new_borders_mod.sunstone_gem": "Sunstone Gem",
+      "subtitles.freezesay": "Frostbitten groans",
       "item.new_borders_mod.tapa_no_real": "Tapa No Real",
+      "subtitles.frostbittenhurt": "Frostbitten hurts",
       "biome.new_borders_mod.rocky_desert": "Rocky Desert",
       "fluid.waste_water": "WasteWater",
       "block.new_borders_mod.redwood_log": "Redwood Log",
@@ -4555,7 +4661,6 @@
       "block.new_borders_mod.dried_bush": "Dried Bush",
       "subtitles.keyboard1": "Casio Keyboard Preset 1",
       "entity.new_borders_mod.penguin": "Penguin",
-      "subtitles.normal_canon": "Normal Canon Shoot",
       "item.new_borders_mod.cesium_137": "Cesium 137",
       "subtitles.keyboard2": "Eletric Piano Note",
       "block.new_borders_mod.purple_berry_plant": "Purple Berry Plant",

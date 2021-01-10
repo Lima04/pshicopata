@@ -21,7 +21,7 @@ import net.minecraft.block.Blocks;
 
 import net.mcreator.newbordersmod.entity.SentinelEntity;
 import net.mcreator.newbordersmod.entity.PenguinEntity;
-import net.mcreator.newbordersmod.entity.MamoothEntity;
+import net.mcreator.newbordersmod.entity.JungleSkeletonEntity;
 import net.mcreator.newbordersmod.entity.CleanerSentinelEntity;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
@@ -68,8 +68,7 @@ public class PermafrostBiome extends NewBordersModModElements.ModElement {
 			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(CleanerSentinelEntity.entity, 1, 1, 2));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ZOMBIE_VILLAGER, 20, 1, 1));
 			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.COW, 8, 1, 4));
-			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(MamoothEntity.entity, 2, 1, 3));
-			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.PIG, 10, 1, 4));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(JungleSkeletonEntity.entity, 2, 1, 3));
 		}
 	}
 }

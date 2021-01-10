@@ -2,8 +2,6 @@
   "replace": false,
   "values": [
     "new_borders_mod:waste_water",
-    "new_borders_mod:waste_water_flowing",
-    "new_borders_mod:dark_juice",
-    "new_borders_mod:dark_juice_flowing"
+    "new_borders_mod:waste_water_flowing"
   ]
 }

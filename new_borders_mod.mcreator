@@ -4248,6 +4248,50 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "packed_ice_shard_drop"
+    },
+    {
+      "name": "DarkPlains",
+      "type": "biome",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_plains"
+    },
+    {
+      "name": "Limbo",
+      "type": "dimension",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limbo"
+    },
+    {
+      "name": "DarkJuiceMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_juice_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkJuice",
+      "type": "fluid",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_juice"
     }
   ],
   "variable_elements": [],
@@ -4601,6 +4645,7 @@
       "block.new_borders_mod.cobalt_door": "Cobalt Door",
       "block.new_borders_mod.rose": "Rose",
       "item.new_borders_mod.night_stone_gem": "Nightstone Gem",
+      "biome.new_borders_mod.dark_plains": "Dark Plains",
       "block.new_borders_mod.babacu_sapling": "Babacu Sapling",
       "block.new_borders_mod.candy_leaves": "Candy Leaves",
       "block.new_borders_mod.white_cherry_blossoms": "White Cherry Blossoms",
@@ -4613,6 +4658,7 @@
       "item.new_borders_mod.night_sword": "Night Sword",
       "block.new_borders_mod.ipe_log": "Ipe Log",
       "block.new_borders_mod.snow_brick_stairs": "Snow Brick Stairs",
+      "item.new_borders_mod.ice_shard": "Ice Shard",
       "subtitles.sentinel1": "Sentinel Chipset",
       "block.new_borders_mod.big_candy_air": "Big Candy Air",
       "subtitles.sentinel2": "Cleaner Sentinel Chipset",
@@ -4620,6 +4666,7 @@
       "advancements.daft_punk.descr": "Look at this old casio keyboard from the 1980s i have found",
       "block.new_borders_mod.eucalyptus_leaves": "Eucalyptus Leaves",
       "entity.new_borders_mod.mosquito": "Mosquito",
+      "entity.new_borders_mod.winterfell_pillager": "Winterfell Pillager",
       "entity.new_borders_mod.mammooth": "Mammooth",
       "block.new_borders_mod.ipe_air": "Ipe Air",
       "biome.new_borders_mod.permafrost": "Permafrost",
@@ -4635,6 +4682,7 @@
       "item.new_borders_mod.sun_sword": "Sun Sword",
       "block.new_borders_mod.pinon_block_gravity": "Pinon Block(Gravity)",
       "block.new_borders_mod.snow_brick_slab": "Snow Brick Slab",
+      "fluid.dark_juice": "DarkJuice",
       "block.new_borders_mod.babacu_leaves_begining": "Babacu Leaves Beginning",
       "item.new_borders_mod.lead_ingot": "Lead Ingot",
       "block.new_borders_mod.cobalt_60_blocks": "Cobalt 60 Block",
@@ -4646,6 +4694,8 @@
       "item.new_borders_mod.normal_canon": "Normal Canon",
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
+      "item.new_borders_mod.winterfell_pillager_spawn_egg": "Winterfell Pillager Spawn Egg",
+      "item.new_borders_mod.limbo": "Dark_Essence",
       "biome.new_borders_mod.snowy_blossom_forest": "Snowy Blossom Forest",
       "block.new_borders_mod.redwood_air": "Redwood Air",
       "item.new_borders_mod.drowned_pirate_spawn_egg": "Drowned Pirate Spawn Egg",
@@ -4661,6 +4711,7 @@
       "block.new_borders_mod.dried_bush": "Dried Bush",
       "subtitles.keyboard1": "Casio Keyboard Preset 1",
       "entity.new_borders_mod.penguin": "Penguin",
+      "item.new_borders_mod.dark_juice_bucket": "DarkJuice Bucket",
       "item.new_borders_mod.cesium_137": "Cesium 137",
       "subtitles.keyboard2": "Eletric Piano Note",
       "block.new_borders_mod.purple_berry_plant": "Purple Berry Plant",

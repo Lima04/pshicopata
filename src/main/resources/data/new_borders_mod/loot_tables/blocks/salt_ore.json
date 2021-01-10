@@ -48,7 +48,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "new_borders_mod:salt_ore",
+          "name": "new_borders_mod:unknown_element",
           "weight": 1,
           "conditions": [
             {

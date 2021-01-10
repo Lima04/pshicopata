@@ -8,6 +8,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Mirror;
+import net.minecraft.block.Blocks;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
@@ -101,5 +102,6 @@ public class BabacuSaplingUpdateTickProcedure extends NewBordersModModElements.M
 				}
 			}
 		}
+		world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 	}
 }

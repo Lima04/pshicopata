@@ -181,7 +181,7 @@ public class SeagullFlyingEntity extends NewBordersModModElements.ModElement {
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
 			this.goalSelector.addGoal(5, new LeapAtTargetGoal(this, (float) 0.5));
 			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, CodEntity.class, true, false));
-			this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, TimbermanEntity.CustomEntity.class, true, false));
+			this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, JungleSkeletonEntity.CustomEntity.class, true, false));
 			this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, TropicalFishEntity.class, true, false));
 		}
 

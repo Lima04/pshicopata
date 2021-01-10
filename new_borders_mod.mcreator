@@ -328,59 +328,6 @@
       "registry_name": "dried_bush"
     },
     {
-      "name": "Timberman",
-      "type": "mob",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "timberman"
-    },
-    {
-      "name": "TimbermanExchange",
-      "type": "procedure",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "timberman_exchange",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "TimbermanExchangeGUI",
-      "type": "gui",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "timberman_exchange_gui"
-    },
-    {
-      "name": "LamberjackHouse1",
-      "type": "structure",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "lamberjack_house_1"
-    },
-    {
-      "name": "Lamberjackhouse2",
-      "type": "structure",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "lamberjackhouse_2"
-    },
-    {
       "name": "RW1AdditionalGenerationCondition",
       "type": "procedure",
       "sortid": 49,
@@ -3618,15 +3565,6 @@
       }
     },
     {
-      "name": "Mamooth",
-      "type": "mob",
-      "sortid": 267,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mammooth"
-    },
-    {
       "name": "BabacuAir2Generate",
       "type": "procedure",
       "sortid": 299,
@@ -4295,15 +4233,6 @@
       "registry_name": "winterfell_pillager"
     },
     {
-      "name": "BlockOfSalt",
-      "type": "block",
-      "sortid": 379,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "block_of_salt"
-    },
-    {
       "name": "Salt",
       "type": "item",
       "sortid": 380,
@@ -4311,24 +4240,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "salt"
-    },
-    {
-      "name": "PinchOfSalt",
-      "type": "item",
-      "sortid": 381,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pinch_of_salt"
-    },
-    {
-      "name": "BlockOfSaltDrop",
-      "type": "loottable",
-      "sortid": 382,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "block_of_salt_drop"
     },
     {
       "name": "BlockOfSaltRecipe",
@@ -4340,6 +4251,33 @@
       "registry_name": "block_of_salt_recipe"
     },
     {
+      "name": "SaltFlats",
+      "type": "biome",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_flats"
+    },
+    {
+      "name": "SaltOreDrops",
+      "type": "loottable",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_ore_drops"
+    },
+    {
+      "name": "PinchOfSalt",
+      "type": "item",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pinch_of_salt"
+    },
+    {
       "name": "PinchOfSaltRecipe",
       "type": "recipe",
       "sortid": 384,
@@ -4347,6 +4285,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pinch_of_salt_recipe"
+    },
+    {
+      "name": "BlockOfSalt",
+      "type": "block",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_of_salt"
     },
     {
       "name": "SaltRecipe",
@@ -4358,13 +4305,13 @@
       "registry_name": "salt_recipe"
     },
     {
-      "name": "SaltFlats",
-      "type": "biome",
-      "sortid": 387,
+      "name": "BlockOfSaltDrop",
+      "type": "loottable",
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "salt_flats"
+      "registry_name": "block_of_salt_drop"
     },
     {
       "name": "SaltOre",
@@ -4374,15 +4321,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "salt_ore"
-    },
-    {
-      "name": "SaltOreDrops",
-      "type": "loottable",
-      "sortid": 389,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "salt_ore_drops"
     }
   ],
   "variable_elements": [],
@@ -4619,7 +4557,6 @@
     "en_us": {
       "item.new_borders_mod.cooked_pinon": "Cooked Pinon",
       "subtitles.pifer": "Poopifers",
-      "item.new_borders_mod.pinch_of_salt": "Pinch of Salt",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
       "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
@@ -4661,8 +4598,8 @@
       "biome.new_borders_mod.tropical_savanna_hills": "Tropical Savanna Hills",
       "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
       "entity.new_borders_mod.seagull_stay": "Seagull",
-      "block.new_borders_mod.babacu_leavess": "Babacu Leaves",
       "block.new_borders_mod.eucalyptus_air_3": "Eucalyptus Air 3",
+      "block.new_borders_mod.babacu_leavess": "Babacu Leaves",
       "block.new_borders_mod.lollipop_ore": "Lollipop Ore",
       "biome.new_borders_mod.glowshroom_jungle": "Glowshroom Forest",
       "item.new_borders_mod.twin_cherries": "Twin Cherries",
@@ -4699,7 +4636,6 @@
       "item.new_borders_mod.naturalmente": "Naturalmente",
       "entity.new_borders_mod.frostbitten": "Frostbitten",
       "item.new_borders_mod.para_os_filhos_de_abraao": "Para Os Filhos De Abraao",
-      "item.new_borders_mod.mammooth_spawn_egg": "Mammooth Spawn Egg",
       "item.new_borders_mod.frostbitten_spawn_egg": "Frostbitten Spawn Egg",
       "item.new_borders_mod.viola_enluarada.desc": "Marcos Valle - Viola Enluarada",
       "item.new_borders_mod.cobalt_armor_leggings": "Cobalt Armor Leggings",
@@ -4708,7 +4644,6 @@
       "block.new_borders_mod.pinon": "Pinon Fruit",
       "block.new_borders_mod.babacu_air_1": "Babacu Air 1",
       "block.new_borders_mod.babacu_air_2": "Babacu Air 1",
-      "item.new_borders_mod.timberman_spawn_egg": "Lamberjack Spawn Egg",
       "item.new_borders_mod.fogo_do_sol": "Fogo Do Sol",
       "item.new_borders_mod.nuclear_waste": "Nuclear Waste",
       "biome.new_borders_mod.cocais_jungle_hills": "Cocais Jungle Hills",
@@ -4730,7 +4665,6 @@
       "item.new_borders_mod.sentinel_hard_disc": "Sentinel Hard Disc",
       "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
       "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
-      "block.new_borders_mod.salt_ore": "Salt Ore",
       "item.new_borders_mod.lollipop_charge": "Lollipop Charge",
       "item.new_borders_mod.viola_enluarada": "Viola Enluarada",
       "item.new_borders_mod.seagull_flying_spawn_egg": "Seagull Spawn Egg",
@@ -4760,7 +4694,6 @@
       "block.new_borders_mod.eucalyptus_leaves": "Eucalyptus Leaves",
       "entity.new_borders_mod.mosquito": "Mosquito",
       "entity.new_borders_mod.winterfell_pillager": "Winterfell Pillager",
-      "entity.new_borders_mod.mammooth": "Mammooth",
       "block.new_borders_mod.ipe_air": "Ipe Air",
       "biome.new_borders_mod.permafrost": "Permafrost",
       "subtitles.mosquito": "Mosquito Buzzing",
@@ -4786,7 +4719,6 @@
       "item.new_borders_mod.normal_canon": "Normal Canon",
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
       "item.new_borders_mod.eye_of_the_eclipse": "Eye of the Eclipse",
-      "item.new_borders_mod.salt": "Salt",
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
       "item.new_borders_mod.winterfell_pillager_spawn_egg": "Winterfell Pillager Spawn Egg",
       "biome.new_borders_mod.snowy_blossom_forest": "Snowy Blossom Forest",
@@ -4800,7 +4732,6 @@
       "biome.new_borders_mod.rocky_desert": "Rocky Desert",
       "fluid.waste_water": "WasteWater",
       "block.new_borders_mod.redwood_log": "Redwood Log",
-      "entity.new_borders_mod.timberman": "Lamberjack",
       "block.new_borders_mod.dried_bush": "Dried Bush",
       "subtitles.keyboard1": "Casio Keyboard Preset 1",
       "entity.new_borders_mod.penguin": "Penguin",
@@ -4810,7 +4741,6 @@
       "block.new_borders_mod.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",
       "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Armor Body",
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
-      "block.new_borders_mod.block_of_salt": "Block of Salt",
       "advancements.daft_punk.title": "Daft Punk",
       "block.new_borders_mod.sunstone_ore": "Sunstone Ore",
       "item.new_borders_mod.babacu_ranged": "Babacu",
@@ -4826,7 +4756,6 @@
       "block.new_borders_mod.cobalt": "Cobalt",
       "entity.new_borders_mod.statue": "Statue",
       "block.new_borders_mod.cherry_tree_stairs": "Cherry Tree Stairs",
-      "biome.new_borders_mod.salt_flats": "Salt Flats",
       "block.new_borders_mod.cherry_tree_log": "Cherry Tree Log"
     }
   },

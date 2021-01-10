@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "new_borders_mod:ice_shard",
+          "name": "new_borders_mod:salt",
           "weight": 1,
           "conditions": [
             {
@@ -30,8 +30,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 3,
-                "max": 9
+                "min": 4,
+                "max": 4
               }
             }
           ]
@@ -43,7 +43,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:blue_ice",
+          "name": "new_borders_mod:block_of_salt",
           "weight": 1,
           "conditions": [
             {

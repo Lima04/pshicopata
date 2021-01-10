@@ -12,11 +12,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 @NewBordersModModElements.ModElement.Tag
-public class DuskstoneGemItem extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:duskstone_gem")
+public class SaltItem extends NewBordersModModElements.ModElement {
+	@ObjectHolder("new_borders_mod:salt")
 	public static final Item block = null;
-	public DuskstoneGemItem(NewBordersModModElements instance) {
-		super(instance, 374);
+	public SaltItem(NewBordersModModElements instance) {
+		super(instance, 380);
 	}
 
 	@Override
@@ -25,8 +25,8 @@ public class DuskstoneGemItem extends NewBordersModModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.UNCOMMON));
-			setRegistryName("duskstone_gem");
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("salt");
 		}
 
 		@Override

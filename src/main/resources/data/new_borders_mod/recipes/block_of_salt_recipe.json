@@ -1,0 +1,26 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:salt"
+    },
+    "1": {
+      "item": "new_borders_mod:salt"
+    },
+    "2": {
+      "item": "new_borders_mod:salt"
+    },
+    "3": {
+      "item": "new_borders_mod:salt"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:block_of_salt",
+    "count": 1
+  }
+}

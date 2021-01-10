@@ -4293,6 +4293,96 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "winterfell_pillager"
+    },
+    {
+      "name": "BlockOfSalt",
+      "type": "block",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_of_salt"
+    },
+    {
+      "name": "Salt",
+      "type": "item",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt"
+    },
+    {
+      "name": "PinchOfSalt",
+      "type": "item",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pinch_of_salt"
+    },
+    {
+      "name": "BlockOfSaltDrop",
+      "type": "loottable",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_of_salt_drop"
+    },
+    {
+      "name": "BlockOfSaltRecipe",
+      "type": "recipe",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_of_salt_recipe"
+    },
+    {
+      "name": "PinchOfSaltRecipe",
+      "type": "recipe",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pinch_of_salt_recipe"
+    },
+    {
+      "name": "SaltRecipe",
+      "type": "recipe",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_recipe"
+    },
+    {
+      "name": "SaltFlats",
+      "type": "biome",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_flats"
+    },
+    {
+      "name": "SaltOre",
+      "type": "block",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_ore"
+    },
+    {
+      "name": "SaltOreDrops",
+      "type": "loottable",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_ore_drops"
     }
   ],
   "variable_elements": [],
@@ -4529,6 +4619,7 @@
     "en_us": {
       "item.new_borders_mod.cooked_pinon": "Cooked Pinon",
       "subtitles.pifer": "Poopifers",
+      "item.new_borders_mod.pinch_of_salt": "Pinch of Salt",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
       "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
@@ -4603,6 +4694,7 @@
       "block.new_borders_mod.redwood_slab": "Redwood Slab",
       "block.new_borders_mod.eucalyptus_air": "Eucalyptus Air",
       "item.new_borders_mod.cobalt_armor_boots": "Cobalt Armor Boots",
+      "item.new_borders_mod.duskstone_gem": "Duskstone Gem",
       "block.new_borders_mod.lead_block": "Lead Block",
       "item.new_borders_mod.naturalmente": "Naturalmente",
       "entity.new_borders_mod.frostbitten": "Frostbitten",
@@ -4638,6 +4730,7 @@
       "item.new_borders_mod.sentinel_hard_disc": "Sentinel Hard Disc",
       "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
       "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
+      "block.new_borders_mod.salt_ore": "Salt Ore",
       "item.new_borders_mod.lollipop_charge": "Lollipop Charge",
       "item.new_borders_mod.viola_enluarada": "Viola Enluarada",
       "item.new_borders_mod.seagull_flying_spawn_egg": "Seagull Spawn Egg",
@@ -4658,6 +4751,7 @@
       "item.new_borders_mod.night_sword": "Night Sword",
       "block.new_borders_mod.ipe_log": "Ipe Log",
       "block.new_borders_mod.snow_brick_stairs": "Snow Brick Stairs",
+      "item.new_borders_mod.ice_shard": "Ice Shard",
       "subtitles.sentinel1": "Sentinel Chipset",
       "block.new_borders_mod.big_candy_air": "Big Candy Air",
       "subtitles.sentinel2": "Cleaner Sentinel Chipset",
@@ -4665,6 +4759,7 @@
       "advancements.daft_punk.descr": "Look at this old casio keyboard from the 1980s i have found",
       "block.new_borders_mod.eucalyptus_leaves": "Eucalyptus Leaves",
       "entity.new_borders_mod.mosquito": "Mosquito",
+      "entity.new_borders_mod.winterfell_pillager": "Winterfell Pillager",
       "entity.new_borders_mod.mammooth": "Mammooth",
       "block.new_borders_mod.ipe_air": "Ipe Air",
       "biome.new_borders_mod.permafrost": "Permafrost",
@@ -4690,7 +4785,10 @@
       "block.new_borders_mod.purple_berry_plant_berry": "Purple Berry Plant (Berry)",
       "item.new_borders_mod.normal_canon": "Normal Canon",
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
+      "item.new_borders_mod.eye_of_the_eclipse": "Eye of the Eclipse",
+      "item.new_borders_mod.salt": "Salt",
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
+      "item.new_borders_mod.winterfell_pillager_spawn_egg": "Winterfell Pillager Spawn Egg",
       "biome.new_borders_mod.snowy_blossom_forest": "Snowy Blossom Forest",
       "block.new_borders_mod.redwood_air": "Redwood Air",
       "item.new_borders_mod.drowned_pirate_spawn_egg": "Drowned Pirate Spawn Egg",
@@ -4712,6 +4810,7 @@
       "block.new_borders_mod.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",
       "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Armor Body",
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
+      "block.new_borders_mod.block_of_salt": "Block of Salt",
       "advancements.daft_punk.title": "Daft Punk",
       "block.new_borders_mod.sunstone_ore": "Sunstone Ore",
       "item.new_borders_mod.babacu_ranged": "Babacu",
@@ -4727,6 +4826,7 @@
       "block.new_borders_mod.cobalt": "Cobalt",
       "entity.new_borders_mod.statue": "Statue",
       "block.new_borders_mod.cherry_tree_stairs": "Cherry Tree Stairs",
+      "biome.new_borders_mod.salt_flats": "Salt Flats",
       "block.new_borders_mod.cherry_tree_log": "Cherry Tree Log"
     }
   },

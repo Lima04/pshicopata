@@ -4250,6 +4250,23 @@
       "registry_name": "packed_ice_shard_drop"
     },
     {
+      "name": "DarkJuiceMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_juice_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
       "name": "DarkPlains",
       "type": "biome",
       "sortid": 374,
@@ -4268,23 +4285,6 @@
       "registry_name": "limbo"
     },
     {
-      "name": "DarkJuiceMobplayerCollidesBlock",
-      "type": "procedure",
-      "sortid": 375,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dark_juice_mobplayer_collides_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "DarkJuice",
       "type": "fluid",
       "sortid": 375,
@@ -4292,6 +4292,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dark_juice"
+    },
+    {
+      "name": "EyeOfTheEclipse",
+      "type": "item",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eye_of_the_eclipse"
+    },
+    {
+      "name": "EyeOfTheEclipseRecipe",
+      "type": "recipe",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eye_of_the_eclipse_recipe"
+    },
+    {
+      "name": "DuskstoneGem",
+      "type": "item",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duskstone_gem"
+    },
+    {
+      "name": "DuskstoneGemRecipe2",
+      "type": "recipe",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duskstone_gem_recipe_2"
+    },
+    {
+      "name": "DuskstoneGemRecipe1",
+      "type": "recipe",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duskstone_gem_recipe_1"
     }
   ],
   "variable_elements": [],
@@ -4529,8 +4574,8 @@
       "item.new_borders_mod.cooked_pinon": "Cooked Pinon",
       "subtitles.pifer": "Poopifers",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
-      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
+      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "entity.new_borders_mod.sentinel": "Sentinel",
       "biome.new_borders_mod.tropical_savanna": "Tropical Savanna",
       "biome.new_borders_mod.mount": "Mount",
@@ -4566,8 +4611,8 @@
       "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003": "The Poopifers - The First Shit (Album) (2003)",
       "item.new_borders_mod.licorice": "Licorice",
-      "biome.new_borders_mod.tropical_savanna_hills": "Tropical Savanna Hills",
       "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
+      "biome.new_borders_mod.tropical_savanna_hills": "Tropical Savanna Hills",
       "entity.new_borders_mod.seagull_stay": "Seagull",
       "block.new_borders_mod.eucalyptus_air_3": "Eucalyptus Air 3",
       "block.new_borders_mod.babacu_leavess": "Babacu Leaves",
@@ -4575,9 +4620,9 @@
       "biome.new_borders_mod.glowshroom_jungle": "Glowshroom Forest",
       "item.new_borders_mod.twin_cherries": "Twin Cherries",
       "block.new_borders_mod.eucalyptus_air_2": "Eucalyptus Air 2",
-      "block.new_borders_mod.babacu_phase_4": "Babacu Phase 3",
-      "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
       "item.new_borders_mod.candy": "Candy",
+      "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
+      "block.new_borders_mod.babacu_phase_4": "Babacu Phase 3",
       "block.new_borders_mod.babacu_phase_3": "Babacu Phase 3",
       "block.new_borders_mod.babacu_phase_5": "Babacu Phase 5",
       "block.new_borders_mod.casio_keyboard_from_the_80s": "Casio Keyboard From The 80s",
@@ -4588,15 +4633,15 @@
       "item.new_borders_mod.cobalt_shard": "Cobalt Shard",
       "block.new_borders_mod.babacu_planks": "Babacu Planks",
       "entity.new_borders_mod.seagull_flying": "Seagull",
-      "item.new_borders_mod.estrelar.desc": "Marcos Valle - Estrelar ",
       "biome.new_borders_mod.candy_forest": "Candy Forest",
+      "item.new_borders_mod.estrelar.desc": "Marcos Valle - Estrelar ",
       "item.new_borders_mod.dia_d": "Dia D",
       "subtitles.frostbittensteps": "Footsteps",
       "item.new_borders_mod.waste_water_bucket": "WasteWater Bucket",
       "item.new_borders_mod.prismarine_cutlass": "Prismarine Cutlass",
       "item.new_borders_mod.mais_que_amor.desc": "Marcos Valle - Mais Que Amor",
-      "item.new_borders_mod.empty_music_d_isc": "Empty Music Disc",
       "block.new_borders_mod.redwood_stairs": "Redwood Stairs",
+      "item.new_borders_mod.empty_music_d_isc": "Empty Music Disc",
       "item.new_borders_mod.seagull_stay_spawn_egg": "Seagull Spawn Egg",
       "subtitles.seagull_living": "Seagull Chirping",
       "block.new_borders_mod.redwood_slab": "Redwood Slab",
@@ -4645,7 +4690,6 @@
       "block.new_borders_mod.cobalt_door": "Cobalt Door",
       "block.new_borders_mod.rose": "Rose",
       "item.new_borders_mod.night_stone_gem": "Nightstone Gem",
-      "biome.new_borders_mod.dark_plains": "Dark Plains",
       "block.new_borders_mod.babacu_sapling": "Babacu Sapling",
       "block.new_borders_mod.candy_leaves": "Candy Leaves",
       "block.new_borders_mod.white_cherry_blossoms": "White Cherry Blossoms",
@@ -4682,7 +4726,6 @@
       "item.new_borders_mod.sun_sword": "Sun Sword",
       "block.new_borders_mod.pinon_block_gravity": "Pinon Block(Gravity)",
       "block.new_borders_mod.snow_brick_slab": "Snow Brick Slab",
-      "fluid.dark_juice": "DarkJuice",
       "block.new_borders_mod.babacu_leaves_begining": "Babacu Leaves Beginning",
       "item.new_borders_mod.lead_ingot": "Lead Ingot",
       "block.new_borders_mod.cobalt_60_blocks": "Cobalt 60 Block",
@@ -4695,7 +4738,6 @@
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
       "item.new_borders_mod.winterfell_pillager_spawn_egg": "Winterfell Pillager Spawn Egg",
-      "item.new_borders_mod.limbo": "Dark_Essence",
       "biome.new_borders_mod.snowy_blossom_forest": "Snowy Blossom Forest",
       "block.new_borders_mod.redwood_air": "Redwood Air",
       "item.new_borders_mod.drowned_pirate_spawn_egg": "Drowned Pirate Spawn Egg",
@@ -4711,7 +4753,6 @@
       "block.new_borders_mod.dried_bush": "Dried Bush",
       "subtitles.keyboard1": "Casio Keyboard Preset 1",
       "entity.new_borders_mod.penguin": "Penguin",
-      "item.new_borders_mod.dark_juice_bucket": "DarkJuice Bucket",
       "item.new_borders_mod.cesium_137": "Cesium 137",
       "subtitles.keyboard2": "Eletric Piano Note",
       "block.new_borders_mod.purple_berry_plant": "Purple Berry Plant",

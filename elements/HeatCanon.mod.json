@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 1,
     "texture": "normalcanon",
-    "customModelName": "normal_canon_:default",
+    "customModelName": "heat_canon_:default",
     "name": "Heat Canon",
     "specialInfo": [],
     "creativeTab": {
@@ -17,7 +17,7 @@
     "shootConstantly": false,
     "usageCount": 1551,
     "actionSound": {
-      "value": "CUSTOM:normal_canon"
+      "value": "CUSTOM:heat_canon"
     },
     "hasGlow": false,
     "animation": "none",

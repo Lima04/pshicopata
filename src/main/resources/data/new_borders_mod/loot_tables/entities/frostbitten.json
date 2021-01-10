@@ -25,7 +25,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "new_borders_mod:ice_shard",
+          "name": "new_borders_mod:unknown_element",
           "weight": 1,
           "functions": [
             {

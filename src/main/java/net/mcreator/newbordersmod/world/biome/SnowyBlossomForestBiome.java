@@ -39,7 +39,7 @@ public class SnowyBlossomForestBiome extends NewBordersModModElements.ModElement
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.ICY, new BiomeManager.BiomeEntry(biome, 10));
+		BiomeManager.addBiome(BiomeManager.BiomeType.ICY, new BiomeManager.BiomeEntry(biome, 3));
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {

@@ -24,7 +24,6 @@ import net.minecraft.network.IPacket;
 import net.minecraft.entity.passive.fish.TropicalFishEntity;
 import net.minecraft.entity.passive.fish.CodEntity;
 import net.minecraft.entity.monster.MonsterEntity;
-import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
@@ -129,8 +128,7 @@ public class SeagullFlyingEntity extends NewBordersModModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new SwimGoal(this));
-			this.goalSelector.addGoal(2, new Goal() {
+			this.goalSelector.addGoal(1, new Goal() {
 				{
 					this.setMutexFlags(EnumSet.of(Goal.Flag.MOVE));
 				}
@@ -169,8 +167,8 @@ public class SeagullFlyingEntity extends NewBordersModModElements.ModElement {
 					}
 				}
 			});
-			this.targetSelector.addGoal(3, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
-			this.goalSelector.addGoal(4, new RandomWalkingGoal(this, 1, 20) {
+			this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
+			this.goalSelector.addGoal(3, new RandomWalkingGoal(this, 1, 20) {
 				@Override
 				protected Vec3d getPosition() {
 					Random random = CustomEntity.this.getRNG();
@@ -180,11 +178,11 @@ public class SeagullFlyingEntity extends NewBordersModModElements.ModElement {
 					return new Vec3d(dir_x, dir_y, dir_z);
 				}
 			});
-			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(6, new LeapAtTargetGoal(this, (float) 0.5));
-			this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, CodEntity.class, true, false));
-			this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, TimbermanEntity.CustomEntity.class, true, false));
-			this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, TropicalFishEntity.class, true, false));
+			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(5, new LeapAtTargetGoal(this, (float) 0.5));
+			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, CodEntity.class, true, false));
+			this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, TimbermanEntity.CustomEntity.class, true, false));
+			this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, TropicalFishEntity.class, true, false));
 		}
 
 		@Override

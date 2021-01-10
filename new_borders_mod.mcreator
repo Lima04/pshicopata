@@ -4239,6 +4239,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "frostbitten_drops"
+    },
+    {
+      "name": "DuskstoneGem",
+      "type": "item",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duskstone_gem"
+    },
+    {
+      "name": "DuskstoneGemRecipe1",
+      "type": "recipe",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duskstone_gem_recipe_1"
+    },
+    {
+      "name": "DuskstoneGemRecipe2",
+      "type": "recipe",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duskstone_gem_recipe_2"
+    },
+    {
+      "name": "EyeOfTheEclipse",
+      "type": "item",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eye_of_the_eclipse"
+    },
+    {
+      "name": "EyeOfTheEclipseRecipe",
+      "type": "recipe",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eye_of_the_eclipse_recipe"
     }
   ],
   "variable_elements": [],
@@ -4549,6 +4594,7 @@
       "block.new_borders_mod.redwood_slab": "Redwood Slab",
       "block.new_borders_mod.eucalyptus_air": "Eucalyptus Air",
       "item.new_borders_mod.cobalt_armor_boots": "Cobalt Armor Boots",
+      "item.new_borders_mod.duskstone_gem": "Duskstone Gem",
       "block.new_borders_mod.lead_block": "Lead Block",
       "item.new_borders_mod.naturalmente": "Naturalmente",
       "entity.new_borders_mod.frostbitten": "Frostbitten",
@@ -4637,6 +4683,7 @@
       "block.new_borders_mod.purple_berry_plant_berry": "Purple Berry Plant (Berry)",
       "item.new_borders_mod.normal_canon": "Normal Canon",
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
+      "item.new_borders_mod.eye_of_the_eclipse": "Eye of the Eclipse",
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
       "biome.new_borders_mod.snowy_blossom_forest": "Snowy Blossom Forest",
       "block.new_borders_mod.redwood_air": "Redwood Air",

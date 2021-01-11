@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "new_borders_mod:salt"
+    },
+    "title": {
+      "translate": "advancements.under_pressure.title"
+    },
+    "description": {
+      "translate": "advancements.under_pressure.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "under_pressure": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "new_borders_mod:salt",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "minecraft:husbandry/root"
+}

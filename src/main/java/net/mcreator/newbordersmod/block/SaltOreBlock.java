@@ -16,6 +16,7 @@ import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -52,6 +53,39 @@ public class SaltOreBlock extends NewBordersModModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+			boolean biomeCriteria = false;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:salt_flats")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("river")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("frozen_ocean")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("frozen_river")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("beach")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("deep_ocean")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("stone_shore")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("snowy_beach")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("warm_ocean")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("lukewarm_ocean")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("cold_ocean")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("deep_warm_ocean")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("deep_cold_ocean")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("deep_frozen_ocean")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("deep_lukewarm_ocean")))
+				biomeCriteria = true;
+			if (!biomeCriteria)
+				continue;
 			biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, new OreFeature(OreFeatureConfig::deserialize) {
 				@Override
 				public boolean place(IWorld world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {

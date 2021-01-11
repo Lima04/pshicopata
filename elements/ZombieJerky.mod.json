@@ -1,0 +1,29 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "zombie_jerky",
+    "customModelName": "Normal",
+    "name": "Zombie Jerky",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 6,
+    "saturation": 10.8,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "ZombieJerkyFoodEaten"
+    }
+  }
+}

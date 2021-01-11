@@ -37,12 +37,12 @@ public class SaltFlatsBiome extends NewBordersModModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.DESERT, new BiomeManager.BiomeEntry(biome, 2));
+		BiomeManager.addBiome(BiomeManager.BiomeType.DESERT, new BiomeManager.BiomeEntry(biome, 10));
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0.5f).depth(0f).scale(0f).temperature(2f).precipitation(Biome.RainType.RAIN)
-					.category(Biome.Category.DESERT).waterColor(4159204).waterFogColor(329011).parent("desert")
+					.category(Biome.Category.PLAINS).waterColor(4159204).waterFogColor(329011).parent("desert")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(BlockOfSaltBlock.block.getDefaultState(),
 							BlockOfSaltBlock.block.getDefaultState(), BlockOfSaltBlock.block.getDefaultState())));
 			setRegistryName("salt_flats");

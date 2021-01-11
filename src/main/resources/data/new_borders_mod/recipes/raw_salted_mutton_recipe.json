@@ -1,0 +1,16 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:mutton"
+    },
+    {
+      "item": "new_borders_mod:coarse_salt"
+    }
+  ],
+  "result": {
+    "item": "new_borders_mod:raw_salted_mutton",
+    "count": 1
+  }
+}

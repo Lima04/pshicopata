@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "new_borders_mod:zombie_jerky"
+    },
+    "title": {
+      "translate": "advancements.what_a_jerk.title"
+    },
+    "description": {
+      "translate": "advancements.what_a_jerk.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "what_a_jerk": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "new_borders_mod:seasoning_season"
+}

@@ -95,7 +95,53 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SaltFlats"
+      },
+      {
+        "value": "river"
+      },
+      {
+        "value": "frozen_ocean"
+      },
+      {
+        "value": "frozen_river"
+      },
+      {
+        "value": "beaches"
+      },
+      {
+        "value": "deep_ocean"
+      },
+      {
+        "value": "stone_beach"
+      },
+      {
+        "value": "cold_beach"
+      },
+      {
+        "value": "warm_ocean"
+      },
+      {
+        "value": "lukewarm_ocean"
+      },
+      {
+        "value": "cold_ocean"
+      },
+      {
+        "value": "deep_warm_ocean"
+      },
+      {
+        "value": "deep_cold_ocean"
+      },
+      {
+        "value": "deep_frozen_ocean"
+      },
+      {
+        "value": "deep_lukewarm_ocean"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"

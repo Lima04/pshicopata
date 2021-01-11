@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PinchOfSalt"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PinchOfSalt"
+      },
+      {
+        "value": "Items.FISH#0"
+      },
+      {
+        "value": "CUSTOM:PinchOfSalt"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PinchOfSalt"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RawSaltedCod"
+    },
+    "name": "raw_salted_cod_recipe",
+    "namespace": "mod"
+  }
+}

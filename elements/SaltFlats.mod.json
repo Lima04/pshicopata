@@ -40,9 +40,9 @@
     "baseHeight": 0.0,
     "heightVariation": 0.0,
     "spawnBiome": true,
-    "biomeWeight": 2,
+    "biomeWeight": 10,
     "biomeType": "DESERT",
-    "biomeCategory": "DESERT",
+    "biomeCategory": "PLAINS",
     "parent": {
       "value": "desert"
     },

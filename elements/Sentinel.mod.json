@@ -113,7 +113,221 @@
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AlpineBorder"
+      },
+      {
+        "value": "CUSTOM:Plateau"
+      },
+      {
+        "value": "CUSTOM:Ridge"
+      },
+      {
+        "value": "CUSTOM:TropicalSavanna"
+      },
+      {
+        "value": "CUSTOM:Mount"
+      },
+      {
+        "value": "CUSTOM:Steppe"
+      },
+      {
+        "value": "CUSTOM:TemperateJungle"
+      },
+      {
+        "value": "CUSTOM:GlowshroomJungle"
+      },
+      {
+        "value": "CUSTOM:Permafrost"
+      },
+      {
+        "value": "CUSTOM:CherryBlossomForest"
+      },
+      {
+        "value": "CUSTOM:RockyDesert"
+      },
+      {
+        "value": "CUSTOM:CocaisJungleHills"
+      },
+      {
+        "value": "CUSTOM:TropicalSavannaHIlls"
+      },
+      {
+        "value": "CUSTOM:CocaisJungle"
+      },
+      {
+        "value": "CUSTOM:SnowyBlossomForest"
+      },
+      {
+        "value": "CUSTOM:EucalyptusForest"
+      },
+      {
+        "value": "CUSTOM:SaltFlats"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "mountains"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "swamp"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "snowy_mountains"
+      },
+      {
+        "value": "beaches"
+      },
+      {
+        "value": "desert_hills"
+      },
+      {
+        "value": "forest_hills"
+      },
+      {
+        "value": "taiga_hills"
+      },
+      {
+        "value": "smaller_extreme_hills"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "jungle_hills"
+      },
+      {
+        "value": "jungle_edge"
+      },
+      {
+        "value": "stone_beach"
+      },
+      {
+        "value": "cold_beach"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "birch_forest_hills"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "taiga_cold_hills"
+      },
+      {
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "redwood_taiga_hills"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "savanna_rock"
+      },
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "wooded_badlands_plateau"
+      },
+      {
+        "value": "badlands_plateau"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "mutated_desert"
+      },
+      {
+        "value": "mutated_extreme_hills"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "mutated_taiga"
+      },
+      {
+        "value": "mutated_swampland"
+      },
+      {
+        "value": "mutated_ice_flats"
+      },
+      {
+        "value": "mutated_jungle"
+      },
+      {
+        "value": "mutated_jungle_edge"
+      },
+      {
+        "value": "mutated_birch_forest"
+      },
+      {
+        "value": "mutated_birch_forest_hills"
+      },
+      {
+        "value": "mutated_roofed_forest"
+      },
+      {
+        "value": "mutated_taiga_cold"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "mutated_redwood_taiga_hills"
+      },
+      {
+        "value": "mutated_extreme_hills_with_trees"
+      },
+      {
+        "value": "mutated_savanna"
+      },
+      {
+        "value": "mutated_savanna_rock"
+      },
+      {
+        "value": "mutated_mesa"
+      },
+      {
+        "value": "mutated_mesa_rock"
+      },
+      {
+        "value": "mutated_mesa_clear_rock"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "bamboo_jungle_hills"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

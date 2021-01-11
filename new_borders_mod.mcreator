@@ -4546,6 +4546,68 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "polished_salt_pillar_slab_drops"
+    },
+    {
+      "name": "CesiumReactorBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cesium_reactor_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CesiumReactorBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cesium_reactor_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4784,8 +4846,8 @@
       "subtitles.pifer": "Poopifers",
       "item.new_borders_mod.pinch_of_salt": "Pinch of Salt",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
-      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
+      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "entity.new_borders_mod.sentinel": "Sentinel",
       "block.new_borders_mod.polished_salt_pillar_slab": "Polished Salt Pillar Slab",
       "biome.new_borders_mod.tropical_savanna": "Tropical Savanna",
@@ -4819,13 +4881,13 @@
       "item.new_borders_mod.penguin_spawn_egg": "Penguin Spawn Egg",
       "block.new_borders_mod.babacu_slab": "Babacu Slab",
       "entity.new_borders_mod.cleaner_sentinel": "Cleaner Sentinel",
-      "advancements.music.title": "Music!",
       "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
+      "advancements.music.title": "Music!",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003": "The Poopifers - The First Shit (Album) (2003)",
-      "item.new_borders_mod.licorice": "Licorice",
       "block.new_borders_mod.polished_salt_stairs": "Polished Salt Stairs",
-      "biome.new_borders_mod.tropical_savanna_hills": "Tropical Savanna Hills",
+      "item.new_borders_mod.licorice": "Licorice",
       "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
+      "biome.new_borders_mod.tropical_savanna_hills": "Tropical Savanna Hills",
       "entity.new_borders_mod.seagull_stay": "Seagull",
       "block.new_borders_mod.eucalyptus_air_3": "Eucalyptus Air 3",
       "block.new_borders_mod.babacu_leavess": "Babacu Leaves",
@@ -4833,9 +4895,9 @@
       "biome.new_borders_mod.glowshroom_jungle": "Glowshroom Forest",
       "item.new_borders_mod.twin_cherries": "Twin Cherries",
       "block.new_borders_mod.eucalyptus_air_2": "Eucalyptus Air 2",
-      "block.new_borders_mod.babacu_phase_4": "Babacu Phase 3",
-      "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
       "item.new_borders_mod.candy": "Candy",
+      "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
+      "block.new_borders_mod.babacu_phase_4": "Babacu Phase 3",
       "block.new_borders_mod.babacu_phase_3": "Babacu Phase 3",
       "block.new_borders_mod.babacu_phase_5": "Babacu Phase 5",
       "block.new_borders_mod.casio_keyboard_from_the_80s": "Casio Keyboard From The 80s",
@@ -4846,15 +4908,14 @@
       "item.new_borders_mod.cobalt_shard": "Cobalt Shard",
       "block.new_borders_mod.babacu_planks": "Babacu Planks",
       "entity.new_borders_mod.seagull_flying": "Seagull",
-      "item.new_borders_mod.estrelar.desc": "Marcos Valle - Estrelar ",
       "biome.new_borders_mod.candy_forest": "Candy Forest",
+      "item.new_borders_mod.estrelar.desc": "Marcos Valle - Estrelar ",
       "item.new_borders_mod.dia_d": "Dia D",
       "subtitles.frostbittensteps": "Footsteps",
-      "item.new_borders_mod.waste_water_bucket": "WasteWater Bucket",
       "item.new_borders_mod.prismarine_cutlass": "Prismarine Cutlass",
       "item.new_borders_mod.mais_que_amor.desc": "Marcos Valle - Mais Que Amor",
-      "item.new_borders_mod.empty_music_d_isc": "Empty Music Disc",
       "block.new_borders_mod.redwood_stairs": "Redwood Stairs",
+      "item.new_borders_mod.empty_music_d_isc": "Empty Music Disc",
       "item.new_borders_mod.seagull_stay_spawn_egg": "Seagull Spawn Egg",
       "subtitles.seagull_living": "Seagull Chirping",
       "block.new_borders_mod.redwood_slab": "Redwood Slab",

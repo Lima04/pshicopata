@@ -8,23 +8,23 @@
   ],
   "key": {
     "1": {
-      "item": "new_borders_mod:coarse_salt"
+      "item": "new_borders_mod:unknown_element"
     },
     "3": {
-      "item": "new_borders_mod:coarse_salt"
+      "item": "new_borders_mod:unknown_element"
     },
     "4": {
       "item": "minecraft:rotten_flesh"
     },
     "5": {
-      "item": "new_borders_mod:coarse_salt"
+      "item": "new_borders_mod:unknown_element"
     },
     "7": {
-      "item": "new_borders_mod:coarse_salt"
+      "item": "new_borders_mod:unknown_element"
     }
   },
   "result": {
-    "item": "new_borders_mod:salted_rotten_flesh",
+    "item": "new_borders_mod:unknown_element",
     "count": 1
   }
 }

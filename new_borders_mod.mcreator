@@ -4548,103 +4548,13 @@
       "registry_name": "polished_salt_pillar_slab_drops"
     },
     {
-      "name": "CoarseSalt",
-      "type": "item",
-      "sortid": 415,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coarse_salt"
-    },
-    {
-      "name": "SeasoningSeason",
-      "type": "achievement",
-      "sortid": 417,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "seasoning_season"
-    },
-    {
-      "name": "RawSaltedCod",
+      "name": "ZombieJerky",
       "type": "food",
-      "sortid": 418,
+      "sortid": 438,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "raw_salted_cod"
-    },
-    {
-      "name": "RawSaltedCodRecipe",
-      "type": "recipe",
-      "sortid": 419,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "raw_salted_cod_recipe"
-    },
-    {
-      "name": "CookedSaltedCod",
-      "type": "food",
-      "sortid": 420,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cooked_salted_cod"
-    },
-    {
-      "name": "CookedSaltedCodRecipe",
-      "type": "recipe",
-      "sortid": 421,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cooked_salted_cod_recipe"
-    },
-    {
-      "name": "RawSaltedSalmon",
-      "type": "food",
-      "sortid": 422,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "raw_salted_salmon"
-    },
-    {
-      "name": "RawSaltedSalmonRecipe",
-      "type": "recipe",
-      "sortid": 423,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "raw_salted_salmon_recipe"
-    },
-    {
-      "name": "CookedSaltedSalmon",
-      "type": "food",
-      "sortid": 424,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cooked_salted_salmon"
-    },
-    {
-      "name": "CookedSaltedSalmonRecipe",
-      "type": "recipe",
-      "sortid": 425,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cooked_salted_salmon_recipe"
-    },
-    {
-      "name": "CoarseSaltRecipe",
-      "type": "recipe",
-      "sortid": 426,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coarse_salt_recipe"
+      "registry_name": "zombie_jerky"
     },
     {
       "name": "RawSaltedBeef",
@@ -4656,22 +4566,22 @@
       "registry_name": "raw_salted_beef"
     },
     {
-      "name": "RawSaltedBeefRecipe",
-      "type": "recipe",
-      "sortid": 428,
+      "name": "RawSaltedSalmon",
+      "type": "food",
+      "sortid": 422,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "raw_salted_beef_recipe"
+      "registry_name": "raw_salted_salmon"
     },
     {
-      "name": "SaltedSteak",
+      "name": "CookedSaltedSalmon",
       "type": "food",
-      "sortid": 429,
+      "sortid": 424,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "salted_steak"
+      "registry_name": "cooked_salted_salmon"
     },
     {
       "name": "SaltedSteakRecipe",
@@ -4683,22 +4593,31 @@
       "registry_name": "salted_steak_recipe"
     },
     {
-      "name": "RawSaltedMutton",
-      "type": "food",
-      "sortid": 431,
+      "name": "ZombieJerkyRecipe",
+      "type": "recipe",
+      "sortid": 439,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "raw_salted_mutton"
+      "registry_name": "zombie_jerky_recipe"
     },
     {
-      "name": "RawSaltedMuttonRecipe",
+      "name": "CoarseSaltRecipe",
       "type": "recipe",
-      "sortid": 432,
+      "sortid": 426,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "raw_salted_mutton_recipe"
+      "registry_name": "coarse_salt_recipe"
+    },
+    {
+      "name": "RawSaltedBeefRecipe",
+      "type": "recipe",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_salted_beef_recipe"
     },
     {
       "name": "CookedSaltedMutton",
@@ -4710,22 +4629,22 @@
       "registry_name": "cooked_salted_mutton"
     },
     {
-      "name": "CookedSaltedMuttonRecipe",
+      "name": "SaltedRottenFleshRecipe",
       "type": "recipe",
-      "sortid": 434,
+      "sortid": 437,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cooked_salted_mutton_recipe"
+      "registry_name": "salted_rotten_flesh_recipe"
     },
     {
-      "name": "SaltedRottenFlesh",
+      "name": "RawSaltedMutton",
       "type": "food",
-      "sortid": 435,
+      "sortid": 431,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "salted_rotten_flesh"
+      "registry_name": "raw_salted_mutton"
     },
     {
       "name": "SaltedRottenFleshFoodEaten",
@@ -4745,33 +4664,6 @@
       }
     },
     {
-      "name": "SaltedRottenFleshRecipe",
-      "type": "recipe",
-      "sortid": 437,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "salted_rotten_flesh_recipe"
-    },
-    {
-      "name": "ZombieJerky",
-      "type": "food",
-      "sortid": 438,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "zombie_jerky"
-    },
-    {
-      "name": "ZombieJerkyRecipe",
-      "type": "recipe",
-      "sortid": 439,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "zombie_jerky_recipe"
-    },
-    {
       "name": "WhatAJerk",
       "type": "achievement",
       "sortid": 440,
@@ -4779,6 +4671,78 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "what_a_jerk"
+    },
+    {
+      "name": "CookedSaltedCod",
+      "type": "food",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_salted_cod"
+    },
+    {
+      "name": "SaltedSteak",
+      "type": "food",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salted_steak"
+    },
+    {
+      "name": "RawSaltedCod",
+      "type": "food",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_salted_cod"
+    },
+    {
+      "name": "SeasoningSeason",
+      "type": "achievement",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seasoning_season"
+    },
+    {
+      "name": "SaltedRottenFlesh",
+      "type": "food",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salted_rotten_flesh"
+    },
+    {
+      "name": "RawSaltedCodRecipe",
+      "type": "recipe",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_salted_cod_recipe"
+    },
+    {
+      "name": "CookedSaltedMuttonRecipe",
+      "type": "recipe",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_salted_mutton_recipe"
+    },
+    {
+      "name": "RawSaltedSalmonRecipe",
+      "type": "recipe",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_salted_salmon_recipe"
     },
     {
       "name": "ZombieJerkyFoodEaten",
@@ -4798,6 +4762,33 @@
       }
     },
     {
+      "name": "CoarseSalt",
+      "type": "item",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coarse_salt"
+    },
+    {
+      "name": "RawSaltedMuttonRecipe",
+      "type": "recipe",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_salted_mutton_recipe"
+    },
+    {
+      "name": "CookedSaltedCodRecipe",
+      "type": "recipe",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_salted_cod_recipe"
+    },
+    {
       "name": "UnderPressure",
       "type": "achievement",
       "sortid": 442,
@@ -4805,6 +4796,77 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "under_pressure"
+    },
+    {
+      "name": "CookedSaltedSalmonRecipe",
+      "type": "recipe",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_salted_salmon_recipe"
+    },
+    {
+      "name": "CesiumReactorBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cesium_reactor_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CesiumReactorBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cesium_reactor_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -5043,8 +5105,8 @@
       "subtitles.pifer": "Poopifers",
       "item.new_borders_mod.pinch_of_salt": "Pinch of Salt",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
-      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
+      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "entity.new_borders_mod.sentinel": "Sentinel",
       "block.new_borders_mod.polished_salt_pillar_slab": "Polished Salt Pillar Slab",
       "biome.new_borders_mod.tropical_savanna": "Tropical Savanna",
@@ -5063,13 +5125,11 @@
       "block.new_borders_mod.stripped_redwood_log": "Stripped Redwood Log",
       "item.new_borders_mod.mais_que_amor": "Mais Que Amor",
       "item.new_borders_mod.purple_berry": "Purple Berry",
-      "item.new_borders_mod.raw_salted_beef": "Raw Salted Beef",
       "biome.new_borders_mod.steppe": "Steppe",
       "item.new_borders_mod.babacu_pulp": "Babacu Pulp",
       "block.new_borders_mod.glass_door": "Glass Door",
       "block.new_borders_mod.snow_bricks": "Snow Bricks",
       "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
-      "advancements.what_a_jerk.descr": "Successfully make rotten flesh safe for consumption.",
       "biome.new_borders_mod.redwood_taiga": "Redwood Taiga",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003.desc": "The Poopifers - The First Shit (Album) (2003)",
       "biome.new_borders_mod.plateau": "Plateau",
@@ -5083,7 +5143,6 @@
       "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
       "advancements.music.title": "Music!",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003": "The Poopifers - The First Shit (Album) (2003)",
-      "advancements.seasoning_season.descr": "Things are about to get saltier.",
       "block.new_borders_mod.polished_salt_stairs": "Polished Salt Stairs",
       "item.new_borders_mod.licorice": "Licorice",
       "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
@@ -5093,10 +5152,8 @@
       "block.new_borders_mod.babacu_leavess": "Babacu Leaves",
       "block.new_borders_mod.lollipop_ore": "Lollipop Ore",
       "biome.new_borders_mod.glowshroom_jungle": "Glowshroom Forest",
-      "item.new_borders_mod.raw_salted_mutton": "Raw Salted Mutton",
       "item.new_borders_mod.twin_cherries": "Twin Cherries",
       "block.new_borders_mod.eucalyptus_air_2": "Eucalyptus Air 2",
-      "item.new_borders_mod.cooked_salted_mutton": "Cooked Salted Mutton",
       "item.new_borders_mod.candy": "Candy",
       "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
       "block.new_borders_mod.babacu_phase_4": "Babacu Phase 3",
@@ -5106,7 +5163,6 @@
       "biome.new_borders_mod.temperate_jungle": "Temperate Jungle",
       "block.new_borders_mod.babacu_phase_2": "Babacu Phase 2",
       "block.new_borders_mod.babacu_phase_1": "Babacu Phase 1",
-      "item.new_borders_mod.salted_steak": "Salted Steak",
       "item.new_borders_mod.samba_de_verao.desc": "Marcos Valle - Samba De Verao",
       "item.new_borders_mod.cobalt_shard": "Cobalt Shard",
       "block.new_borders_mod.babacu_planks": "Babacu Planks",
@@ -5115,8 +5171,6 @@
       "item.new_borders_mod.estrelar.desc": "Marcos Valle - Estrelar ",
       "item.new_borders_mod.dia_d": "Dia D",
       "subtitles.frostbittensteps": "Footsteps",
-      "advancements.what_a_jerk.title": "What a Jerk",
-      "item.new_borders_mod.waste_water_bucket": "WasteWater Bucket",
       "item.new_borders_mod.prismarine_cutlass": "Prismarine Cutlass",
       "item.new_borders_mod.mais_que_amor.desc": "Marcos Valle - Mais Que Amor",
       "block.new_borders_mod.redwood_stairs": "Redwood Stairs",
@@ -5145,7 +5199,6 @@
       "biome.new_borders_mod.ridge": "Ridge",
       "block.new_borders_mod.babacu_3_air": "Babacu Air 1",
       "block.new_borders_mod.white_lamp": "Lamp",
-      "advancements.under_pressure.descr": "Things are about to get salty.",
       "block.new_borders_mod.cherry_blossoms": "Cherry Blossoms",
       "block.new_borders_mod.babacu_air_2_fruit": "Babacu Air 1",
       "item.new_borders_mod.cherry": "Cherry",
@@ -5161,7 +5214,6 @@
       "item.new_borders_mod.sentinel_hard_disc": "Sentinel Hard Disc",
       "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
       "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
-      "item.new_borders_mod.cooked_salted_cod": "Cooked Salted Cod",
       "block.new_borders_mod.salt_ore": "Salt Ore",
       "item.new_borders_mod.lollipop_charge": "Lollipop Charge",
       "item.new_borders_mod.zombie_jerky": "Zombie Jerky",
@@ -5190,14 +5242,11 @@
       "block.new_borders_mod.big_candy_air": "Big Candy Air",
       "subtitles.sentinel2": "Cleaner Sentinel Chipset",
       "block.new_borders_mod.polished_salt_slab": "Polished Salt Slab",
-      "advancements.seasoning_season.title": "Seasoning Season",
       "block.new_borders_mod.candy_ore": "Candy Ore",
       "advancements.daft_punk.descr": "Look at this old casio keyboard from the 1980s i have found",
       "block.new_borders_mod.eucalyptus_leaves": "Eucalyptus Leaves",
       "entity.new_borders_mod.mosquito": "Mosquito",
-      "item.new_borders_mod.salted_rotten_flesh": "Salted Rotten Flesh",
       "entity.new_borders_mod.winterfell_pillager": "Winterfell Pillager",
-      "item.new_borders_mod.raw_salted_cod": "Raw Salted Cod",
       "block.new_borders_mod.polished_salt_bricks": "Polished Salt Bricks",
       "block.new_borders_mod.ipe_air": "Ipe Air",
       "biome.new_borders_mod.permafrost": "Permafrost",
@@ -5209,7 +5258,6 @@
       "block.new_borders_mod.babacu_log": "Babacu Log",
       "item.new_borders_mod.para_os_filhos_de_abraao.desc": "Marcos Valle - Para Os Filhos De Abraao",
       "item.new_borders_mod.tapetes_guardanapos_cetins.desc": "Marcos Valle - Tapetes Guardanapos Cetins",
-      "item.new_borders_mod.coarse_salt": "Coarse Salt",
       "block.new_borders_mod.cherry_tree_planks": "Cherry Tree Planks",
       "item.new_borders_mod.sun_sword": "Sun Sword",
       "block.new_borders_mod.pinon_block_gravity": "Pinon Block(Gravity)",
@@ -5250,15 +5298,12 @@
       "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Armor Body",
       "block.new_borders_mod.polished_salt_pillar": "Polished Salt Pillar",
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
-      "advancements.under_pressure.title": "Under Pressure",
       "block.new_borders_mod.block_of_salt": "Block of Salt",
       "advancements.daft_punk.title": "Daft Punk",
       "block.new_borders_mod.sunstone_ore": "Sunstone Ore",
       "item.new_borders_mod.babacu_ranged": "Babacu",
       "block.new_borders_mod.glowshroom": "Glowshroom",
       "item.new_borders_mod.cobalt_59": "Cobalt 59",
-      "item.new_borders_mod.cooked_salted_salmon": "Cooked Salted Salmon",
-      "item.new_borders_mod.raw_salted_salmon": "Raw Salted Salmon",
       "item.new_borders_mod.unandium": "Unandium",
       "item.new_borders_mod.pinon_nut": "Pinon",
       "item.new_borders_mod.cobalt_60": "Cobalt 60",

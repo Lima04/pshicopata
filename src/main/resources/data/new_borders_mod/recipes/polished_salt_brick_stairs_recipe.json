@@ -1,0 +1,33 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:polished_salt_bricks"
+    },
+    "3": {
+      "item": "new_borders_mod:polished_salt_bricks"
+    },
+    "4": {
+      "item": "new_borders_mod:polished_salt_bricks"
+    },
+    "6": {
+      "item": "new_borders_mod:polished_salt_bricks"
+    },
+    "7": {
+      "item": "new_borders_mod:polished_salt_bricks"
+    },
+    "8": {
+      "item": "new_borders_mod:polished_salt_bricks"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:polished_salt_brick_stairs",
+    "count": 4
+  }
+}

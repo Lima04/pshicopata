@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "new_borders_mod:block/polished_salt_pillar"
+    },
+    "facing=north": {
+      "model": "new_borders_mod:block/polished_salt_pillar"
+    },
+    "facing=east": {
+      "model": "new_borders_mod:block/polished_salt_pillar",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "new_borders_mod:block/polished_salt_pillar",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "new_borders_mod:block/polished_salt_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "new_borders_mod:block/polished_salt_pillar",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -4321,6 +4321,231 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "salt_ore"
+    },
+    {
+      "name": "PolishedSaltBlock",
+      "type": "block",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_block"
+    },
+    {
+      "name": "PolishedSaltDrops",
+      "type": "loottable",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_drops"
+    },
+    {
+      "name": "PolishedSaltBlockRecipe",
+      "type": "recipe",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_block_recipe"
+    },
+    {
+      "name": "PolishedSaltSlab",
+      "type": "block",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_slab"
+    },
+    {
+      "name": "PolishedSaltSlabRecipe",
+      "type": "recipe",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_slab_recipe"
+    },
+    {
+      "name": "PolishedSaltSlabDrops",
+      "type": "loottable",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_slab_drops"
+    },
+    {
+      "name": "PolishedSaltStairs",
+      "type": "block",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_stairs"
+    },
+    {
+      "name": "PolishedSaltStairsDrops",
+      "type": "loottable",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_stairs_drops"
+    },
+    {
+      "name": "PolishedSaltSlabDrop",
+      "type": "loottable",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_slab_drop"
+    },
+    {
+      "name": "PolishedSaltBricks",
+      "type": "block",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_bricks"
+    },
+    {
+      "name": "PolishedSaltStairsRecipe",
+      "type": "recipe",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_stairs_recipe"
+    },
+    {
+      "name": "PolishedSaltBricksRecipe",
+      "type": "recipe",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_bricks_recipe"
+    },
+    {
+      "name": "PolishedSaltBricksDrops",
+      "type": "loottable",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_bricks_drops"
+    },
+    {
+      "name": "PolishedSaltBrickSlab",
+      "type": "block",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_brick_slab"
+    },
+    {
+      "name": "PolishedSaltBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_brick_slab_recipe"
+    },
+    {
+      "name": "PolishedSaltBrickSlabDrops",
+      "type": "loottable",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_brick_slab_drops"
+    },
+    {
+      "name": "PolishedSaltBrickStairs",
+      "type": "block",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_brick_stairs"
+    },
+    {
+      "name": "PolishedSaltBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_brick_stairs_recipe"
+    },
+    {
+      "name": "PolishedSaltBrickStairsDrops",
+      "type": "loottable",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_brick_stairs_drops"
+    },
+    {
+      "name": "PolishedSaltPillar",
+      "type": "block",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_pillar"
+    },
+    {
+      "name": "PolishedSaltPillarRecipe",
+      "type": "recipe",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_pillar_recipe"
+    },
+    {
+      "name": "PolishedSaltPillarDrops",
+      "type": "loottable",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_pillar_drops"
+    },
+    {
+      "name": "PolishedSaltPillarSlab",
+      "type": "block",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_pillar_slab"
+    },
+    {
+      "name": "PolishedSaltPillarSlabRecipe",
+      "type": "recipe",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_pillar_slab_recipe"
+    },
+    {
+      "name": "PolishedSaltPillarSlabDrops",
+      "type": "loottable",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_salt_pillar_slab_drops"
     }
   ],
   "variable_elements": [],
@@ -4557,10 +4782,12 @@
     "en_us": {
       "item.new_borders_mod.cooked_pinon": "Cooked Pinon",
       "subtitles.pifer": "Poopifers",
+      "item.new_borders_mod.pinch_of_salt": "Pinch of Salt",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
       "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
       "entity.new_borders_mod.sentinel": "Sentinel",
+      "block.new_borders_mod.polished_salt_pillar_slab": "Polished Salt Pillar Slab",
       "biome.new_borders_mod.tropical_savanna": "Tropical Savanna",
       "biome.new_borders_mod.mount": "Mount",
       "block.new_borders_mod.lead_ore": "Lead Ore",
@@ -4569,6 +4796,7 @@
       "block.new_borders_mod.cobalt_bomb": "Cobalt Bomb",
       "item.new_borders_mod.statue_item": "Statue",
       "item.new_borders_mod.compact_cobalt": "Compact Cobalt",
+      "block.new_borders_mod.polished_salt_brick_stairs": "Polished Salt Brick Stairs",
       "block.new_borders_mod.tall_ipe_air": "Tall Ipe Air",
       "block.new_borders_mod.asphalt_block": "Asphalt Block",
       "item.new_borders_mod.heat_canon": "Heat Canon",
@@ -4595,6 +4823,7 @@
       "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003": "The Poopifers - The First Shit (Album) (2003)",
       "item.new_borders_mod.licorice": "Licorice",
+      "block.new_borders_mod.polished_salt_stairs": "Polished Salt Stairs",
       "biome.new_borders_mod.tropical_savanna_hills": "Tropical Savanna Hills",
       "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
       "entity.new_borders_mod.seagull_stay": "Seagull",
@@ -4665,6 +4894,7 @@
       "item.new_borders_mod.sentinel_hard_disc": "Sentinel Hard Disc",
       "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
       "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
+      "block.new_borders_mod.salt_ore": "Salt Ore",
       "item.new_borders_mod.lollipop_charge": "Lollipop Charge",
       "item.new_borders_mod.viola_enluarada": "Viola Enluarada",
       "item.new_borders_mod.seagull_flying_spawn_egg": "Seagull Spawn Egg",
@@ -4678,6 +4908,7 @@
       "block.new_borders_mod.white_cherry_blossoms": "White Cherry Blossoms",
       "subtitles.frostbittenambient": "Frostbitten groans",
       "block.new_borders_mod.redwood_planks": "Redwood Planks",
+      "block.new_borders_mod.polished_salt_block": "Polished Salt Block",
       "block.new_borders_mod.redwoodair_3": "Redwoodair 3",
       "advancements.music.descr": "And the beat goes on........",
       "block.new_borders_mod.cesium_reactor": "Cesium Reactor",
@@ -4689,11 +4920,13 @@
       "subtitles.sentinel1": "Sentinel Chipset",
       "block.new_borders_mod.big_candy_air": "Big Candy Air",
       "subtitles.sentinel2": "Cleaner Sentinel Chipset",
+      "block.new_borders_mod.polished_salt_slab": "Polished Salt Slab",
       "block.new_borders_mod.candy_ore": "Candy Ore",
       "advancements.daft_punk.descr": "Look at this old casio keyboard from the 1980s i have found",
       "block.new_borders_mod.eucalyptus_leaves": "Eucalyptus Leaves",
       "entity.new_borders_mod.mosquito": "Mosquito",
       "entity.new_borders_mod.winterfell_pillager": "Winterfell Pillager",
+      "block.new_borders_mod.polished_salt_bricks": "Polished Salt Bricks",
       "block.new_borders_mod.ipe_air": "Ipe Air",
       "biome.new_borders_mod.permafrost": "Permafrost",
       "subtitles.mosquito": "Mosquito Buzzing",
@@ -4719,6 +4952,7 @@
       "item.new_borders_mod.normal_canon": "Normal Canon",
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
       "item.new_borders_mod.eye_of_the_eclipse": "Eye of the Eclipse",
+      "item.new_borders_mod.salt": "Salt",
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
       "item.new_borders_mod.winterfell_pillager_spawn_egg": "Winterfell Pillager Spawn Egg",
       "biome.new_borders_mod.snowy_blossom_forest": "Snowy Blossom Forest",
@@ -4730,6 +4964,7 @@
       "item.new_borders_mod.tapa_no_real": "Tapa No Real",
       "subtitles.frostbittenhurt": "Frostbitten hurts",
       "biome.new_borders_mod.rocky_desert": "Rocky Desert",
+      "block.new_borders_mod.polished_salt_brick_slab": "Polished Salt Brick Slab",
       "fluid.waste_water": "WasteWater",
       "block.new_borders_mod.redwood_log": "Redwood Log",
       "block.new_borders_mod.dried_bush": "Dried Bush",
@@ -4740,7 +4975,9 @@
       "block.new_borders_mod.purple_berry_plant": "Purple Berry Plant",
       "block.new_borders_mod.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",
       "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Armor Body",
+      "block.new_borders_mod.polished_salt_pillar": "Polished Salt Pillar",
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
+      "block.new_borders_mod.block_of_salt": "Block of Salt",
       "advancements.daft_punk.title": "Daft Punk",
       "block.new_borders_mod.sunstone_ore": "Sunstone Ore",
       "item.new_borders_mod.babacu_ranged": "Babacu",
@@ -4756,6 +4993,7 @@
       "block.new_borders_mod.cobalt": "Cobalt",
       "entity.new_borders_mod.statue": "Statue",
       "block.new_borders_mod.cherry_tree_stairs": "Cherry Tree Stairs",
+      "biome.new_borders_mod.salt_flats": "Salt Flats",
       "block.new_borders_mod.cherry_tree_log": "Cherry Tree Log"
     }
   },

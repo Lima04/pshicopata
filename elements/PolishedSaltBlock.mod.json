@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "salt_block",
+    "texture": "polished_salt_block",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -24,9 +24,9 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Block of Salt",
+    "name": "Polished Salt Block",
     "specialInfo": [],
-    "hardness": 1.9999999999999998,
+    "hardness": 2.0,
     "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -50,7 +50,7 @@
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "SILVER",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },

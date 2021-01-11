@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "new_borders_mod:block/polished_salt_pillar_slab"
+    },
+    "type=top": {
+      "model": "new_borders_mod:block/polished_salt_pillar_slab_top"
+    },
+    "type=double": {
+      "model": "new_borders_mod:block/polished_salt_pillar_slab_full"
+    }
+  }
+}

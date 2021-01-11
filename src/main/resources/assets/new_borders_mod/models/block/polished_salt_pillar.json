@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "new_borders_mod:blocks/polished_salt_pillar_top",
+    "up": "new_borders_mod:blocks/polished_salt_pillar_top",
+    "north": "new_borders_mod:blocks/polished_salt_pillar_side",
+    "east": "new_borders_mod:blocks/polished_salt_pillar_side",
+    "south": "new_borders_mod:blocks/polished_salt_pillar_side",
+    "west": "new_borders_mod:blocks/polished_salt_pillar_side",
+    "particle": "new_borders_mod:blocks/polished_salt_pillar_top"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 161,
+          "y": 90
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 161,
+          "y": 47
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 243,
+          "y": 47
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "EvaporatorTakeSalt"
+          },
+          "onStackTransfer": {
+            "name": "EvaporatorTakeSalt"
+          },
+          "name": "Slot #3",
+          "x": 243,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Evaporator",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Evaporator",
+          "x": 185,
+          "y": 42
+        }
+      }
+    ]
+  }
+}

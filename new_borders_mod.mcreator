@@ -4975,6 +4975,112 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cut_chiseled_salt_bricks_drops"
+    },
+    {
+      "name": "Evaporator",
+      "type": "block",
+      "sortid": 455,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "evaporator"
+    },
+    {
+      "name": "EvaporatorTakeSalt",
+      "type": "procedure",
+      "sortid": 456,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "evaporator_take_salt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EvaporatorGUI",
+      "type": "gui",
+      "sortid": 456,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "evaporator_gui"
+    },
+    {
+      "name": "EvaporatorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "evaporator_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EvaporatorUpdateTick",
+      "type": "procedure",
+      "sortid": 458,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "evaporator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EvaporatorRecipe",
+      "type": "recipe",
+      "sortid": 459,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "evaporator_recipe"
     }
   ],
   "variable_elements": [],
@@ -5321,6 +5427,7 @@
       "advancements.under_pressure.descr": "Things are about to get salty.",
       "block.new_borders_mod.cherry_blossoms": "Cherry Blossoms",
       "block.new_borders_mod.babacu_air_2_fruit": "Babacu Air 1",
+      "block.new_borders_mod.evaporator": "Evaporator",
       "item.new_borders_mod.cherry": "Cherry",
       "item.new_borders_mod.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg",
       "block.new_borders_mod.babacu_stairs": "Babacu Stairs",

@@ -2,19 +2,20 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "cesium_reactor_true",
-    "textureTop": "cesium_reactor_true",
-    "textureLeft": "cesium_reactor_true",
-    "textureFront": "front",
-    "textureRight": "cesium_reactor_true",
-    "textureBack": "cesium_reactor_true",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 1,
+    "texture": "lead_bock",
+    "textureTop": "lead_bock",
+    "textureLeft": "",
+    "textureFront": "lead_bock",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Slab",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -24,26 +25,26 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Cesium Reactor",
+    "name": "Lead Block Slab",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 6.0,
+    "resistance": 25.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "REDSTONE"
+      "value": "BUILDING_BLOCKS"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:LeadBlock"
+      "value": ""
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
       "value": "IRON"
     },
@@ -92,14 +93,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "CesiumReactorOnBlockRightClicked"
-    },
-    "onDestroyedByPlayer": {
-      "name": "CesiumReactorBlockDestroyedByPlayer"
-    },
-    "onDestroyedByExplosion": {
-      "name": "CesiumReactorBlockDestroyedByExplosion"
+    "onEntityCollides": {
+      "name": "LeadBlockEntityCollidesInTheBlock"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

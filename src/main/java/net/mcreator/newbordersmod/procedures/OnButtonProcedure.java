@@ -418,6 +418,53 @@ public class OnButtonProcedure extends NewBordersModModElements.ModElement {
 				}
 				return ItemStack.EMPTY;
 			}
+		}.getItemStack((int) (0))).getItem() == new ItemStack(Blocks.IRON_ORE, (int) (1)).getItem())) {
+			if ((((new Object() {
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
+							}
+						}
+					}
+					return ItemStack.EMPTY;
+				}
+			}.getItemStack((int) (1))).getItem() == new ItemStack(Items.WATER_BUCKET, (int) (1)).getItem()) == (false))) {
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (0))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).closeScreen();
+				if (world instanceof World && !world.getWorld().isRemote) {
+					world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 8, Explosion.Mode.BREAK);
+				}
+			}
+		}
+		if (((new Object() {
+			public ItemStack getItemStack(int sltid) {
+				Entity _ent = entity;
+				if (_ent instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) _ent).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							return ((Slot) ((Map) invobj).get(sltid)).getStack();
+						}
+					}
+				}
+				return ItemStack.EMPTY;
+			}
 		}.getItemStack((int) (0))).getItem() == new ItemStack(Blocks.GOLD_ORE, (int) (1)).getItem())) {
 			if ((((new Object() {
 				public ItemStack getItemStack(int sltid) {
@@ -500,7 +547,7 @@ public class OnButtonProcedure extends NewBordersModModElements.ModElement {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (0))).getItem() == new ItemStack(Blocks.IRON_ORE, (int) (1)).getItem())) {
+		}.getItemStack((int) (0))).getItem() == new ItemStack(Blocks.GOLD_ORE, (int) (1)).getItem())) {
 			if ((((new Object() {
 				public ItemStack getItemStack(int sltid) {
 					Entity _ent = entity;

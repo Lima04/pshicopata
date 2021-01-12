@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "new_borders_mod:blocks/cut_chiseled_salt_bricks",
+    "particle": "new_borders_mod:blocks/cut_chiseled_salt_bricks"
+  }
+}

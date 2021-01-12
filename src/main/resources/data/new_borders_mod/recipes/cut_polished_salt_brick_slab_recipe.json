@@ -1,0 +1,22 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:cut_polished_salt_bricks"
+    },
+    "1": {
+      "item": "new_borders_mod:cut_polished_salt_bricks"
+    },
+    "2": {
+      "item": "new_borders_mod:cut_polished_salt_bricks"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:cut_polished_salt_brick_slab",
+    "count": 6
+  }
+}

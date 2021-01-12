@@ -2,6 +2,7 @@
 package net.mcreator.newbordersmod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -28,7 +29,8 @@ public class PolishedSaltBricksBlock extends NewBordersModModElements.ModElement
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 3f).lightValue(0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 3f).lightValue(0).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("polished_salt_bricks");
 		}
 	}

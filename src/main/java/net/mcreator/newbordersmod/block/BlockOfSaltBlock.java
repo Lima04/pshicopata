@@ -34,7 +34,7 @@ public class BlockOfSaltBlock extends NewBordersModModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.9999999999999998f, 3f).lightValue(0)
-					.harvestLevel(2).harvestTool(ToolType.PICKAXE));
+					.harvestLevel(1).harvestTool(ToolType.PICKAXE));
 			setRegistryName("block_of_salt");
 		}
 

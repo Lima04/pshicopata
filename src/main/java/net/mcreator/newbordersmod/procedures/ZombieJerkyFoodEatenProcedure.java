@@ -1,11 +1,21 @@
 package net.mcreator.newbordersmod.procedures;
 
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
+
+import net.mcreator.newbordersmod.NewBordersModModElements;
+
+import java.util.Map;
+import java.util.Iterator;
+
 @NewBordersModModElements.ModElement.Tag
 public class ZombieJerkyFoodEatenProcedure extends NewBordersModModElements.ModElement {
-
 	public ZombieJerkyFoodEatenProcedure(NewBordersModModElements instance) {
 		super(instance, 441);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -14,9 +24,7 @@ public class ZombieJerkyFoodEatenProcedure extends NewBordersModModElements.ModE
 				System.err.println("Failed to load dependency entity for procedure ZombieJerkyFoodEaten!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if (entity instanceof ServerPlayerEntity) {
 			Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
 					.getAdvancement(new ResourceLocation("new_borders_mod:what_a_jerk"));
@@ -29,7 +37,5 @@ public class ZombieJerkyFoodEatenProcedure extends NewBordersModModElements.ModE
 				}
 			}
 		}
-
 	}
-
 }

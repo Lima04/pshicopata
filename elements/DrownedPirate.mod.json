@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Drowned Pirate",
     "mobLabel": "",
-    "mobModelName": "ModelPirate_Drowned",
-    "mobModelTexture": "drowned.png",
+    "mobModelName": "Biped",
+    "mobModelTexture": "drowned_pirate_inhalf.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
@@ -17,7 +17,7 @@
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -13421773,
+      "value": -13382656,
       "falpha": 0.0
     },
     "creativeTab": {

@@ -15,7 +15,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
-import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
@@ -39,16 +38,13 @@ import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
-import net.minecraft.client.renderer.model.ModelRenderer;
-import net.minecraft.client.renderer.entity.model.EntityModel;
-import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.model.BipedModel;
+import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
+import net.minecraft.client.renderer.entity.BipedRenderer;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.newbordersmod.item.PrismarineCutlassItem;
 import net.mcreator.newbordersmod.NewBordersModModElements;
-
-import com.mojang.blaze3d.vertex.IVertexBuilder;
-import com.mojang.blaze3d.matrix.MatrixStack;
 
 @NewBordersModModElements.ModElement.Tag
 public class DrownedPirateEntity extends NewBordersModModElements.ModElement {
@@ -64,7 +60,7 @@ public class DrownedPirateEntity extends NewBordersModModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("drowned_pirate")
 						.setRegistryName("drowned_pirate");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -13369345, -13421773, new Item.Properties().group(ItemGroup.MISC))
+		elements.items.add(() -> new SpawnEggItem(entity, -13369345, -13382656, new Item.Properties().group(ItemGroup.MISC))
 				.setRegistryName("drowned_pirate_spawn_egg"));
 	}
 
@@ -100,12 +96,14 @@ public class DrownedPirateEntity extends NewBordersModModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> {
-			return new MobRenderer(renderManager, new ModelPirate_Drowned(), 0.5f) {
+			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("new_borders_mod:textures/drowned.png");
+					return new ResourceLocation("new_borders_mod:textures/drowned_pirate_inhalf.png");
 				}
 			};
+			customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
+			return customRender;
 		});
 	}
 	public static class CustomEntity extends MonsterEntity {
@@ -185,75 +183,6 @@ public class DrownedPirateEntity extends NewBordersModModElements.ModElement {
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
 			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(4);
-		}
-	}
-
-	// Made with Blockbench 3.7.4
-	// Exported for Minecraft version 1.15
-	// Paste this class into your mod and generate all required imports
-	public static class ModelPirate_Drowned extends EntityModel<Entity> {
-		private final ModelRenderer head;
-		private final ModelRenderer headwear;
-		private final ModelRenderer body;
-		private final ModelRenderer left_arm;
-		private final ModelRenderer right_arm;
-		private final ModelRenderer left_leg;
-		private final ModelRenderer right_leg;
-		public ModelPirate_Drowned() {
-			textureWidth = 64;
-			textureHeight = 64;
-			head = new ModelRenderer(this);
-			head.setRotationPoint(0.0F, 0.0F, 0.0F);
-			head.setTextureOffset(0, 0).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, 0.0F, false);
-			headwear = new ModelRenderer(this);
-			headwear.setRotationPoint(0.0F, 0.0F, 0.0F);
-			headwear.setTextureOffset(32, 0).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, 0.25F, false);
-			body = new ModelRenderer(this);
-			body.setRotationPoint(0.0F, 0.0F, 0.0F);
-			body.setTextureOffset(16, 16).addBox(-4.0F, 0.0F, -2.0F, 8.0F, 12.0F, 4.0F, 0.0F, false);
-			left_arm = new ModelRenderer(this);
-			left_arm.setRotationPoint(-5.0F, 2.0F, 0.0F);
-			setRotationAngle(left_arm, -1.5708F, 0.0F, 0.0F);
-			left_arm.setTextureOffset(40, 32).addBox(9.0F, -2.0F, -2.0F, 4.0F, 12.0F, 4.0F, 0.0F, true);
-			right_arm = new ModelRenderer(this);
-			right_arm.setRotationPoint(5.0F, 2.0F, 0.0F);
-			setRotationAngle(right_arm, -1.5708F, 0.0F, 0.0F);
-			right_arm.setTextureOffset(40, 16).addBox(-13.0F, -2.0F, -2.0F, 4.0F, 12.0F, 4.0F, 0.0F, false);
-			left_leg = new ModelRenderer(this);
-			left_leg.setRotationPoint(-1.9F, 12.0F, 0.0F);
-			left_leg.setTextureOffset(0, 32).addBox(1.9F, 0.0F, -2.0F, 4.0F, 12.0F, 4.0F, 0.0F, true);
-			right_leg = new ModelRenderer(this);
-			right_leg.setRotationPoint(1.9F, 12.0F, 0.0F);
-			right_leg.setTextureOffset(0, 16).addBox(-5.9F, 0.0F, -2.0F, 4.0F, 12.0F, 4.0F, 0.0F, false);
-		}
-
-		@Override
-		public void render(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float red, float green, float blue,
-				float alpha) {
-			head.render(matrixStack, buffer, packedLight, packedOverlay);
-			headwear.render(matrixStack, buffer, packedLight, packedOverlay);
-			body.render(matrixStack, buffer, packedLight, packedOverlay);
-			left_arm.render(matrixStack, buffer, packedLight, packedOverlay);
-			right_arm.render(matrixStack, buffer, packedLight, packedOverlay);
-			left_leg.render(matrixStack, buffer, packedLight, packedOverlay);
-			right_leg.render(matrixStack, buffer, packedLight, packedOverlay);
-		}
-
-		public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
-			modelRenderer.rotateAngleX = x;
-			modelRenderer.rotateAngleY = y;
-			modelRenderer.rotateAngleZ = z;
-		}
-
-		public void setRotationAngles(Entity e, float f, float f1, float f2, float f3, float f4) {
-			this.head.rotateAngleY = f3 / (180F / (float) Math.PI);
-			this.head.rotateAngleX = f4 / (180F / (float) Math.PI);
-			this.headwear.rotateAngleY = f3 / (180F / (float) Math.PI);
-			this.headwear.rotateAngleX = f4 / (180F / (float) Math.PI);
-			this.right_arm.rotateAngleX = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
-			this.left_leg.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
-			this.left_arm.rotateAngleX = MathHelper.cos(f * 0.6662F) * f1;
-			this.right_leg.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
 		}
 	}
 }

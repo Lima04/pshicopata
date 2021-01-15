@@ -1,11 +1,19 @@
 package net.mcreator.newbordersmod.procedures;
 
+import net.minecraft.world.IWorld;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.item.ItemEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.newbordersmod.item.AntiPhantomMissileBatteryItemItem;
+import net.mcreator.newbordersmod.NewBordersModModElements;
+
+import java.util.Map;
+
 @NewBordersModModElements.ModElement.Tag
 public class AntiPhantomMissileBatteryRightClickedOnEntityProcedure extends NewBordersModModElements.ModElement {
-
 	public AntiPhantomMissileBatteryRightClickedOnEntityProcedure(NewBordersModModElements instance) {
 		super(instance, 458);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -34,13 +42,11 @@ public class AntiPhantomMissileBatteryRightClickedOnEntityProcedure extends NewB
 				System.err.println("Failed to load dependency world for procedure AntiPhantomMissileBatteryRightClickedOnEntity!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if (!entity.world.isRemote)
 			entity.remove();
 		if (!world.getWorld().isRemote) {
@@ -49,7 +55,5 @@ public class AntiPhantomMissileBatteryRightClickedOnEntityProcedure extends NewB
 			entityToSpawn.setNoDespawn();
 			world.addEntity(entityToSpawn);
 		}
-
 	}
-
 }

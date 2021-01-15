@@ -7,23 +7,23 @@
   ],
   "key": {
     "0": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:radar"
     },
     "1": {
       "item": "minecraft:iron_block"
     },
     "3": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:lead_block_slab"
     },
     "4": {
       "item": "new_borders_mod:sentinel_hard_disc"
     },
     "5": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:lead_block_slab"
     }
   },
   "result": {
-    "item": "new_borders_mod:unknown_element",
+    "item": "new_borders_mod:anti_phantom_missile_battery_item",
     "count": 1
   }
 }

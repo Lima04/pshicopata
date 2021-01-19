@@ -5081,6 +5081,60 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "evaporator_recipe"
+    },
+    {
+      "name": "MagmaBricks",
+      "type": "block",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_bricks"
+    },
+    {
+      "name": "MagmaBrickSlab",
+      "type": "block",
+      "sortid": 461,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_brick_slab"
+    },
+    {
+      "name": "MagmaBrickStairs",
+      "type": "block",
+      "sortid": 462,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_brick_stairs"
+    },
+    {
+      "name": "MagmaBricksRecipe",
+      "type": "recipe",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_bricks_recipe"
+    },
+    {
+      "name": "MagmaBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 464,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_brick_slab_recipe"
+    },
+    {
+      "name": "MagmaBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 465,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_brick_stairs_recipe"
     }
   ],
   "variable_elements": [],
@@ -5445,6 +5499,7 @@
       "block.new_borders_mod.salt_ore": "Salt Ore",
       "item.new_borders_mod.lollipop_charge": "Lollipop Charge",
       "item.new_borders_mod.zombie_jerky": "Zombie Jerky",
+      "block.new_borders_mod.magma_brick_stairs": "Magma Brick Stairs",
       "item.new_borders_mod.viola_enluarada": "Viola Enluarada",
       "item.new_borders_mod.seagull_flying_spawn_egg": "Seagull Spawn Egg",
       "block.new_borders_mod.cut_polished_salt_brick_slab": "Cut Polished Salt Brick Slab",
@@ -5470,6 +5525,7 @@
       "subtitles.sentinel1": "Sentinel Chipset",
       "block.new_borders_mod.big_candy_air": "Big Candy Air",
       "subtitles.sentinel2": "Cleaner Sentinel Chipset",
+      "block.new_borders_mod.magma_bricks": "Magma Bricks",
       "block.new_borders_mod.polished_salt_slab": "Polished Salt Slab",
       "advancements.seasoning_season.title": "Seasoning Season",
       "block.new_borders_mod.candy_ore": "Candy Ore",
@@ -5525,6 +5581,7 @@
       "subtitles.keyboard1": "Casio Keyboard Preset 1",
       "entity.new_borders_mod.penguin": "Penguin",
       "item.new_borders_mod.cesium_137": "Cesium 137",
+      "block.new_borders_mod.magma_brick_slab": "Magma Brick Slab",
       "subtitles.keyboard2": "Eletric Piano Note",
       "block.new_borders_mod.purple_berry_plant": "Purple Berry Plant",
       "block.new_borders_mod.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",

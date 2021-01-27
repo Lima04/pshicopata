@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "new_borders_mod:blocks/purple_berry_phase_2",
+    "particle": "new_borders_mod:blocks/purple_berry_phase_2"
+  }
+}

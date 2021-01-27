@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "purple_berry_plant",
+    "texture": "purple_berry_phase_1",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -24,7 +24,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Purple Berry Plant",
+    "name": "Purple Berry Phase 1",
     "specialInfo": [],
     "hardness": 0.1,
     "resistance": 0.0,
@@ -100,16 +100,7 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "taiga"
-      },
-      {
-        "value": "snowy_tundra"
-      },
-      {
         "value": "CUSTOM:Steppe"
-      },
-      {
-        "value": "river"
       }
     ],
     "blocksToReplace": [

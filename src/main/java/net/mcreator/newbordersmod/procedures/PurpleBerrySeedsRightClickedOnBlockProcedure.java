@@ -8,7 +8,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.newbordersmod.item.PurpleBerrySeedsItem;
-import net.mcreator.newbordersmod.block.PurpleBerryPlantBlock;
+import net.mcreator.newbordersmod.block.PurpleBerryPhase0Block;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 import java.util.Map;
@@ -51,7 +51,7 @@ public class PurpleBerrySeedsRightClickedOnBlockProcedure extends NewBordersModM
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.GRASS_BLOCK.getDefaultState().getBlock())) {
-			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), PurpleBerryPlantBlock.block.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), PurpleBerryPhase0Block.block.getDefaultState(), 3);
 			if (entity instanceof PlayerEntity) {
 				ItemStack _stktoremove = new ItemStack(PurpleBerrySeedsItem.block, (int) (1));
 				((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);

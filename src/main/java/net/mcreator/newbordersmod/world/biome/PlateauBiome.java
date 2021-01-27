@@ -19,8 +19,6 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
@@ -74,8 +72,6 @@ public class PlateauBiome extends NewBordersModModElements.ModElement {
 											Feature.FANCY_TREE.withConfiguration(DefaultBiomeFeatures.field_230131_m_).withChance(0.1F)),
 									Feature.NORMAL_TREE.withConfiguration(DefaultBiomeFeatures.field_230132_o_)))
 							.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(1, 0.1F, 1))));
-			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.ZOMBIE, 20, 1, 4));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ZOMBIE, 20, 1, 4));
 		}
 	}
 }

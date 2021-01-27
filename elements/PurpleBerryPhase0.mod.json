@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "purple_berry_phase_3",
+    "texture": "purple_berry_phase_0",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -24,7 +24,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Purple Berry Plant Phase 3",
+    "name": "Purple Berry Phase 0",
     "specialInfo": [],
     "hardness": 0.1,
     "resistance": 0.0,
@@ -92,19 +92,37 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "PurpleBerryPlantBerryOnBlockRightClicked"
+    "onTickUpdate": {
+      "name": "PurpleBerryPhase0to1"
     },
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
       {
-        "value": "Blocks.STONE"
+        "value": "taiga"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "CUSTOM:Steppe"
+      },
+      {
+        "value": "river"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "blocksToReplace": [
+      {
+        "value": "Blocks.TALLGRASS#1"
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#2"
+      }
+    ],
+    "frequencyPerChunks": 16,
+    "frequencyOnChunk": 20,
+    "minGenerateHeight": 50,
+    "maxGenerateHeight": 256
   }
 }

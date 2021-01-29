@@ -1,0 +1,33 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:polished_limestone"
+    },
+    "3": {
+      "item": "new_borders_mod:polished_limestone"
+    },
+    "4": {
+      "item": "new_borders_mod:polished_limestone"
+    },
+    "6": {
+      "item": "new_borders_mod:polished_limestone"
+    },
+    "7": {
+      "item": "new_borders_mod:polished_limestone"
+    },
+    "8": {
+      "item": "new_borders_mod:polished_limestone"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:polished_limestone_stairs",
+    "count": 4
+  }
+}

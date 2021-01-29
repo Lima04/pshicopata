@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "new_borders_mod:blocks/limestone",
+    "top": "new_borders_mod:blocks/limestone",
+    "side": "new_borders_mod:blocks/limestone"
+  }
+}

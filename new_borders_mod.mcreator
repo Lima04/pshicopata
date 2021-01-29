@@ -5340,6 +5340,303 @@
           }
         ]
       }
+    },
+    {
+      "name": "Limestone",
+      "type": "block",
+      "sortid": 470,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone"
+    },
+    {
+      "name": "LimestoneRecipe",
+      "type": "recipe",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_recipe"
+    },
+    {
+      "name": "PolishedLimestone",
+      "type": "block",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone"
+    },
+    {
+      "name": "PolishedLimestoneRecipe",
+      "type": "recipe",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_recipe"
+    },
+    {
+      "name": "PolishedLimestoneBricks",
+      "type": "block",
+      "sortid": 474,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_bricks"
+    },
+    {
+      "name": "PolishedLimestoneBricksRecipe",
+      "type": "recipe",
+      "sortid": 475,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_bricks_recipe"
+    },
+    {
+      "name": "LimestoneSlab",
+      "type": "block",
+      "sortid": 476,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_slab"
+    },
+    {
+      "name": "LimestoneStairs",
+      "type": "block",
+      "sortid": 477,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stairs"
+    },
+    {
+      "name": "LimestoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 478,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_slab_recipe"
+    },
+    {
+      "name": "LimestoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 479,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stairs_recipe"
+    },
+    {
+      "name": "PolishedLimestoneSlab",
+      "type": "block",
+      "sortid": 480,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_slab"
+    },
+    {
+      "name": "PolishedLimestoneStairs",
+      "type": "block",
+      "sortid": 481,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stairs"
+    },
+    {
+      "name": "PolishedLimestoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 482,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_slab_recipe"
+    },
+    {
+      "name": "PolishedLimestoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 483,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stairs_recipe"
+    },
+    {
+      "name": "PolishedLimestoneBrickSlab",
+      "type": "block",
+      "sortid": 484,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_brick_slab"
+    },
+    {
+      "name": "PolishedLimestoneBrickStairs",
+      "type": "block",
+      "sortid": 485,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_brick_stairs"
+    },
+    {
+      "name": "PolishedLimestoneBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 486,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_brick_slab_recipe"
+    },
+    {
+      "name": "PolishedLimestoneBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 487,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_brick_stairs_recipe"
+    },
+    {
+      "name": "LimestoneStonecutter1",
+      "type": "recipe",
+      "sortid": 488,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_1"
+    },
+    {
+      "name": "LimestoneStonecutter2",
+      "type": "recipe",
+      "sortid": 489,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_2"
+    },
+    {
+      "name": "LimestoneStonecutter3",
+      "type": "recipe",
+      "sortid": 490,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_3"
+    },
+    {
+      "name": "LimestoneStonecutter4",
+      "type": "recipe",
+      "sortid": 491,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_4"
+    },
+    {
+      "name": "LimestoneStonecutter5",
+      "type": "recipe",
+      "sortid": 492,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_5"
+    },
+    {
+      "name": "LimestoneStonecutter6",
+      "type": "recipe",
+      "sortid": 493,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_6"
+    },
+    {
+      "name": "LimestoneStonecutter7",
+      "type": "recipe",
+      "sortid": 494,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_7"
+    },
+    {
+      "name": "LimestoneStonecutter8",
+      "type": "recipe",
+      "sortid": 495,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_8"
+    },
+    {
+      "name": "PolishedLimestoneStonecutter1",
+      "type": "recipe",
+      "sortid": 496,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stonecutter_1"
+    },
+    {
+      "name": "PolishedLimestoneStonecutter2",
+      "type": "recipe",
+      "sortid": 497,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stonecutter_2"
+    },
+    {
+      "name": "PolishedLimestoneStonecutter3",
+      "type": "recipe",
+      "sortid": 498,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stonecutter_3"
+    },
+    {
+      "name": "PolishedLimestoneStonecutter4",
+      "type": "recipe",
+      "sortid": 499,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stonecutter_4"
+    },
+    {
+      "name": "PolishedLimestoneStonecutter5",
+      "type": "recipe",
+      "sortid": 500,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stonecutter_5"
+    },
+    {
+      "name": "LimestoneBrickStonecutter1",
+      "type": "recipe",
+      "sortid": 501,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_brick_stonecutter_1"
+    },
+    {
+      "name": "LimestoneBrickStonecutter2",
+      "type": "recipe",
+      "sortid": 502,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_brick_stonecutter_2"
     }
   ],
   "variable_elements": [],
@@ -5611,10 +5908,12 @@
       "biome.new_borders_mod.plateau": "Plateau",
       "block.new_borders_mod.redwood_fence": "Redwood Fence",
       "block.new_borders_mod.cut_polished_salt_bricks": "Cut Polished Salt Bricks",
+      "block.new_borders_mod.polished_limestone_stairs": "Polished Limestone Stairs",
       "block.new_borders_mod.purple_berry_phase_0": "Purple Berry Phase 0",
       "biome.new_borders_mod.brown_river": "Brown River",
       "block.new_borders_mod.purple_berry_phase_2": "Purple Berry Phase 2",
       "biome.new_borders_mod.eucalyptus_forest": "Eucalyptus Forest",
+      "block.new_borders_mod.limestone_slab": "Limestone Slab",
       "block.new_borders_mod.redwood_air_2": "Redwood Air 2",
       "item.new_borders_mod.penguin_spawn_egg": "Penguin Spawn Egg",
       "block.new_borders_mod.babacu_slab": "Babacu Slab",
@@ -5663,6 +5962,8 @@
       "item.new_borders_mod.empty_music_d_isc": "Empty Music Disc",
       "item.new_borders_mod.seagull_stay_spawn_egg": "Seagull Spawn Egg",
       "subtitles.seagull_living": "Seagull Chirping",
+      "block.new_borders_mod.limestone": "Limestone",
+      "block.new_borders_mod.polished_limestone_slab": "Polished Limestone Slab",
       "block.new_borders_mod.redwood_slab": "Redwood Slab",
       "block.new_borders_mod.eucalyptus_air": "Eucalyptus Air",
       "block.new_borders_mod.lead_block_slab": "Lead Block Slab",
@@ -5703,6 +6004,7 @@
       "block.new_borders_mod.cherry_tree_slab": "Cherry Tree Slab",
       "item.new_borders_mod.lollipop_essence": "Lollipop Essence",
       "item.new_borders_mod.sentinel_hard_disc": "Sentinel Hard Disc",
+      "block.new_borders_mod.polished_limestone_brick_stairs": "Polished Limestone Brick Stairs",
       "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
       "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
       "item.new_borders_mod.cooked_salted_cod": "Cooked Salted Cod",
@@ -5727,7 +6029,9 @@
       "block.new_borders_mod.redwoodair_3": "Redwoodair 3",
       "advancements.music.descr": "And the beat goes on........",
       "block.new_borders_mod.cesium_reactor": "Cesium Reactor",
+      "block.new_borders_mod.limestone_stairs": "Limestone Stairs",
       "block.new_borders_mod.cobalt_59_block": "Cobalt 59 Block",
+      "block.new_borders_mod.polished_limestone": "Polished Limestone",
       "item.new_borders_mod.night_sword": "Night Sword",
       "block.new_borders_mod.ipe_log": "Ipe Log",
       "block.new_borders_mod.snow_brick_stairs": "Snow Brick Stairs",
@@ -5771,6 +6075,7 @@
       "item.new_borders_mod.samba_de_verao": "Samba De Verao",
       "block.new_borders_mod.purple_berry_plant_berry": "Purple Berry Plant Phase 3",
       "item.new_borders_mod.normal_canon": "Normal Canon",
+      "block.new_borders_mod.polished_limestone_brick_slab": "Polished Limestone Brick Slab",
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
       "item.new_borders_mod.eye_of_the_eclipse": "Eye of the Eclipse",
       "item.new_borders_mod.salt": "Salt",
@@ -5789,6 +6094,7 @@
       "block.new_borders_mod.polished_salt_brick_slab": "Polished Salt Brick Slab",
       "fluid.waste_water": "WasteWater",
       "block.new_borders_mod.redwood_log": "Redwood Log",
+      "block.new_borders_mod.polished_limestone_bricks": "Polished Limestone Bricks",
       "block.new_borders_mod.dried_bush": "Dried Bush",
       "subtitles.keyboard1": "Casio Keyboard Preset 1",
       "entity.new_borders_mod.penguin": "Penguin",

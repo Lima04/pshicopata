@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "new_borders_mod:blocks/polished_limestone_bricks",
+    "top": "new_borders_mod:blocks/polished_limestone_bricks",
+    "side": "new_borders_mod:blocks/polished_limestone_bricks"
+  }
+}

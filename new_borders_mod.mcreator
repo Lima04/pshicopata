@@ -5342,6 +5342,77 @@
       }
     },
     {
+      "name": "Phase2to3bonemeal",
+      "type": "procedure",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phase_2to_3bonemeal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WasteWaterUpdateTick",
+      "type": "procedure",
+      "sortid": 475,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waste_water_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wastelands",
+      "type": "biome",
+      "sortid": 474,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wastelands"
+    },
+    {
       "name": "PurpleBerryPhase0OnBlockRightClicked",
       "type": "procedure",
       "sortid": 470,
@@ -5408,39 +5479,6 @@
       }
     },
     {
-      "name": "Phase2to3bonemeal",
-      "type": "procedure",
-      "sortid": 472,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "phase_2to_3bonemeal",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "CesiumOre",
       "type": "block",
       "sortid": 473,
@@ -5450,42 +5488,301 @@
       "registry_name": "cesium_ore"
     },
     {
-      "name": "Wastelands",
-      "type": "biome",
-      "sortid": 474,
+      "name": "LimestoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 479,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "wastelands"
+      "registry_name": "limestone_stairs_recipe"
     },
     {
-      "name": "WasteWaterUpdateTick",
-      "type": "procedure",
+      "name": "PolishedLimestoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 482,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_slab_recipe"
+    },
+    {
+      "name": "PolishedLimestoneBrickSlab",
+      "type": "block",
+      "sortid": 484,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_brick_slab"
+    },
+    {
+      "name": "PolishedLimestoneStonecutter5",
+      "type": "recipe",
+      "sortid": 500,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stonecutter_5"
+    },
+    {
+      "name": "PolishedLimestoneStonecutter4",
+      "type": "recipe",
+      "sortid": 499,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stonecutter_4"
+    },
+    {
+      "name": "Limestone",
+      "type": "block",
+      "sortid": 470,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone"
+    },
+    {
+      "name": "LimestoneSlab",
+      "type": "block",
+      "sortid": 476,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_slab"
+    },
+    {
+      "name": "PolishedLimestoneSlab",
+      "type": "block",
+      "sortid": 480,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_slab"
+    },
+    {
+      "name": "LimestoneStairs",
+      "type": "block",
+      "sortid": 477,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stairs"
+    },
+    {
+      "name": "PolishedLimestoneBricksRecipe",
+      "type": "recipe",
       "sortid": 475,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "waste_water_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "polished_limestone_bricks_recipe"
+    },
+    {
+      "name": "PolishedLimestoneStairs",
+      "type": "block",
+      "sortid": 481,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stairs"
+    },
+    {
+      "name": "LimestoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 478,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_slab_recipe"
+    },
+    {
+      "name": "LimestoneRecipe",
+      "type": "recipe",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_recipe"
+    },
+    {
+      "name": "LimestoneStonecutter1",
+      "type": "recipe",
+      "sortid": 488,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_1"
+    },
+    {
+      "name": "PolishedLimestoneStonecutter3",
+      "type": "recipe",
+      "sortid": 498,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stonecutter_3"
+    },
+    {
+      "name": "PolishedLimestoneStonecutter2",
+      "type": "recipe",
+      "sortid": 497,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stonecutter_2"
+    },
+    {
+      "name": "LimestoneStonecutter3",
+      "type": "recipe",
+      "sortid": 490,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_3"
+    },
+    {
+      "name": "PolishedLimestoneStonecutter1",
+      "type": "recipe",
+      "sortid": 496,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stonecutter_1"
+    },
+    {
+      "name": "LimestoneStonecutter2",
+      "type": "recipe",
+      "sortid": 489,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_2"
+    },
+    {
+      "name": "LimestoneBrickStonecutter1",
+      "type": "recipe",
+      "sortid": 501,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_brick_stonecutter_1"
+    },
+    {
+      "name": "LimestoneBrickStonecutter2",
+      "type": "recipe",
+      "sortid": 502,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_brick_stonecutter_2"
+    },
+    {
+      "name": "LimestoneStonecutter8",
+      "type": "recipe",
+      "sortid": 495,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_8"
+    },
+    {
+      "name": "PolishedLimestoneBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 487,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_brick_stairs_recipe"
+    },
+    {
+      "name": "PolishedLimestoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 483,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_stairs_recipe"
+    },
+    {
+      "name": "LimestoneStonecutter5",
+      "type": "recipe",
+      "sortid": 492,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_5"
+    },
+    {
+      "name": "LimestoneStonecutter4",
+      "type": "recipe",
+      "sortid": 491,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_4"
+    },
+    {
+      "name": "PolishedLimestone",
+      "type": "block",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone"
+    },
+    {
+      "name": "LimestoneStonecutter7",
+      "type": "recipe",
+      "sortid": 494,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_7"
+    },
+    {
+      "name": "LimestoneStonecutter6",
+      "type": "recipe",
+      "sortid": 493,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_stonecutter_6"
+    },
+    {
+      "name": "PolishedLimestoneBrickStairs",
+      "type": "block",
+      "sortid": 485,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_brick_stairs"
+    },
+    {
+      "name": "PolishedLimestoneBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 486,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_brick_slab_recipe"
+    },
+    {
+      "name": "PolishedLimestoneRecipe",
+      "type": "recipe",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_recipe"
+    },
+    {
+      "name": "PolishedLimestoneBricks",
+      "type": "block",
+      "sortid": 474,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_limestone_bricks"
     }
   ],
   "variable_elements": [],
@@ -5723,7 +6020,6 @@
       "item.new_borders_mod.cooked_pinon": "Cooked Pinon",
       "subtitles.pifer": "Poopifers",
       "item.new_borders_mod.pinch_of_salt": "Pinch of Salt",
-      "biome.new_borders_mod.wastelands": "Wastelands",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
       "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
@@ -5750,30 +6046,30 @@
       "item.new_borders_mod.babacu_pulp": "Babacu Pulp",
       "block.new_borders_mod.glass_door": "Glass Door",
       "block.new_borders_mod.snow_bricks": "Snow Bricks",
-      "advancements.what_a_jerk.descr": "Successfully make rotten flesh safe for consumption.",
       "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
+      "advancements.what_a_jerk.descr": "Successfully make rotten flesh safe for consumption.",
       "biome.new_borders_mod.redwood_taiga": "Redwood Taiga",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003.desc": "The Poopifers - The First Shit (Album) (2003)",
       "block.new_borders_mod.cut_chiseled_salt_bricks": "Cut Chiseled Salt Bricks",
       "biome.new_borders_mod.plateau": "Plateau",
       "block.new_borders_mod.redwood_fence": "Redwood Fence",
       "block.new_borders_mod.cut_polished_salt_bricks": "Cut Polished Salt Bricks",
-      "biome.new_borders_mod.brown_river": "Brown River",
       "block.new_borders_mod.purple_berry_phase_0": "Purple Berry Phase 0",
+      "biome.new_borders_mod.brown_river": "Brown River",
       "block.new_borders_mod.purple_berry_phase_2": "Purple Berry Phase 2",
       "biome.new_borders_mod.eucalyptus_forest": "Eucalyptus Forest",
       "block.new_borders_mod.redwood_air_2": "Redwood Air 2",
       "item.new_borders_mod.penguin_spawn_egg": "Penguin Spawn Egg",
       "block.new_borders_mod.babacu_slab": "Babacu Slab",
       "entity.new_borders_mod.cleaner_sentinel": "Cleaner Sentinel",
-      "advancements.music.title": "Music!",
       "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
+      "advancements.music.title": "Music!",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003": "The Poopifers - The First Shit (Album) (2003)",
       "advancements.seasoning_season.descr": "Things are about to get saltier.",
-      "item.new_borders_mod.licorice": "Licorice",
       "block.new_borders_mod.polished_salt_stairs": "Polished Salt Stairs",
-      "biome.new_borders_mod.tropical_savanna_hills": "Tropical Savanna Hills",
+      "item.new_borders_mod.licorice": "Licorice",
       "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
+      "biome.new_borders_mod.tropical_savanna_hills": "Tropical Savanna Hills",
       "entity.new_borders_mod.seagull_stay": "Seagull",
       "block.new_borders_mod.eucalyptus_air_3": "Eucalyptus Air 3",
       "block.new_borders_mod.babacu_leavess": "Babacu Leaves",
@@ -5782,10 +6078,10 @@
       "item.new_borders_mod.raw_salted_mutton": "Raw Salted Mutton",
       "item.new_borders_mod.twin_cherries": "Twin Cherries",
       "block.new_borders_mod.eucalyptus_air_2": "Eucalyptus Air 2",
-      "block.new_borders_mod.babacu_phase_4": "Babacu Phase 3",
-      "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
-      "item.new_borders_mod.candy": "Candy",
       "item.new_borders_mod.cooked_salted_mutton": "Cooked Salted Mutton",
+      "item.new_borders_mod.candy": "Candy",
+      "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
+      "block.new_borders_mod.babacu_phase_4": "Babacu Phase 3",
       "block.new_borders_mod.babacu_phase_3": "Babacu Phase 3",
       "block.new_borders_mod.babacu_phase_5": "Babacu Phase 5",
       "block.new_borders_mod.casio_keyboard_from_the_80s": "Casio Keyboard From The 80s",
@@ -5924,7 +6220,6 @@
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
       "item.new_borders_mod.winterfell_pillager_spawn_egg": "Winterfell Pillager Spawn Egg",
       "biome.new_borders_mod.snowy_blossom_forest": "Snowy Blossom Forest",
-      "block.new_borders_mod.cesium_ore": "Cesium Ore",
       "block.new_borders_mod.redwood_air": "Redwood Air",
       "item.new_borders_mod.drowned_pirate_spawn_egg": "Drowned Pirate Spawn Egg",
       "item.new_borders_mod.estrelar": "Estrelar",

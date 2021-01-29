@@ -21,6 +21,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.monster.PhantomEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.RangedAttackGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
@@ -136,7 +137,7 @@ public class AntiPhantomMissileBatteryEntity extends NewBordersModModElements.Mo
 					}
 				}
 			});
-			this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, JungleSkeletonEntity.CustomEntity.class, false, false));
+			this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, PhantomEntity.class, false, false));
 			this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10) {
 				@Override
 				public boolean shouldContinueExecuting() {

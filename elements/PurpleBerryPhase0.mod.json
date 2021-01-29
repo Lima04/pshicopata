@@ -92,6 +92,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "PurpleBerryPhase0OnBlockRightClicked"
+    },
     "onTickUpdate": {
       "name": "PurpleBerryPhase0to1"
     },

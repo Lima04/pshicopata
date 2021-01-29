@@ -14,9 +14,18 @@
     "creativeTab": {
       "value": "MISC"
     },
-    "frequencyOnChunks": 0,
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
+    "frequencyOnChunks": 2,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Wastelands"
+      }
+    ],
+    "onTickUpdate": {
+      "name": "WasteWaterUpdateTick"
+    },
     "onEntityCollides": {
       "name": "Cobalt60ItemInHandTick"
     }

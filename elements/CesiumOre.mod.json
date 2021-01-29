@@ -2,20 +2,20 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "purple_berry_phase_2",
+    "texture": "cesium_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 12,
-    "customModelName": "Cross model",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
@@ -24,30 +24,30 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Purple Berry Phase 2",
+    "name": "Cesium Ore",
     "specialInfo": [],
-    "hardness": 0.1,
-    "resistance": 0.0,
-    "hasGravity": true,
+    "hardness": 3.0,
+    "resistance": 0.5,
+    "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Cesium137"
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
-      "value": "PLANTS"
+      "value": "ROCK"
     },
-    "tickRate": 12000,
+    "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -61,13 +61,13 @@
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -92,40 +92,22 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "Phase2to3bonemeal"
-    },
-    "onTickUpdate": {
-      "name": "PurpleBerryPhase2to3"
-    },
     "spawnWorldTypes": [
       "Surface"
     ],
     "restrictionBiomes": [
       {
-        "value": "taiga"
-      },
-      {
-        "value": "snowy_tundra"
-      },
-      {
-        "value": "CUSTOM:Steppe"
-      },
-      {
-        "value": "river"
+        "value": "CUSTOM:Wastelands"
       }
     ],
     "blocksToReplace": [
       {
-        "value": "Blocks.TALLGRASS#1"
-      },
-      {
-        "value": "Blocks.DOUBLE_PLANT#2"
+        "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 16,
-    "frequencyOnChunk": 20,
-    "minGenerateHeight": 50,
-    "maxGenerateHeight": 256
+    "frequencyPerChunks": 6,
+    "frequencyOnChunk": 6,
+    "minGenerateHeight": 2,
+    "maxGenerateHeight": 25
   }
 }

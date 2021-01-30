@@ -2,10 +2,10 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "siltstone2",
-    "textureTop": "",
+    "texture": "polished_siltstone_bricks",
+    "textureTop": "polished_siltstone_bricks",
     "textureLeft": "",
-    "textureFront": "",
+    "textureFront": "polished_siltstone_bricks",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,
@@ -15,6 +15,7 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Slab",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -24,7 +25,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Siltstone",
+    "name": "Polished Siltstone Brick Slab",
     "specialInfo": [],
     "hardness": 1.25,
     "resistance": 3.0,
@@ -92,18 +93,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 7,
-    "frequencyOnChunk": 32,
-    "minGenerateHeight": 30,
-    "maxGenerateHeight": 128
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

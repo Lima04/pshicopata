@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "new_borders_mod:blocks/siltstone2",
+    "top": "new_borders_mod:blocks/siltstone2",
+    "side": "new_borders_mod:blocks/siltstone2"
+  }
+}

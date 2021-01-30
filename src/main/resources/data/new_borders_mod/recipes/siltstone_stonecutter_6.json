@@ -1,0 +1,9 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "new_borders_mod:siltstone"
+  },
+  "result": "new_borders_mod:polished_siltstone_stairs"
+}

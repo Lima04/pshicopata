@@ -49,7 +49,7 @@ public class SiltstoneBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 3f).lightValue(0).harvestLevel(0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.25f, 3f).lightValue(0).harvestLevel(0)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("siltstone");
 		}

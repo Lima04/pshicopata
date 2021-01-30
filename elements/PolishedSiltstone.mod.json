@@ -26,7 +26,7 @@
     "Mz": 1.0,
     "name": "Polished Siltstone",
     "specialInfo": [],
-    "hardness": 3.0,
+    "hardness": 1.25,
     "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,

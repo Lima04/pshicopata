@@ -5,27 +5,27 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 6,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Siltstone"
-      },
-      {
-        "value": "CUSTOM:Siltstone"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Siltstone"
-      },
-      {
-        "value": "CUSTOM:Siltstone"
-      },
-      {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedSiltstoneBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedSiltstoneBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedSiltstoneBricks"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:PolishedSiltstone"
+      "value": "CUSTOM:PolishedSiltstoneBrickSlab"
     },
-    "name": "polished_siltstone_recipe",
+    "name": "polished_siltstone_brick_slab_recipe",
     "namespace": "mod"
   }
 }

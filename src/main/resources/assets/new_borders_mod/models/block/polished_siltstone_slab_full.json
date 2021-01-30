@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "new_borders_mod:blocks/polished_siltstone",
+    "top": "new_borders_mod:blocks/polished_siltstone",
+    "side": "new_borders_mod:blocks/polished_siltstone"
+  }
+}

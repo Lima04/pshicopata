@@ -2,8 +2,7 @@
   "group": "new_borders_mod",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23"
+    "012"
   ],
   "key": {
     "0": {
@@ -14,13 +13,10 @@
     },
     "2": {
       "item": "new_borders_mod:siltstone"
-    },
-    "3": {
-      "item": "new_borders_mod:siltstone"
     }
   },
   "result": {
-    "item": "new_borders_mod:polished_siltstone",
-    "count": 4
+    "item": "new_borders_mod:siltstone_slab",
+    "count": 6
   }
 }

@@ -20,11 +20,11 @@ import java.util.List;
 import java.util.Collections;
 
 @NewBordersModModElements.ModElement.Tag
-public class PolishedSiltstoneBlock extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:polished_siltstone")
+public class PolishedSiltstoneBricksBlock extends NewBordersModModElements.ModElement {
+	@ObjectHolder("new_borders_mod:polished_siltstone_bricks")
 	public static final Block block = null;
-	public PolishedSiltstoneBlock(NewBordersModModElements instance) {
-		super(instance, 504);
+	public PolishedSiltstoneBricksBlock(NewBordersModModElements instance) {
+		super(instance, 506);
 	}
 
 	@Override
@@ -37,7 +37,7 @@ public class PolishedSiltstoneBlock extends NewBordersModModElements.ModElement 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.25f, 3f).lightValue(0).harvestLevel(0)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("polished_siltstone");
+			setRegistryName("polished_siltstone_bricks");
 		}
 
 		@Override

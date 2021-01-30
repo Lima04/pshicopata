@@ -13,6 +13,15 @@
         "value": "CUSTOM:Siltstone"
       },
       {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Siltstone"
+      },
+      {
         "value": "CUSTOM:Siltstone"
       },
       {
@@ -25,22 +34,13 @@
         "value": "CUSTOM:Siltstone"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Siltstone"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:PolishedSiltstone"
+      "value": "CUSTOM:SiltstoneStairs"
     },
-    "name": "polished_siltstone_recipe",
+    "name": "siltstone_stairs_recipe",
     "namespace": "mod"
   }
 }

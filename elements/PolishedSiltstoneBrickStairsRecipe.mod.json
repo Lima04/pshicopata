@@ -10,19 +10,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Siltstone"
-      },
-      {
-        "value": "CUSTOM:Siltstone"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Siltstone"
-      },
-      {
-        "value": "CUSTOM:Siltstone"
+        "value": "CUSTOM:PolishedSiltstoneBricks"
       },
       {
         "value": ""
@@ -31,16 +19,28 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:PolishedSiltstoneBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedSiltstoneBricks"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedSiltstoneBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedSiltstoneBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedSiltstoneBricks"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:PolishedSiltstone"
+      "value": "CUSTOM:PolishedSiltstoneBrickStairs"
     },
-    "name": "polished_siltstone_recipe",
+    "name": "polished_siltstone_brick_stairs_recipe",
     "namespace": "mod"
   }
 }

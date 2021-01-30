@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "limestone",
+    "texture": "polished_siltstone",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -24,9 +24,9 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Limestone",
+    "name": "Polished Siltstone",
     "specialInfo": [],
-    "hardness": 1.25,
+    "hardness": 3.0,
     "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -92,18 +92,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 7,
-    "frequencyOnChunk": 32,
-    "minGenerateHeight": 30,
-    "maxGenerateHeight": 128
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

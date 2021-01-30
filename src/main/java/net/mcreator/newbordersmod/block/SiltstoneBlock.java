@@ -34,11 +34,11 @@ import java.util.List;
 import java.util.Collections;
 
 @NewBordersModModElements.ModElement.Tag
-public class LimestoneBlock extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:limestone")
+public class SiltstoneBlock extends NewBordersModModElements.ModElement {
+	@ObjectHolder("new_borders_mod:siltstone")
 	public static final Block block = null;
-	public LimestoneBlock(NewBordersModModElements instance) {
-		super(instance, 470);
+	public SiltstoneBlock(NewBordersModModElements instance) {
+		super(instance, 503);
 	}
 
 	@Override
@@ -49,9 +49,9 @@ public class LimestoneBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.25f, 3f).lightValue(0).harvestLevel(0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 3f).lightValue(0).harvestLevel(0)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("limestone");
+			setRegistryName("siltstone");
 		}
 
 		@Override
@@ -76,7 +76,7 @@ public class LimestoneBlock extends NewBordersModModElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("limestone", "limestone", blockAt -> {
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("siltstone", "siltstone", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;

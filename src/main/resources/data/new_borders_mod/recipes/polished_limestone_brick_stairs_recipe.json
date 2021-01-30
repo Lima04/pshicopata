@@ -8,26 +8,26 @@
   ],
   "key": {
     "0": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_limestone_bricks"
     },
     "3": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_limestone_bricks"
     },
     "4": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_limestone_bricks"
     },
     "6": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_limestone_bricks"
     },
     "7": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_limestone_bricks"
     },
     "8": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_limestone_bricks"
     }
   },
   "result": {
-    "item": "new_borders_mod:unknown_element",
+    "item": "new_borders_mod:polished_limestone_brick_stairs",
     "count": 4
   }
 }

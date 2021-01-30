@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_limestone"
     },
     "1": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_limestone"
     },
     "2": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_limestone"
     },
     "3": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_limestone"
     }
   },
   "result": {
-    "item": "new_borders_mod:unknown_element",
+    "item": "new_borders_mod:polished_limestone_bricks",
     "count": 4
   }
 }

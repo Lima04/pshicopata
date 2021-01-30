@@ -3,7 +3,7 @@
   "type": "minecraft:stonecutting",
   "count": 2,
   "ingredient": {
-    "item": "new_borders_mod:unknown_element"
+    "item": "new_borders_mod:polished_limestone_bricks"
   },
   "result": "new_borders_mod:polished_limestone_brick_slab"
 }

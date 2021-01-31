@@ -5106,112 +5106,6 @@
       "registry_name": "anti_phantom_missile_battery"
     },
     {
-      "name": "EvaporatorTakeSalt",
-      "type": "procedure",
-      "sortid": 456,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "evaporator_take_salt",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "EvaporatorOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 457,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "evaporator_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "EvaporatorUpdateTick",
-      "type": "procedure",
-      "sortid": 458,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "evaporator_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Evaporator",
-      "type": "block",
-      "sortid": 455,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "evaporator"
-    },
-    {
-      "name": "EvaporatorGUI",
-      "type": "gui",
-      "sortid": 456,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "evaporator_gui"
-    },
-    {
-      "name": "EvaporatorRecipe",
-      "type": "recipe",
-      "sortid": 459,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "evaporator_recipe"
-    },
-    {
       "name": "MagmaBricks",
       "type": "block",
       "sortid": 460,
@@ -6080,6 +5974,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "siltstone_recipe"
+    },
+    {
+      "name": "Shale",
+      "type": "block",
+      "sortid": 536,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale"
+    },
+    {
+      "name": "ShaleShard",
+      "type": "item",
+      "sortid": 537,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_shard"
+    },
+    {
+      "name": "ShaleRecipe",
+      "type": "recipe",
+      "sortid": 538,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_recipe"
+    },
+    {
+      "name": "ShaleDrop",
+      "type": "loottable",
+      "sortid": 539,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_drop"
     }
   ],
   "variable_elements": [],
@@ -6361,6 +6291,7 @@
       "block.new_borders_mod.limestone_slab": "Limestone Slab",
       "block.new_borders_mod.redwood_air_2": "Redwood Air 2",
       "item.new_borders_mod.penguin_spawn_egg": "Penguin Spawn Egg",
+      "block.new_borders_mod.shale": "Shale",
       "block.new_borders_mod.babacu_slab": "Babacu Slab",
       "entity.new_borders_mod.cleaner_sentinel": "Cleaner Sentinel",
       "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
@@ -6437,7 +6368,6 @@
       "advancements.under_pressure.descr": "Things are about to get salty.",
       "block.new_borders_mod.cherry_blossoms": "Cherry Blossoms",
       "block.new_borders_mod.babacu_air_2_fruit": "Babacu Air 1",
-      "block.new_borders_mod.evaporator": "Evaporator",
       "item.new_borders_mod.cherry": "Cherry",
       "item.new_borders_mod.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg",
       "block.new_borders_mod.babacu_stairs": "Babacu Stairs",
@@ -6557,6 +6487,7 @@
       "block.new_borders_mod.purple_berry_plant": "Purple Berry Phase 1",
       "block.new_borders_mod.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",
       "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Armor Body",
+      "item.new_borders_mod.shale_shard": "Shale Shard",
       "block.new_borders_mod.polished_salt_pillar": "Polished Salt Pillar",
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
       "advancements.under_pressure.title": "Under Pressure",

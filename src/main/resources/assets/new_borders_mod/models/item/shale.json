@@ -1,5 +1,5 @@
 {
-  "parent": "new_borders_mod:block/evaporator",
+  "parent": "new_borders_mod:block/shale",
   "display": {
     "thirdperson": {
       "rotation": [

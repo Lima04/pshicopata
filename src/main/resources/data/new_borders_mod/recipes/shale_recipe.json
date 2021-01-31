@@ -1,0 +1,42 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:shale_shard"
+    },
+    "1": {
+      "item": "new_borders_mod:shale_shard"
+    },
+    "2": {
+      "item": "new_borders_mod:shale_shard"
+    },
+    "3": {
+      "item": "new_borders_mod:shale_shard"
+    },
+    "4": {
+      "item": "new_borders_mod:shale_shard"
+    },
+    "5": {
+      "item": "new_borders_mod:shale_shard"
+    },
+    "6": {
+      "item": "new_borders_mod:shale_shard"
+    },
+    "7": {
+      "item": "new_borders_mod:shale_shard"
+    },
+    "8": {
+      "item": "new_borders_mod:shale_shard"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:shale",
+    "count": 1
+  }
+}

@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.COBBLESTONE"
+        "value": "CUSTOM:ShaleShard"
       },
       {
-        "value": "Blocks.IRON_BARS"
+        "value": "CUSTOM:ShaleShard"
       },
       {
-        "value": "Blocks.COBBLESTONE"
+        "value": "CUSTOM:ShaleShard"
       },
       {
-        "value": "Blocks.COBBLESTONE"
+        "value": "CUSTOM:ShaleShard"
       },
       {
-        "value": "Blocks.CAULDRON"
+        "value": "CUSTOM:ShaleShard"
       },
       {
-        "value": "Blocks.COBBLESTONE"
+        "value": "CUSTOM:ShaleShard"
       },
       {
-        "value": "Blocks.COBBLESTONE"
+        "value": "CUSTOM:ShaleShard"
       },
       {
-        "value": "Blocks.COBBLESTONE"
+        "value": "CUSTOM:ShaleShard"
       },
       {
-        "value": "Blocks.COBBLESTONE"
+        "value": "CUSTOM:ShaleShard"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Evaporator"
+      "value": "CUSTOM:Shale"
     },
-    "name": "evaporator_recipe",
+    "name": "shale_recipe",
     "namespace": "mod"
   }
 }

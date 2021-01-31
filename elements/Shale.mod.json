@@ -2,15 +2,15 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "furnace_top",
-    "textureTop": "evaporator_top",
-    "textureLeft": "furnace_side",
-    "textureFront": "furnace_side",
-    "textureRight": "furnace_side",
-    "textureBack": "furnace_side",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 1,
+    "texture": "shale",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -24,10 +24,10 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Evaporator",
+    "name": "Shale",
     "specialInfo": [],
-    "hardness": 3.5,
-    "resistance": 3.5,
+    "hardness": 0.7,
+    "resistance": 0.7,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -38,7 +38,7 @@
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -47,7 +47,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 300,
+    "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -92,22 +92,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "EvaporatorOnBlockRightClicked"
-    },
-    "onTickUpdate": {
-      "name": "EvaporatorUpdateTick"
-    },
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 7,
+    "frequencyOnChunk": 32,
+    "minGenerateHeight": 40,
+    "maxGenerateHeight": 90
   }
 }

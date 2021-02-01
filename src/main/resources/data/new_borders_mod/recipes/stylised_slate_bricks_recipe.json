@@ -1,0 +1,26 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:polished_slate_bricks"
+    },
+    "1": {
+      "item": "new_borders_mod:polished_slate_bricks"
+    },
+    "2": {
+      "item": "new_borders_mod:polished_slate_bricks"
+    },
+    "3": {
+      "item": "new_borders_mod:polished_slate_bricks"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:stylised_slate_bricks",
+    "count": 4
+  }
+}

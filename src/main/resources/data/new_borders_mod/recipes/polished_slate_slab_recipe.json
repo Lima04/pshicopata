@@ -1,0 +1,22 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:polished_slate"
+    },
+    "1": {
+      "item": "new_borders_mod:polished_slate"
+    },
+    "2": {
+      "item": "new_borders_mod:polished_slate"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:polished_slate_slab",
+    "count": 6
+  }
+}

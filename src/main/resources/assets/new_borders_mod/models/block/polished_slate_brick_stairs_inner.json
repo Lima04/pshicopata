@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "new_borders_mod:blocks/polished_slate_bricks",
+    "top": "new_borders_mod:blocks/polished_slate_bricks",
+    "side": "new_borders_mod:blocks/polished_slate_bricks"
+  }
+}

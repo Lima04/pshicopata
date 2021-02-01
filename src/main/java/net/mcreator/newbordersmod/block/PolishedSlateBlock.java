@@ -4,13 +4,13 @@ package net.mcreator.newbordersmod.block;
 import net.minecraft.block.material.Material;
 
 @NewBordersModModElements.ModElement.Tag
-public class GlowingObsidianBlock extends NewBordersModModElements.ModElement {
+public class PolishedSlateBlock extends NewBordersModModElements.ModElement {
 
-	@ObjectHolder("new_borders_mod:glowing_obsidian")
+	@ObjectHolder("new_borders_mod:polished_slate")
 	public static final Block block = null;
 
-	public GlowingObsidianBlock(NewBordersModModElements instance) {
-		super(instance, 540);
+	public PolishedSlateBlock(NewBordersModModElements instance) {
+		super(instance, 541);
 
 	}
 
@@ -26,9 +26,10 @@ public class GlowingObsidianBlock extends NewBordersModModElements.ModElement {
 		public CustomBlock() {
 			super(
 
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(50f, 1200f).lightValue(10));
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.1f, 3f).lightValue(0).harvestLevel(0)
+							.harvestTool(ToolType.PICKAXE));
 
-			setRegistryName("glowing_obsidian");
+			setRegistryName("polished_slate");
 		}
 
 		@Override

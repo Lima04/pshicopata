@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedSlateBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedSlateBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedSlateBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedSlateBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StylisedSlateBricks"
+    },
+    "name": "stylised_slate_bricks_recipe",
+    "namespace": "mod"
+  }
+}

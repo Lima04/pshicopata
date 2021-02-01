@@ -6028,6 +6028,456 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glowing_obsidian_recipe"
+    },
+    {
+      "name": "StylisedSlateBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 563,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stylised_slate_brick_stairs_recipe"
+    },
+    {
+      "name": "PSlateSC6",
+      "type": "recipe",
+      "sortid": 580,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_slate_sc_6"
+    },
+    {
+      "name": "PolishedSlateRecipe",
+      "type": "recipe",
+      "sortid": 545,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_slate_recipe"
+    },
+    {
+      "name": "PSlateSC5",
+      "type": "recipe",
+      "sortid": 579,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_slate_sc_5"
+    },
+    {
+      "name": "PSlateSC8",
+      "type": "recipe",
+      "sortid": 582,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_slate_sc_8"
+    },
+    {
+      "name": "SlateStairs",
+      "type": "block",
+      "sortid": 549,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_stairs"
+    },
+    {
+      "name": "PSlateSC7",
+      "type": "recipe",
+      "sortid": 581,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_slate_sc_7"
+    },
+    {
+      "name": "PSlateSC2",
+      "type": "recipe",
+      "sortid": 576,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_slate_sc_2"
+    },
+    {
+      "name": "PSlateSC1",
+      "type": "recipe",
+      "sortid": 575,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_slate_sc_1"
+    },
+    {
+      "name": "PSlateSC4",
+      "type": "recipe",
+      "sortid": 578,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_slate_sc_4"
+    },
+    {
+      "name": "PSlateSC3",
+      "type": "recipe",
+      "sortid": 577,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_slate_sc_3"
+    },
+    {
+      "name": "StylisedSlateBricks",
+      "type": "block",
+      "sortid": 543,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stylised_slate_bricks"
+    },
+    {
+      "name": "PolishedSlateBricksRecipe",
+      "type": "recipe",
+      "sortid": 546,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_slate_bricks_recipe"
+    },
+    {
+      "name": "PolishedSlateSlab",
+      "type": "block",
+      "sortid": 550,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_slate_slab"
+    },
+    {
+      "name": "SlateSlabRecipe",
+      "type": "recipe",
+      "sortid": 556,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_slab_recipe"
+    },
+    {
+      "name": "StylisedSlateBrickSlab",
+      "type": "block",
+      "sortid": 554,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stylised_slate_brick_slab"
+    },
+    {
+      "name": "PolishedSlateSlabRecipe",
+      "type": "recipe",
+      "sortid": 558,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_slate_slab_recipe"
+    },
+    {
+      "name": "PolishedSlateStairsRecipe",
+      "type": "recipe",
+      "sortid": 559,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_slate_stairs_recipe"
+    },
+    {
+      "name": "StylisedSlateBricksRecipe",
+      "type": "recipe",
+      "sortid": 547,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stylised_slate_bricks_recipe"
+    },
+    {
+      "name": "StylisedSlateBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 562,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stylised_slate_brick_slab_recipe"
+    },
+    {
+      "name": "Slate",
+      "type": "block",
+      "sortid": 540,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate"
+    },
+    {
+      "name": "PolishedSlateBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 560,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_slate_brick_slab_recipe"
+    },
+    {
+      "name": "SlateSlab",
+      "type": "block",
+      "sortid": 548,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_slab"
+    },
+    {
+      "name": "PolishedSlateStairs",
+      "type": "block",
+      "sortid": 551,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_slate_stairs"
+    },
+    {
+      "name": "PolishedSlateBrickSlab",
+      "type": "block",
+      "sortid": 552,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_slate_brick_slab"
+    },
+    {
+      "name": "BSlateSC5",
+      "type": "recipe",
+      "sortid": 587,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_slate_sc_5"
+    },
+    {
+      "name": "BSlateSC4",
+      "type": "recipe",
+      "sortid": 586,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_slate_sc_4"
+    },
+    {
+      "name": "PolishedSlateBrickStairs",
+      "type": "block",
+      "sortid": 553,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_slate_brick_stairs"
+    },
+    {
+      "name": "BSlateSC3",
+      "type": "recipe",
+      "sortid": 585,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_slate_sc_3"
+    },
+    {
+      "name": "BSlateSC2",
+      "type": "recipe",
+      "sortid": 584,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_slate_sc_2"
+    },
+    {
+      "name": "BSlateSC1",
+      "type": "recipe",
+      "sortid": 583,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_slate_sc_1"
+    },
+    {
+      "name": "PolishedSlateBricks",
+      "type": "block",
+      "sortid": 542,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_slate_bricks"
+    },
+    {
+      "name": "PolishedSlate",
+      "type": "block",
+      "sortid": 541,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_slate"
+    },
+    {
+      "name": "SlateSC9",
+      "type": "recipe",
+      "sortid": 572,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_sc_9"
+    },
+    {
+      "name": "StylisedSlateBrickStairs",
+      "type": "block",
+      "sortid": 555,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stylised_slate_brick_stairs"
+    },
+    {
+      "name": "SlateSC3",
+      "type": "recipe",
+      "sortid": 566,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_sc_3"
+    },
+    {
+      "name": "PolishedSlateBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 561,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_slate_brick_stairs_recipe"
+    },
+    {
+      "name": "SlateSC4",
+      "type": "recipe",
+      "sortid": 567,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_sc_4"
+    },
+    {
+      "name": "SSlateSC1",
+      "type": "recipe",
+      "sortid": 588,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "s_slate_sc_1"
+    },
+    {
+      "name": "SlateSC1",
+      "type": "recipe",
+      "sortid": 564,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_sc_1"
+    },
+    {
+      "name": "SlateSC2",
+      "type": "recipe",
+      "sortid": 565,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_sc_2"
+    },
+    {
+      "name": "SlateSC7",
+      "type": "recipe",
+      "sortid": 570,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_sc_7"
+    },
+    {
+      "name": "SlateSC8",
+      "type": "recipe",
+      "sortid": 571,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_sc_8"
+    },
+    {
+      "name": "SlateSC5",
+      "type": "recipe",
+      "sortid": 568,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_sc_5"
+    },
+    {
+      "name": "SSlateSC2",
+      "type": "recipe",
+      "sortid": 589,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "s_slate_sc_2"
+    },
+    {
+      "name": "SlateSC6",
+      "type": "recipe",
+      "sortid": 569,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_sc_6"
+    },
+    {
+      "name": "SlateSC11",
+      "type": "recipe",
+      "sortid": 574,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_sc_11"
+    },
+    {
+      "name": "SlateSC10",
+      "type": "recipe",
+      "sortid": 573,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_sc_10"
+    },
+    {
+      "name": "SlateStairsRecipe",
+      "type": "recipe",
+      "sortid": 557,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_stairs_recipe"
+    },
+    {
+      "name": "SlateRecipe",
+      "type": "recipe",
+      "sortid": 544,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slate_recipe"
     }
   ],
   "variable_elements": [],
@@ -6293,8 +6743,8 @@
       "item.new_borders_mod.babacu_pulp": "Babacu Pulp",
       "block.new_borders_mod.glass_door": "Glass Door",
       "block.new_borders_mod.snow_bricks": "Snow Bricks",
-      "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
       "advancements.what_a_jerk.descr": "Successfully make rotten flesh safe for consumption.",
+      "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
       "biome.new_borders_mod.redwood_taiga": "Redwood Taiga",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003.desc": "The Poopifers - The First Shit (Album) (2003)",
       "block.new_borders_mod.cut_chiseled_salt_bricks": "Cut Chiseled Salt Bricks",
@@ -6302,8 +6752,8 @@
       "block.new_borders_mod.redwood_fence": "Redwood Fence",
       "block.new_borders_mod.cut_polished_salt_bricks": "Cut Polished Salt Bricks",
       "block.new_borders_mod.polished_limestone_stairs": "Polished Limestone Stairs",
-      "block.new_borders_mod.purple_berry_phase_0": "Purple Berry Phase 0",
       "biome.new_borders_mod.brown_river": "Brown River",
+      "block.new_borders_mod.purple_berry_phase_0": "Purple Berry Phase 0",
       "block.new_borders_mod.purple_berry_phase_2": "Purple Berry Phase 2",
       "biome.new_borders_mod.eucalyptus_forest": "Eucalyptus Forest",
       "block.new_borders_mod.limestone_slab": "Limestone Slab",
@@ -6312,14 +6762,14 @@
       "block.new_borders_mod.shale": "Shale",
       "block.new_borders_mod.babacu_slab": "Babacu Slab",
       "entity.new_borders_mod.cleaner_sentinel": "Cleaner Sentinel",
-      "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
       "advancements.music.title": "Music!",
+      "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003": "The Poopifers - The First Shit (Album) (2003)",
       "advancements.seasoning_season.descr": "Things are about to get saltier.",
-      "block.new_borders_mod.polished_salt_stairs": "Polished Salt Stairs",
       "item.new_borders_mod.licorice": "Licorice",
-      "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
+      "block.new_borders_mod.polished_salt_stairs": "Polished Salt Stairs",
       "biome.new_borders_mod.tropical_savanna_hills": "Tropical Savanna Hills",
+      "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
       "entity.new_borders_mod.seagull_stay": "Seagull",
       "block.new_borders_mod.eucalyptus_air_3": "Eucalyptus Air 3",
       "block.new_borders_mod.babacu_leavess": "Babacu Leaves",
@@ -6378,7 +6828,6 @@
       "block.new_borders_mod.babacu_air_1": "Babacu Air 1",
       "block.new_borders_mod.babacu_air_2": "Babacu Air 1",
       "item.new_borders_mod.fogo_do_sol": "Fogo Do Sol",
-      "block.new_borders_mod.glowing_obsidian": "Glowing Obsidian",
       "item.new_borders_mod.nuclear_waste": "Nuclear Waste",
       "biome.new_borders_mod.cocais_jungle_hills": "Cocais Jungle Hills",
       "biome.new_borders_mod.ridge": "Ridge",

@@ -4,13 +4,13 @@ package net.mcreator.newbordersmod.block;
 import net.minecraft.block.material.Material;
 
 @NewBordersModModElements.ModElement.Tag
-public class GlowingObsidianBlock extends NewBordersModModElements.ModElement {
+public class PolishedSlateBrickStairsBlock extends NewBordersModModElements.ModElement {
 
-	@ObjectHolder("new_borders_mod:glowing_obsidian")
+	@ObjectHolder("new_borders_mod:polished_slate_brick_stairs")
 	public static final Block block = null;
 
-	public GlowingObsidianBlock(NewBordersModModElements instance) {
-		super(instance, 540);
+	public PolishedSlateBrickStairsBlock(NewBordersModModElements instance) {
+		super(instance, 553);
 
 	}
 
@@ -21,14 +21,15 @@ public class GlowingObsidianBlock extends NewBordersModModElements.ModElement {
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
 
-	public static class CustomBlock extends Block {
+	public static class CustomBlock extends StairsBlock {
 
 		public CustomBlock() {
-			super(
+			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.1f, 3f)).getDefaultState(),
 
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(50f, 1200f).lightValue(10));
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.1f, 3f).lightValue(0).harvestLevel(0)
+							.harvestTool(ToolType.PICKAXE));
 
-			setRegistryName("glowing_obsidian");
+			setRegistryName("polished_slate_brick_stairs");
 		}
 
 		@Override

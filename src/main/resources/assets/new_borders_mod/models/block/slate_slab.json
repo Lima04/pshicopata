@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "new_borders_mod:blocks/slate",
+    "top": "new_borders_mod:blocks/slate",
+    "side": "new_borders_mod:blocks/slate"
+  }
+}

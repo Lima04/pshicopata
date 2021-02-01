@@ -8,26 +8,26 @@
   ],
   "key": {
     "0": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_slate"
     },
     "3": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_slate"
     },
     "4": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_slate"
     },
     "6": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_slate"
     },
     "7": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_slate"
     },
     "8": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:polished_slate"
     }
   },
   "result": {
-    "item": "new_borders_mod:unknown_element",
+    "item": "new_borders_mod:polished_slate_stairs",
     "count": 4
   }
 }

@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:slate"
     },
     "1": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:slate"
     },
     "2": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:slate"
     },
     "3": {
-      "item": "new_borders_mod:unknown_element"
+      "item": "new_borders_mod:slate"
     }
   },
   "result": {
-    "item": "new_borders_mod:unknown_element",
+    "item": "new_borders_mod:polished_slate",
     "count": 4
   }
 }

@@ -98,6 +98,8 @@ public class BabacuType1AirStructure extends NewBordersModModElements.ModElement
 				biomeCriteria = true;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:cocais_jungle_hills")))
 				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:turtle_island")))
+				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
 			biome.addFeature(GenerationStage.Decoration.SURFACE_STRUCTURES, feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "new_borders_mod:blocks/glowing_obsidian",
+    "particle": "new_borders_mod:blocks/glowing_obsidian"
+  }
+}

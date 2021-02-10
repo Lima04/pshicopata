@@ -6469,6 +6469,75 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "turtle_island"
+    },
+    {
+      "name": "Darkworld",
+      "type": "biome",
+      "sortid": 590,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkworld"
+    },
+    {
+      "name": "Limb",
+      "type": "dimension",
+      "sortid": 590,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limb"
+    },
+    {
+      "name": "GlowingObsidian",
+      "type": "block",
+      "sortid": 540,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowing_obsidian"
+    },
+    {
+      "name": "PlayerLimb",
+      "type": "procedure",
+      "sortid": 591,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "player_limb",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlowingObsidianRecipe",
+      "type": "recipe",
+      "sortid": 541,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowing_obsidian_recipe"
     }
   ],
   "variable_elements": [],
@@ -6805,7 +6874,7 @@
       "block.new_borders_mod.redwood_slab": "Redwood Slab",
       "block.new_borders_mod.eucalyptus_air": "Eucalyptus Air",
       "block.new_borders_mod.lead_block_slab": "Lead Block Slab",
-      "item.new_borders_mod.cobalt_armor_boots": "Cobalt Boots",
+      "item.new_borders_mod.cobalt_armor_boots": "Cobalt Armor Boots",
       "block.new_borders_mod.polished_siltstone": "Polished Siltstone",
       "block.new_borders_mod.slate": "Slate",
       "item.new_borders_mod.duskstone_gem": "Duskstone Gem",
@@ -6815,7 +6884,7 @@
       "item.new_borders_mod.para_os_filhos_de_abraao": "Para Os Filhos De Abraao",
       "item.new_borders_mod.frostbitten_spawn_egg": "Frostbitten Spawn Egg",
       "item.new_borders_mod.viola_enluarada.desc": "Marcos Valle - Viola Enluarada",
-      "item.new_borders_mod.cobalt_armor_leggings": "Cobalt Leggings",
+      "item.new_borders_mod.cobalt_armor_leggings": "Cobalt Armor Leggings",
       "subtitles.frostbittendeath": "Frostbitten dies",
       "block.new_borders_mod.redwood_leaves": "Redwood Leaves",
       "block.new_borders_mod.pinon": "Pinon Fruit",
@@ -6857,7 +6926,7 @@
       "item.new_borders_mod.seagull_flying_spawn_egg": "Seagull Spawn Egg",
       "block.new_borders_mod.cut_polished_salt_brick_slab": "Cut Polished Salt Brick Slab",
       "item.new_borders_mod.candy_sword": "Candy Sword",
-      "item.new_borders_mod.cobalt_armor_helmet": "Cobalt Helmet",
+      "item.new_borders_mod.cobalt_armor_helmet": "Cobalt Armor Helmet",
       "block.new_borders_mod.cobalt_door": "Cobalt Door",
       "block.new_borders_mod.siltstone": "Siltstone",
       "block.new_borders_mod.rose": "Rose",
@@ -6879,7 +6948,6 @@
       "block.new_borders_mod.siltstone_stairs": "Siltstone Stairs",
       "block.new_borders_mod.snow_brick_stairs": "Snow Brick Stairs",
       "item.new_borders_mod.ice_shard": "Ice Shard",
-      "biome.new_borders_mod.turtle_island": "Turtle Island",
       "subtitles.sentinel1": "Sentinel Chipset",
       "block.new_borders_mod.big_candy_air": "Big Candy Air",
       "subtitles.sentinel2": "Cleaner Sentinel Chipset",
@@ -6957,7 +7025,7 @@
       "subtitles.keyboard2": "Eletric Piano Note",
       "block.new_borders_mod.purple_berry_plant": "Purple Berry Phase 1",
       "block.new_borders_mod.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",
-      "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Chestplate",
+      "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Armor Body",
       "item.new_borders_mod.shale_shard": "Shale Shard",
       "block.new_borders_mod.polished_salt_pillar": "Polished Salt Pillar",
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",

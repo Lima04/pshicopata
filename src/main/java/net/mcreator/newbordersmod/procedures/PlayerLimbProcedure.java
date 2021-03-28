@@ -1,11 +1,27 @@
 package net.mcreator.newbordersmod.procedures;
 
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.server.ServerWorld;
+import net.minecraft.world.IWorld;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.math.Vec2f;
+import net.minecraft.entity.Entity;
+import net.minecraft.command.ICommandSource;
+import net.minecraft.command.CommandSource;
+
+import net.mcreator.newbordersmod.NewBordersModModElements;
+
+import java.util.Map;
+import java.util.HashMap;
+
 @NewBordersModModElements.ModElement.Tag
 public class PlayerLimbProcedure extends NewBordersModModElements.ModElement {
-
 	public PlayerLimbProcedure(NewBordersModModElements instance) {
 		super(instance, 591);
-
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -35,13 +51,11 @@ public class PlayerLimbProcedure extends NewBordersModModElements.ModElement {
 				System.err.println("Failed to load dependency world for procedure PlayerLimb!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if (((((world.getCurrentMoonPhaseFactor()) == 8) == (true)) && ((entity.dimension.getId()) == (0)))) {
 			if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
 				world.getWorld().getServer().getCommandManager().handleCommand(
@@ -50,7 +64,6 @@ public class PlayerLimbProcedure extends NewBordersModModElements.ModElement {
 						"execute in new_borders_mod:Limb run tp @p ~ ~ ~");
 			}
 		}
-
 	}
 
 	@SubscribeEvent
@@ -66,5 +79,4 @@ public class PlayerLimbProcedure extends NewBordersModModElements.ModElement {
 		dependencies.put("event", event);
 		this.executeProcedure(dependencies);
 	}
-
 }

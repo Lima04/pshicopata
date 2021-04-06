@@ -6897,6 +6897,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gunpowder_recipe"
+    },
+    {
+      "name": "ShaleSC1",
+      "type": "recipe",
+      "sortid": 624,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_sc_1"
+    },
+    {
+      "name": "ShaleSC2",
+      "type": "recipe",
+      "sortid": 625,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_sc_2"
+    },
+    {
+      "name": "ShaleSC3",
+      "type": "recipe",
+      "sortid": 626,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_sc_3"
+    },
+    {
+      "name": "ShaleSC4",
+      "type": "recipe",
+      "sortid": 627,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_sc_4"
+    },
+    {
+      "name": "ShaleSC5",
+      "type": "recipe",
+      "sortid": 628,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_sc_5"
     }
   ],
   "variable_elements": [],
@@ -7165,8 +7210,8 @@
       "item.new_borders_mod.babacu_pulp": "Babacu Pulp",
       "block.new_borders_mod.glass_door": "Glass Door",
       "block.new_borders_mod.snow_bricks": "Snow Bricks",
-      "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
       "advancements.what_a_jerk.descr": "Successfully make rotten flesh safe for consumption.",
+      "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
       "biome.new_borders_mod.redwood_taiga": "Redwood Taiga",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003.desc": "The Poopifers - The First Shit (Album) (2003)",
       "block.new_borders_mod.cut_chiseled_salt_bricks": "Cut Chiseled Salt Bricks",

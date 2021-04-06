@@ -1,0 +1,9 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "new_borders_mod:shale"
+  },
+  "result": "new_borders_mod:shale_tile_slab"
+}

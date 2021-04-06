@@ -6604,6 +6604,69 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "polished_gabbro"
+    },
+    {
+      "name": "VillagerStatue",
+      "type": "structure",
+      "sortid": 592,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_statue"
+    },
+    {
+      "name": "GolemStatue",
+      "type": "structure",
+      "sortid": 593,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golem_statue"
+    },
+    {
+      "name": "GolemStatueIron",
+      "type": "structure",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golem_statue_iron"
+    },
+    {
+      "name": "VillagerStatueGold",
+      "type": "structure",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_statue_gold"
+    },
+    {
+      "name": "VillagerStatueDiamond",
+      "type": "structure",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_statue_diamond"
+    },
+    {
+      "name": "VillagerStatueLapis",
+      "type": "structure",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_statue_lapis"
+    },
+    {
+      "name": "GolemStatueDiamond",
+      "type": "structure",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golem_statue_diamond"
     }
   ],
   "variable_elements": [],

@@ -55,7 +55,7 @@ public class FrostbittenEntity extends NewBordersModModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("frostbitten")
 						.setRegistryName("frostbitten");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -6710785, -10066177, new Item.Properties().group(ItemGroup.MISC))
+		elements.items.add(() -> new SpawnEggItem(entity, -16750951, -16724788, new Item.Properties().group(ItemGroup.MISC))
 				.setRegistryName("frostbitten_spawn_egg"));
 	}
 
@@ -67,9 +67,11 @@ public class FrostbittenEntity extends NewBordersModModElements.ModElement {
 				biomeCriteria = true;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("frozen_ocean")))
 				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("snowy_tundra")))
-				biomeCriteria = true;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("deep_frozen_ocean")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("frozen_river")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("snowy_tundra")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;

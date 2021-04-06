@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "new_borders_mod:block/shale_tile_slab"
+    },
+    "type=top": {
+      "model": "new_borders_mod:block/shale_tile_slab_top"
+    },
+    "type=double": {
+      "model": "new_borders_mod:block/shale_tile_slab_full"
+    }
+  }
+}

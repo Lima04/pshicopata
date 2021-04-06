@@ -1,0 +1,26 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:shale"
+    },
+    "1": {
+      "item": "new_borders_mod:shale"
+    },
+    "2": {
+      "item": "new_borders_mod:shale"
+    },
+    "3": {
+      "item": "new_borders_mod:shale"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:shale_tiles",
+    "count": 4
+  }
+}

@@ -4,7 +4,7 @@
   "definition": {
     "structure": "giant_glowshroom_variant_2",
     "randomlyRotateStructure": false,
-    "surfaceDetectionType": "First block",
+    "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 180000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
@@ -15,14 +15,7 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBlocks": [
-      {
-        "value": "Blocks.WATER"
-      },
-      {
-        "value": "Blocks.GRASS"
-      }
-    ],
+    "restrictionBlocks": [],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:GlowshroomJungle"

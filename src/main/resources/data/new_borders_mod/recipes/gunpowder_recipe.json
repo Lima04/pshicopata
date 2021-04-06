@@ -1,0 +1,22 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "new_borders_mod:saltpeter"
+    },
+    {
+      "item": "new_borders_mod:sulfur"
+    },
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "new_borders_mod:saltpeter"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 4
+  }
+}

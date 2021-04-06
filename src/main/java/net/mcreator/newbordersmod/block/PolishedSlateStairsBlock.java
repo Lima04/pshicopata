@@ -37,7 +37,7 @@ public class PolishedSlateStairsBlock extends NewBordersModModElements.ModElemen
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
 			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.1f, 3f)).getDefaultState(),
-					Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1.1f, 3f).lightValue(0).harvestLevel(0)
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.1f, 3f).lightValue(0).harvestLevel(0)
 							.harvestTool(ToolType.PICKAXE));
 			setRegistryName("polished_slate_stairs");
 		}

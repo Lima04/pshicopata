@@ -13,11 +13,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -6710785,
+      "value": -16750951,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -10066177,
+      "value": -16724788,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -118,10 +118,13 @@
         "value": "frozen_ocean"
       },
       {
-        "value": "snowy_tundra"
+        "value": "deep_frozen_ocean"
       },
       {
-        "value": "deep_frozen_ocean"
+        "value": "frozen_river"
+      },
+      {
+        "value": "snowy_tundra"
       }
     ],
     "spawnInDungeons": false

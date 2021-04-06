@@ -3,10 +3,19 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:quartz"
+      "item": "new_borders_mod:sunstone_gem"
+    },
+    {
+      "item": "new_borders_mod:sunstone_gem"
     },
     {
       "item": "minecraft:obsidian"
+    },
+    {
+      "item": "new_borders_mod:sunstone_gem"
+    },
+    {
+      "item": "new_borders_mod:sunstone_gem"
     }
   ],
   "result": {

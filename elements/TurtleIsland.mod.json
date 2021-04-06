@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "biome",
   "definition": {
-    "name": "Turtle Island",
+    "name": "Tropical Plains",
     "groundBlock": {
       "value": "Blocks.GRASS"
     },
@@ -31,16 +31,16 @@
     "flowersPerChunk": 4,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
-    "sandPathcesPerChunk": 0,
+    "sandPathcesPerChunk": 12,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "rainingPossibility": 0.7000000000000001,
-    "temperature": 0.5,
+    "rainingPossibility": 0.9,
+    "temperature": 0.9,
     "baseHeight": 0.1,
-    "heightVariation": 0.2,
+    "heightVariation": 0.1,
     "spawnBiome": true,
-    "biomeWeight": 20,
+    "biomeWeight": 2,
     "biomeType": "WARM",
     "biomeCategory": "PLAINS",
     "parent": {
@@ -66,15 +66,6 @@
       "Lakes"
     ],
     "spawnEntries": [
-      {
-        "entity": {
-          "value": "EntityTurtle"
-        },
-        "minGroup": 1,
-        "maxGroup": 2,
-        "weight": 10,
-        "spawnType": "creature"
-      },
       {
         "entity": {
           "value": "EntityZombie"
@@ -118,6 +109,42 @@
         "minGroup": 1,
         "maxGroup": 2,
         "weight": 10,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 3,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityChicken"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 12,
         "spawnType": "monster"
       }
     ]

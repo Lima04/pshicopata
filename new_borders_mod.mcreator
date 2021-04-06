@@ -6667,6 +6667,236 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "golem_statue_diamond"
+    },
+    {
+      "name": "ShaleTiles",
+      "type": "block",
+      "sortid": 604,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_tiles"
+    },
+    {
+      "name": "ShaleTileSlab",
+      "type": "block",
+      "sortid": 605,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_tile_slab"
+    },
+    {
+      "name": "ShaleTileStairs",
+      "type": "block",
+      "sortid": 606,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_tile_stairs"
+    },
+    {
+      "name": "ShaleTileRecipe",
+      "type": "recipe",
+      "sortid": 607,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_tile_recipe"
+    },
+    {
+      "name": "ShaleTileSlabRecipe",
+      "type": "recipe",
+      "sortid": 608,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_tile_slab_recipe"
+    },
+    {
+      "name": "ShaleTileStairsRecipe",
+      "type": "recipe",
+      "sortid": 609,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_tile_stairs_recipe"
+    },
+    {
+      "name": "SulfurOreEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 610,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_ore_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SulfurOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 611,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SulfurOre",
+      "type": "block",
+      "sortid": 610,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_ore"
+    },
+    {
+      "name": "NetherSulfurOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 612,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_sulfur_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherSulfurOreEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 613,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_sulfur_ore_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherSulfurOre",
+      "type": "block",
+      "sortid": 612,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_sulfur_ore"
+    },
+    {
+      "name": "Sulfur",
+      "type": "item",
+      "sortid": 614,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur"
+    },
+    {
+      "name": "SulfurOreDrops",
+      "type": "loottable",
+      "sortid": 615,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_ore_drops"
+    },
+    {
+      "name": "NetherSulfurOreDrops",
+      "type": "loottable",
+      "sortid": 616,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_sulfur_ore_drops"
+    },
+    {
+      "name": "Saltpeter",
+      "type": "item",
+      "sortid": 617,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saltpeter"
+    },
+    {
+      "name": "SaltpeterRecipe",
+      "type": "recipe",
+      "sortid": 618,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saltpeter_recipe"
+    },
+    {
+      "name": "SulfurSmeltOV",
+      "type": "recipe",
+      "sortid": 619,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_smelt_ov"
+    },
+    {
+      "name": "SulfurSmeltNT",
+      "type": "recipe",
+      "sortid": 620,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_smelt_nt"
+    },
+    {
+      "name": "SulfurBlastOV",
+      "type": "recipe",
+      "sortid": 621,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_blast_ov"
+    },
+    {
+      "name": "SulfurBlastNT",
+      "type": "recipe",
+      "sortid": 622,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_blast_nt"
+    },
+    {
+      "name": "GunpowderRecipe",
+      "type": "recipe",
+      "sortid": 623,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gunpowder_recipe"
     }
   ],
   "variable_elements": [],
@@ -6925,6 +7155,7 @@
       "block.new_borders_mod.asphalt_block": "Asphalt Block",
       "item.new_borders_mod.heat_canon": "Heat Canon",
       "biome.new_borders_mod.cocais_jungle": "Cocais Jungle",
+      "block.new_borders_mod.shale_tile_slab": "Shale Tile Slab",
       "block.new_borders_mod.stripped_redwood_log": "Stripped Redwood Log",
       "item.new_borders_mod.mais_que_amor": "Mais Que Amor",
       "item.new_borders_mod.purple_berry": "Purple Berry",
@@ -6969,6 +7200,7 @@
       "block.new_borders_mod.polished_slate_brick_stairs": "Polished Slate Brick Stairs",
       "item.new_borders_mod.raw_salted_mutton": "Raw Salted Mutton",
       "item.new_borders_mod.twin_cherries": "Twin Cherries",
+      "item.new_borders_mod.sulfur": "Sulfur",
       "block.new_borders_mod.eucalyptus_air_2": "Eucalyptus Air 2",
       "block.new_borders_mod.polished_slate_slab": "Polished Slate Slab",
       "item.new_borders_mod.cooked_salted_mutton": "Cooked Salted Mutton",
@@ -6985,6 +7217,7 @@
       "item.new_borders_mod.samba_de_verao.desc": "Marcos Valle - Samba De Verao",
       "item.new_borders_mod.cobalt_shard": "Cobalt Shard",
       "block.new_borders_mod.babacu_planks": "Babacu Planks",
+      "block.new_borders_mod.nether_sulfur_ore": "Nether Sulfur Ore",
       "entity.new_borders_mod.seagull_flying": "Seagull",
       "block.new_borders_mod.cut_polished_salt_brick_stairs": "Cut Polished Salt Brick Stairs",
       "item.new_borders_mod.gabbro_ashes": "Gabbro Ashes",
@@ -7028,11 +7261,13 @@
       "block.new_borders_mod.slate_slab": "Slate Slab",
       "biome.new_borders_mod.cocais_jungle_hills": "Cocais Jungle Hills",
       "biome.new_borders_mod.ridge": "Ridge",
+      "item.new_borders_mod.saltpeter": "Saltpeter",
       "block.new_borders_mod.babacu_3_air": "Babacu Air 1",
       "block.new_borders_mod.white_lamp": "Lamp",
       "advancements.under_pressure.descr": "Things are about to get salty.",
       "block.new_borders_mod.polished_slate_stairs": "Polished Slate Stairs",
       "block.new_borders_mod.cherry_blossoms": "Cherry Blossoms",
+      "block.new_borders_mod.shale_tiles": "Shale Tiles",
       "block.new_borders_mod.babacu_air_2_fruit": "Babacu Air 1",
       "item.new_borders_mod.cherry": "Cherry",
       "item.new_borders_mod.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg",
@@ -7064,6 +7299,7 @@
       "block.new_borders_mod.siltstone": "Siltstone",
       "block.new_borders_mod.rose": "Rose",
       "item.new_borders_mod.night_stone_gem": "Nightstone Gem",
+      "block.new_borders_mod.sulfur_ore": "Sulfur Ore",
       "biome.new_borders_mod.darkworld": "Darkworld",
       "block.new_borders_mod.babacu_sapling": "Babacu Sapling",
       "block.new_borders_mod.candy_leaves": "Candy Leaves",
@@ -7083,7 +7319,7 @@
       "block.new_borders_mod.siltstone_stairs": "Siltstone Stairs",
       "block.new_borders_mod.snow_brick_stairs": "Snow Brick Stairs",
       "item.new_borders_mod.ice_shard": "Ice Shard",
-      "biome.new_borders_mod.turtle_island": "Turtle Island",
+      "biome.new_borders_mod.turtle_island": "Tropical Plains",
       "subtitles.sentinel1": "Sentinel Chipset",
       "block.new_borders_mod.big_candy_air": "Big Candy Air",
       "subtitles.sentinel2": "Cleaner Sentinel Chipset",
@@ -7156,6 +7392,7 @@
       "block.new_borders_mod.dried_bush": "Dried Bush",
       "subtitles.keyboard1": "Casio Keyboard Preset 1",
       "entity.new_borders_mod.penguin": "Penguin",
+      "block.new_borders_mod.shale_tile_stairs": "Shale Tile Stairs",
       "item.new_borders_mod.cesium_137": "Cesium 137",
       "block.new_borders_mod.polished_siltstone_brick_stairs": "Polished Siltstone Brick Stairs",
       "block.new_borders_mod.magma_brick_slab": "Magma Brick Slab",

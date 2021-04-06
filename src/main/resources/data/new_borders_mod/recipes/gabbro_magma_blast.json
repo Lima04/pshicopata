@@ -4,9 +4,9 @@
   "experience": 1,
   "cookingtime": 100,
   "ingredient": {
-    "item": "new_borders_mod:gabbro_ashes"
+    "item": "new_borders_mod:unknown_element"
   },
   "result": {
-    "item": "new_borders_mod:magma_ball"
+    "item": "new_borders_mod:unknown_element"
   }
 }

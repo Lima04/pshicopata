@@ -68,7 +68,7 @@ public class ShaleBlock extends NewBordersModModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 32)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(7, 40, 40, 90))));
+			}), block.getDefaultState(), 20)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(7, 40, 40, 70))));
 		}
 	}
 }

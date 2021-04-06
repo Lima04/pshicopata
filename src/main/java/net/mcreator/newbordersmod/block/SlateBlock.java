@@ -81,7 +81,7 @@ public class SlateBlock extends NewBordersModModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 32)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(5, 30, 30, 128))));
+			}), block.getDefaultState(), 20)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(5, 30, 30, 70))));
 		}
 	}
 }

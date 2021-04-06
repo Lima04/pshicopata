@@ -6942,6 +6942,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "shale_sc_5"
+    },
+    {
+      "name": "ExplosionOfTaste",
+      "type": "achievement",
+      "sortid": 629,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosion_of_taste"
     }
   ],
   "variable_elements": [],
@@ -7210,8 +7219,8 @@
       "item.new_borders_mod.babacu_pulp": "Babacu Pulp",
       "block.new_borders_mod.glass_door": "Glass Door",
       "block.new_borders_mod.snow_bricks": "Snow Bricks",
-      "advancements.what_a_jerk.descr": "Successfully make rotten flesh safe for consumption.",
       "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
+      "advancements.what_a_jerk.descr": "Successfully make rotten flesh safe for consumption.",
       "biome.new_borders_mod.redwood_taiga": "Redwood Taiga",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003.desc": "The Poopifers - The First Shit (Album) (2003)",
       "block.new_borders_mod.cut_chiseled_salt_bricks": "Cut Chiseled Salt Bricks",
@@ -7329,6 +7338,7 @@
       "item.new_borders_mod.sentinel_hard_disc": "Sentinel Hard Disc",
       "block.new_borders_mod.polished_limestone_brick_stairs": "Polished Limestone Brick Stairs",
       "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
+      "advancements.explosion_of_taste.descr": "It feels like it\u0027s popping in your mouth!",
       "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
       "item.new_borders_mod.cooked_salted_cod": "Cooked Salted Cod",
       "block.new_borders_mod.salt_ore": "Salt Ore",
@@ -7449,6 +7459,7 @@
       "block.new_borders_mod.polished_salt_pillar": "Polished Salt Pillar",
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
       "advancements.under_pressure.title": "Under Pressure",
+      "advancements.explosion_of_taste.title": "An Explosion of Taste",
       "block.new_borders_mod.block_of_salt": "Block of Salt",
       "advancements.daft_punk.title": "Daft Punk",
       "block.new_borders_mod.sunstone_ore": "Sunstone Ore",

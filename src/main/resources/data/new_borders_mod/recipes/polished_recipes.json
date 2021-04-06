@@ -1,0 +1,26 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:gabbro"
+    },
+    "1": {
+      "item": "new_borders_mod:gabbro"
+    },
+    "2": {
+      "item": "new_borders_mod:gabbro"
+    },
+    "3": {
+      "item": "new_borders_mod:gabbro"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:polished_gabbro",
+    "count": 4
+  }
+}

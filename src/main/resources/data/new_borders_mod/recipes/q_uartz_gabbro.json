@@ -3,14 +3,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:quartz"
+      "item": "new_borders_mod:slate"
     },
     {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:quartz"
     }
   ],
   "result": {
-    "item": "new_borders_mod:glowing_obsidian",
+    "item": "new_borders_mod:gabbro",
     "count": 1
   }
 }

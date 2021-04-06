@@ -6471,24 +6471,6 @@
       "registry_name": "turtle_island"
     },
     {
-      "name": "Darkworld",
-      "type": "biome",
-      "sortid": 590,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "darkworld"
-    },
-    {
-      "name": "Limb",
-      "type": "dimension",
-      "sortid": 590,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "limb"
-    },
-    {
       "name": "GlowingObsidian",
       "type": "block",
       "sortid": 540,
@@ -6498,39 +6480,6 @@
       "registry_name": "glowing_obsidian"
     },
     {
-      "name": "PlayerLimb",
-      "type": "procedure",
-      "sortid": 591,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "player_limb",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "GlowingObsidianRecipe",
       "type": "recipe",
       "sortid": 541,
@@ -6538,6 +6487,123 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glowing_obsidian_recipe"
+    },
+    {
+      "name": "Gabbro",
+      "type": "block",
+      "sortid": 591,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gabbro"
+    },
+    {
+      "name": "PolishedGabbro",
+      "type": "block",
+      "sortid": 592,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_gabbro"
+    },
+    {
+      "name": "PolishedRecipes",
+      "type": "recipe",
+      "sortid": 593,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_recipes"
+    },
+    {
+      "name": "QUartzGabbro",
+      "type": "recipe",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "q_uartz_gabbro"
+    },
+    {
+      "name": "PolishedCutter",
+      "type": "recipe",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_cutter"
+    },
+    {
+      "name": "GabbroAshes",
+      "type": "item",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gabbro_ashes"
+    },
+    {
+      "name": "GabbroAshesSmelt",
+      "type": "recipe",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gabbro_ashes_smelt"
+    },
+    {
+      "name": "MagmaBall",
+      "type": "item",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_ball"
+    },
+    {
+      "name": "GabbroMagma",
+      "type": "recipe",
+      "sortid": 599,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gabbro_magma"
+    },
+    {
+      "name": "MagmaBallBlock",
+      "type": "recipe",
+      "sortid": 600,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_ball_block"
+    },
+    {
+      "name": "MagmaLava",
+      "type": "recipe",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_lava"
+    },
+    {
+      "name": "GabbroMagmaBlast",
+      "type": "recipe",
+      "sortid": 602,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gabbro_magma_blast"
+    },
+    {
+      "name": "Fifoda",
+      "type": "painting",
+      "sortid": 603,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fifoda"
     }
   ],
   "variable_elements": [],
@@ -6785,6 +6851,7 @@
       "biome.new_borders_mod.tropical_savanna": "Tropical Savanna",
       "biome.new_borders_mod.mount": "Mount",
       "block.new_borders_mod.lead_ore": "Lead Ore",
+      "item.new_borders_mod.magma_ball": "Magma Ball",
       "block.new_borders_mod.ipe_leaves": "Ipe Leaves",
       "item.new_borders_mod.tapetes_guardanapos_cetins": "Tapetes Guardanapos Cetins",
       "block.new_borders_mod.cobalt_bomb": "Cobalt Bomb",
@@ -6799,12 +6866,13 @@
       "item.new_borders_mod.mais_que_amor": "Mais Que Amor",
       "item.new_borders_mod.purple_berry": "Purple Berry",
       "item.new_borders_mod.raw_salted_beef": "Raw Salted Beef",
+      "block.new_borders_mod.polished_gabbro": "Polished Gabbro",
       "biome.new_borders_mod.steppe": "Steppe",
       "item.new_borders_mod.babacu_pulp": "Babacu Pulp",
       "block.new_borders_mod.glass_door": "Glass Door",
       "block.new_borders_mod.snow_bricks": "Snow Bricks",
-      "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
       "advancements.what_a_jerk.descr": "Successfully make rotten flesh safe for consumption.",
+      "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
       "biome.new_borders_mod.redwood_taiga": "Redwood Taiga",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003.desc": "The Poopifers - The First Shit (Album) (2003)",
       "block.new_borders_mod.cut_chiseled_salt_bricks": "Cut Chiseled Salt Bricks",
@@ -6812,8 +6880,8 @@
       "block.new_borders_mod.redwood_fence": "Redwood Fence",
       "block.new_borders_mod.cut_polished_salt_bricks": "Cut Polished Salt Bricks",
       "block.new_borders_mod.polished_limestone_stairs": "Polished Limestone Stairs",
-      "block.new_borders_mod.purple_berry_phase_0": "Purple Berry Phase 0",
       "biome.new_borders_mod.brown_river": "Brown River",
+      "block.new_borders_mod.purple_berry_phase_0": "Purple Berry Phase 0",
       "block.new_borders_mod.purple_berry_phase_2": "Purple Berry Phase 2",
       "biome.new_borders_mod.eucalyptus_forest": "Eucalyptus Forest",
       "block.new_borders_mod.limestone_slab": "Limestone Slab",
@@ -6856,6 +6924,7 @@
       "block.new_borders_mod.babacu_planks": "Babacu Planks",
       "entity.new_borders_mod.seagull_flying": "Seagull",
       "block.new_borders_mod.cut_polished_salt_brick_stairs": "Cut Polished Salt Brick Stairs",
+      "item.new_borders_mod.gabbro_ashes": "Gabbro Ashes",
       "block.new_borders_mod.polished_siltstone_stairs": "Polished Siltstone Stairs",
       "item.new_borders_mod.estrelar.desc": "Marcos Valle - Estrelar ",
       "biome.new_borders_mod.candy_forest": "Candy Forest",
@@ -6932,7 +7001,6 @@
       "block.new_borders_mod.siltstone": "Siltstone",
       "block.new_borders_mod.rose": "Rose",
       "item.new_borders_mod.night_stone_gem": "Nightstone Gem",
-      "biome.new_borders_mod.darkworld": "Darkworld",
       "block.new_borders_mod.babacu_sapling": "Babacu Sapling",
       "block.new_borders_mod.candy_leaves": "Candy Leaves",
       "block.new_borders_mod.white_cherry_blossoms": "White Cherry Blossoms",
@@ -6940,7 +7008,6 @@
       "block.new_borders_mod.redwood_planks": "Redwood Planks",
       "block.new_borders_mod.polished_salt_block": "Polished Salt Block",
       "block.new_borders_mod.redwoodair_3": "Redwoodair 3",
-      "item.new_borders_mod.limb": "Limb Portal Igniter",
       "advancements.music.descr": "And the beat goes on........",
       "block.new_borders_mod.cesium_reactor": "Cesium Reactor",
       "block.new_borders_mod.limestone_stairs": "Limestone Stairs",
@@ -7000,6 +7067,7 @@
       "item.new_borders_mod.eye_of_the_eclipse": "Eye of the Eclipse",
       "item.new_borders_mod.salt": "Salt",
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
+      "block.new_borders_mod.gabbro": "Gabbro",
       "item.new_borders_mod.winterfell_pillager_spawn_egg": "Winterfell Pillager Spawn Egg",
       "biome.new_borders_mod.snowy_blossom_forest": "Snowy Blossom Forest",
       "block.new_borders_mod.cesium_ore": "Cesium Ore",

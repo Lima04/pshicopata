@@ -5,24 +5,24 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 4,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Gabbro"
+      },
+      {
+        "value": "CUSTOM:Gabbro"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Gabbro"
       },
       {
-        "value": "Items.QUARTZ"
-      },
-      {
-        "value": "Blocks.OBSIDIAN"
+        "value": "CUSTOM:Gabbro"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GlowingObsidian"
+      "value": "CUSTOM:PolishedGabbro"
     },
-    "name": "glowing_obsidian_recipe",
+    "name": "polished_recipes",
     "namespace": "mod"
   }
 }

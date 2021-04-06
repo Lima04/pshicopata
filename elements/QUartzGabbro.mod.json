@@ -10,19 +10,19 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Slate"
       },
       {
         "value": "Items.QUARTZ"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GlowingObsidian"
+      "value": "CUSTOM:Gabbro"
     },
-    "name": "glowing_obsidian_recipe",
+    "name": "q_uartz_gabbro",
     "namespace": "mod"
   }
 }

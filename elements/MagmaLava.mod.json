@@ -13,16 +13,7 @@
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.QUARTZ"
-      },
-      {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Blocks.MAGMA"
       },
       {
         "value": ""
@@ -31,16 +22,25 @@
         "value": ""
       },
       {
+        "value": "Items.BUCKET"
+      },
+      {
         "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CobaltShard"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GlowingObsidian"
+      "value": "Items.LAVA_BUCKET"
     },
-    "name": "glowing_obsidian_recipe",
+    "name": "magma_lava",
     "namespace": "mod"
   }
 }

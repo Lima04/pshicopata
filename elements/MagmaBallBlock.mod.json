@@ -7,22 +7,22 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:MagmaBall"
+      },
+      {
+        "value": "CUSTOM:MagmaBall"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:MagmaBall"
       },
       {
-        "value": "Items.QUARTZ"
-      },
-      {
-        "value": "Blocks.OBSIDIAN"
+        "value": "CUSTOM:MagmaBall"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GlowingObsidian"
+      "value": "Blocks.MAGMA"
     },
-    "name": "glowing_obsidian_recipe",
+    "name": "magma_ball_block",
     "namespace": "mod"
   }
 }

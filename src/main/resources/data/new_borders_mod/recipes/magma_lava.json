@@ -1,0 +1,19 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:magma_block"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "new_borders_mod:cobalt_shard"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lava_bucket",
+    "count": 1
+  }
+}

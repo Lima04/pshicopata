@@ -6489,6 +6489,105 @@
       "registry_name": "glowing_obsidian_recipe"
     },
     {
+      "name": "MagmaLava",
+      "type": "recipe",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_lava"
+    },
+    {
+      "name": "Fifoda",
+      "type": "painting",
+      "sortid": 603,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fifoda"
+    },
+    {
+      "name": "GabbroMagmaBlast",
+      "type": "recipe",
+      "sortid": 602,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gabbro_magma_blast"
+    },
+    {
+      "name": "PolishedCutter",
+      "type": "recipe",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_cutter"
+    },
+    {
+      "name": "GabbroAshesSmelt",
+      "type": "recipe",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gabbro_ashes_smelt"
+    },
+    {
+      "name": "MagmaBallBlock",
+      "type": "recipe",
+      "sortid": 600,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_ball_block"
+    },
+    {
+      "name": "GabbroAshes",
+      "type": "item",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gabbro_ashes"
+    },
+    {
+      "name": "QUartzGabbro",
+      "type": "recipe",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "q_uartz_gabbro"
+    },
+    {
+      "name": "GabbroMagma",
+      "type": "recipe",
+      "sortid": 599,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gabbro_magma"
+    },
+    {
+      "name": "PolishedRecipes",
+      "type": "recipe",
+      "sortid": 593,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_recipes"
+    },
+    {
+      "name": "MagmaBall",
+      "type": "item",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_ball"
+    },
+    {
       "name": "Gabbro",
       "type": "block",
       "sortid": 591,
@@ -6507,103 +6606,67 @@
       "registry_name": "polished_gabbro"
     },
     {
-      "name": "PolishedRecipes",
-      "type": "recipe",
+      "name": "VillagerStatue",
+      "type": "structure",
+      "sortid": 592,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_statue"
+    },
+    {
+      "name": "GolemStatue",
+      "type": "structure",
       "sortid": 593,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "polished_recipes"
+      "registry_name": "golem_statue"
     },
     {
-      "name": "QUartzGabbro",
-      "type": "recipe",
-      "sortid": 594,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "q_uartz_gabbro"
-    },
-    {
-      "name": "PolishedCutter",
-      "type": "recipe",
-      "sortid": 595,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "polished_cutter"
-    },
-    {
-      "name": "GabbroAshes",
-      "type": "item",
+      "name": "GolemStatueIron",
+      "type": "structure",
       "sortid": 596,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gabbro_ashes"
+      "registry_name": "golem_statue_iron"
     },
     {
-      "name": "GabbroAshesSmelt",
-      "type": "recipe",
+      "name": "VillagerStatueGold",
+      "type": "structure",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_statue_gold"
+    },
+    {
+      "name": "VillagerStatueDiamond",
+      "type": "structure",
       "sortid": 597,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gabbro_ashes_smelt"
+      "registry_name": "villager_statue_diamond"
     },
     {
-      "name": "MagmaBall",
-      "type": "item",
+      "name": "VillagerStatueLapis",
+      "type": "structure",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_statue_lapis"
+    },
+    {
+      "name": "GolemStatueDiamond",
+      "type": "structure",
       "sortid": 598,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "magma_ball"
-    },
-    {
-      "name": "GabbroMagma",
-      "type": "recipe",
-      "sortid": 599,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "gabbro_magma"
-    },
-    {
-      "name": "MagmaBallBlock",
-      "type": "recipe",
-      "sortid": 600,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_ball_block"
-    },
-    {
-      "name": "MagmaLava",
-      "type": "recipe",
-      "sortid": 601,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_lava"
-    },
-    {
-      "name": "GabbroMagmaBlast",
-      "type": "recipe",
-      "sortid": 602,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "gabbro_magma_blast"
-    },
-    {
-      "name": "Fifoda",
-      "type": "painting",
-      "sortid": 603,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fifoda"
+      "registry_name": "golem_statue_diamond"
     }
   ],
   "variable_elements": [],

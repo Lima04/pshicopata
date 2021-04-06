@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "new_borders_mod:gabbro"
+      "item": "new_borders_mod:unknown_element"
     },
     "1": {
-      "item": "new_borders_mod:gabbro"
+      "item": "new_borders_mod:unknown_element"
     },
     "2": {
-      "item": "new_borders_mod:gabbro"
+      "item": "new_borders_mod:unknown_element"
     },
     "3": {
-      "item": "new_borders_mod:gabbro"
+      "item": "new_borders_mod:unknown_element"
     }
   },
   "result": {
-    "item": "new_borders_mod:polished_gabbro",
+    "item": "new_borders_mod:unknown_element",
     "count": 4
   }
 }

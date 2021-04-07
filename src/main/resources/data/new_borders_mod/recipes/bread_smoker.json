@@ -1,0 +1,12 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "new_borders_mod:bread_dough"
+  },
+  "result": {
+    "item": "minecraft:bread"
+  }
+}

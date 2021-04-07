@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "new_borders_mod:weird_bread_dough"
+    },
+    "title": {
+      "translate": "advancements.guts_of_steel.title"
+    },
+    "description": {
+      "translate": "advancements.guts_of_steel.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "guts_of_steel": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "new_borders_mod:nutraloaf"
+}

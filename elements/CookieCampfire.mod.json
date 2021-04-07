@@ -1,0 +1,20 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:CookieDough"
+    },
+    "campfireCookingReturnStack": {
+      "value": "Items.COOKIE"
+    },
+    "name": "cookie_campfire",
+    "namespace": "mod"
+  }
+}

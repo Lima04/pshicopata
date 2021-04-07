@@ -6951,6 +6951,337 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "explosion_of_taste"
+    },
+    {
+      "name": "Flour",
+      "type": "item",
+      "sortid": 630,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flour"
+    },
+    {
+      "name": "FlourRecipe",
+      "type": "recipe",
+      "sortid": 631,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flour_recipe"
+    },
+    {
+      "name": "Dough",
+      "type": "item",
+      "sortid": 632,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dough"
+    },
+    {
+      "name": "DoughRecipe",
+      "type": "recipe",
+      "sortid": 633,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dough_recipe"
+    },
+    {
+      "name": "BreadDough",
+      "type": "item",
+      "sortid": 634,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bread_dough"
+    },
+    {
+      "name": "BreadDoughRecipe",
+      "type": "recipe",
+      "sortid": 635,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bread_dough_recipe"
+    },
+    {
+      "name": "FermentedBreadDough",
+      "type": "item",
+      "sortid": 636,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fermented_bread_dough"
+    },
+    {
+      "name": "FermentedBreadDoughRecipe",
+      "type": "recipe",
+      "sortid": 637,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fermented_bread_dough_recipe"
+    },
+    {
+      "name": "BreadRecipe",
+      "type": "recipe",
+      "sortid": 638,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bread_recipe"
+    },
+    {
+      "name": "BreadSmoker",
+      "type": "recipe",
+      "sortid": 639,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bread_smoker"
+    },
+    {
+      "name": "FermentedBread",
+      "type": "food",
+      "sortid": 640,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fermented_bread"
+    },
+    {
+      "name": "FermentedBreadRecipe",
+      "type": "recipe",
+      "sortid": 641,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fermented_bread_recipe"
+    },
+    {
+      "name": "FermentedBreadSmoker",
+      "type": "recipe",
+      "sortid": 642,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fermented_bread_smoker"
+    },
+    {
+      "name": "WeirdBreadDough",
+      "type": "item",
+      "sortid": 643,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_bread_dough"
+    },
+    {
+      "name": "WeirdBreadFoodEaten",
+      "type": "procedure",
+      "sortid": 644,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_bread_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WeirdBread",
+      "type": "food",
+      "sortid": 644,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_bread"
+    },
+    {
+      "name": "WeirdBreadDoughRecipe",
+      "type": "recipe",
+      "sortid": 645,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_bread_dough_recipe"
+    },
+    {
+      "name": "WeirdBreadRecipe",
+      "type": "recipe",
+      "sortid": 646,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_bread_recipe"
+    },
+    {
+      "name": "WeirdBreadSmoker",
+      "type": "recipe",
+      "sortid": 647,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_bread_smoker"
+    },
+    {
+      "name": "CookieDough",
+      "type": "item",
+      "sortid": 648,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookie_dough"
+    },
+    {
+      "name": "CookieDoughRecipe",
+      "type": "recipe",
+      "sortid": 649,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookie_dough_recipe"
+    },
+    {
+      "name": "CookieOverride",
+      "type": "recipe",
+      "sortid": 650,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookie_override"
+    },
+    {
+      "name": "CookieRecipe",
+      "type": "recipe",
+      "sortid": 651,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookie_recipe"
+    },
+    {
+      "name": "CookieSmoker",
+      "type": "recipe",
+      "sortid": 652,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookie_smoker"
+    },
+    {
+      "name": "CookieCampfire",
+      "type": "recipe",
+      "sortid": 653,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookie_campfire"
+    },
+    {
+      "name": "SaltedEgg",
+      "type": "item",
+      "sortid": 654,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salted_egg"
+    },
+    {
+      "name": "SaltedEggRecipe",
+      "type": "recipe",
+      "sortid": 655,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salted_egg_recipe"
+    },
+    {
+      "name": "SoftBoiledEgg",
+      "type": "food",
+      "sortid": 656,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soft_boiled_egg"
+    },
+    {
+      "name": "HardBoiledEgg",
+      "type": "food",
+      "sortid": 657,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_boiled_egg"
+    },
+    {
+      "name": "SoftBoiledEggRecipe",
+      "type": "recipe",
+      "sortid": 658,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soft_boiled_egg_recipe"
+    },
+    {
+      "name": "HardBoiledEggRecipe1",
+      "type": "recipe",
+      "sortid": 659,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_boiled_egg_recipe_1"
+    },
+    {
+      "name": "HardBoiledEgg2",
+      "type": "recipe",
+      "sortid": 660,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_boiled_egg_2"
+    },
+    {
+      "name": "Nutraloaf",
+      "type": "achievement",
+      "sortid": 661,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nutraloaf"
+    },
+    {
+      "name": "GutsOfSteel",
+      "type": "achievement",
+      "sortid": 662,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guts_of_steel"
+    },
+    {
+      "name": "WeirdBreadFoodEaten2",
+      "type": "procedure",
+      "sortid": 663,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_bread_food_eaten_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -7240,6 +7571,7 @@
       "entity.new_borders_mod.cleaner_sentinel": "Cleaner Sentinel",
       "item.new_borders_mod.jungle_skeleton": "Jungle Skeleton Spawn Egg",
       "advancements.music.title": "Music!",
+      "item.new_borders_mod.fermented_bread_dough": "Fermented Bread Dough",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003": "The Poopifers - The First Shit (Album) (2003)",
       "advancements.seasoning_season.descr": "Things are about to get saltier.",
       "block.new_borders_mod.polished_salt_stairs": "Polished Salt Stairs",
@@ -7283,6 +7615,7 @@
       "advancements.what_a_jerk.title": "What a Jerk",
       "item.new_borders_mod.waste_water_bucket": "WasteWater Bucket",
       "item.new_borders_mod.prismarine_cutlass": "Prismarine Cutlass",
+      "item.new_borders_mod.cookie_dough": "Cookie Dough",
       "item.new_borders_mod.mais_que_amor.desc": "Marcos Valle - Mais Que Amor",
       "block.new_borders_mod.redwood_stairs": "Redwood Stairs",
       "item.new_borders_mod.empty_music_d_isc": "Empty Music Disc",
@@ -7291,6 +7624,7 @@
       "block.new_borders_mod.limestone": "Limestone",
       "block.new_borders_mod.polished_limestone_slab": "Polished Limestone Slab",
       "block.new_borders_mod.redwood_slab": "Redwood Slab",
+      "advancements.guts_of_steel.title": "Guts of Steel",
       "block.new_borders_mod.eucalyptus_air": "Eucalyptus Air",
       "block.new_borders_mod.lead_block_slab": "Lead Block Slab",
       "item.new_borders_mod.cobalt_armor_boots": "Cobalt Boots",
@@ -7319,12 +7653,15 @@
       "block.new_borders_mod.babacu_3_air": "Babacu Air 1",
       "block.new_borders_mod.white_lamp": "Lamp",
       "advancements.under_pressure.descr": "Things are about to get salty.",
+      "item.new_borders_mod.dough": "Dough",
       "block.new_borders_mod.polished_slate_stairs": "Polished Slate Stairs",
       "block.new_borders_mod.cherry_blossoms": "Cherry Blossoms",
+      "item.new_borders_mod.hard_boiled_egg": "Hard Boiled Egg",
       "block.new_borders_mod.shale_tiles": "Shale Tiles",
       "block.new_borders_mod.babacu_air_2_fruit": "Babacu Air 1",
       "item.new_borders_mod.cherry": "Cherry",
       "item.new_borders_mod.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg",
+      "item.new_borders_mod.weird_bread": "Weird Bread",
       "block.new_borders_mod.babacu_stairs": "Babacu Stairs",
       "item.new_borders_mod.babacu_seeds": "Babacu Seeds",
       "block.new_borders_mod.babacu_3_air_fruit": "Babacu Air 1",
@@ -7337,6 +7674,7 @@
       "item.new_borders_mod.lollipop_essence": "Lollipop Essence",
       "item.new_borders_mod.sentinel_hard_disc": "Sentinel Hard Disc",
       "block.new_borders_mod.polished_limestone_brick_stairs": "Polished Limestone Brick Stairs",
+      "advancements.nutraloaf.descr": "...I wouldn\u0027t eat that if I were you.",
       "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
       "advancements.explosion_of_taste.descr": "It feels like it\u0027s popping in your mouth!",
       "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
@@ -7357,6 +7695,7 @@
       "block.new_borders_mod.sulfur_ore": "Sulfur Ore",
       "biome.new_borders_mod.darkworld": "Darkworld",
       "block.new_borders_mod.babacu_sapling": "Babacu Sapling",
+      "advancements.guts_of_steel.descr": "You actually ate it???",
       "block.new_borders_mod.candy_leaves": "Candy Leaves",
       "block.new_borders_mod.white_cherry_blossoms": "White Cherry Blossoms",
       "subtitles.frostbittenambient": "Frostbitten groans",
@@ -7368,6 +7707,7 @@
       "block.new_borders_mod.cesium_reactor": "Cesium Reactor",
       "block.new_borders_mod.limestone_stairs": "Limestone Stairs",
       "block.new_borders_mod.cobalt_59_block": "Cobalt 59 Block",
+      "item.new_borders_mod.soft_boiled_egg": "Soft Boiled Egg",
       "block.new_borders_mod.polished_limestone": "Polished Limestone",
       "item.new_borders_mod.night_sword": "Night Sword",
       "block.new_borders_mod.ipe_log": "Ipe Log",
@@ -7423,6 +7763,7 @@
       "item.new_borders_mod.eye_of_the_eclipse": "Eye of the Eclipse",
       "item.new_borders_mod.salt": "Salt",
       "entity.new_borders_mod.drowned_pirate": "Drowned Pirate",
+      "item.new_borders_mod.fermented_bread": "Fermented Bread",
       "block.new_borders_mod.gabbro": "Gabbro",
       "item.new_borders_mod.winterfell_pillager_spawn_egg": "Winterfell Pillager Spawn Egg",
       "biome.new_borders_mod.snowy_blossom_forest": "Snowy Blossom Forest",
@@ -7436,6 +7777,7 @@
       "subtitles.freezesay": "Frostbitten groans",
       "block.new_borders_mod.stylised_slate_bricks": "Stylised Slate Bricks",
       "block.new_borders_mod.slate_stairs": "Slate Stairs",
+      "advancements.nutraloaf.title": "Nutraloaf",
       "item.new_borders_mod.tapa_no_real": "Tapa No Real",
       "subtitles.frostbittenhurt": "Frostbitten hurts",
       "biome.new_borders_mod.rocky_desert": "Rocky Desert",
@@ -7457,6 +7799,7 @@
       "item.new_borders_mod.cobalt_armor_chestplate": "Cobalt Chestplate",
       "item.new_borders_mod.shale_shard": "Shale Shard",
       "block.new_borders_mod.polished_salt_pillar": "Polished Salt Pillar",
+      "item.new_borders_mod.bread_dough": "Bread Dough",
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
       "advancements.under_pressure.title": "Under Pressure",
       "advancements.explosion_of_taste.title": "An Explosion of Taste",
@@ -7464,6 +7807,7 @@
       "advancements.daft_punk.title": "Daft Punk",
       "block.new_borders_mod.sunstone_ore": "Sunstone Ore",
       "item.new_borders_mod.babacu_ranged": "Babacu",
+      "item.new_borders_mod.weird_bread_dough": "Weird Bread Dough",
       "block.new_borders_mod.glowshroom": "Glowshroom",
       "item.new_borders_mod.cobalt_59": "Cobalt 59",
       "item.new_borders_mod.cooked_salted_salmon": "Cooked Salted Salmon",
@@ -7477,8 +7821,10 @@
       "biome.new_borders_mod.cherry_blossom_forest": "Cherry Blossom Forest",
       "block.new_borders_mod.stylised_slate_brick_stairs": "Stylised Slate Brick Stairs",
       "item.new_borders_mod.mosquito_spawn_egg": "Mosquito Spawn Egg",
+      "item.new_borders_mod.salted_egg": "Salted Egg",
       "block.new_borders_mod.cobalt": "Cobalt",
       "entity.new_borders_mod.statue": "Statue",
+      "item.new_borders_mod.flour": "Flour",
       "block.new_borders_mod.cherry_tree_stairs": "Cherry Tree Stairs",
       "biome.new_borders_mod.salt_flats": "Salt Flats",
       "block.new_borders_mod.cherry_tree_log": "Cherry Tree Log"

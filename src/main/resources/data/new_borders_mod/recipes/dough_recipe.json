@@ -1,0 +1,22 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "new_borders_mod:flour"
+    },
+    {
+      "item": "new_borders_mod:flour"
+    },
+    {
+      "item": "new_borders_mod:flour"
+    }
+  ],
+  "result": {
+    "item": "new_borders_mod:dough",
+    "count": 1
+  }
+}

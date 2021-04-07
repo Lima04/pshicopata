@@ -1,0 +1,19 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "new_borders_mod:bread_dough"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "result": {
+    "item": "new_borders_mod:fermented_bread_dough",
+    "count": 1
+  }
+}

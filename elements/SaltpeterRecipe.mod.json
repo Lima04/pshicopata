@@ -9,7 +9,7 @@
     "group": "",
     "recipeShapeless": false,
     "blastingInputStack": {
-      "value": "CUSTOM:SaltOre"
+      "value": "CUSTOM:Halite"
     },
     "blastingReturnStack": {
       "value": "CUSTOM:Saltpeter"

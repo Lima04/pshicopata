@@ -1,0 +1,30 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "new_borders_mod:sulfur"
+    },
+    "3": {
+      "item": "new_borders_mod:sulfur"
+    },
+    "4": {
+      "item": "minecraft:cobblestone"
+    },
+    "5": {
+      "item": "new_borders_mod:sulfur"
+    },
+    "7": {
+      "item": "new_borders_mod:sulfur"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:brimstone",
+    "count": 1
+  }
+}

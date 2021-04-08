@@ -9,7 +9,7 @@
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:SaltOre"
+      "value": "CUSTOM:Halite"
     },
     "smeltingReturnStack": {
       "value": "CUSTOM:CoarseSalt"

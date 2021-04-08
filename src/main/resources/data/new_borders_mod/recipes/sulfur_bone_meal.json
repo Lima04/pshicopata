@@ -1,0 +1,19 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "new_borders_mod:sulfur"
+    },
+    {
+      "item": "new_borders_mod:sulfur"
+    },
+    {
+      "item": "new_borders_mod:sulfur"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bone_meal",
+    "count": 9
+  }
+}

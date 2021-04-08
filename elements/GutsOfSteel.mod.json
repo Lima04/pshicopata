@@ -5,7 +5,7 @@
     "achievementName": "Guts of Steel",
     "achievementDescription": "You actually ate it???",
     "achievementIcon": {
-      "value": "CUSTOM:WeirdBreadDough"
+      "value": "CUSTOM:GlowshroomBlock"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -15,7 +15,7 @@
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
-    "rewardXP": 1,
+    "rewardXP": 50,
     "achievementType": "challenge",
     "parent": {
       "value": "CUSTOM:Nutraloaf"

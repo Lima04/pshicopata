@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "new_borders_mod:weird_bread_dough"
+      "item": "new_borders_mod:glowshroom_block"
     },
     "title": {
       "translate": "advancements.guts_of_steel.title"
@@ -20,7 +20,7 @@
     }
   },
   "rewards": {
-    "experience": 1
+    "experience": 50
   },
   "parent": "new_borders_mod:nutraloaf"
 }

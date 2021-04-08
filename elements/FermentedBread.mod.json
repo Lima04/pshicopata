@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "fermented_bread",
+    "texture": "fermented_bread_2",
     "customModelName": "Normal",
     "name": "Fermented Bread",
     "rarity": "COMMON",

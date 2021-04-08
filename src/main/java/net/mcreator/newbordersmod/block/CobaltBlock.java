@@ -27,7 +27,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.newbordersmod.item.CobaltShardItem;
+import net.mcreator.newbordersmod.item.CobaltCrystalItem;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 import java.util.Random;
@@ -60,7 +60,7 @@ public class CobaltBlock extends NewBordersModModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(CobaltShardItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(CobaltCrystalItem.block, (int) (1)));
 		}
 	}
 	@Override

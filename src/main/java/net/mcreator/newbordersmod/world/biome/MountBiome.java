@@ -44,7 +44,7 @@ public class MountBiome extends NewBordersModModElements.ModElement {
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0.3f).depth(7f).scale(1f).temperature(0.1f).precipitation(Biome.RainType.SNOW)
-					.category(Biome.Category.MESA).waterColor(4159204).waterFogColor(329011).parent("snowy_mountains")
+					.category(Biome.Category.EXTREME_HILLS).waterColor(4159204).waterFogColor(329011).parent("snowy_mountains")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.SNOW_BLOCK.getDefaultState(),
 							Blocks.SNOW_BLOCK.getDefaultState(), Blocks.SNOW_BLOCK.getDefaultState())));
 			setRegistryName("mount");

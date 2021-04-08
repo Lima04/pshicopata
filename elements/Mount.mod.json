@@ -42,7 +42,7 @@
     "spawnBiome": true,
     "biomeWeight": 1,
     "biomeType": "ICY",
-    "biomeCategory": "MESA",
+    "biomeCategory": "EXTREME_HILLS",
     "parent": {
       "value": "snowy_mountains"
     },

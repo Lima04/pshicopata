@@ -6489,15 +6489,6 @@
       "registry_name": "glowing_obsidian_recipe"
     },
     {
-      "name": "MagmaLava",
-      "type": "recipe",
-      "sortid": 601,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_lava"
-    },
-    {
       "name": "Fifoda",
       "type": "painting",
       "sortid": 603,
@@ -6534,15 +6525,6 @@
       "registry_name": "gabbro_ashes_smelt"
     },
     {
-      "name": "MagmaBallBlock",
-      "type": "recipe",
-      "sortid": 600,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_ball_block"
-    },
-    {
       "name": "GabbroAshes",
       "type": "item",
       "sortid": 596,
@@ -6577,15 +6559,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "polished_recipes"
-    },
-    {
-      "name": "MagmaBall",
-      "type": "item",
-      "sortid": 598,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_ball"
     },
     {
       "name": "Gabbro",
@@ -7521,15 +7494,14 @@
       "item.new_borders_mod.pinch_of_salt": "Pinch of Salt",
       "biome.new_borders_mod.wastelands": "Wastelands",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
-      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
+      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "entity.new_borders_mod.sentinel": "Sentinel",
       "block.new_borders_mod.polished_siltstone_slab": "Polished Siltstone Slab",
       "block.new_borders_mod.polished_salt_pillar_slab": "Polished Salt Pillar Slab",
       "biome.new_borders_mod.tropical_savanna": "Tropical Savanna",
       "biome.new_borders_mod.mount": "Mount",
       "block.new_borders_mod.lead_ore": "Lead Ore",
-      "item.new_borders_mod.magma_ball": "Magma Ball",
       "block.new_borders_mod.ipe_leaves": "Ipe Leaves",
       "item.new_borders_mod.tapetes_guardanapos_cetins": "Tapetes Guardanapos Cetins",
       "block.new_borders_mod.cobalt_bomb": "Cobalt Bomb",

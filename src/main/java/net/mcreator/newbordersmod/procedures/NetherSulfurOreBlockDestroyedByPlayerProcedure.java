@@ -23,6 +23,6 @@ public class NetherSulfurOreBlockDestroyedByPlayerProcedure extends NewBordersMo
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 100, (int) 0, (true), (true)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 200, (int) 0, (true), (true)));
 	}
 }

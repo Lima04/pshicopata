@@ -4,7 +4,7 @@
   "experience": 1,
   "cookingtime": 100,
   "ingredient": {
-    "item": "new_borders_mod:salt_ore"
+    "item": "new_borders_mod:halite"
   },
   "result": {
     "item": "new_borders_mod:saltpeter"

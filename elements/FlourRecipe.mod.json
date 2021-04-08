@@ -5,9 +5,9 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 9,
+    "recipeRetstackSize": 3,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
@@ -19,13 +19,13 @@
         "value": ""
       },
       {
-        "value": "Blocks.WHEAT"
+        "value": ""
       },
       {
         "value": "Blocks.WHEAT"
       },
       {
-        "value": "Blocks.WHEAT"
+        "value": ""
       },
       {
         "value": ""
@@ -41,6 +41,6 @@
       "value": "CUSTOM:Flour"
     },
     "name": "flour_recipe",
-    "namespace": "minecraft"
+    "namespace": "mod"
   }
 }

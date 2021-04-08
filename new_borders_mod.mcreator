@@ -4789,15 +4789,6 @@
       "registry_name": "cooked_salted_cod_recipe"
     },
     {
-      "name": "UnderPressure",
-      "type": "achievement",
-      "sortid": 442,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "under_pressure"
-    },
-    {
       "name": "CookedSaltedSalmonRecipe",
       "type": "recipe",
       "sortid": 425,
@@ -6962,15 +6953,6 @@
       "registry_name": "flour"
     },
     {
-      "name": "FlourRecipe",
-      "type": "recipe",
-      "sortid": 631,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "flour_recipe"
-    },
-    {
       "name": "Dough",
       "type": "item",
       "sortid": 632,
@@ -7267,13 +7249,85 @@
       "registry_name": "guts_of_steel"
     },
     {
-      "name": "WeirdBreadFoodEaten2",
-      "type": "procedure",
+      "name": "SulfurDye",
+      "type": "recipe",
       "sortid": 663,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "weird_bread_food_eaten_2",
+      "registry_name": "sulfur_dye"
+    },
+    {
+      "name": "SulfurBoneMeal",
+      "type": "recipe",
+      "sortid": 664,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_bone_meal"
+    },
+    {
+      "name": "Halite",
+      "type": "item",
+      "sortid": 665,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "halite"
+    },
+    {
+      "name": "SaltRecipe2",
+      "type": "recipe",
+      "sortid": 666,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_recipe_2"
+    },
+    {
+      "name": "UnderPressure",
+      "type": "achievement",
+      "sortid": 667,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "under_pressure"
+    },
+    {
+      "name": "BreadOverride",
+      "type": "recipe",
+      "sortid": 668,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bread_override"
+    },
+    {
+      "name": "FlourRecipe",
+      "type": "recipe",
+      "sortid": 669,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flour_recipe"
+    },
+    {
+      "name": "Brimstone",
+      "type": "block",
+      "sortid": 670,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brimstone"
+    },
+    {
+      "name": "BrimstoneBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 671,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brimstone_block_destroyed_by_player",
       "metadata": {
         "dependencies": [
           {
@@ -7282,6 +7336,84 @@
           }
         ]
       }
+    },
+    {
+      "name": "BrimstoneEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 672,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brimstone_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BrimstoneRecipe",
+      "type": "recipe",
+      "sortid": 673,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brimstone_recipe"
+    },
+    {
+      "name": "BlockOfSulfurBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 674,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_of_sulfur_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockOfSulfurEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 675,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_of_sulfur_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockOfSulfur",
+      "type": "block",
+      "sortid": 674,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_of_sulfur"
+    },
+    {
+      "name": "BlockOfSulfurRecipe",
+      "type": "recipe",
+      "sortid": 676,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_of_sulfur_recipe"
     }
   ],
   "variable_elements": [],
@@ -7547,6 +7679,7 @@
       "item.new_borders_mod.raw_salted_beef": "Raw Salted Beef",
       "block.new_borders_mod.polished_gabbro": "Polished Gabbro",
       "biome.new_borders_mod.steppe": "Steppe",
+      "block.new_borders_mod.brimstone": "Brimstone",
       "item.new_borders_mod.babacu_pulp": "Babacu Pulp",
       "block.new_borders_mod.glass_door": "Glass Door",
       "block.new_borders_mod.snow_bricks": "Snow Bricks",
@@ -7652,12 +7785,13 @@
       "item.new_borders_mod.saltpeter": "Saltpeter",
       "block.new_borders_mod.babacu_3_air": "Babacu Air 1",
       "block.new_borders_mod.white_lamp": "Lamp",
-      "advancements.under_pressure.descr": "Things are about to get salty.",
       "item.new_borders_mod.dough": "Dough",
+      "advancements.under_pressure.descr": "Things are about to get salty.",
       "block.new_borders_mod.polished_slate_stairs": "Polished Slate Stairs",
       "block.new_borders_mod.cherry_blossoms": "Cherry Blossoms",
       "item.new_borders_mod.hard_boiled_egg": "Hard Boiled Egg",
       "block.new_borders_mod.shale_tiles": "Shale Tiles",
+      "item.new_borders_mod.halite": "Halite",
       "block.new_borders_mod.babacu_air_2_fruit": "Babacu Air 1",
       "item.new_borders_mod.cherry": "Cherry",
       "item.new_borders_mod.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg",
@@ -7744,6 +7878,7 @@
       "block.new_borders_mod.babacu_log": "Babacu Log",
       "item.new_borders_mod.para_os_filhos_de_abraao.desc": "Marcos Valle - Para Os Filhos De Abraao",
       "item.new_borders_mod.tapetes_guardanapos_cetins.desc": "Marcos Valle - Tapetes Guardanapos Cetins",
+      "block.new_borders_mod.block_of_sulfur": "Block of Sulfur",
       "item.new_borders_mod.coarse_salt": "Coarse Salt",
       "block.new_borders_mod.cherry_tree_planks": "Cherry Tree Planks",
       "item.new_borders_mod.sun_sword": "Sun Sword",

@@ -316,15 +316,5 @@
         "stream": true
       }
     ]
-  },
-  "canariobaia": {
-    "category": "record",
-    "subtitle": "subtitles.canariobaia",
-    "sounds": [
-      {
-        "name": "new_borders_mod:canary_bays",
-        "stream": true
-      }
-    ]
   }
 }

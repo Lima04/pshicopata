@@ -7389,6 +7389,150 @@
       "registry_name": "sulfur_recipe"
     },
     {
+      "name": "CanaryBay",
+      "type": "musicdisc",
+      "sortid": 678,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "canary_bay"
+    },
+    {
+      "name": "CanaryBayRecipe",
+      "type": "recipe",
+      "sortid": 679,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "canary_bay_recipe"
+    },
+    {
+      "name": "CobaltPickaxe",
+      "type": "tool",
+      "sortid": 680,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_pickaxe"
+    },
+    {
+      "name": "CobaltCrystal",
+      "type": "item",
+      "sortid": 681,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_crystal"
+    },
+    {
+      "name": "CobaltShardRecipce",
+      "type": "recipe",
+      "sortid": 682,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_shard_recipce"
+    },
+    {
+      "name": "CobaltSword",
+      "type": "tool",
+      "sortid": 683,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_sword"
+    },
+    {
+      "name": "CobaltPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 684,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_pickaxe_recipe"
+    },
+    {
+      "name": "CobaltSwordRecipe",
+      "type": "recipe",
+      "sortid": 685,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_sword_recipe"
+    },
+    {
+      "name": "CobaltAxe",
+      "type": "tool",
+      "sortid": 687,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_axe"
+    },
+    {
+      "name": "CobaltShovel",
+      "type": "tool",
+      "sortid": 686,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_shovel"
+    },
+    {
+      "name": "CobaltShovelRecipe",
+      "type": "recipe",
+      "sortid": 689,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_shovel_recipe"
+    },
+    {
+      "name": "CobaltAxeRecipe1",
+      "type": "recipe",
+      "sortid": 690,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_axe_recipe_1"
+    },
+    {
+      "name": "CobaltAxeRecipe2",
+      "type": "recipe",
+      "sortid": 691,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_axe_recipe_2"
+    },
+    {
+      "name": "CobaltHoe",
+      "type": "tool",
+      "sortid": 688,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_hoe"
+    },
+    {
+      "name": "CobaltHoeRecipe2",
+      "type": "recipe",
+      "sortid": 693,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_hoe_recipe_2"
+    },
+    {
+      "name": "CobaltHoeRecipe1",
+      "type": "recipe",
+      "sortid": 692,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_hoe_recipe_1"
+    },
+    {
       "name": "PumpkinPieSmoker",
       "type": "recipe",
       "sortid": 682,
@@ -7513,78 +7657,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cake_frosting_recipe"
-    },
-    {
-      "name": "CobaltSwordRecipe",
-      "type": "recipe",
-      "sortid": 685,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cobalt_sword_recipe"
-    },
-    {
-      "name": "CobaltCrystal",
-      "type": "item",
-      "sortid": 681,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cobalt_crystal"
-    },
-    {
-      "name": "CanaryBayRecipe",
-      "type": "recipe",
-      "sortid": 679,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "canary_bay_recipe"
-    },
-    {
-      "name": "CobaltPickaxe",
-      "type": "tool",
-      "sortid": 680,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cobalt_pickaxe"
-    },
-    {
-      "name": "CobaltSword",
-      "type": "tool",
-      "sortid": 683,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cobalt_sword"
-    },
-    {
-      "name": "CobaltPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 684,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cobalt_pickaxe_recipe"
-    },
-    {
-      "name": "CobaltShardRecipce",
-      "type": "recipe",
-      "sortid": 682,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cobalt_shard_recipce"
-    },
-    {
-      "name": "CanaryBay",
-      "type": "musicdisc",
-      "sortid": 678,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "canary_bay"
     }
   ],
   "variable_elements": [],

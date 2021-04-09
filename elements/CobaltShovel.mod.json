@@ -3,19 +3,19 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "cobalt_sword",
+    "texture": "coblt_shovel",
     "customModelName": "Normal",
-    "name": "Cobalt Sword",
+    "name": "Cobalt Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "TOOLS"
     },
-    "toolType": "Sword",
+    "toolType": "Spade",
     "harvestLevel": 4,
     "efficiency": 11.0,
     "attackSpeed": 1.0,
     "enchantability": 5,
-    "damageVsEntity": 7.0,
+    "damageVsEntity": 5.0,
     "usageCount": 2561,
     "blocksAffected": [],
     "hasGlow": false,

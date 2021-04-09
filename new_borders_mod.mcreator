@@ -2741,15 +2741,6 @@
       "registry_name": "purple_berry_seeds"
     },
     {
-      "name": "SmallCherryTree2",
-      "type": "structure",
-      "sortid": 275,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "small_cherry_tree_2"
-    },
-    {
       "name": "TwinCherries",
       "type": "food",
       "sortid": 269,
@@ -2794,15 +2785,6 @@
       "registry_name": "white_cherry_blossoms"
     },
     {
-      "name": "SmallCherryTree1",
-      "type": "structure",
-      "sortid": 274,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "small_cherry_tree_1"
-    },
-    {
       "name": "CherryChestRecipe",
       "type": "recipe",
       "sortid": 266,
@@ -2828,33 +2810,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cherry_blossom_drops"
-    },
-    {
-      "name": "BigCherryTree2",
-      "type": "structure",
-      "sortid": 273,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "big_cherry_tree_2"
-    },
-    {
-      "name": "BigCherryTree1",
-      "type": "structure",
-      "sortid": 272,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "big_cherry_tree_1"
-    },
-    {
-      "name": "BigCherryTree3",
-      "type": "structure",
-      "sortid": 276,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "big_cherry_tree_3"
     },
     {
       "name": "Penguin",
@@ -7904,8 +7859,8 @@
       "item.new_borders_mod.pinch_of_salt": "Pinch of Salt",
       "biome.new_borders_mod.wastelands": "Wastelands",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
-      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
+      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "entity.new_borders_mod.sentinel": "Sentinel",
       "block.new_borders_mod.polished_siltstone_slab": "Polished Siltstone Slab",
       "block.new_borders_mod.polished_salt_pillar_slab": "Polished Salt Pillar Slab",

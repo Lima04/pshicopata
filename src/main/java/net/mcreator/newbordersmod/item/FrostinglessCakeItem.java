@@ -2,13 +2,13 @@
 package net.mcreator.newbordersmod.item;
 
 @NewBordersModModElements.ModElement.Tag
-public class CobaltCrystalItem extends NewBordersModModElements.ModElement {
+public class FrostinglessCakeItem extends NewBordersModModElements.ModElement {
 
-	@ObjectHolder("new_borders_mod:cobalt_crystal")
+	@ObjectHolder("new_borders_mod:frostingless_cake")
 	public static final Item block = null;
 
-	public CobaltCrystalItem(NewBordersModModElements instance) {
-		super(instance, 681);
+	public FrostinglessCakeItem(NewBordersModModElements instance) {
+		super(instance, 686);
 
 	}
 
@@ -20,8 +20,8 @@ public class CobaltCrystalItem extends NewBordersModModElements.ModElement {
 	public static class ItemCustom extends Item {
 
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("cobalt_crystal");
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("frostingless_cake");
 		}
 
 		@Override

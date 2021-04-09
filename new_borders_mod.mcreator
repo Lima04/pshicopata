@@ -7461,15 +7461,6 @@
       "registry_name": "cobalt_sword_recipe"
     },
     {
-      "name": "CobaltShovel",
-      "type": "tool",
-      "sortid": 686,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cobalt_shovel"
-    },
-    {
       "name": "CobaltAxe",
       "type": "tool",
       "sortid": 687,
@@ -7479,13 +7470,13 @@
       "registry_name": "cobalt_axe"
     },
     {
-      "name": "CobaltHoe",
+      "name": "CobaltShovel",
       "type": "tool",
-      "sortid": 688,
+      "sortid": 686,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cobalt_hoe"
+      "registry_name": "cobalt_shovel"
     },
     {
       "name": "CobaltShovelRecipe",
@@ -7515,13 +7506,13 @@
       "registry_name": "cobalt_axe_recipe_2"
     },
     {
-      "name": "CobaltHoeRecipe1",
-      "type": "recipe",
-      "sortid": 692,
+      "name": "CobaltHoe",
+      "type": "tool",
+      "sortid": 688,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cobalt_hoe_recipe_1"
+      "registry_name": "cobalt_hoe"
     },
     {
       "name": "CobaltHoeRecipe2",
@@ -7531,6 +7522,141 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cobalt_hoe_recipe_2"
+    },
+    {
+      "name": "CobaltHoeRecipe1",
+      "type": "recipe",
+      "sortid": 692,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_hoe_recipe_1"
+    },
+    {
+      "name": "PumpkinPieSmoker",
+      "type": "recipe",
+      "sortid": 682,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_pie_smoker"
+    },
+    {
+      "name": "CakeRecipe",
+      "type": "recipe",
+      "sortid": 691,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cake_recipe"
+    },
+    {
+      "name": "FrostinglessCake",
+      "type": "item",
+      "sortid": 686,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frostingless_cake"
+    },
+    {
+      "name": "PumpkinPieRecipe",
+      "type": "recipe",
+      "sortid": 681,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_pie_recipe"
+    },
+    {
+      "name": "FrostinglessCakeRecipe",
+      "type": "recipe",
+      "sortid": 687,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frostingless_cake_recipe"
+    },
+    {
+      "name": "CakeOverride",
+      "type": "recipe",
+      "sortid": 683,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cake_override"
+    },
+    {
+      "name": "FrostinglessCakeSmoker",
+      "type": "recipe",
+      "sortid": 688,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frostingless_cake_smoker"
+    },
+    {
+      "name": "RawPumpkinPie",
+      "type": "item",
+      "sortid": 679,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_pumpkin_pie"
+    },
+    {
+      "name": "PumpkinPieOverride",
+      "type": "recipe",
+      "sortid": 678,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_pie_override"
+    },
+    {
+      "name": "RawCake",
+      "type": "item",
+      "sortid": 684,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_cake"
+    },
+    {
+      "name": "RawPumpkinPieRecipe",
+      "type": "recipe",
+      "sortid": 680,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_pumpkin_pie_recipe"
+    },
+    {
+      "name": "CakeFrosting",
+      "type": "item",
+      "sortid": 689,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cake_frosting"
+    },
+    {
+      "name": "RawCakeRecipe",
+      "type": "recipe",
+      "sortid": 685,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_cake_recipe"
+    },
+    {
+      "name": "CakeFrostingRecipe",
+      "type": "recipe",
+      "sortid": 690,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cake_frosting_recipe"
     }
   ],
   "variable_elements": [],
@@ -7784,7 +7910,9 @@
       "block.new_borders_mod.polished_siltstone_slab": "Polished Siltstone Slab",
       "block.new_borders_mod.polished_salt_pillar_slab": "Polished Salt Pillar Slab",
       "biome.new_borders_mod.tropical_savanna": "Tropical Savanna",
+      "biome.new_borders_mod.mount": "Mount",
       "block.new_borders_mod.lead_ore": "Lead Ore",
+      "item.new_borders_mod.magma_ball": "Magma Ball",
       "block.new_borders_mod.ipe_leaves": "Ipe Leaves",
       "item.new_borders_mod.tapetes_guardanapos_cetins": "Tapetes Guardanapos Cetins",
       "block.new_borders_mod.cobalt_bomb": "Cobalt Bomb",
@@ -7792,7 +7920,6 @@
       "subtitles.canary_bay": "",
       "item.new_borders_mod.compact_cobalt": "Compact Cobalt",
       "block.new_borders_mod.polished_salt_brick_stairs": "Polished Salt Brick Stairs",
-      "item.new_borders_mod.cobalt_sword": "Cobalt Sword",
       "block.new_borders_mod.tall_ipe_air": "Tall Ipe Air",
       "block.new_borders_mod.asphalt_block": "Asphalt Block",
       "item.new_borders_mod.heat_canon": "Heat Canon",
@@ -7858,7 +7985,6 @@
       "block.new_borders_mod.babacu_phase_2": "Babacu Phase 2",
       "block.new_borders_mod.babacu_phase_1": "Babacu Phase 1",
       "item.new_borders_mod.salted_steak": "Salted Steak",
-      "item.new_borders_mod.cobalt_shovel": "Cobalt Pickaxe",
       "item.new_borders_mod.samba_de_verao.desc": "Marcos Valle - Samba De Verao",
       "item.new_borders_mod.cobalt_shard": "Cobalt Shard",
       "block.new_borders_mod.babacu_planks": "Babacu Planks",
@@ -7873,7 +7999,6 @@
       "subtitles.frostbittensteps": "Footsteps",
       "advancements.what_a_jerk.title": "What a Jerk",
       "item.new_borders_mod.waste_water_bucket": "WasteWater Bucket",
-      "item.new_borders_mod.canary_bay.desc": "Indochine - Canary Bay",
       "item.new_borders_mod.prismarine_cutlass": "Prismarine Cutlass",
       "item.new_borders_mod.cookie_dough": "Cookie Dough",
       "item.new_borders_mod.mais_que_amor.desc": "Marcos Valle - Mais Que Amor",
@@ -7887,10 +8012,8 @@
       "advancements.guts_of_steel.title": "Guts of Steel",
       "block.new_borders_mod.eucalyptus_air": "Eucalyptus Air",
       "block.new_borders_mod.lead_block_slab": "Lead Block Slab",
-      "item.new_borders_mod.cobalt_crystal": "Cobalt Crystal",
       "item.new_borders_mod.cobalt_armor_boots": "Cobalt Boots",
       "block.new_borders_mod.polished_siltstone": "Polished Siltstone",
-      "item.new_borders_mod.cobalt_axe": "Cobalt Sword",
       "block.new_borders_mod.slate": "Slate",
       "item.new_borders_mod.duskstone_gem": "Duskstone Gem",
       "block.new_borders_mod.lead_block": "Lead Block",
@@ -7948,7 +8071,6 @@
       "block.new_borders_mod.magma_brick_stairs": "Magma Brick Stairs",
       "item.new_borders_mod.viola_enluarada": "Viola Enluarada",
       "item.new_borders_mod.seagull_flying_spawn_egg": "Seagull Spawn Egg",
-      "item.new_borders_mod.canary_bay": "Canary Bay",
       "block.new_borders_mod.cut_polished_salt_brick_slab": "Cut Polished Salt Brick Slab",
       "item.new_borders_mod.candy_sword": "Candy Sword",
       "item.new_borders_mod.cobalt_armor_helmet": "Cobalt Helmet",
@@ -7995,7 +8117,6 @@
       "block.new_borders_mod.stylised_slate_brick_slab": "Stylised Slate Brick Slab",
       "entity.new_borders_mod.winterfell_pillager": "Winterfell Pillager",
       "item.new_borders_mod.raw_salted_cod": "Raw Salted Cod",
-      "item.new_borders_mod.cobalt_hoe": "Cobalt Pickaxe",
       "block.new_borders_mod.polished_salt_bricks": "Polished Salt Bricks",
       "block.new_borders_mod.ipe_air": "Ipe Air",
       "biome.new_borders_mod.permafrost": "Permafrost",
@@ -8075,7 +8196,6 @@
       "item.new_borders_mod.babacu_ranged": "Babacu",
       "item.new_borders_mod.weird_bread_dough": "Weird Bread Dough",
       "block.new_borders_mod.glowshroom": "Glowshroom",
-      "item.new_borders_mod.cobalt_pickaxe": "Cobalt Pickaxe",
       "item.new_borders_mod.cobalt_59": "Cobalt 59",
       "item.new_borders_mod.cooked_salted_salmon": "Cooked Salted Salmon",
       "item.new_borders_mod.raw_salted_salmon": "Raw Salted Salmon",

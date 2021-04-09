@@ -1,0 +1,12 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "new_borders_mod:unknown_element"
+  },
+  "result": {
+    "item": "new_borders_mod:frostingless_cake"
+  }
+}

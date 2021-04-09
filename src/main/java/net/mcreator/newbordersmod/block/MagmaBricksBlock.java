@@ -2,7 +2,6 @@
 package net.mcreator.newbordersmod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -24,7 +23,7 @@ public class MagmaBricksBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:magma_bricks")
 	public static final Block block = null;
 	public MagmaBricksBlock(NewBordersModModElements instance) {
-		super(instance, 460);
+		super(instance, 692);
 	}
 
 	@Override
@@ -35,8 +34,7 @@ public class MagmaBricksBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(0.5f, 0.5f).lightValue(3).harvestLevel(0)
-					.harvestTool(ToolType.PICKAXE));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(0.5f, 0.5f).lightValue(0));
 			setRegistryName("magma_bricks");
 		}
 

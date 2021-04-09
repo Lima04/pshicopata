@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "cobalt",
+    "texture": "cesium_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -35,7 +35,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:CobaltShard"
+      "value": "CUSTOM:CobaltCrystal"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

@@ -36,7 +36,7 @@
     "reedsPerChunk": 2,
     "cactiPerChunk": 0,
     "rainingPossibility": 1.0,
-    "temperature": 0.5,
+    "temperature": 0.7,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "spawnBiome": true,

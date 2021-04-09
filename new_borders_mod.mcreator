@@ -916,15 +916,6 @@
       "registry_name": "polished_diorite_bricks_recipe"
     },
     {
-      "name": "Mount",
-      "type": "biome",
-      "sortid": 108,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mount"
-    },
-    {
       "name": "PolishedDioriteBricksStairs",
       "type": "block",
       "sortid": 109,
@@ -5097,6 +5088,15 @@
       "registry_name": "anti_phantom_missile_battery"
     },
     {
+      "name": "MagmaBricks",
+      "type": "block",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_bricks"
+    },
+    {
       "name": "MagmaBrickSlab",
       "type": "block",
       "sortid": 461,
@@ -6471,15 +6471,6 @@
       "registry_name": "glowing_obsidian_recipe"
     },
     {
-      "name": "MagmaLava",
-      "type": "recipe",
-      "sortid": 601,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_lava"
-    },
-    {
       "name": "Fifoda",
       "type": "painting",
       "sortid": 603,
@@ -6516,15 +6507,6 @@
       "registry_name": "gabbro_ashes_smelt"
     },
     {
-      "name": "MagmaBallBlock",
-      "type": "recipe",
-      "sortid": 600,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_ball_block"
-    },
-    {
       "name": "GabbroAshes",
       "type": "item",
       "sortid": 596,
@@ -6559,15 +6541,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "polished_recipes"
-    },
-    {
-      "name": "MagmaBall",
-      "type": "item",
-      "sortid": 598,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magma_ball"
     },
     {
       "name": "Gabbro",
@@ -7416,42 +7389,6 @@
       "registry_name": "sulfur_recipe"
     },
     {
-      "name": "PumpkinPieOverride",
-      "type": "recipe",
-      "sortid": 678,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pumpkin_pie_override"
-    },
-    {
-      "name": "RawPumpkinPie",
-      "type": "item",
-      "sortid": 679,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "raw_pumpkin_pie"
-    },
-    {
-      "name": "RawPumpkinPieRecipe",
-      "type": "recipe",
-      "sortid": 680,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "raw_pumpkin_pie_recipe"
-    },
-    {
-      "name": "PumpkinPieRecipe",
-      "type": "recipe",
-      "sortid": 681,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pumpkin_pie_recipe"
-    },
-    {
       "name": "PumpkinPieSmoker",
       "type": "recipe",
       "sortid": 682,
@@ -7459,78 +7396,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pumpkin_pie_smoker"
-    },
-    {
-      "name": "CakeOverride",
-      "type": "recipe",
-      "sortid": 683,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cake_override"
-    },
-    {
-      "name": "RawCake",
-      "type": "item",
-      "sortid": 684,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "raw_cake"
-    },
-    {
-      "name": "RawCakeRecipe",
-      "type": "recipe",
-      "sortid": 685,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "raw_cake_recipe"
-    },
-    {
-      "name": "FrostinglessCake",
-      "type": "item",
-      "sortid": 686,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "frostingless_cake"
-    },
-    {
-      "name": "FrostinglessCakeRecipe",
-      "type": "recipe",
-      "sortid": 687,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "frostingless_cake_recipe"
-    },
-    {
-      "name": "FrostinglessCakeSmoker",
-      "type": "recipe",
-      "sortid": 688,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "frostingless_cake_smoker"
-    },
-    {
-      "name": "CakeFrosting",
-      "type": "item",
-      "sortid": 689,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cake_frosting"
-    },
-    {
-      "name": "CakeFrostingRecipe",
-      "type": "recipe",
-      "sortid": 690,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cake_frosting_recipe"
     },
     {
       "name": "CakeRecipe",
@@ -7542,13 +7407,184 @@
       "registry_name": "cake_recipe"
     },
     {
-      "name": "MagmaBricks",
-      "type": "block",
-      "sortid": 692,
+      "name": "FrostinglessCake",
+      "type": "item",
+      "sortid": 686,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "magma_bricks"
+      "registry_name": "frostingless_cake"
+    },
+    {
+      "name": "PumpkinPieRecipe",
+      "type": "recipe",
+      "sortid": 681,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_pie_recipe"
+    },
+    {
+      "name": "FrostinglessCakeRecipe",
+      "type": "recipe",
+      "sortid": 687,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frostingless_cake_recipe"
+    },
+    {
+      "name": "CakeOverride",
+      "type": "recipe",
+      "sortid": 683,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cake_override"
+    },
+    {
+      "name": "FrostinglessCakeSmoker",
+      "type": "recipe",
+      "sortid": 688,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frostingless_cake_smoker"
+    },
+    {
+      "name": "RawPumpkinPie",
+      "type": "item",
+      "sortid": 679,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_pumpkin_pie"
+    },
+    {
+      "name": "PumpkinPieOverride",
+      "type": "recipe",
+      "sortid": 678,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_pie_override"
+    },
+    {
+      "name": "RawCake",
+      "type": "item",
+      "sortid": 684,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_cake"
+    },
+    {
+      "name": "RawPumpkinPieRecipe",
+      "type": "recipe",
+      "sortid": 680,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_pumpkin_pie_recipe"
+    },
+    {
+      "name": "CakeFrosting",
+      "type": "item",
+      "sortid": 689,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cake_frosting"
+    },
+    {
+      "name": "RawCakeRecipe",
+      "type": "recipe",
+      "sortid": 685,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_cake_recipe"
+    },
+    {
+      "name": "CakeFrostingRecipe",
+      "type": "recipe",
+      "sortid": 690,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cake_frosting_recipe"
+    },
+    {
+      "name": "CobaltSwordRecipe",
+      "type": "recipe",
+      "sortid": 685,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_sword_recipe"
+    },
+    {
+      "name": "CobaltCrystal",
+      "type": "item",
+      "sortid": 681,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_crystal"
+    },
+    {
+      "name": "CanaryBayRecipe",
+      "type": "recipe",
+      "sortid": 679,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "canary_bay_recipe"
+    },
+    {
+      "name": "CobaltPickaxe",
+      "type": "tool",
+      "sortid": 680,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_pickaxe"
+    },
+    {
+      "name": "CobaltSword",
+      "type": "tool",
+      "sortid": 683,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_sword"
+    },
+    {
+      "name": "CobaltPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 684,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_pickaxe_recipe"
+    },
+    {
+      "name": "CobaltShardRecipce",
+      "type": "recipe",
+      "sortid": 682,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_shard_recipce"
+    },
+    {
+      "name": "CanaryBay",
+      "type": "musicdisc",
+      "sortid": 678,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "canary_bay"
     }
   ],
   "variable_elements": [],
@@ -7779,6 +7815,14 @@
       ],
       "category": "neutral",
       "subtitle": "Heat Canon Blasting"
+    },
+    {
+      "name": "canary_bay",
+      "files": [
+        "canary_bay"
+      ],
+      "category": "record",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -7788,8 +7832,8 @@
       "item.new_borders_mod.pinch_of_salt": "Pinch of Salt",
       "biome.new_borders_mod.wastelands": "Wastelands",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
-      "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
       "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
+      "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
       "entity.new_borders_mod.sentinel": "Sentinel",
       "block.new_borders_mod.polished_siltstone_slab": "Polished Siltstone Slab",
       "block.new_borders_mod.polished_salt_pillar_slab": "Polished Salt Pillar Slab",
@@ -7800,8 +7844,8 @@
       "block.new_borders_mod.ipe_leaves": "Ipe Leaves",
       "item.new_borders_mod.tapetes_guardanapos_cetins": "Tapetes Guardanapos Cetins",
       "block.new_borders_mod.cobalt_bomb": "Cobalt Bomb",
-      "item.new_borders_mod.cake_frosting": "Cake Frosting",
       "item.new_borders_mod.statue_item": "Statue",
+      "subtitles.canary_bay": "",
       "item.new_borders_mod.compact_cobalt": "Compact Cobalt",
       "block.new_borders_mod.polished_salt_brick_stairs": "Polished Salt Brick Stairs",
       "block.new_borders_mod.tall_ipe_air": "Tall Ipe Air",
@@ -7866,7 +7910,6 @@
       "block.new_borders_mod.babacu_phase_5": "Babacu Phase 5",
       "block.new_borders_mod.casio_keyboard_from_the_80s": "Casio Keyboard From The 80s",
       "biome.new_borders_mod.temperate_jungle": "Temperate Jungle",
-      "item.new_borders_mod.frostingless_cake": "Frostingless Cake",
       "block.new_borders_mod.babacu_phase_2": "Babacu Phase 2",
       "block.new_borders_mod.babacu_phase_1": "Babacu Phase 1",
       "item.new_borders_mod.salted_steak": "Salted Steak",
@@ -8017,7 +8060,6 @@
       "item.new_borders_mod.tapetes_guardanapos_cetins.desc": "Marcos Valle - Tapetes Guardanapos Cetins",
       "block.new_borders_mod.block_of_sulfur": "Block of Sulfur",
       "item.new_borders_mod.coarse_salt": "Coarse Salt",
-      "item.new_borders_mod.raw_pumpkin_pie": "Raw Pumpkin Pie",
       "block.new_borders_mod.cherry_tree_planks": "Cherry Tree Planks",
       "item.new_borders_mod.sun_sword": "Sun Sword",
       "block.new_borders_mod.pinon_block_gravity": "Pinon Block(Gravity)",
@@ -8075,7 +8117,6 @@
       "item.new_borders_mod.bread_dough": "Bread Dough",
       "block.new_borders_mod.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
       "advancements.under_pressure.title": "Under Pressure",
-      "item.new_borders_mod.raw_cake": "Raw Cake",
       "advancements.explosion_of_taste.title": "An Explosion of Taste",
       "block.new_borders_mod.block_of_salt": "Block of Salt",
       "advancements.daft_punk.title": "Daft Punk",

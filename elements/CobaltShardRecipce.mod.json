@@ -10,37 +10,37 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:CobaltCrystal"
       },
       {
-        "value": "Blocks.MAGMA"
+        "value": "CUSTOM:CobaltCrystal"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CobaltCrystal"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CobaltCrystal"
       },
       {
-        "value": "Items.BUCKET"
+        "value": "CUSTOM:CobaltCrystal"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CobaltCrystal"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CobaltCrystal"
       },
       {
-        "value": "CUSTOM:CobaltShard"
+        "value": "CUSTOM:CobaltCrystal"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CobaltCrystal"
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.LAVA_BUCKET"
+      "value": "CUSTOM:CobaltShard"
     },
-    "name": "magma_lava",
+    "name": "cobalt_shard_recipe",
     "namespace": "mod"
   }
 }

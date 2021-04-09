@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "magma_ball",
+    "texture": "cobalt_crystal",
     "customModelName": "Normal",
-    "name": "Magma Ball",
+    "name": "Cobalt Crystal",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

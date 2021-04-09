@@ -307,5 +307,14 @@
         "stream": false
       }
     ]
+  },
+  "canary_bay": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "new_borders_mod:canary_bay",
+        "stream": true
+      }
+    ]
   }
 }

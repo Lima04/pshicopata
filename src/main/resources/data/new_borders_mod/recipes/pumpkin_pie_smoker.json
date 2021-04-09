@@ -4,7 +4,7 @@
   "experience": 1,
   "cookingtime": 100,
   "ingredient": {
-    "item": "new_borders_mod:raw_pumpkin_pie"
+    "item": "new_borders_mod:unknown_element"
   },
   "result": {
     "item": "minecraft:pumpkin_pie"

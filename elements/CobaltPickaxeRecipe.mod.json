@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:MagmaBall"
+        "value": "CUSTOM:CobaltShard"
       },
       {
-        "value": "CUSTOM:MagmaBall"
+        "value": "CUSTOM:CobaltShard"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:MagmaBall"
-      },
-      {
-        "value": "CUSTOM:MagmaBall"
+        "value": "CUSTOM:CobaltShard"
       },
       {
         "value": ""
       },
       {
+        "value": "Items.STICK"
+      },
+      {
         "value": ""
       },
       {
         "value": ""
+      },
+      {
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.MAGMA"
+      "value": "CUSTOM:CobaltPickaxe"
     },
-    "name": "magma_ball_block",
+    "name": "cobalt_pickaxe_recipe",
     "namespace": "mod"
   }
 }

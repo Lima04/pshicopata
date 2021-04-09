@@ -106,6 +106,8 @@ public class NewBordersModModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "heat_canon")));
 		sounds.put(new ResourceLocation("new_borders_mod", "canary_bay"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "canary_bay")));
+		sounds.put(new ResourceLocation("new_borders_mod", "canariobaia"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("new_borders_mod", "canariobaia")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("new_borders_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -1,0 +1,32 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "1": {
+      "item": "minecraft:pumpkin"
+    },
+    "2": {
+      "item": "new_borders_mod:salt"
+    },
+    "3": {
+      "item": "minecraft:egg"
+    },
+    "4": {
+      "item": "minecraft:milk_bucket"
+    },
+    "5": {
+      "item": "new_borders_mod:dough"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:raw_pumpkin_pie",
+    "count": 2
+  }
+}

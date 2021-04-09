@@ -44,7 +44,7 @@ public class CocaisJungleBiome extends NewBordersModModElements.ModElement {
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0.8f).depth(0.1f).scale(0f).temperature(0.9f).precipitation(Biome.RainType.RAIN)
-					.category(Biome.Category.JUNGLE).waterColor(4159204).waterFogColor(329011).parent("beach")
+					.category(Biome.Category.MUSHROOM).waterColor(4159204).waterFogColor(329011).parent("ocean")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 							Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
 			setRegistryName("cocais_jungle");

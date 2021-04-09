@@ -7459,6 +7459,78 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cobalt_sword_recipe"
+    },
+    {
+      "name": "CobaltShovel",
+      "type": "tool",
+      "sortid": 686,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_shovel"
+    },
+    {
+      "name": "CobaltAxe",
+      "type": "tool",
+      "sortid": 687,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_axe"
+    },
+    {
+      "name": "CobaltHoe",
+      "type": "tool",
+      "sortid": 688,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_hoe"
+    },
+    {
+      "name": "CobaltShovelRecipe",
+      "type": "recipe",
+      "sortid": 689,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_shovel_recipe"
+    },
+    {
+      "name": "CobaltAxeRecipe1",
+      "type": "recipe",
+      "sortid": 690,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_axe_recipe_1"
+    },
+    {
+      "name": "CobaltAxeRecipe2",
+      "type": "recipe",
+      "sortid": 691,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_axe_recipe_2"
+    },
+    {
+      "name": "CobaltHoeRecipe1",
+      "type": "recipe",
+      "sortid": 692,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_hoe_recipe_1"
+    },
+    {
+      "name": "CobaltHoeRecipe2",
+      "type": "recipe",
+      "sortid": 693,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_hoe_recipe_2"
     }
   ],
   "variable_elements": [],
@@ -7706,8 +7778,8 @@
       "item.new_borders_mod.pinch_of_salt": "Pinch of Salt",
       "biome.new_borders_mod.wastelands": "Wastelands",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
-      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
+      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "entity.new_borders_mod.sentinel": "Sentinel",
       "block.new_borders_mod.polished_siltstone_slab": "Polished Siltstone Slab",
       "block.new_borders_mod.polished_salt_pillar_slab": "Polished Salt Pillar Slab",
@@ -7786,6 +7858,7 @@
       "block.new_borders_mod.babacu_phase_2": "Babacu Phase 2",
       "block.new_borders_mod.babacu_phase_1": "Babacu Phase 1",
       "item.new_borders_mod.salted_steak": "Salted Steak",
+      "item.new_borders_mod.cobalt_shovel": "Cobalt Pickaxe",
       "item.new_borders_mod.samba_de_verao.desc": "Marcos Valle - Samba De Verao",
       "item.new_borders_mod.cobalt_shard": "Cobalt Shard",
       "block.new_borders_mod.babacu_planks": "Babacu Planks",
@@ -7817,6 +7890,7 @@
       "item.new_borders_mod.cobalt_crystal": "Cobalt Crystal",
       "item.new_borders_mod.cobalt_armor_boots": "Cobalt Boots",
       "block.new_borders_mod.polished_siltstone": "Polished Siltstone",
+      "item.new_borders_mod.cobalt_axe": "Cobalt Sword",
       "block.new_borders_mod.slate": "Slate",
       "item.new_borders_mod.duskstone_gem": "Duskstone Gem",
       "block.new_borders_mod.lead_block": "Lead Block",
@@ -7921,6 +7995,7 @@
       "block.new_borders_mod.stylised_slate_brick_slab": "Stylised Slate Brick Slab",
       "entity.new_borders_mod.winterfell_pillager": "Winterfell Pillager",
       "item.new_borders_mod.raw_salted_cod": "Raw Salted Cod",
+      "item.new_borders_mod.cobalt_hoe": "Cobalt Pickaxe",
       "block.new_borders_mod.polished_salt_bricks": "Polished Salt Bricks",
       "block.new_borders_mod.ipe_air": "Ipe Air",
       "biome.new_borders_mod.permafrost": "Permafrost",

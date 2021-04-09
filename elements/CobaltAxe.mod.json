@@ -3,19 +3,19 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "cobalt_sword",
+    "texture": "cobalt_axe",
     "customModelName": "Normal",
     "name": "Cobalt Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "TOOLS"
     },
-    "toolType": "Sword",
+    "toolType": "Axe",
     "harvestLevel": 4,
     "efficiency": 11.0,
     "attackSpeed": 1.0,
     "enchantability": 5,
-    "damageVsEntity": 7.0,
+    "damageVsEntity": 9.0,
     "usageCount": 2561,
     "blocksAffected": [],
     "hasGlow": false,

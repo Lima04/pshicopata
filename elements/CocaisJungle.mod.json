@@ -42,9 +42,9 @@
     "spawnBiome": true,
     "biomeWeight": 6,
     "biomeType": "WARM",
-    "biomeCategory": "MUSHROOM",
+    "biomeCategory": "JUNGLE",
     "parent": {
-      "value": "ocean"
+      "value": "beaches"
     },
     "spawnStronghold": true,
     "spawnMineshaft": true,

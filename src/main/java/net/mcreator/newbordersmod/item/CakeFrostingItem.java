@@ -4,6 +4,7 @@ package net.mcreator.newbordersmod.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
+import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -27,6 +28,16 @@ public class CakeFrostingItem extends NewBordersModModElements.ModElement {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("cake_frosting");
+		}
+
+		@Override
+		public boolean hasContainerItem() {
+			return true;
+		}
+
+		@Override
+		public ItemStack getContainerItem(ItemStack itemstack) {
+			return new ItemStack(Items.BOWL, (int) (1));
 		}
 
 		@Override

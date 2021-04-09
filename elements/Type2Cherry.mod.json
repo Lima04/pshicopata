@@ -5,7 +5,7 @@
     "structure": "broco",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 10000,
+    "spawnProbability": 140000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
@@ -15,11 +15,19 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBlocks": [],
-    "restrictionBiomes": [],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.GRASS"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:CherryBlossomForest"
+      }
+    ],
     "ignoreBlocks": "STRUCTURE_BLOCK",
     "onStructureGenerated": {
-      "name": "CherryType1"
+      "name": "CherryType2"
     }
   }
 }

@@ -26,14 +26,17 @@ import net.minecraft.util.Mirror;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.newbordersmod.procedures.CherryTYpe3Procedure;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
 
 @NewBordersModModElements.ModElement.Tag
-public class BigCherryTree2Structure extends NewBordersModModElements.ModElement {
-	public BigCherryTree2Structure(NewBordersModModElements instance) {
-		super(instance, 273);
+public class Type3CherryStructure extends NewBordersModModElements.ModElement {
+	public Type3CherryStructure(NewBordersModModElements instance) {
+		super(instance, 702);
 	}
 
 	@Override
@@ -54,7 +57,7 @@ public class BigCherryTree2Structure extends NewBordersModModElements.ModElement
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
 						int k = ck + random.nextInt(16);
-						int j = world.getHeight(Heightmap.Type.WORLD_SURFACE_WG, i, k);
+						int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
 						j -= 1;
 						BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
 						boolean blockCriteria = false;
@@ -69,11 +72,19 @@ public class BigCherryTree2Structure extends NewBordersModModElements.ModElement
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("new_borders_mod", "big_cherry_tree_2"));
+								.getTemplateDefaulted(new ResourceLocation("new_borders_mod", "broco"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
-								.addProcessor(BlockIgnoreStructureProcessor.AIR).setChunk(null).setIgnoreEntities(false));
+								.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false));
+						{
+							Map<String, Object> $_dependencies = new HashMap<>();
+							$_dependencies.put("x", x);
+							$_dependencies.put("y", y);
+							$_dependencies.put("z", z);
+							$_dependencies.put("world", world);
+							CherryTYpe3Procedure.executeProcedure($_dependencies);
+						}
 					}
 				}
 				return true;

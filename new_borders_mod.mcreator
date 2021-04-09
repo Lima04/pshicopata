@@ -2741,15 +2741,6 @@
       "registry_name": "purple_berry_seeds"
     },
     {
-      "name": "SmallCherryTree2",
-      "type": "structure",
-      "sortid": 275,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "small_cherry_tree_2"
-    },
-    {
       "name": "TwinCherries",
       "type": "food",
       "sortid": 269,
@@ -2794,15 +2785,6 @@
       "registry_name": "white_cherry_blossoms"
     },
     {
-      "name": "SmallCherryTree1",
-      "type": "structure",
-      "sortid": 274,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "small_cherry_tree_1"
-    },
-    {
       "name": "CherryChestRecipe",
       "type": "recipe",
       "sortid": 266,
@@ -2828,33 +2810,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cherry_blossom_drops"
-    },
-    {
-      "name": "BigCherryTree2",
-      "type": "structure",
-      "sortid": 273,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "big_cherry_tree_2"
-    },
-    {
-      "name": "BigCherryTree1",
-      "type": "structure",
-      "sortid": 272,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "big_cherry_tree_1"
-    },
-    {
-      "name": "BigCherryTree3",
-      "type": "structure",
-      "sortid": 276,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "big_cherry_tree_3"
     },
     {
       "name": "Penguin",
@@ -7715,13 +7670,165 @@
       "registry_name": "cherry_air_type_1"
     },
     {
-      "name": "Broco",
+      "name": "Type1Cherry",
       "type": "structure",
-      "sortid": 696,
+      "sortid": 698,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "broco"
+      "registry_name": "type_1_cherry"
+    },
+    {
+      "name": "Type2Cherry",
+      "type": "structure",
+      "sortid": 699,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "type_2_cherry"
+    },
+    {
+      "name": "CherryType2",
+      "type": "procedure",
+      "sortid": 700,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_type_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CherryTYpe3",
+      "type": "procedure",
+      "sortid": 701,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_t_ype_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Type3Cherry",
+      "type": "structure",
+      "sortid": 702,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "type_3_cherry"
+    },
+    {
+      "name": "CherryType4",
+      "type": "procedure",
+      "sortid": 703,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_type_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Type4Cherry",
+      "type": "structure",
+      "sortid": 704,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "type_4_cherry"
+    },
+    {
+      "name": "Type5Cherry",
+      "type": "structure",
+      "sortid": 705,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "type_5_cherry"
+    },
+    {
+      "name": "CherryType5",
+      "type": "procedure",
+      "sortid": 706,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_type_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -7977,8 +8084,8 @@
       "item.new_borders_mod.pinch_of_salt": "Pinch of Salt",
       "biome.new_borders_mod.wastelands": "Wastelands",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
-      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
+      "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
       "entity.new_borders_mod.sentinel": "Sentinel",
       "block.new_borders_mod.polished_siltstone_slab": "Polished Siltstone Slab",
       "block.new_borders_mod.polished_salt_pillar_slab": "Polished Salt Pillar Slab",
@@ -7997,6 +8104,7 @@
       "item.new_borders_mod.cobalt_sword": "Cobalt Sword",
       "block.new_borders_mod.tall_ipe_air": "Tall Ipe Air",
       "block.new_borders_mod.asphalt_block": "Asphalt Block",
+      "item.new_borders_mod.heat_canon": "Heat Cannon",
       "biome.new_borders_mod.cocais_jungle": "Cocais Jungle",
       "block.new_borders_mod.shale_tile_slab": "Shale Tile Slab",
       "block.new_borders_mod.stripped_redwood_log": "Stripped Redwood Log",
@@ -8233,6 +8341,7 @@
       "item.new_borders_mod.samba_de_verao": "Samba De Verao",
       "block.new_borders_mod.purple_berry_plant_berry": "Purple Berry Plant Phase 3",
       "block.new_borders_mod.polished_limestone_brick_slab": "Polished Limestone Brick Slab",
+      "item.new_borders_mod.normal_canon": "Normal Cannon",
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
       "item.new_borders_mod.eye_of_the_eclipse": "Eye of the Eclipse",
       "item.new_borders_mod.salt": "Salt",

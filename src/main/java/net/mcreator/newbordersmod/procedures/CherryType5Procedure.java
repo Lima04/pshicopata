@@ -16,30 +16,30 @@ import net.mcreator.newbordersmod.NewBordersModModElements;
 import java.util.Map;
 
 @NewBordersModModElements.ModElement.Tag
-public class CherryType1Procedure extends NewBordersModModElements.ModElement {
-	public CherryType1Procedure(NewBordersModModElements instance) {
-		super(instance, 696);
+public class CherryType5Procedure extends NewBordersModModElements.ModElement {
+	public CherryType5Procedure(NewBordersModModElements instance) {
+		super(instance, 706);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure CherryType1!");
+				System.err.println("Failed to load dependency x for procedure CherryType5!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure CherryType1!");
+				System.err.println("Failed to load dependency y for procedure CherryType5!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure CherryType1!");
+				System.err.println("Failed to load dependency z for procedure CherryType5!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure CherryType1!");
+				System.err.println("Failed to load dependency world for procedure CherryType5!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
@@ -58,7 +58,7 @@ public class CherryType1Procedure extends NewBordersModModElements.ModElement {
 						.getBlock())))) {
 			if (!world.getWorld().isRemote) {
 				Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-						.getTemplateDefaulted(new ResourceLocation("new_borders_mod", "small_cherry_tree_1_new"));
+						.getTemplateDefaulted(new ResourceLocation("new_borders_mod", "big_cherry_tree_3_new"));
 				if (template != null) {
 					template.addBlocksToWorld(world, new BlockPos((int) (x - 3), (int) ((y - (down)) + 1), (int) (z - 2)),
 							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));

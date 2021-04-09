@@ -2,9 +2,9 @@
   "_fv": 13,
   "_type": "structure",
   "definition": {
-    "structure": "small_cherry_tree_2",
+    "structure": "broco",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First block",
+    "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 140000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
@@ -25,6 +25,9 @@
         "value": "CUSTOM:CherryBlossomForest"
       }
     ],
-    "ignoreBlocks": "AIR"
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "onStructureGenerated": {
+      "name": "CherryType1"
+    }
   }
 }

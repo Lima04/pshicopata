@@ -7612,6 +7612,71 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cake_frosting_recipe"
+    },
+    {
+      "name": "HeatCanonRecipe",
+      "type": "recipe",
+      "sortid": 694,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heat_canon_recipe"
+    },
+    {
+      "name": "CherryType1",
+      "type": "procedure",
+      "sortid": 696,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_type_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiaDHoraH",
+      "type": "achievement",
+      "sortid": 697,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dia_d_hora_h"
+    },
+    {
+      "name": "CherryAirType1",
+      "type": "block",
+      "sortid": 695,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_air_type_1"
+    },
+    {
+      "name": "Broco",
+      "type": "structure",
+      "sortid": 696,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "broco"
     }
   ],
   "variable_elements": [],
@@ -7850,6 +7915,14 @@
       ],
       "category": "record",
       "subtitle": ""
+    },
+    {
+      "name": "canariobaia",
+      "files": [
+        "canary_bays"
+      ],
+      "category": "record",
+      "subtitle": "canario"
     }
   ],
   "language_map": {
@@ -7879,7 +7952,6 @@
       "item.new_borders_mod.cobalt_sword": "Cobalt Sword",
       "block.new_borders_mod.tall_ipe_air": "Tall Ipe Air",
       "block.new_borders_mod.asphalt_block": "Asphalt Block",
-      "item.new_borders_mod.heat_canon": "Heat Canon",
       "biome.new_borders_mod.cocais_jungle": "Cocais Jungle",
       "block.new_borders_mod.shale_tile_slab": "Shale Tile Slab",
       "block.new_borders_mod.stripped_redwood_log": "Stripped Redwood Log",
@@ -7905,6 +7977,7 @@
       "biome.new_borders_mod.brown_river": "Brown River",
       "block.new_borders_mod.purple_berry_phase_2": "Purple Berry Phase 2",
       "biome.new_borders_mod.eucalyptus_forest": "Eucalyptus Forest",
+      "advancements.dia_d_hora_h.title": "Dia D, Hora H",
       "block.new_borders_mod.limestone_slab": "Limestone Slab",
       "block.new_borders_mod.redwood_air_2": "Redwood Air 2",
       "item.new_borders_mod.penguin_spawn_egg": "Penguin Spawn Egg",
@@ -7943,6 +8016,7 @@
       "block.new_borders_mod.babacu_phase_2": "Babacu Phase 2",
       "block.new_borders_mod.babacu_phase_1": "Babacu Phase 1",
       "item.new_borders_mod.salted_steak": "Salted Steak",
+      "subtitles.canariobaia": "canario",
       "item.new_borders_mod.cobalt_shovel": "Cobalt Pickaxe",
       "item.new_borders_mod.samba_de_verao.desc": "Marcos Valle - Samba De Verao",
       "item.new_borders_mod.cobalt_shard": "Cobalt Shard",
@@ -8043,6 +8117,7 @@
       "item.new_borders_mod.night_stone_gem": "Nightstone Gem",
       "block.new_borders_mod.sulfur_ore": "Sulfur Ore",
       "biome.new_borders_mod.darkworld": "Darkworld",
+      "block.new_borders_mod.cherry_air_type_1": "Babacu Air 1",
       "block.new_borders_mod.babacu_sapling": "Babacu Sapling",
       "advancements.guts_of_steel.descr": "You actually ate it???",
       "block.new_borders_mod.candy_leaves": "Candy Leaves",
@@ -8068,9 +8143,11 @@
       "block.new_borders_mod.big_candy_air": "Big Candy Air",
       "subtitles.sentinel2": "Cleaner Sentinel Chipset",
       "block.new_borders_mod.polished_siltstone_brick_slab": "Polished Siltstone Brick Slab",
+      "item.new_borders_mod.heat_cannon": "Heat Cannon",
       "block.new_borders_mod.magma_bricks": "Magma Bricks",
       "block.new_borders_mod.polished_salt_slab": "Polished Salt Slab",
       "advancements.seasoning_season.title": "Seasoning Season",
+      "advancements.dia_d_hora_h.descr": "Brazilian disco is so good",
       "block.new_borders_mod.candy_ore": "Candy Ore",
       "advancements.daft_punk.descr": "Look at this old casio keyboard from the 1980s i have found",
       "block.new_borders_mod.eucalyptus_leaves": "Eucalyptus Leaves",
@@ -8089,6 +8166,7 @@
       "item.new_borders_mod.heated_lead": "Heated Lead",
       "block.new_borders_mod.siltstone_slab": "Siltstone Slab",
       "block.new_borders_mod.cobalt_lamp": "Cobalt Lamp",
+      "item.new_borders_mod.normal_cannon": "Normal Cannon",
       "item.new_borders_mod.timberman": "Lamberjack Spawn Egg",
       "block.new_borders_mod.polished_slate_brick_slab": "Polished Slate Brick Slab",
       "block.new_borders_mod.babacu_log": "Babacu Log",
@@ -8109,7 +8187,6 @@
       "block.new_borders_mod.cyan_rose": "Cyan Rose",
       "item.new_borders_mod.samba_de_verao": "Samba De Verao",
       "block.new_borders_mod.purple_berry_plant_berry": "Purple Berry Plant Phase 3",
-      "item.new_borders_mod.normal_canon": "Normal Canon",
       "block.new_borders_mod.polished_limestone_brick_slab": "Polished Limestone Brick Slab",
       "item.new_borders_mod.tapa_no_real.desc": "Marcos Valle - Tapa No Real",
       "item.new_borders_mod.eye_of_the_eclipse": "Eye of the Eclipse",

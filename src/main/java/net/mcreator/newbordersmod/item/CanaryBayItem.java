@@ -25,7 +25,7 @@ public class CanaryBayItem extends NewBordersModModElements.ModElement {
 	}
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, NewBordersModModElements.sounds.get(new ResourceLocation("new_borders_mod:canary_bay")),
+			super(0, NewBordersModModElements.sounds.get(new ResourceLocation("new_borders_mod:canariobaia")),
 					new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("canary_bay");
 		}

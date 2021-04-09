@@ -43,9 +43,9 @@ import java.util.HashMap;
 
 @NewBordersModModElements.ModElement.Tag
 public class NormalCanonItem extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:normal_canon")
+	@ObjectHolder("new_borders_mod:normal_cannon")
 	public static final Item block = null;
-	@ObjectHolder("new_borders_mod:entitybulletnormal_canon")
+	@ObjectHolder("new_borders_mod:entitybulletnormal_cannon")
 	public static final EntityType arrow = null;
 	public NormalCanonItem(NewBordersModModElements instance) {
 		super(instance, 339);
@@ -56,7 +56,7 @@ public class NormalCanonItem extends NewBordersModModElements.ModElement {
 		elements.items.add(() -> new ItemRanged());
 		elements.entities.add(() -> (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
 				.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
-				.size(0.5f, 0.5f)).build("entitybulletnormal_canon").setRegistryName("entitybulletnormal_canon"));
+				.size(0.5f, 0.5f)).build("entitybulletnormal_cannon").setRegistryName("entitybulletnormal_cannon"));
 	}
 
 	@Override
@@ -68,7 +68,7 @@ public class NormalCanonItem extends NewBordersModModElements.ModElement {
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
 			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(1551));
-			setRegistryName("normal_canon");
+			setRegistryName("normal_cannon");
 		}
 
 		@Override

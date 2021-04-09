@@ -3701,7 +3701,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "normal_cannon_bullet_hits_block",
+      "registry_name": "normal_canon_bullet_hits_block",
       "metadata": {
         "dependencies": [
           {
@@ -3830,7 +3830,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "heat_cannon"
+      "registry_name": "heat_canon"
     },
     {
       "name": "HeatCanonBulletHitsBlock",
@@ -3839,7 +3839,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "heat_cannon_bullet_hits_block",
+      "registry_name": "heat_canon_bullet_hits_block",
       "metadata": {
         "dependencies": [
           {
@@ -3980,7 +3980,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "normal_cannon"
+      "registry_name": "normal_canon"
     },
     {
       "name": "EucalyptusLeaves",
@@ -7668,15 +7668,6 @@
       "registry_name": "heat_canon_recipe"
     },
     {
-      "name": "CherryAirType1",
-      "type": "block",
-      "sortid": 695,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_air_type_1"
-    },
-    {
       "name": "CherryType1",
       "type": "procedure",
       "sortid": 696,
@@ -7706,15 +7697,6 @@
       }
     },
     {
-      "name": "Broco",
-      "type": "structure",
-      "sortid": 696,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "broco"
-    },
-    {
       "name": "DiaDHoraH",
       "type": "achievement",
       "sortid": 697,
@@ -7722,6 +7704,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dia_d_hora_h"
+    },
+    {
+      "name": "CherryAirType1",
+      "type": "block",
+      "sortid": 695,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_air_type_1"
+    },
+    {
+      "name": "Broco",
+      "type": "structure",
+      "sortid": 696,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "broco"
     }
   ],
   "variable_elements": [],

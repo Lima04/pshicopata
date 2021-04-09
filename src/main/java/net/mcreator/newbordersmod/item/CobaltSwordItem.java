@@ -32,7 +32,7 @@ public class CobaltSwordItem extends NewBordersModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 5f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {

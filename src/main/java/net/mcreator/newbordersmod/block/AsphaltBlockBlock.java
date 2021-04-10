@@ -24,7 +24,7 @@ public class AsphaltBlockBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:asphalt_block")
 	public static final Block block = null;
 	public AsphaltBlockBlock(NewBordersModModElements instance) {
-		super(instance, 331);
+		super(instance, 30);
 	}
 
 	@Override

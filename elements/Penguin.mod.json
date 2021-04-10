@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Penguin",
     "mobLabel": "",
-    "mobModelName": "Modelcustom_model",
+    "mobModelName": "ModelPingu",
     "mobModelTexture": "penguino.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.5,
@@ -44,7 +44,7 @@
     "equipmentBoots": {
       "value": ""
     },
-    "mobBehaviourType": "Mob",
+    "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 3,
     "attackKnockback": 0.0,
@@ -54,7 +54,7 @@
     "trackingRange": 64,
     "health": 14,
     "xpAmount": 0,
-    "waterMob": false,
+    "waterMob": true,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
@@ -113,14 +113,11 @@
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 9,
+    "spawningProbability": 12,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Permafrost"
-      },
       {
         "value": "frozen_ocean"
       },

@@ -35,7 +35,7 @@ public class BabacuSaplingBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_sapling")
 	public static final Block block = null;
 	public BabacuSaplingBlock(NewBordersModModElements instance) {
-		super(instance, 285);
+		super(instance, 373);
 	}
 
 	@Override

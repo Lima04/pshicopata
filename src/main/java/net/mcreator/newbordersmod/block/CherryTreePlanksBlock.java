@@ -27,7 +27,7 @@ public class CherryTreePlanksBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cherry_tree_planks")
 	public static final Block block = null;
 	public CherryTreePlanksBlock(NewBordersModModElements instance) {
-		super(instance, 250);
+		super(instance, 15);
 	}
 
 	@Override

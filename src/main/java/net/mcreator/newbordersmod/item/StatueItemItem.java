@@ -26,7 +26,7 @@ public class StatueItemItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:statue_item")
 	public static final Item block = null;
 	public StatueItemItem(NewBordersModModElements instance) {
-		super(instance, 223);
+		super(instance, 174);
 	}
 
 	@Override

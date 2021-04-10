@@ -11,6 +11,8 @@ import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
@@ -20,7 +22,7 @@ public class WastelandsBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:wastelands")
 	public static final CustomBiome biome = null;
 	public WastelandsBiome(NewBordersModModElements instance) {
-		super(instance, 474);
+		super(instance, 505);
 	}
 
 	@Override
@@ -42,6 +44,9 @@ public class WastelandsBiome extends NewBordersModModElements.ModElement {
 			setRegistryName("wastelands");
 			DefaultBiomeFeatures.addCarvers(this);
 			DefaultBiomeFeatures.addOres(this);
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ZOMBIE, 200, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SKELETON, 100, 4, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.CREEPER, 200, 1, 4));
 		}
 
 		@OnlyIn(Dist.CLIENT)

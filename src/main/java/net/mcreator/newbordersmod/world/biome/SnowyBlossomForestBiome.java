@@ -3,7 +3,6 @@ package net.mcreator.newbordersmod.world.biome;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.common.BiomeManager;
 
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
@@ -28,7 +27,7 @@ public class SnowyBlossomForestBiome extends NewBordersModModElements.ModElement
 	@ObjectHolder("new_borders_mod:snowy_blossom_forest")
 	public static final CustomBiome biome = null;
 	public SnowyBlossomForestBiome(NewBordersModModElements instance) {
-		super(instance, 333);
+		super(instance, 412);
 	}
 
 	@Override
@@ -38,8 +37,6 @@ public class SnowyBlossomForestBiome extends NewBordersModModElements.ModElement
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.ICY, new BiomeManager.BiomeEntry(biome, 3));
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {

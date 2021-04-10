@@ -27,7 +27,7 @@ public class SteppeBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:steppe")
 	public static final CustomBiome biome = null;
 	public SteppeBiome(NewBordersModModElements instance) {
-		super(instance, 112);
+		super(instance, 279);
 	}
 
 	@Override
@@ -73,6 +73,7 @@ public class SteppeBiome extends NewBordersModModElements.ModElement {
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.PIG, 8, 1, 4));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SPIDER, 100, 1, 3));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.DONKEY, 1, 1, 4));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.BAT, 10, 1, 1));
 		}
 	}
 }

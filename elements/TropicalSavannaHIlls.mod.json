@@ -157,7 +157,7 @@
         "minGroup": 1,
         "maxGroup": 2,
         "weight": 2,
-        "spawnType": "monster"
+        "spawnType": "creature"
       },
       {
         "entity": {
@@ -185,6 +185,15 @@
         "maxGroup": 1,
         "weight": 1,
         "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityBat"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
+        "spawnType": "ambient"
       }
     ]
   }

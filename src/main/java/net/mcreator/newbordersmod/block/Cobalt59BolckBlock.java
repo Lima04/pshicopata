@@ -26,7 +26,7 @@ public class Cobalt59BolckBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cobalt_59_block")
 	public static final Block block = null;
 	public Cobalt59BolckBlock(NewBordersModModElements instance) {
-		super(instance, 123);
+		super(instance, 34);
 	}
 
 	@Override

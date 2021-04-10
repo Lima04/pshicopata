@@ -16,7 +16,7 @@ public class TapetesGuardanaposCetinsItem extends NewBordersModModElements.ModEl
 	@ObjectHolder("new_borders_mod:tapetes_guardanapos_cetins")
 	public static final Item block = null;
 	public TapetesGuardanaposCetinsItem(NewBordersModModElements instance) {
-		super(instance, 77);
+		super(instance, 157);
 	}
 
 	@Override

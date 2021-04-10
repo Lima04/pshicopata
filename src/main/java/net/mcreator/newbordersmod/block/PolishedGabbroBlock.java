@@ -24,7 +24,7 @@ public class PolishedGabbroBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:polished_gabbro")
 	public static final Block block = null;
 	public PolishedGabbroBlock(NewBordersModModElements instance) {
-		super(instance, 592);
+		super(instance, 96);
 	}
 
 	@Override

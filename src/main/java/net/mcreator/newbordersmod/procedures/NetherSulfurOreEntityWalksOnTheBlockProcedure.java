@@ -12,7 +12,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class NetherSulfurOreEntityWalksOnTheBlockProcedure extends NewBordersModModElements.ModElement {
 	public NetherSulfurOreEntityWalksOnTheBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 613);
+		super(instance, 618);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

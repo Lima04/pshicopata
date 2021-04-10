@@ -45,7 +45,7 @@ public class SunstoneOreBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:sunstone_ore")
 	public static final Block block = null;
 	public SunstoneOreBlock(NewBordersModModElements instance) {
-		super(instance, 360);
+		super(instance, 24);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class EucalyptusAirGenerator2Procedure extends NewBordersModModElements.ModElement {
 	public EucalyptusAirGenerator2Procedure(NewBordersModModElements instance) {
-		super(instance, 352);
+		super(instance, 429);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

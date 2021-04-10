@@ -16,7 +16,7 @@ public class ParaOsFilhosDeAbraaoItem extends NewBordersModModElements.ModElemen
 	@ObjectHolder("new_borders_mod:para_os_filhos_de_abraao")
 	public static final Item block = null;
 	public ParaOsFilhosDeAbraaoItem(NewBordersModModElements instance) {
-		super(instance, 71);
+		super(instance, 154);
 	}
 
 	@Override

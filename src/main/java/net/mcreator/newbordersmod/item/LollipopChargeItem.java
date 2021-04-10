@@ -44,7 +44,7 @@ public class LollipopChargeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:entitybulletlollipop_charge")
 	public static final EntityType arrow = null;
 	public LollipopChargeItem(NewBordersModModElements instance) {
-		super(instance, 227);
+		super(instance, 219);
 	}
 
 	@Override

@@ -11,6 +11,7 @@ import net.minecraft.util.Mirror;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.newbordersmod.block.EucalyptusAirBlock;
+import net.mcreator.newbordersmod.block.EucalyptusAir2Block;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 import java.util.Map;
@@ -18,7 +19,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class EucalyptusAirGeneratorProcedure extends NewBordersModModElements.ModElement {
 	public EucalyptusAirGeneratorProcedure(NewBordersModModElements instance) {
-		super(instance, 348);
+		super(instance, 426);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -53,7 +54,9 @@ public class EucalyptusAirGeneratorProcedure extends NewBordersModModElements.Mo
 						.getBlock()))) {
 			down = (double) ((down) + 1);
 		}
-		if (((!((world.getBlockState(new BlockPos((int) x, (int) (y - (down)), (int) z))).getBlock() == Blocks.WATER.getDefaultState().getBlock()))
+		if ((((!((world.getBlockState(new BlockPos((int) x, (int) (y - (down)), (int) z))).getBlock() == Blocks.WATER.getDefaultState().getBlock()))
+				&& (!((world.getBlockState(new BlockPos((int) x, (int) (y - (down)), (int) z))).getBlock() == EucalyptusAir2Block.block
+						.getDefaultState().getBlock())))
 				&& (!((world.getBlockState(new BlockPos((int) x, (int) (y - (down)), (int) z))).getBlock() == Blocks.LAVA.getDefaultState()
 						.getBlock())))) {
 			if (!world.getWorld().isRemote) {

@@ -36,7 +36,7 @@ import java.util.HashMap;
 @NewBordersModModElements.ModElement.Tag
 public class IpeGeneratorStructure extends NewBordersModModElements.ModElement {
 	public IpeGeneratorStructure(NewBordersModModElements instance) {
-		super(instance, 92);
+		super(instance, 270);
 	}
 
 	@Override

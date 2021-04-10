@@ -26,7 +26,7 @@ public class RedwoodSlabBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:redwood_slab")
 	public static final Block block = null;
 	public RedwoodSlabBlock(NewBordersModModElements instance) {
-		super(instance, 27);
+		super(instance, 5);
 	}
 
 	@Override

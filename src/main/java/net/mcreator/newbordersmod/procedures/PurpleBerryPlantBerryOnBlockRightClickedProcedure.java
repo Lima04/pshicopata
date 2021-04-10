@@ -16,7 +16,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class PurpleBerryPlantBerryOnBlockRightClickedProcedure extends NewBordersModModElements.ModElement {
 	public PurpleBerryPlantBerryOnBlockRightClickedProcedure(NewBordersModModElements instance) {
-		super(instance, 247);
+		super(instance, 366);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

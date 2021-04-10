@@ -45,7 +45,7 @@ import net.mcreator.newbordersmod.NewBordersModModElements;
 public class FrostbittenEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public FrostbittenEntity(NewBordersModModElements instance) {
-		super(instance, 339);
+		super(instance, 197);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -63,8 +63,6 @@ public class FrostbittenEntity extends NewBordersModModElements.ModElement {
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:permafrost")))
-				biomeCriteria = true;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("frozen_ocean")))
 				biomeCriteria = true;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("deep_frozen_ocean")))

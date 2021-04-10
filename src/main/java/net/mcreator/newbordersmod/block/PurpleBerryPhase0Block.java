@@ -56,7 +56,7 @@ public class PurpleBerryPhase0Block extends NewBordersModModElements.ModElement 
 	@ObjectHolder("new_borders_mod:purple_berry_phase_0")
 	public static final Block block = null;
 	public PurpleBerryPhase0Block(NewBordersModModElements instance) {
-		super(instance, 467);
+		super(instance, 500);
 	}
 
 	@Override

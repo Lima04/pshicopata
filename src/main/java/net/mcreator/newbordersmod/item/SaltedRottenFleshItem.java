@@ -23,7 +23,7 @@ public class SaltedRottenFleshItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:salted_rotten_flesh")
 	public static final Item block = null;
 	public SaltedRottenFleshItem(NewBordersModModElements instance) {
-		super(instance, 435);
+		super(instance, 133);
 	}
 
 	@Override

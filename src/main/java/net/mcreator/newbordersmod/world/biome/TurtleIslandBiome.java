@@ -30,10 +30,10 @@ import com.google.common.collect.Lists;
 
 @NewBordersModModElements.ModElement.Tag
 public class TurtleIslandBiome extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:turtle_island")
+	@ObjectHolder("new_borders_mod:tropical_plains")
 	public static final CustomBiome biome = null;
 	public TurtleIslandBiome(NewBordersModModElements instance) {
-		super(instance, 590);
+		super(instance, 596);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class TurtleIslandBiome extends NewBordersModModElements.ModElement {
 					.category(Biome.Category.PLAINS).waterColor(4159204).waterFogColor(329011).parent("warm_ocean")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 							Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
-			setRegistryName("turtle_island");
+			setRegistryName("tropical_plains");
 			DefaultBiomeFeatures.addCarvers(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);
 			DefaultBiomeFeatures.addStructures(this);

@@ -21,8 +21,10 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.newbordersmod.entity.MooglowEntity;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 @NewBordersModModElements.ModElement.Tag
@@ -30,7 +32,7 @@ public class GlowshroomJungleBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:glowshroom_jungle")
 	public static final CustomBiome biome = null;
 	public GlowshroomJungleBiome(NewBordersModModElements instance) {
-		super(instance, 181);
+		super(instance, 323);
 	}
 
 	@Override
@@ -61,6 +63,7 @@ public class GlowshroomJungleBiome extends NewBordersModModElements.ModElement {
 					.withPlacement(Placement.COUNT_HEIGHTMAP_DOUBLE.configure(new FrequencyConfig(20))));
 			this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.SEAGRASS.withConfiguration(new SeaGrassConfig(20, 0.3D))
 					.withPlacement(Placement.TOP_SOLID_HEIGHTMAP.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(MooglowEntity.entity, 15, 1, 4));
 		}
 
 		@OnlyIn(Dist.CLIENT)

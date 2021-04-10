@@ -56,7 +56,7 @@ public class PurpleBerryPlantBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:purple_berry_plant")
 	public static final Block block = null;
 	public PurpleBerryPlantBlock(NewBordersModModElements instance) {
-		super(instance, 243);
+		super(instance, 368);
 	}
 
 	@Override

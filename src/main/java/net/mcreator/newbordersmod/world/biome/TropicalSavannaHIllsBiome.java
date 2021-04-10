@@ -36,7 +36,7 @@ public class TropicalSavannaHIllsBiome extends NewBordersModModElements.ModEleme
 	@ObjectHolder("new_borders_mod:tropical_savanna_hills")
 	public static final CustomBiome biome = null;
 	public TropicalSavannaHIllsBiome(NewBordersModModElements instance) {
-		super(instance, 268);
+		super(instance, 393);
 	}
 
 	@Override
@@ -94,10 +94,11 @@ public class TropicalSavannaHIllsBiome extends NewBordersModModElements.ModEleme
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ZOMBIE, 100, 1, 4));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SKELETON, 100, 1, 4));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SPIDER, 100, 1, 4));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.PARROT, 2, 1, 2));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.PARROT, 2, 1, 2));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ENDERMAN, 20, 1, 2));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.WITCH, 5, 1, 1));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(SentinelEntity.entity, 1, 1, 1));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.BAT, 10, 1, 1));
 		}
 	}
 }

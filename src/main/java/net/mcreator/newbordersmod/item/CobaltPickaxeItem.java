@@ -17,7 +17,7 @@ public class CobaltPickaxeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cobalt_pickaxe")
 	public static final Item block = null;
 	public CobaltPickaxeItem(NewBordersModModElements instance) {
-		super(instance, 680);
+		super(instance, 224);
 	}
 
 	@Override

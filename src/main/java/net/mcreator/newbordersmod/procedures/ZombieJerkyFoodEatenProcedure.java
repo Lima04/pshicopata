@@ -15,7 +15,7 @@ import java.util.Iterator;
 @NewBordersModModElements.ModElement.Tag
 public class ZombieJerkyFoodEatenProcedure extends NewBordersModModElements.ModElement {
 	public ZombieJerkyFoodEatenProcedure(NewBordersModModElements instance) {
-		super(instance, 441);
+		super(instance, 477);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

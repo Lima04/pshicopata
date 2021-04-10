@@ -30,7 +30,7 @@ public class AlpineBorderBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:redwood_taiga")
 	public static final CustomBiome biome = null;
 	public AlpineBorderBiome(NewBordersModModElements instance) {
-		super(instance, 2);
+		super(instance, 228);
 	}
 
 	@Override
@@ -88,6 +88,7 @@ public class AlpineBorderBiome extends NewBordersModModElements.ModElement {
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ZOMBIE, 100, 1, 4));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.SHEEP, 12, 1, 4));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SPIDER, 100, 1, 3));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.BAT, 10, 1, 1));
 		}
 	}
 }

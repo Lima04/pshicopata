@@ -29,7 +29,7 @@ public class CobaltBombBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cobalt_bomb")
 	public static final Block block = null;
 	public CobaltBombBlock(NewBordersModModElements instance) {
-		super(instance, 125);
+		super(instance, 204);
 	}
 
 	@Override

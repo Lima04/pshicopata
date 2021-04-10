@@ -36,7 +36,7 @@ public class BabacuLeavesBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_leaves_begining")
 	public static final Block block = null;
 	public BabacuLeavesBlock(NewBordersModModElements instance) {
-		super(instance, 270);
+		super(instance, 110);
 	}
 
 	@Override

@@ -82,7 +82,7 @@
         "entity": {
           "value": "EntityCow"
         },
-        "minGroup": 1,
+        "minGroup": 3,
         "maxGroup": 4,
         "weight": 10,
         "spawnType": "creature"
@@ -91,7 +91,7 @@
         "entity": {
           "value": "EntityChicken"
         },
-        "minGroup": 1,
+        "minGroup": 2,
         "maxGroup": 4,
         "weight": 10,
         "spawnType": "creature"
@@ -100,7 +100,7 @@
         "entity": {
           "value": "EntityPig"
         },
-        "minGroup": 1,
+        "minGroup": 3,
         "maxGroup": 4,
         "weight": 8,
         "spawnType": "creature"
@@ -109,10 +109,10 @@
         "entity": {
           "value": "EntitySheep"
         },
-        "minGroup": 1,
+        "minGroup": 2,
         "maxGroup": 4,
         "weight": 12,
-        "spawnType": "monster"
+        "spawnType": "creature"
       },
       {
         "entity": {
@@ -185,6 +185,15 @@
         "maxGroup": 1,
         "weight": 1,
         "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityBat"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
+        "spawnType": "ambient"
       }
     ]
   }

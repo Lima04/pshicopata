@@ -30,7 +30,7 @@ public class BabacuLogBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_log")
 	public static final Block block = null;
 	public BabacuLogBlock(NewBordersModModElements instance) {
-		super(instance, 269);
+		super(instance, 10);
 	}
 
 	@Override

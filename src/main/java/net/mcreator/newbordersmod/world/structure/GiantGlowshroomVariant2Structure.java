@@ -31,7 +31,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class GiantGlowshroomVariant2Structure extends NewBordersModModElements.ModElement {
 	public GiantGlowshroomVariant2Structure(NewBordersModModElements instance) {
-		super(instance, 184);
+		super(instance, 324);
 	}
 
 	@Override

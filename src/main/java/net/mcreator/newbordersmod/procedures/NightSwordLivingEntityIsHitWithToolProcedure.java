@@ -13,7 +13,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class NightSwordLivingEntityIsHitWithToolProcedure extends NewBordersModModElements.ModElement {
 	public NightSwordLivingEntityIsHitWithToolProcedure(NewBordersModModElements instance) {
-		super(instance, 357);
+		super(instance, 435);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

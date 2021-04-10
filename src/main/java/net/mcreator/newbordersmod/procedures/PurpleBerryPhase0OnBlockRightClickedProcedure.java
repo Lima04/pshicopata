@@ -19,7 +19,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class PurpleBerryPhase0OnBlockRightClickedProcedure extends NewBordersModModElements.ModElement {
 	public PurpleBerryPhase0OnBlockRightClickedProcedure(NewBordersModModElements instance) {
-		super(instance, 470);
+		super(instance, 506);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

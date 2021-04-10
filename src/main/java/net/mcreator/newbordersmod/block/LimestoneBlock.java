@@ -38,7 +38,7 @@ public class LimestoneBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:limestone")
 	public static final Block block = null;
 	public LimestoneBlock(NewBordersModModElements instance) {
-		super(instance, 470);
+		super(instance, 61);
 	}
 
 	@Override

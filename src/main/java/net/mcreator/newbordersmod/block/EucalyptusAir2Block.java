@@ -29,7 +29,7 @@ public class EucalyptusAir2Block extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:eucalyptus_air_2")
 	public static final Block block = null;
 	public EucalyptusAir2Block(NewBordersModModElements instance) {
-		super(instance, 350);
+		super(instance, 427);
 	}
 
 	@Override

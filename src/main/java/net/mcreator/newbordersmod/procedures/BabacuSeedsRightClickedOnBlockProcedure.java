@@ -18,7 +18,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class BabacuSeedsRightClickedOnBlockProcedure extends NewBordersModModElements.ModElement {
 	public BabacuSeedsRightClickedOnBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 329);
+		super(instance, 392);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

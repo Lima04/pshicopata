@@ -24,7 +24,7 @@ public class WhiteCherryBlossomsBlock extends NewBordersModModElements.ModElemen
 	@ObjectHolder("new_borders_mod:white_cherry_blossoms")
 	public static final Block block = null;
 	public WhiteCherryBlossomsBlock(NewBordersModModElements instance) {
-		super(instance, 267);
+		super(instance, 109);
 	}
 
 	@Override

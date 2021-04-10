@@ -16,7 +16,7 @@ public class EstrelarItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:estrelar")
 	public static final Item block = null;
 	public EstrelarItem(NewBordersModModElements instance) {
-		super(instance, 63);
+		super(instance, 150);
 	}
 
 	@Override

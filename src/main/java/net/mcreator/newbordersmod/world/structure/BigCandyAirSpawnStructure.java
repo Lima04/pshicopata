@@ -33,7 +33,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class BigCandyAirSpawnStructure extends NewBordersModModElements.ModElement {
 	public BigCandyAirSpawnStructure(NewBordersModModElements instance) {
-		super(instance, 190);
+		super(instance, 320);
 	}
 
 	@Override

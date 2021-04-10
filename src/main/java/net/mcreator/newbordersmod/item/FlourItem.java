@@ -16,7 +16,7 @@ public class FlourItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:flour")
 	public static final Item block = null;
 	public FlourItem(NewBordersModModElements instance) {
-		super(instance, 630);
+		super(instance, 135);
 	}
 
 	@Override

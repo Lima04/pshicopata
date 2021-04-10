@@ -26,7 +26,7 @@ public class BabacuSlabBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_slab")
 	public static final Block block = null;
 	public BabacuSlabBlock(NewBordersModModElements instance) {
-		super(instance, 316);
+		super(instance, 13);
 	}
 
 	@Override

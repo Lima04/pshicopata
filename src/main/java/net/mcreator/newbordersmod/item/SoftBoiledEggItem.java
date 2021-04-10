@@ -17,7 +17,7 @@ public class SoftBoiledEggItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:soft_boiled_egg")
 	public static final Item block = null;
 	public SoftBoiledEggItem(NewBordersModModElements instance) {
-		super(instance, 656);
+		super(instance, 144);
 	}
 
 	@Override

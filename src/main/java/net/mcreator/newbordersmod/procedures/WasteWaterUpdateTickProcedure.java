@@ -13,7 +13,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class WasteWaterUpdateTickProcedure extends NewBordersModModElements.ModElement {
 	public WasteWaterUpdateTickProcedure(NewBordersModModElements instance) {
-		super(instance, 475);
+		super(instance, 504);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

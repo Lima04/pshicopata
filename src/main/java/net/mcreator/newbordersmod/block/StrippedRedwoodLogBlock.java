@@ -30,7 +30,7 @@ public class StrippedRedwoodLogBlock extends NewBordersModModElements.ModElement
 	@ObjectHolder("new_borders_mod:stripped_redwood_log")
 	public static final Block block = null;
 	public StrippedRedwoodLogBlock(NewBordersModModElements instance) {
-		super(instance, 36);
+		super(instance, 2);
 	}
 
 	@Override

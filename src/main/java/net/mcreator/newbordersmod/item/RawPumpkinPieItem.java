@@ -16,7 +16,7 @@ public class RawPumpkinPieItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:raw_pumpkin_pie")
 	public static final Item block = null;
 	public RawPumpkinPieItem(NewBordersModModElements instance) {
-		super(instance, 679);
+		super(instance, 146);
 	}
 
 	@Override

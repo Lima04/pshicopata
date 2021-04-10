@@ -26,7 +26,7 @@ public class PolishedSiltstoneBrickSlabBlock extends NewBordersModModElements.Mo
 	@ObjectHolder("new_borders_mod:polished_siltstone_brick_slab")
 	public static final Block block = null;
 	public PolishedSiltstoneBrickSlabBlock(NewBordersModModElements instance) {
-		super(instance, 516);
+		super(instance, 77);
 	}
 
 	@Override

@@ -167,6 +167,15 @@
         "maxGroup": 3,
         "weight": 100,
         "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityBat"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
+        "spawnType": "ambient"
       }
     ]
   }

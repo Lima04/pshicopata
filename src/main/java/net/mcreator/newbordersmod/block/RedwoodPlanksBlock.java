@@ -24,7 +24,7 @@ public class RedwoodPlanksBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:redwood_planks")
 	public static final Block block = null;
 	public RedwoodPlanksBlock(NewBordersModModElements instance) {
-		super(instance, 14);
+		super(instance, 3);
 	}
 
 	@Override

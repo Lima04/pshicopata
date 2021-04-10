@@ -20,8 +20,12 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.newbordersmod.entity.SentinelEntity;
+import net.mcreator.newbordersmod.entity.JungleSkeletonEntity;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 import com.google.common.collect.Lists;
@@ -81,6 +85,19 @@ public class TropicalSavannaBiome extends NewBordersModModElements.ModElement {
 							.withConfiguration(new SphereReplaceConfig(Blocks.SAND.getDefaultState(), 7, 2,
 									Lists.newArrayList(Blocks.GRASS_BLOCK.getDefaultState(), Blocks.LIGHT_GRAY_TERRACOTTA.getDefaultState())))
 							.withPlacement(Placement.COUNT_TOP_SOLID.configure(new FrequencyConfig(9))));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(JungleSkeletonEntity.entity, 20, 1, 4));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.COW, 10, 1, 4));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.CHICKEN, 10, 1, 4));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.PIG, 8, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SHEEP, 12, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.CREEPER, 100, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ZOMBIE, 100, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SKELETON, 100, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SPIDER, 100, 1, 4));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.PARROT, 2, 1, 2));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ENDERMAN, 20, 1, 2));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.WITCH, 5, 1, 1));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(SentinelEntity.entity, 1, 1, 1));
 		}
 	}
 }

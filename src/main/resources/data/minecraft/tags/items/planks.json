@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "new_borders_mod:redwood_planks",
+    "new_borders_mod:cherry_tree_planks",
+    "new_borders_mod:ipe_planks",
+    "new_borders_mod:babacu_planks"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:ipe_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "new_borders_mod:ipe_planks"
+    },
+    "3": {
+      "item": "new_borders_mod:ipe_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "new_borders_mod:ipe_planks"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:ipe_fence",
+    "count": 3
+  }
+}

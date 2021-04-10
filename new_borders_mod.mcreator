@@ -119,87 +119,6 @@
       "registry_name": "redwood_planks_recipe"
     },
     {
-      "name": "RedwoodCraftingTable",
-      "type": "recipe",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "redwood_crafting_table"
-    },
-    {
-      "name": "RedwoodSticks",
-      "type": "recipe",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "redwood_sticks"
-    },
-    {
-      "name": "RedwoodPickaxe",
-      "type": "recipe",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "redwood_pickaxe"
-    },
-    {
-      "name": "RedwoodShovel",
-      "type": "recipe",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "redwood_shovel"
-    },
-    {
-      "name": "RedwoodAxe",
-      "type": "recipe",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "redwood_axe"
-    },
-    {
-      "name": "RedwoodAxe2",
-      "type": "recipe",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "redwood_axe_2"
-    },
-    {
-      "name": "RedwoodSord",
-      "type": "recipe",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "redwood_sord"
-    },
-    {
-      "name": "RedwoodHoe",
-      "type": "recipe",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "redwood_hoe"
-    },
-    {
-      "name": "RedwoodHoe2",
-      "type": "recipe",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "redwood_hoe_2"
-    },
-    {
       "name": "RedwoodStairs",
       "type": "block",
       "sortid": 26,
@@ -739,15 +658,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ipe_leaves"
-    },
-    {
-      "name": "IpeLogPlank",
-      "type": "recipe",
-      "sortid": 88,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ipe_log_plank"
     },
     {
       "name": "Ipair",
@@ -2399,24 +2309,6 @@
       "registry_name": "snow_brick_slab_drops"
     },
     {
-      "name": "CherrySword",
-      "type": "recipe",
-      "sortid": 258,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_sword"
-    },
-    {
-      "name": "CherryPickaxe",
-      "type": "recipe",
-      "sortid": 259,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_pickaxe"
-    },
-    {
       "name": "SnowBrickSlab",
       "type": "block",
       "sortid": 244,
@@ -2424,15 +2316,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "snow_brick_slab"
-    },
-    {
-      "name": "CherryAxe",
-      "type": "recipe",
-      "sortid": 260,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_axe"
     },
     {
       "name": "CherryTreeSlab",
@@ -2471,24 +2354,6 @@
       "registry_name": "cherry_tree_stairs"
     },
     {
-      "name": "CherryTreePlankWorkbench",
-      "type": "recipe",
-      "sortid": 254,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_tree_plank_workbench"
-    },
-    {
-      "name": "CherryAxe2",
-      "type": "recipe",
-      "sortid": 261,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_axe_2"
-    },
-    {
       "name": "CherryTreeSlabRecipe",
       "type": "recipe",
       "sortid": 255,
@@ -2505,15 +2370,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cherry_tree_log"
-    },
-    {
-      "name": "CherrySticks",
-      "type": "recipe",
-      "sortid": 257,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_sticks"
     },
     {
       "name": "CherryTreePlanks",
@@ -2543,15 +2399,6 @@
       "registry_name": "cherry_tree_plank_recipe"
     },
     {
-      "name": "CherryHoe1",
-      "type": "recipe",
-      "sortid": 263,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_hoe_1"
-    },
-    {
       "name": "SnowBrickStairsDrops",
       "type": "loottable",
       "sortid": 247,
@@ -2559,24 +2406,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "snow_brick_stairs_drops"
-    },
-    {
-      "name": "CherryHoe2",
-      "type": "recipe",
-      "sortid": 264,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_hoe_2"
-    },
-    {
-      "name": "CherryShovel",
-      "type": "recipe",
-      "sortid": 262,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_shovel"
     },
     {
       "name": "PurpleBerryFoodEaten",
@@ -2785,15 +2614,6 @@
       "registry_name": "white_cherry_blossoms"
     },
     {
-      "name": "CherryChestRecipe",
-      "type": "recipe",
-      "sortid": 266,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_chest_recipe"
-    },
-    {
       "name": "WhiteCherryBlossomDrops",
       "type": "loottable",
       "sortid": 271,
@@ -2819,15 +2639,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "penguin"
-    },
-    {
-      "name": "BabacuHoe",
-      "type": "recipe",
-      "sortid": 325,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_hoe"
     },
     {
       "name": "Babacu3AirFruit",
@@ -2902,15 +2713,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "babacu_type_2_air_fruit"
-    },
-    {
-      "name": "BabacuAxe2",
-      "type": "recipe",
-      "sortid": 321,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_axe_2"
     },
     {
       "name": "BabacuCutting",
@@ -3126,15 +2928,6 @@
       "registry_name": "babacu_phase_2"
     },
     {
-      "name": "BabacuPickaxe",
-      "type": "recipe",
-      "sortid": 318,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_pickaxe"
-    },
-    {
       "name": "BabacuStairs",
       "type": "block",
       "sortid": 315,
@@ -3151,15 +2944,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "babacu_type_2_air"
-    },
-    {
-      "name": "BabacuSword",
-      "type": "recipe",
-      "sortid": 317,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_sword"
     },
     {
       "name": "BabacuAir2FruitGenerate",
@@ -3189,15 +2973,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "BabacuSlabs",
-      "type": "recipe",
-      "sortid": 322,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_slabs"
     },
     {
       "name": "BabacuSeedsRightClickedOnBlock",
@@ -3233,15 +3008,6 @@
       }
     },
     {
-      "name": "BabacuShovel",
-      "type": "recipe",
-      "sortid": 327,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_shovel"
-    },
-    {
       "name": "TropicalSavannaHIlls",
       "type": "biome",
       "sortid": 268,
@@ -3249,15 +3015,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "tropical_savanna_hills"
-    },
-    {
-      "name": "BabacuSticks",
-      "type": "recipe",
-      "sortid": 323,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_sticks"
     },
     {
       "name": "BabacuType1AirFruit",
@@ -3285,15 +3042,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "babacu_air_2"
-    },
-    {
-      "name": "BabacuAxe",
-      "type": "recipe",
-      "sortid": 319,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_axe"
     },
     {
       "name": "BabacuType3AirFruit",
@@ -3350,15 +3098,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "BabacuCraftingTable",
-      "type": "recipe",
-      "sortid": 320,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_crafting_table"
     },
     {
       "name": "BabacuPhase2UpdateTick",
@@ -3453,15 +3192,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "babacu_pulp"
-    },
-    {
-      "name": "BabacuHoe2",
-      "type": "recipe",
-      "sortid": 326,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "babacu_hoe_2"
     },
     {
       "name": "BrownRiver",
@@ -7829,6 +7559,213 @@
           }
         ]
       }
+    },
+    {
+      "name": "Planks",
+      "type": "tag",
+      "sortid": 707,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "planks"
+    },
+    {
+      "name": "IpePlanks",
+      "type": "block",
+      "sortid": 708,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_planks"
+    },
+    {
+      "name": "IpePlanksRecipe",
+      "type": "recipe",
+      "sortid": 709,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_planks_recipe"
+    },
+    {
+      "name": "IpeSlab",
+      "type": "block",
+      "sortid": 710,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_slab"
+    },
+    {
+      "name": "IpeStairs",
+      "type": "block",
+      "sortid": 711,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_stairs"
+    },
+    {
+      "name": "IpeFence",
+      "type": "block",
+      "sortid": 712,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_fence"
+    },
+    {
+      "name": "IpeSlabRecipe",
+      "type": "recipe",
+      "sortid": 713,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_slab_recipe"
+    },
+    {
+      "name": "IpeStairsRecipe",
+      "type": "recipe",
+      "sortid": 714,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_stairs_recipe"
+    },
+    {
+      "name": "IpeFenceRecipe",
+      "type": "recipe",
+      "sortid": 715,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_fence_recipe"
+    },
+    {
+      "name": "IpeFenceGate",
+      "type": "block",
+      "sortid": 716,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_fence_gate"
+    },
+    {
+      "name": "IpeFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 717,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipe_fence_gate_recipe"
+    },
+    {
+      "name": "BabacuSlabRecipe",
+      "type": "recipe",
+      "sortid": 718,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_slab_recipe"
+    },
+    {
+      "name": "BabacuFence",
+      "type": "block",
+      "sortid": 719,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_fence"
+    },
+    {
+      "name": "BabacuFenceGate",
+      "type": "block",
+      "sortid": 720,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_fence_gate"
+    },
+    {
+      "name": "BabacuFenceRecipe",
+      "type": "recipe",
+      "sortid": 721,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_fence_recipe"
+    },
+    {
+      "name": "BabacuFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 722,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "babacu_fence_gate_recipe"
+    },
+    {
+      "name": "CherryTreeFence",
+      "type": "block",
+      "sortid": 723,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_fence"
+    },
+    {
+      "name": "CherryTreeFenceGate",
+      "type": "block",
+      "sortid": 724,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_fence_gate"
+    },
+    {
+      "name": "CherryTreeFenceRecipe",
+      "type": "recipe",
+      "sortid": 725,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_fence_recipe"
+    },
+    {
+      "name": "CherryTreeFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 726,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_tree_fence_gate_recipe"
+    },
+    {
+      "name": "RedwoodFenceGate",
+      "type": "block",
+      "sortid": 727,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_fence_gate"
+    },
+    {
+      "name": "RedwoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 728,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_fence_gate_recipe"
+    },
+    {
+      "name": "RedwoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 729,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redwood_fence_recipe"
     }
   ],
   "variable_elements": [],
@@ -8084,8 +8021,8 @@
       "item.new_borders_mod.pinch_of_salt": "Pinch of Salt",
       "biome.new_borders_mod.wastelands": "Wastelands",
       "item.new_borders_mod.fogo_do_sol.desc": "Marcos Valle - Fogo Do Sol",
-      "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
       "item.new_borders_mod.naturalmente.desc": "Marcos Valle - Naturalmente",
+      "block.new_borders_mod.polished_diorite_bricks": "Polished Diorite Bricks",
       "entity.new_borders_mod.sentinel": "Sentinel",
       "block.new_borders_mod.polished_siltstone_slab": "Polished Siltstone Slab",
       "block.new_borders_mod.polished_salt_pillar_slab": "Polished Salt Pillar Slab",
@@ -8111,12 +8048,14 @@
       "item.new_borders_mod.mais_que_amor": "Mais Que Amor",
       "item.new_borders_mod.purple_berry": "Purple Berry",
       "item.new_borders_mod.raw_salted_beef": "Raw Salted Beef",
+      "block.new_borders_mod.babacu_fence": "Babacu Fence",
       "block.new_borders_mod.polished_gabbro": "Polished Gabbro",
       "biome.new_borders_mod.steppe": "Steppe",
       "block.new_borders_mod.brimstone": "Brimstone",
       "item.new_borders_mod.babacu_pulp": "Babacu Pulp",
       "block.new_borders_mod.glass_door": "Glass Door",
       "block.new_borders_mod.snow_bricks": "Snow Bricks",
+      "block.new_borders_mod.ipe_fence_gate": "Ipe Fence Gate",
       "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
       "advancements.what_a_jerk.descr": "Successfully make rotten flesh safe for consumption.",
       "biome.new_borders_mod.redwood_taiga": "Redwood Taiga",
@@ -8178,6 +8117,7 @@
       "entity.new_borders_mod.seagull_flying": "Seagull",
       "block.new_borders_mod.cut_polished_salt_brick_stairs": "Cut Polished Salt Brick Stairs",
       "item.new_borders_mod.gabbro_ashes": "Gabbro Ashes",
+      "block.new_borders_mod.ipe_planks": "Ipe Planks",
       "block.new_borders_mod.polished_siltstone_stairs": "Polished Siltstone Stairs",
       "item.new_borders_mod.estrelar.desc": "Marcos Valle - Estrelar ",
       "biome.new_borders_mod.candy_forest": "Candy Forest",
@@ -8209,10 +8149,12 @@
       "item.new_borders_mod.naturalmente": "Naturalmente",
       "entity.new_borders_mod.frostbitten": "Frostbitten",
       "item.new_borders_mod.para_os_filhos_de_abraao": "Para Os Filhos De Abraao",
+      "block.new_borders_mod.cherry_tree_fence": "Cherry Tree Fence",
       "item.new_borders_mod.frostbitten_spawn_egg": "Frostbitten Spawn Egg",
       "item.new_borders_mod.viola_enluarada.desc": "Marcos Valle - Viola Enluarada",
       "item.new_borders_mod.cobalt_armor_leggings": "Cobalt Leggings",
       "subtitles.frostbittendeath": "Frostbitten dies",
+      "block.new_borders_mod.babacu_fence_gate": "Babacu Fence Gate",
       "block.new_borders_mod.redwood_leaves": "Redwood Leaves",
       "block.new_borders_mod.pinon": "Pinon Fruit",
       "block.new_borders_mod.babacu_air_1": "Babacu Air 1",
@@ -8234,11 +8176,13 @@
       "block.new_borders_mod.shale_tiles": "Shale Tiles",
       "item.new_borders_mod.halite": "Halite",
       "block.new_borders_mod.babacu_air_2_fruit": "Babacu Air 1",
+      "block.new_borders_mod.ipe_slab": "Ipe Slab",
       "item.new_borders_mod.cherry": "Cherry",
       "item.new_borders_mod.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg",
       "item.new_borders_mod.weird_bread": "Weird Bread",
       "block.new_borders_mod.babacu_stairs": "Babacu Stairs",
       "item.new_borders_mod.babacu_seeds": "Babacu Seeds",
+      "block.new_borders_mod.redwood_fence_gate": "Redwood Fence Gate",
       "block.new_borders_mod.babacu_3_air_fruit": "Babacu Air 1",
       "item.new_borders_mod.anti_phantom_missile_battery_spawn_egg": "Anti Phantom Missile Battery Spawn Egg",
       "block.new_borders_mod.babacu_air_1_fruit": "Babacu Air 1",
@@ -8251,6 +8195,7 @@
       "block.new_borders_mod.polished_limestone_brick_stairs": "Polished Limestone Brick Stairs",
       "advancements.nutraloaf.descr": "...I wouldn\u0027t eat that if I were you.",
       "block.new_borders_mod.cobalt_scaffold": "Cobalt 59 Scaffold",
+      "block.new_borders_mod.ipe_stairs": "Ipe Stairs",
       "advancements.explosion_of_taste.descr": "It feels like it\u0027s popping in your mouth!",
       "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
       "item.new_borders_mod.cooked_salted_cod": "Cooked Salted Cod",
@@ -8325,6 +8270,7 @@
       "block.new_borders_mod.babacu_log": "Babacu Log",
       "item.new_borders_mod.para_os_filhos_de_abraao.desc": "Marcos Valle - Para Os Filhos De Abraao",
       "item.new_borders_mod.tapetes_guardanapos_cetins.desc": "Marcos Valle - Tapetes Guardanapos Cetins",
+      "block.new_borders_mod.ipe_fence": "Ipe Fence",
       "block.new_borders_mod.block_of_sulfur": "Block of Sulfur",
       "item.new_borders_mod.coarse_salt": "Coarse Salt",
       "item.new_borders_mod.raw_pumpkin_pie": "Raw Pumpkin Pie",
@@ -8355,6 +8301,7 @@
       "item.new_borders_mod.drowned_pirate_spawn_egg": "Drowned Pirate Spawn Egg",
       "block.new_borders_mod.polished_slate_bricks": "Polished Slate Bricks",
       "item.new_borders_mod.estrelar": "Estrelar",
+      "block.new_borders_mod.cherry_tree_fence_gate": "Cherry Tree Fence Gate",
       "entity.new_borders_mod.anti_phantom_missile_battery": "Anti Phantom Missile Battery",
       "item.new_borders_mod.sunstone_gem": "Sunstone Gem",
       "subtitles.freezesay": "Frostbitten groans",

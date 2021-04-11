@@ -33,7 +33,7 @@ public class BlockOfSulfurBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:block_of_sulfur")
 	public static final Block block = null;
 	public BlockOfSulfurBlock(NewBordersModModElements instance) {
-		super(instance, 98);
+		super(instance, 97);
 	}
 
 	@Override

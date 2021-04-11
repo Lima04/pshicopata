@@ -30,7 +30,7 @@ public class PinonBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:pinon")
 	public static final Block block = null;
 	public PinonBlock(NewBordersModModElements instance) {
-		super(instance, 100);
+		super(instance, 106);
 	}
 
 	@Override

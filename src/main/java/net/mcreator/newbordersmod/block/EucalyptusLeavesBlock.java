@@ -29,7 +29,7 @@ public class EucalyptusLeavesBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:eucalyptus_leaves")
 	public static final Block block = null;
 	public EucalyptusLeavesBlock(NewBordersModModElements instance) {
-		super(instance, 112);
+		super(instance, 103);
 	}
 
 	@Override

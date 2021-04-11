@@ -29,7 +29,7 @@ public class BabacuFenceBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_fence")
 	public static final Block block = null;
 	public BabacuFenceBlock(NewBordersModModElements instance) {
-		super(instance, 719);
+		super(instance, 114);
 	}
 
 	@Override

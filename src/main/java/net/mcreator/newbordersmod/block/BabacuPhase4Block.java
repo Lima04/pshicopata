@@ -41,7 +41,7 @@ public class BabacuPhase4Block extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_phase_4")
 	public static final Block block = null;
 	public BabacuPhase4Block(NewBordersModModElements instance) {
-		super(instance, 383);
+		super(instance, 382);
 	}
 
 	@Override

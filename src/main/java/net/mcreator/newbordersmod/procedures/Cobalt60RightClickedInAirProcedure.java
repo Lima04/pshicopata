@@ -18,7 +18,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class Cobalt60RightClickedInAirProcedure extends NewBordersModModElements.ModElement {
 	public Cobalt60RightClickedInAirProcedure(NewBordersModModElements instance) {
-		super(instance, 287);
+		super(instance, 286);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

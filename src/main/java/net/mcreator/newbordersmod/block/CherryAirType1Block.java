@@ -29,7 +29,7 @@ public class CherryAirType1Block extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cherry_air_type_1")
 	public static final Block block = null;
 	public CherryAirType1Block(NewBordersModModElements instance) {
-		super(instance, 690);
+		super(instance, 689);
 	}
 
 	@Override

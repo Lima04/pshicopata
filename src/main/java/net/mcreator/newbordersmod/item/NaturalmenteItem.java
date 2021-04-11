@@ -16,7 +16,7 @@ public class NaturalmenteItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:naturalmente")
 	public static final Item block = null;
 	public NaturalmenteItem(NewBordersModModElements instance) {
-		super(instance, 155);
+		super(instance, 154);
 	}
 
 	@Override

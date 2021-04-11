@@ -36,7 +36,7 @@ import java.util.HashMap;
 @NewBordersModModElements.ModElement.Tag
 public class Rw2BlockStructure extends NewBordersModModElements.ModElement {
 	public Rw2BlockStructure(NewBordersModModElements instance) {
-		super(instance, 250);
+		super(instance, 249);
 	}
 
 	@Override

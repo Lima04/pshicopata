@@ -65,7 +65,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class PenguinEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public PenguinEntity(NewBordersModModElements instance) {
-		super(instance, 196);
+		super(instance, 195);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

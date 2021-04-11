@@ -33,7 +33,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class DRIEDbUSHsTRUCTUREStructure extends NewBordersModModElements.ModElement {
 	public DRIEDbUSHsTRUCTUREStructure(NewBordersModModElements instance) {
-		super(instance, 252);
+		super(instance, 251);
 	}
 
 	@Override

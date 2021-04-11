@@ -16,7 +16,7 @@ public class FogoDoSolItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:fogo_do_sol")
 	public static final Item block = null;
 	public FogoDoSolItem(NewBordersModModElements instance) {
-		super(instance, 152);
+		super(instance, 151);
 	}
 
 	@Override

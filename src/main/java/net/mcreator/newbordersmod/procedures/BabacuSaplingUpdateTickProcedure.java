@@ -17,7 +17,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class BabacuSaplingUpdateTickProcedure extends NewBordersModModElements.ModElement {
 	public BabacuSaplingUpdateTickProcedure(NewBordersModModElements instance) {
-		super(instance, 422);
+		super(instance, 421);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

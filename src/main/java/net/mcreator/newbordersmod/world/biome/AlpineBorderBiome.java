@@ -30,7 +30,7 @@ public class AlpineBorderBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:redwood_taiga")
 	public static final CustomBiome biome = null;
 	public AlpineBorderBiome(NewBordersModModElements instance) {
-		super(instance, 228);
+		super(instance, 227);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class CandyItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:candy")
 	public static final Item block = null;
 	public CandyItem(NewBordersModModElements instance) {
-		super(instance, 119);
+		super(instance, 118);
 	}
 
 	@Override

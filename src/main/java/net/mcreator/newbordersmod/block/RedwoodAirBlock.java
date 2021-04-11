@@ -33,7 +33,7 @@ public class RedwoodAirBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:redwood_air")
 	public static final Block block = null;
 	public RedwoodAirBlock(NewBordersModModElements instance) {
-		super(instance, 243);
+		super(instance, 242);
 	}
 
 	@Override

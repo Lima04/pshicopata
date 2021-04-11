@@ -16,7 +16,7 @@ public class FrostinglessCakeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:frostingless_cake")
 	public static final Item block = null;
 	public FrostinglessCakeItem(NewBordersModModElements instance) {
-		super(instance, 148);
+		super(instance, 147);
 	}
 
 	@Override

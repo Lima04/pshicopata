@@ -33,7 +33,7 @@ public class TallIpeAirBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:tall_ipe_air")
 	public static final Block block = null;
 	public TallIpeAirBlock(NewBordersModModElements instance) {
-		super(instance, 267);
+		super(instance, 266);
 	}
 
 	@Override

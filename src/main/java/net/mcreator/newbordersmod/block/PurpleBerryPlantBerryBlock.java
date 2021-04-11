@@ -40,7 +40,7 @@ public class PurpleBerryPlantBerryBlock extends NewBordersModModElements.ModElem
 	@ObjectHolder("new_borders_mod:purple_berry_plant_berry")
 	public static final Block block = null;
 	public PurpleBerryPlantBerryBlock(NewBordersModModElements instance) {
-		super(instance, 362);
+		super(instance, 361);
 	}
 
 	@Override
@@ -56,8 +56,8 @@ public class PurpleBerryPlantBerryBlock extends NewBordersModModElements.ModElem
 	}
 	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).hardnessAndResistance(0.1f, 0f).lightValue(0).doesNotBlockMovement()
-					.notSolid());
+			super(Block.Properties.create(Material.PLANTS).sound(SoundType.SWEET_BERRY_BUSH).hardnessAndResistance(0.1f, 0f).lightValue(0)
+					.doesNotBlockMovement().notSolid());
 			setRegistryName("purple_berry_plant_berry");
 		}
 

@@ -12,7 +12,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class BrimstoneBlockDestroyedByPlayerProcedure extends NewBordersModModElements.ModElement {
 	public BrimstoneBlockDestroyedByPlayerProcedure(NewBordersModModElements instance) {
-		super(instance, 661);
+		super(instance, 660);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

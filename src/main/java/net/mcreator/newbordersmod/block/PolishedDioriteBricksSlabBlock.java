@@ -26,7 +26,7 @@ public class PolishedDioriteBricksSlabBlock extends NewBordersModModElements.Mod
 	@ObjectHolder("new_borders_mod:polished_diorite_bricks_slab")
 	public static final Block block = null;
 	public PolishedDioriteBricksSlabBlock(NewBordersModModElements instance) {
-		super(instance, 33);
+		super(instance, 32);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class IpeStairsBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ipe_stairs")
 	public static final Block block = null;
 	public IpeStairsBlock(NewBordersModModElements instance) {
-		super(instance, 711);
+		super(instance, 9);
 	}
 
 	@Override

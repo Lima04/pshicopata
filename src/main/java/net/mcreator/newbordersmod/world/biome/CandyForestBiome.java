@@ -45,7 +45,7 @@ public class CandyForestBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:candy_forest")
 	public static final CustomBiome biome = null;
 	public CandyForestBiome(NewBordersModModElements instance) {
-		super(instance, 314);
+		super(instance, 313);
 	}
 
 	@Override

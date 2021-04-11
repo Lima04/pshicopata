@@ -29,7 +29,7 @@ public class Babacu3AirBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_3_air")
 	public static final Block block = null;
 	public Babacu3AirBlock(NewBordersModModElements instance) {
-		super(instance, 378);
+		super(instance, 377);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class CherryBlossomsBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cherry_blossoms")
 	public static final Block block = null;
 	public CherryBlossomsBlock(NewBordersModModElements instance) {
-		super(instance, 108);
+		super(instance, 101);
 	}
 
 	@Override

@@ -29,7 +29,7 @@ public class IpeSlabBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ipe_slab")
 	public static final Block block = null;
 	public IpeSlabBlock(NewBordersModModElements instance) {
-		super(instance, 710);
+		super(instance, 8);
 	}
 
 	@Override

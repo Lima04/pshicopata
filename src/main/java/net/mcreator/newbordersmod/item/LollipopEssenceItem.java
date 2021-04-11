@@ -16,7 +16,7 @@ public class LollipopEssenceItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:lollipop_essence")
 	public static final Item block = null;
 	public LollipopEssenceItem(NewBordersModModElements instance) {
-		super(instance, 173);
+		super(instance, 172);
 	}
 
 	@Override

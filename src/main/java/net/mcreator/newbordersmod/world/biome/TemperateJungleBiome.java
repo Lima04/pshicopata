@@ -33,7 +33,7 @@ public class TemperateJungleBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:temperate_jungle")
 	public static final CustomBiome biome = null;
 	public TemperateJungleBiome(NewBordersModModElements instance) {
-		super(instance, 316);
+		super(instance, 315);
 	}
 
 	@Override

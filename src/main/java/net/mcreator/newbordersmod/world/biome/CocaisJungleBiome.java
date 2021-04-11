@@ -32,7 +32,7 @@ public class CocaisJungleBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cocais_jungle")
 	public static final CustomBiome biome = null;
 	public CocaisJungleBiome(NewBordersModModElements instance) {
-		super(instance, 398);
+		super(instance, 397);
 	}
 
 	@Override

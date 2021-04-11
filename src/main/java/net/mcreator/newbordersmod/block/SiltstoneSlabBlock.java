@@ -26,7 +26,7 @@ public class SiltstoneSlabBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:siltstone_slab")
 	public static final Block block = null;
 	public SiltstoneSlabBlock(NewBordersModModElements instance) {
-		super(instance, 73);
+		super(instance, 72);
 	}
 
 	@Override

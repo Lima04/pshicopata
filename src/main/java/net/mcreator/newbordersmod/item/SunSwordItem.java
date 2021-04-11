@@ -23,7 +23,7 @@ public class SunSwordItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:sun_sword")
 	public static final Item block = null;
 	public SunSwordItem(NewBordersModModElements instance) {
-		super(instance, 216);
+		super(instance, 215);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class PolishedSlateBrickSlabBlock extends NewBordersModModElements.ModEle
 	@ObjectHolder("new_borders_mod:polished_slate_brick_slab")
 	public static final Block block = null;
 	public PolishedSlateBrickSlabBlock(NewBordersModModElements instance) {
-		super(instance, 91);
+		super(instance, 90);
 	}
 
 	@Override

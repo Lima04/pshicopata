@@ -38,7 +38,7 @@ public class GabbroBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:gabbro")
 	public static final Block block = null;
 	public GabbroBlock(NewBordersModModElements instance) {
-		super(instance, 95);
+		super(instance, 94);
 	}
 
 	@Override

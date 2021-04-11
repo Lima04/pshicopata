@@ -28,7 +28,7 @@ public class CherryTreeFenceGateBlock extends NewBordersModModElements.ModElemen
 	@ObjectHolder("new_borders_mod:cherry_tree_fence_gate")
 	public static final Block block = null;
 	public CherryTreeFenceGateBlock(NewBordersModModElements instance) {
-		super(instance, 724);
+		super(instance, 211);
 	}
 
 	@Override

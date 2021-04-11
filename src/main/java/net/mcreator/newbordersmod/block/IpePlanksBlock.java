@@ -24,7 +24,7 @@ public class IpePlanksBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ipe_planks")
 	public static final Block block = null;
 	public IpePlanksBlock(NewBordersModModElements instance) {
-		super(instance, 708);
+		super(instance, 7);
 	}
 
 	@Override

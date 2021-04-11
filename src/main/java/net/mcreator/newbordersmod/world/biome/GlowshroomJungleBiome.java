@@ -32,7 +32,7 @@ public class GlowshroomJungleBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:glowshroom_jungle")
 	public static final CustomBiome biome = null;
 	public GlowshroomJungleBiome(NewBordersModModElements instance) {
-		super(instance, 323);
+		super(instance, 322);
 	}
 
 	@Override

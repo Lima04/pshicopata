@@ -33,7 +33,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class SmallSnowyCherry2Structure extends NewBordersModModElements.ModElement {
 	public SmallSnowyCherry2Structure(NewBordersModModElements instance) {
-		super(instance, 411);
+		super(instance, 410);
 	}
 
 	@Override

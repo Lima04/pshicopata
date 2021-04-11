@@ -33,7 +33,7 @@ public class GlassDoorBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:glass_door")
 	public static final Block block = null;
 	public GlassDoorBlock(NewBordersModModElements instance) {
-		super(instance, 207);
+		super(instance, 206);
 	}
 
 	@Override

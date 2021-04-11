@@ -33,7 +33,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class BigCandyTreeStructure extends NewBordersModModElements.ModElement {
 	public BigCandyTreeStructure(NewBordersModModElements instance) {
-		super(instance, 319);
+		super(instance, 318);
 	}
 
 	@Override

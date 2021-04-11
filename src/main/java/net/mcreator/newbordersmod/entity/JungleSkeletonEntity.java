@@ -56,7 +56,7 @@ import net.mcreator.newbordersmod.NewBordersModModElements;
 public class JungleSkeletonEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public JungleSkeletonEntity(NewBordersModModElements instance) {
-		super(instance, 203);
+		super(instance, 202);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

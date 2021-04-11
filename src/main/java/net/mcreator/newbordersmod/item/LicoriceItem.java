@@ -17,7 +17,7 @@ public class LicoriceItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:licorice")
 	public static final Item block = null;
 	public LicoriceItem(NewBordersModModElements instance) {
-		super(instance, 120);
+		super(instance, 119);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class BabacuFenceGateBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_fence_gate")
 	public static final Block block = null;
 	public BabacuFenceGateBlock(NewBordersModModElements instance) {
-		super(instance, 720);
+		super(instance, 210);
 	}
 
 	@Override

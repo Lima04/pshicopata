@@ -26,7 +26,7 @@ public class UnandiumItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:unandium")
 	public static final Item block = null;
 	public UnandiumItem(NewBordersModModElements instance) {
-		super(instance, 166);
+		super(instance, 165);
 	}
 
 	@Override

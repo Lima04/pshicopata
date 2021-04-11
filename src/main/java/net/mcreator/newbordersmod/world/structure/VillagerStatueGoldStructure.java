@@ -31,7 +31,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class VillagerStatueGoldStructure extends NewBordersModModElements.ModElement {
 	public VillagerStatueGoldStructure(NewBordersModModElements instance) {
-		super(instance, 608);
+		super(instance, 607);
 	}
 
 	@Override

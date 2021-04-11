@@ -24,7 +24,7 @@ public class StylisedSlateBricksBlock extends NewBordersModModElements.ModElemen
 	@ObjectHolder("new_borders_mod:stylised_slate_bricks")
 	public static final Block block = null;
 	public StylisedSlateBricksBlock(NewBordersModModElements instance) {
-		super(instance, 86);
+		super(instance, 85);
 	}
 
 	@Override

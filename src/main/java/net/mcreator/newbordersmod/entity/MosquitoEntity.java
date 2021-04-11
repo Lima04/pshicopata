@@ -61,7 +61,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class MosquitoEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public MosquitoEntity(NewBordersModModElements instance) {
-		super(instance, 194);
+		super(instance, 193);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

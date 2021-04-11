@@ -26,7 +26,7 @@ public class BabacuSeedsItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_seeds")
 	public static final Item block = null;
 	public BabacuSeedsItem(NewBordersModModElements instance) {
-		super(instance, 177);
+		super(instance, 176);
 	}
 
 	@Override

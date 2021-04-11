@@ -40,7 +40,7 @@ import net.mcreator.newbordersmod.NewBordersModModElements;
 public class MooglowEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public MooglowEntity(NewBordersModModElements instance) {
-		super(instance, 191);
+		super(instance, 190);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

@@ -16,7 +16,7 @@ public class PinchOfSaltItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:pinch_of_salt")
 	public static final Item block = null;
 	public PinchOfSaltItem(NewBordersModModElements instance) {
-		super(instance, 183);
+		super(instance, 185);
 	}
 
 	@Override

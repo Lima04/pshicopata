@@ -16,7 +16,7 @@ public class EyeOfTheEclipseItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:eye_of_the_eclipse")
 	public static final Item block = null;
 	public EyeOfTheEclipseItem(NewBordersModModElements instance) {
-		super(instance, 181);
+		super(instance, 178);
 	}
 
 	@Override

@@ -437,7 +437,7 @@
     {
       "name": "Estrelar",
       "type": "musicdisc",
-      "sortid": 149,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -446,7 +446,7 @@
     {
       "name": "EmptyMusicDIsc",
       "type": "item",
-      "sortid": 150,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1357,7 +1357,7 @@
     {
       "name": "WasteWater",
       "type": "fluid",
-      "sortid": 170,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1366,7 +1366,7 @@
     {
       "name": "NuclearWaste",
       "type": "item",
-      "sortid": 171,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1990,7 +1990,7 @@
     {
       "name": "StatueItem",
       "type": "item",
-      "sortid": 173,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2150,7 +2150,7 @@
     {
       "name": "SentinelHardDisc",
       "type": "item",
-      "sortid": 174,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2563,7 +2563,7 @@
     {
       "name": "PurpleBerrySeeds",
       "type": "item",
-      "sortid": 175,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2690,7 +2690,7 @@
     {
       "name": "BabacuSeeds",
       "type": "item",
-      "sortid": 176,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3549,7 +3549,7 @@
     {
       "name": "NightStoneGem",
       "type": "item",
-      "sortid": 177,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3567,7 +3567,7 @@
     {
       "name": "SunstoneGem",
       "type": "item",
-      "sortid": 178,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3803,7 +3803,7 @@
     {
       "name": "IceShard",
       "type": "item",
-      "sortid": 179,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3848,7 +3848,7 @@
     {
       "name": "EyeOfTheEclipse",
       "type": "item",
-      "sortid": 181,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3866,7 +3866,7 @@
     {
       "name": "DuskstoneGem",
       "type": "item",
-      "sortid": 180,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3902,7 +3902,7 @@
     {
       "name": "Salt",
       "type": "item",
-      "sortid": 182,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3938,7 +3938,7 @@
     {
       "name": "PinchOfSalt",
       "type": "item",
-      "sortid": 183,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4431,7 +4431,7 @@
     {
       "name": "CoarseSalt",
       "type": "item",
-      "sortid": 184,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5636,7 +5636,7 @@
     {
       "name": "ShaleShard",
       "type": "item",
-      "sortid": 185,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -6176,7 +6176,7 @@
     {
       "name": "GabbroAshes",
       "type": "item",
-      "sortid": 186,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -6433,7 +6433,7 @@
     {
       "name": "Sulfur",
       "type": "item",
-      "sortid": 187,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -6460,7 +6460,7 @@
     {
       "name": "Saltpeter",
       "type": "item",
-      "sortid": 188,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -6900,7 +6900,7 @@
     {
       "name": "Halite",
       "type": "item",
-      "sortid": 189,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "ids": {},

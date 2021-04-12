@@ -16,7 +16,7 @@ public class DuskstoneGemItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:duskstone_gem")
 	public static final Item block = null;
 	public DuskstoneGemItem(NewBordersModModElements instance) {
-		super(instance, 180);
+		super(instance, 177);
 	}
 
 	@Override

@@ -15,8 +15,11 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.newbordersmod.entity.SentinelEntity;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 @NewBordersModModElements.ModElement.Tag
@@ -24,7 +27,7 @@ public class EucalyptusForestBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:eucalyptus_forest")
 	public static final CustomBiome biome = null;
 	public EucalyptusForestBiome(NewBordersModModElements instance) {
-		super(instance, 347);
+		super(instance, 419);
 	}
 
 	@Override
@@ -56,6 +59,18 @@ public class EucalyptusForestBiome extends NewBordersModModElements.ModElement {
 					.withPlacement(Placement.COUNT_HEIGHTMAP_DOUBLE.configure(new FrequencyConfig(7))));
 			this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.SEAGRASS.withConfiguration(new SeaGrassConfig(20, 0.3D))
 					.withPlacement(Placement.TOP_SOLID_HEIGHTMAP.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.COW, 11, 1, 4));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.CHICKEN, 10, 1, 4));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.PIG, 8, 1, 4));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.SHEEP, 12, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.CREEPER, 100, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ZOMBIE, 100, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SKELETON, 100, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SPIDER, 100, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ENDERMAN, 20, 1, 2));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.WITCH, 5, 1, 1));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(SentinelEntity.entity, 1, 1, 1));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.BAT, 1, 1, 1));
 		}
 	}
 }

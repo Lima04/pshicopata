@@ -66,6 +66,151 @@
       "Lakes",
       "PlainsTallGrass"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:CleanerSentinel"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 5,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Sentinel"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityHorse"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 3,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityEnderman"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityChicken"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 12,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityHusk"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 50,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityZombie"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 50,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySkeleton"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCreeper"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityWitch"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 5,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySpider"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityDonkey"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 1,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityBat"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
+        "spawnType": "ambient"
+      }
+    ]
   }
 }

@@ -36,7 +36,7 @@ import java.util.HashMap;
 @NewBordersModModElements.ModElement.Tag
 public class BabacuType3AirStructure extends NewBordersModModElements.ModElement {
 	public BabacuType3AirStructure(NewBordersModModElements instance) {
-		super(instance, 309);
+		super(instance, 402);
 	}
 
 	@Override
@@ -96,9 +96,7 @@ public class BabacuType3AirStructure extends NewBordersModModElements.ModElement
 			boolean biomeCriteria = false;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:cocais_jungle")))
 				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:cocais_jungle_hills")))
-				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:turtle_island")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:tropical_plains")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;

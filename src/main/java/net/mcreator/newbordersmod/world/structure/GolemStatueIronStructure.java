@@ -31,7 +31,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class GolemStatueIronStructure extends NewBordersModModElements.ModElement {
 	public GolemStatueIronStructure(NewBordersModModElements instance) {
-		super(instance, 596);
+		super(instance, 606);
 	}
 
 	@Override
@@ -73,7 +73,7 @@ public class GolemStatueIronStructure extends NewBordersModModElements.ModElemen
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:turtle_island")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:tropical_plains")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;

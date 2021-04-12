@@ -21,7 +21,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class AntiPhantomMissileBatteryItemRightClickedOnBlockProcedure extends NewBordersModModElements.ModElement {
 	public AntiPhantomMissileBatteryItemRightClickedOnBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 457);
+		super(instance, 493);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

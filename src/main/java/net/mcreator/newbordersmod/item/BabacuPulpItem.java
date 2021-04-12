@@ -17,7 +17,7 @@ public class BabacuPulpItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_pulp")
 	public static final Item block = null;
 	public BabacuPulpItem(NewBordersModModElements instance) {
-		super(instance, 284);
+		super(instance, 123);
 	}
 
 	@Override

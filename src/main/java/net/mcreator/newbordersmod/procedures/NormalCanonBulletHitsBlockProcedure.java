@@ -11,7 +11,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class NormalCanonBulletHitsBlockProcedure extends NewBordersModModElements.ModElement {
 	public NormalCanonBulletHitsBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 340);
+		super(instance, 415);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

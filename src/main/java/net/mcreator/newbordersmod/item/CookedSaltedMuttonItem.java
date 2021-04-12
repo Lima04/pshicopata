@@ -17,7 +17,7 @@ public class CookedSaltedMuttonItem extends NewBordersModModElements.ModElement 
 	@ObjectHolder("new_borders_mod:cooked_salted_mutton")
 	public static final Item block = null;
 	public CookedSaltedMuttonItem(NewBordersModModElements instance) {
-		super(instance, 433);
+		super(instance, 131);
 	}
 
 	@Override

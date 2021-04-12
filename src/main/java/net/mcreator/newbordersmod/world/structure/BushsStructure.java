@@ -33,7 +33,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class BushsStructure extends NewBordersModModElements.ModElement {
 	public BushsStructure(NewBordersModModElements instance) {
-		super(instance, 96);
+		super(instance, 273);
 	}
 
 	@Override

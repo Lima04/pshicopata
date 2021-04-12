@@ -34,14 +34,13 @@ public class RedwoodFenceBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:redwood_fence")
 	public static final Block block = null;
 	public RedwoodFenceBlock(NewBordersModModElements instance) {
-		super(instance, 28);
+		super(instance, 112);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

@@ -31,7 +31,7 @@ public class CandyLogBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:candy_log")
 	public static final Block block = null;
 	public CandyLogBlock(NewBordersModModElements instance) {
-		super(instance, 174);
+		super(instance, 18);
 	}
 
 	@Override

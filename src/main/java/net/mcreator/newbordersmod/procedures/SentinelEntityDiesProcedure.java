@@ -19,7 +19,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class SentinelEntityDiesProcedure extends NewBordersModModElements.ModElement {
 	public SentinelEntityDiesProcedure(NewBordersModModElements instance) {
-		super(instance, 229);
+		super(instance, 348);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

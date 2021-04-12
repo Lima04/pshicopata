@@ -15,10 +15,14 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
+import net.minecraft.world.IWorldReader;
+import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
+import net.minecraft.tags.FluidTags;
+import net.minecraft.pathfinding.SwimmerPathNavigator;
 import net.minecraft.network.IPacket;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.item.crafting.Ingredient;
@@ -37,6 +41,7 @@ import net.minecraft.entity.ai.goal.PanicGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
+import net.minecraft.entity.ai.controller.MovementController;
 import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ILivingEntityData;
@@ -60,7 +65,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class PenguinEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public PenguinEntity(NewBordersModModElements instance) {
-		super(instance, 266);
+		super(instance, 195);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -78,8 +83,6 @@ public class PenguinEntity extends NewBordersModModElements.ModElement {
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:permafrost")))
-				biomeCriteria = true;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("frozen_ocean")))
 				biomeCriteria = true;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("frozen_river")))
@@ -90,7 +93,7 @@ public class PenguinEntity extends NewBordersModModElements.ModElement {
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
-			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 9, 1, 4));
+			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 12, 1, 4));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos,
@@ -101,7 +104,7 @@ public class PenguinEntity extends NewBordersModModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> {
-			return new MobRenderer(renderManager, new Modelcustom_model(), 0.3f) {
+			return new MobRenderer(renderManager, new ModelPingu(), 0.3f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
 					return new ResourceLocation("new_borders_mod:textures/penguino.png");
@@ -118,6 +121,28 @@ public class PenguinEntity extends NewBordersModModElements.ModElement {
 			super(type, world);
 			experienceValue = 0;
 			setNoAI(false);
+			this.moveController = new MovementController(this) {
+				@Override
+				public void tick() {
+					if (CustomEntity.this.areEyesInFluid(FluidTags.WATER))
+						CustomEntity.this.setMotion(CustomEntity.this.getMotion().add(0, 0.005, 0));
+					if (this.action == MovementController.Action.MOVE_TO && !CustomEntity.this.getNavigator().noPath()) {
+						double dx = this.posX - CustomEntity.this.getPosX();
+						double dy = this.posY - CustomEntity.this.getPosY();
+						double dz = this.posZ - CustomEntity.this.getPosZ();
+						dy = dy / (double) MathHelper.sqrt(dx * dx + dy * dy + dz * dz);
+						CustomEntity.this.rotationYaw = this.limitAngle(CustomEntity.this.rotationYaw,
+								(float) (MathHelper.atan2(dz, dx) * (double) (180 / (float) Math.PI)) - 90, 90);
+						CustomEntity.this.renderYawOffset = CustomEntity.this.rotationYaw;
+						CustomEntity.this.setAIMoveSpeed(MathHelper.lerp(0.125f, CustomEntity.this.getAIMoveSpeed(),
+								(float) (this.speed * CustomEntity.this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).getValue())));
+						CustomEntity.this.setMotion(CustomEntity.this.getMotion().add(0, CustomEntity.this.getAIMoveSpeed() * dy * 0.1, 0));
+					} else {
+						CustomEntity.this.setAIMoveSpeed(0);
+					}
+				}
+			};
+			this.navigator = new SwimmerPathNavigator(this, this.world);
 		}
 
 		@Override
@@ -193,12 +218,27 @@ public class PenguinEntity extends NewBordersModModElements.ModElement {
 				return true;
 			return false;
 		}
+
+		@Override
+		public boolean canBreatheUnderwater() {
+			return true;
+		}
+
+		@Override
+		public boolean isNotColliding(IWorldReader worldreader) {
+			return worldreader.checkNoEntityCollision(this, VoxelShapes.create(this.getBoundingBox()));
+		}
+
+		@Override
+		public boolean isPushedByWater() {
+			return false;
+		}
 	}
 
-	// Made with Blockbench 3.7.4
-	// Exported for Minecraft version 1.15
+	// Made with Blockbench 3.8.3
+	// Exported for Minecraft version 1.15 - 1.16
 	// Paste this class into your mod and generate all required imports
-	public static class Modelcustom_model extends EntityModel<Entity> {
+	public static class ModelPingu extends EntityModel<Entity> {
 		private final ModelRenderer PataDireita;
 		private final ModelRenderer Corpo;
 		private final ModelRenderer NadadeiraDireita;
@@ -209,7 +249,7 @@ public class PenguinEntity extends NewBordersModModElements.ModElement {
 		private final ModelRenderer PataEsquerda;
 		private final ModelRenderer NadadeiraEsquerda;
 		private final ModelRenderer Nadadeira1_r1;
-		public Modelcustom_model() {
+		public ModelPingu() {
 			textureWidth = 64;
 			textureHeight = 64;
 			PataDireita = new ModelRenderer(this);
@@ -235,9 +275,10 @@ public class PenguinEntity extends NewBordersModModElements.ModElement {
 			setRotationAngle(NadadeiraTraseira_r1, 0.3927F, 0.0F, 0.0F);
 			NadadeiraTraseira_r1.setTextureOffset(25, 0).addBox(-3.0F, -3.0F, -0.5F, 6.0F, 6.0F, 1.0F, 0.0F, false);
 			Cabeca = new ModelRenderer(this);
-			Cabeca.setRotationPoint(0.0F, 22.0F, 0.0F);
-			Cabeca.setTextureOffset(0, 21).addBox(-4.0F, -20.0F, -4.0F, 8.0F, 6.0F, 9.0F, 0.0F, false);
-			Cabeca.setTextureOffset(38, 29).addBox(-1.0F, -16.0F, -8.0F, 2.0F, 2.0F, 4.0F, 0.0F, false);
+			Cabeca.setRotationPoint(0.0F, 7.0F, 0.0F);
+			setRotationAngle(Cabeca, 0.0F, 0.0F, 0.0F);
+			Cabeca.setTextureOffset(0, 21).addBox(-4.0F, -5.0F, -4.0F, 8.0F, 6.0F, 9.0F, 0.0F, false);
+			Cabeca.setTextureOffset(38, 29).addBox(-1.0F, -1.0F, -8.0F, 2.0F, 2.0F, 4.0F, 0.0F, false);
 			PataEsquerda = new ModelRenderer(this);
 			PataEsquerda.setRotationPoint(0.0F, 22.0F, 0.0F);
 			PataEsquerda.setTextureOffset(0, 44).addBox(2.0F, -1.0F, 0.0F, 2.0F, 2.0F, 3.0F, 0.0F, false);
@@ -272,7 +313,6 @@ public class PenguinEntity extends NewBordersModModElements.ModElement {
 		public void setRotationAngles(Entity e, float f, float f1, float f2, float f3, float f4) {
 			this.Cabeca.rotateAngleY = f3 / (180F / (float) Math.PI);
 			this.Cabeca.rotateAngleX = f4 / (180F / (float) Math.PI);
-			this.NadadeiraTraseira.rotateAngleY = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
 			this.PataEsquerda.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
 			this.PataDireita.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
 		}

@@ -16,7 +16,7 @@ public class BreadDoughItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:bread_dough")
 	public static final Item block = null;
 	public BreadDoughItem(NewBordersModModElements instance) {
-		super(instance, 634);
+		super(instance, 136);
 	}
 
 	@Override

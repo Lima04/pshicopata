@@ -10,7 +10,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class LeadBlockEntityCollidesInTheBlockProcedure extends NewBordersModModElements.ModElement {
 	public LeadBlockEntityCollidesInTheBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 164);
+		super(instance, 307);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

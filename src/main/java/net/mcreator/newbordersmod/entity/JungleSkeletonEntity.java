@@ -56,7 +56,7 @@ import net.mcreator.newbordersmod.NewBordersModModElements;
 public class JungleSkeletonEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public JungleSkeletonEntity(NewBordersModModElements instance) {
-		super(instance, 101);
+		super(instance, 202);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -74,17 +74,13 @@ public class JungleSkeletonEntity extends NewBordersModModElements.ModElement {
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:tropical_savanna")))
-				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:ridge")))
-				biomeCriteria = true;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("jungle")))
 				biomeCriteria = true;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("jungle_hills")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
-			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 1, 1, 1));
+			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 20, 1, 1));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				MonsterEntity::canMonsterSpawn);

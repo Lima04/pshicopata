@@ -51,7 +51,7 @@ public class NightstoneOreBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:nightstone_ore")
 	public static final Block block = null;
 	public NightstoneOreBlock(NewBordersModModElements instance) {
-		super(instance, 355);
+		super(instance, 23);
 	}
 
 	@Override

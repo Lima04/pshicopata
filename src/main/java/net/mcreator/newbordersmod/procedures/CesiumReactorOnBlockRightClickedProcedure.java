@@ -24,7 +24,7 @@ import io.netty.buffer.Unpooled;
 @NewBordersModModElements.ModElement.Tag
 public class CesiumReactorOnBlockRightClickedProcedure extends NewBordersModModElements.ModElement {
 	public CesiumReactorOnBlockRightClickedProcedure(NewBordersModModElements instance) {
-		super(instance, 157);
+		super(instance, 304);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

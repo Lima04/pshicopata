@@ -58,7 +58,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class SentinelEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public SentinelEntity(NewBordersModModElements instance) {
-		super(instance, 228);
+		super(instance, 199);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

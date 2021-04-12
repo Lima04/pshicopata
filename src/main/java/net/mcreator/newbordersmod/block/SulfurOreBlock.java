@@ -42,7 +42,7 @@ public class SulfurOreBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:sulfur_ore")
 	public static final Block block = null;
 	public SulfurOreBlock(NewBordersModModElements instance) {
-		super(instance, 610);
+		super(instance, 26);
 	}
 
 	@Override

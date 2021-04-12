@@ -56,7 +56,7 @@ public class PurpleBerryPhase2Block extends NewBordersModModElements.ModElement 
 	@ObjectHolder("new_borders_mod:purple_berry_phase_2")
 	public static final Block block = null;
 	public PurpleBerryPhase2Block(NewBordersModModElements instance) {
-		super(instance, 466);
+		super(instance, 498);
 	}
 
 	@Override
@@ -72,8 +72,8 @@ public class PurpleBerryPhase2Block extends NewBordersModModElements.ModElement 
 	}
 	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).hardnessAndResistance(0.1f, 0f).lightValue(0).doesNotBlockMovement()
-					.notSolid());
+			super(Block.Properties.create(Material.PLANTS).sound(SoundType.SWEET_BERRY_BUSH).hardnessAndResistance(0.1f, 0f).lightValue(0)
+					.doesNotBlockMovement().notSolid());
 			setRegistryName("purple_berry_phase_2");
 		}
 

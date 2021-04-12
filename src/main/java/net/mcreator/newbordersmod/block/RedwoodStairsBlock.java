@@ -25,7 +25,7 @@ public class RedwoodStairsBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:redwood_stairs")
 	public static final Block block = null;
 	public RedwoodStairsBlock(NewBordersModModElements instance) {
-		super(instance, 26);
+		super(instance, 4);
 	}
 
 	@Override

@@ -36,7 +36,7 @@ import java.util.HashMap;
 @NewBordersModModElements.ModElement.Tag
 public class TallIpeGeneratorStructure extends NewBordersModModElements.ModElement {
 	public TallIpeGeneratorStructure(NewBordersModModElements instance) {
-		super(instance, 94);
+		super(instance, 271);
 	}
 
 	@Override

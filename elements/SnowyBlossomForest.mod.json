@@ -39,7 +39,7 @@
     "temperature": 0.0,
     "baseHeight": 0.5,
     "heightVariation": 0.1,
-    "spawnBiome": true,
+    "spawnBiome": false,
     "biomeWeight": 3,
     "biomeType": "ICY",
     "biomeCategory": "FOREST",

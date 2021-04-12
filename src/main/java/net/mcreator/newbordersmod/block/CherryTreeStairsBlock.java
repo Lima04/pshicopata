@@ -28,7 +28,7 @@ public class CherryTreeStairsBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cherry_tree_stairs")
 	public static final Block block = null;
 	public CherryTreeStairsBlock(NewBordersModModElements instance) {
-		super(instance, 252);
+		super(instance, 16);
 	}
 
 	@Override

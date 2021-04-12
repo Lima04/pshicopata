@@ -15,6 +15,8 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
@@ -24,7 +26,7 @@ public class BrownRiverBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:brown_river")
 	public static final CustomBiome biome = null;
 	public BrownRiverBiome(NewBordersModModElements instance) {
-		super(instance, 330);
+		super(instance, 404);
 	}
 
 	@Override
@@ -54,6 +56,8 @@ public class BrownRiverBiome extends NewBordersModModElements.ModElement {
 			this.addStructure(Feature.SHIPWRECK.withConfiguration(new ShipwreckConfig(false)));
 			this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.SEAGRASS.withConfiguration(new SeaGrassConfig(27, 0.3D))
 					.withPlacement(Placement.TOP_SOLID_HEIGHTMAP.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.COD, 60, 1, 4));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.SALMON, 80, 1, 4));
 		}
 	}
 }

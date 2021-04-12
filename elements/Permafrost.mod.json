@@ -36,7 +36,7 @@
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
     "rainingPossibility": 0.30000000000000004,
-    "temperature": -0.1,
+    "temperature": -1.0,
     "baseHeight": 2.5,
     "heightVariation": 0.0,
     "spawnBiome": true,
@@ -70,9 +70,9 @@
           "value": "CUSTOM:Penguin"
         },
         "minGroup": 1,
-        "maxGroup": 4,
-        "weight": 8,
-        "spawnType": "ambient"
+        "maxGroup": 5,
+        "weight": 12,
+        "spawnType": "creature"
       },
       {
         "entity": {
@@ -98,7 +98,7 @@
         },
         "minGroup": 1,
         "maxGroup": 4,
-        "weight": 100,
+        "weight": 50,
         "spawnType": "monster"
       },
       {
@@ -135,25 +135,7 @@
         "minGroup": 1,
         "maxGroup": 3,
         "weight": 5,
-        "spawnType": "ambient"
-      },
-      {
-        "entity": {
-          "value": "CUSTOM:CleanerSentinel"
-        },
-        "minGroup": 1,
-        "maxGroup": 2,
-        "weight": 1,
-        "spawnType": "ambient"
-      },
-      {
-        "entity": {
-          "value": "EntityZombieVillager"
-        },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 20,
-        "spawnType": "monster"
+        "spawnType": "creature"
       },
       {
         "entity": {
@@ -162,16 +144,16 @@
         "minGroup": 1,
         "maxGroup": 4,
         "weight": 8,
-        "spawnType": "ambient"
+        "spawnType": "creature"
       },
       {
         "entity": {
-          "value": "CUSTOM:JungleSkeleton"
+          "value": "CUSTOM:Frostbitten"
         },
         "minGroup": 1,
-        "maxGroup": 3,
-        "weight": 2,
-        "spawnType": "ambient"
+        "maxGroup": 4,
+        "weight": 50,
+        "spawnType": "monster"
       }
     ]
   }

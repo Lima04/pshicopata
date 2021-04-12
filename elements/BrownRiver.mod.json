@@ -75,6 +75,25 @@
       "SwampClayDisks",
       "TallSeagrassLush"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityCod"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 60,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntitySalmon"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 80,
+        "spawnType": "ambient"
+      }
+    ]
   }
 }

@@ -21,8 +21,7 @@ import net.minecraft.block.Blocks;
 
 import net.mcreator.newbordersmod.entity.SentinelEntity;
 import net.mcreator.newbordersmod.entity.PenguinEntity;
-import net.mcreator.newbordersmod.entity.JungleSkeletonEntity;
-import net.mcreator.newbordersmod.entity.CleanerSentinelEntity;
+import net.mcreator.newbordersmod.entity.FrostbittenEntity;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 @NewBordersModModElements.ModElement.Tag
@@ -30,7 +29,7 @@ public class PermafrostBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:permafrost")
 	public static final CustomBiome biome = null;
 	public PermafrostBiome(NewBordersModModElements instance) {
-		super(instance, 221);
+		super(instance, 344);
 	}
 
 	@Override
@@ -45,7 +44,7 @@ public class PermafrostBiome extends NewBordersModModElements.ModElement {
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
-			super(new Biome.Builder().downfall(0.3f).depth(2.5f).scale(0f).temperature(-0.1f).precipitation(Biome.RainType.SNOW)
+			super(new Biome.Builder().downfall(0.3f).depth(2.5f).scale(0f).temperature(-1f).precipitation(Biome.RainType.SNOW)
 					.category(Biome.Category.ICY).waterColor(4159204).waterFogColor(329011).parent("snowy_tundra")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.SNOW_BLOCK.getDefaultState(),
 							Blocks.BLUE_ICE.getDefaultState(), Blocks.BLUE_ICE.getDefaultState())));
@@ -57,18 +56,16 @@ public class PermafrostBiome extends NewBordersModModElements.ModElement {
 			this.addStructure(Feature.IGLOO.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
 			this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.SEAGRASS.withConfiguration(new SeaGrassConfig(20, 0.3D))
 					.withPlacement(Placement.TOP_SOLID_HEIGHTMAP.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
-			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(PenguinEntity.entity, 8, 1, 4));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(PenguinEntity.entity, 12, 1, 5));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(SentinelEntity.entity, 1, 1, 1));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.STRAY, 100, 1, 2));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ZOMBIE, 100, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ZOMBIE, 50, 1, 4));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.CREEPER, 100, 1, 2));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SPIDER, 100, 1, 2));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ENDERMAN, 10, 1, 1));
-			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.POLAR_BEAR, 5, 1, 3));
-			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(CleanerSentinelEntity.entity, 1, 1, 2));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ZOMBIE_VILLAGER, 20, 1, 1));
-			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.COW, 8, 1, 4));
-			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(JungleSkeletonEntity.entity, 2, 1, 3));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.POLAR_BEAR, 5, 1, 3));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.COW, 8, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(FrostbittenEntity.entity, 50, 1, 4));
 		}
 	}
 }

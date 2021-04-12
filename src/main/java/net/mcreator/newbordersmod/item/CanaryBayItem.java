@@ -16,7 +16,7 @@ public class CanaryBayItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:canary_bay")
 	public static final Item block = null;
 	public CanaryBayItem(NewBordersModModElements instance) {
-		super(instance, 678);
+		super(instance, 161);
 	}
 
 	@Override

@@ -72,6 +72,16 @@
       "Structures",
       "Ores"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Mooglow"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 15,
+        "spawnType": "creature"
+      }
+    ]
   }
 }

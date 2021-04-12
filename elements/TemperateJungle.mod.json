@@ -68,6 +68,115 @@
       "JunglePlants",
       "HugeMushrooms"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityChicken"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 3,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 12,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCreeper"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityZombie"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySkeleton"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySpider"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Sentinel"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:CleanerSentinel"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 2,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityWolf"
+        },
+        "minGroup": 4,
+        "maxGroup": 7,
+        "weight": 4,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityWitch"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 5,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

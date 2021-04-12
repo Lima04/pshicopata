@@ -16,8 +16,11 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.newbordersmod.entity.SentinelEntity;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 import com.google.common.collect.Lists;
@@ -27,7 +30,7 @@ public class RockyDesertBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:rocky_desert")
 	public static final CustomBiome biome = null;
 	public RockyDesertBiome(NewBordersModModElements instance) {
-		super(instance, 242);
+		super(instance, 363);
 	}
 
 	@Override
@@ -58,6 +61,15 @@ public class RockyDesertBiome extends NewBordersModModElements.ModElement {
 							.withConfiguration(new SphereReplaceConfig(Blocks.SAND.getDefaultState(), 7, 2,
 									Lists.newArrayList(Blocks.SMOOTH_SANDSTONE.getDefaultState(), Blocks.SMOOTH_SANDSTONE.getDefaultState())))
 							.withPlacement(Placement.COUNT_TOP_SOLID.configure(new FrequencyConfig(11))));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.BAT, 10, 1, 1));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.HUSK, 100, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ZOMBIE, 50, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(SentinelEntity.entity, 1, 1, 1));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SPIDER, 100, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ENDERMAN, 20, 1, 2));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.CREEPER, 100, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SKELETON, 100, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.RABBIT, 12, 1, 4));
 		}
 	}
 }

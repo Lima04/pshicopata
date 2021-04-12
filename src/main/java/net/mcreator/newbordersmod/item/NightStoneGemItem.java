@@ -16,7 +16,7 @@ public class NightStoneGemItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:night_stone_gem")
 	public static final Item block = null;
 	public NightStoneGemItem(NewBordersModModElements instance) {
-		super(instance, 356);
+		super(instance, 177);
 	}
 
 	@Override

@@ -40,7 +40,7 @@ public class CandyBlockBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:candy_ore")
 	public static final Block block = null;
 	public CandyBlockBlock(NewBordersModModElements instance) {
-		super(instance, 199);
+		super(instance, 21);
 	}
 
 	@Override

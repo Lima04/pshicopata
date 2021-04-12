@@ -24,7 +24,7 @@ public class RedwoodLeavesBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:redwood_leaves")
 	public static final Block block = null;
 	public RedwoodLeavesBlock(NewBordersModModElements instance) {
-		super(instance, 5);
+		super(instance, 98);
 	}
 
 	@Override

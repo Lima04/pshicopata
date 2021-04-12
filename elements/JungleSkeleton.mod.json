@@ -106,17 +106,11 @@
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 1,
+    "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:TropicalSavanna"
-      },
-      {
-        "value": "CUSTOM:Ridge"
-      },
       {
         "value": "jungle"
       },

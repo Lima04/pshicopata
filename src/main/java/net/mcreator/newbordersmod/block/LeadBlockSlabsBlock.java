@@ -31,7 +31,7 @@ public class LeadBlockSlabsBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:lead_block_slab")
 	public static final Block block = null;
 	public LeadBlockSlabsBlock(NewBordersModModElements instance) {
-		super(instance, 459);
+		super(instance, 56);
 	}
 
 	@Override

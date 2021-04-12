@@ -32,7 +32,7 @@ public class CherryTreeLogBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cherry_tree_log")
 	public static final Block block = null;
 	public CherryTreeLogBlock(NewBordersModModElements instance) {
-		super(instance, 249);
+		super(instance, 14);
 	}
 
 	@Override

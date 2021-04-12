@@ -31,7 +31,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class VillagerStatueGoldStructure extends NewBordersModModElements.ModElement {
 	public VillagerStatueGoldStructure(NewBordersModModElements instance) {
-		super(instance, 595);
+		super(instance, 607);
 	}
 
 	@Override
@@ -73,7 +73,7 @@ public class VillagerStatueGoldStructure extends NewBordersModModElements.ModEle
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:turtle_island")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("new_borders_mod:tropical_plains")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;

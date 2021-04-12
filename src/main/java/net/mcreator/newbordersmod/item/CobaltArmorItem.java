@@ -29,7 +29,7 @@ public class CobaltArmorItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cobalt_armor_boots")
 	public static final Item boots = null;
 	public CobaltArmorItem(NewBordersModModElements instance) {
-		super(instance, 133);
+		super(instance, 222);
 	}
 
 	@Override

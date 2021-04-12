@@ -18,7 +18,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class BigCandySpawnProcedure extends NewBordersModModElements.ModElement {
 	public BigCandySpawnProcedure(NewBordersModModElements instance) {
-		super(instance, 191);
+		super(instance, 320);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -24,7 +24,7 @@ public class IpeLeavesBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ipe_leaves")
 	public static final Block block = null;
 	public IpeLeavesBlock(NewBordersModModElements instance) {
-		super(instance, 87);
+		super(instance, 99);
 	}
 
 	@Override

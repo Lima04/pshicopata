@@ -24,7 +24,7 @@ public class BabacuPlanksBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_planks")
 	public static final Block block = null;
 	public BabacuPlanksBlock(NewBordersModModElements instance) {
-		super(instance, 314);
+		super(instance, 11);
 	}
 
 	@Override

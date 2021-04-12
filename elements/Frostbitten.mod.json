@@ -112,9 +112,6 @@
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:Permafrost"
-      },
-      {
         "value": "frozen_ocean"
       },
       {

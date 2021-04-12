@@ -30,7 +30,7 @@ public class IpeLogBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ipe_log")
 	public static final Block block = null;
 	public IpeLogBlock(NewBordersModModElements instance) {
-		super(instance, 86);
+		super(instance, 6);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class OnButtonProcedure extends NewBordersModModElements.ModElement {
 	public OnButtonProcedure(NewBordersModModElements instance) {
-		super(instance, 163);
+		super(instance, 306);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

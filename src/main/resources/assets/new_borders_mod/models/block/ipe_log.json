@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "new_borders_mod:blocks/ipetop",
-    "up": "new_borders_mod:blocks/ipetop",
+    "down": "new_borders_mod:blocks/ipetop2",
+    "up": "new_borders_mod:blocks/ipetop2",
     "north": "new_borders_mod:blocks/ipe",
     "east": "new_borders_mod:blocks/ipe",
     "south": "new_borders_mod:blocks/ipe",
     "west": "new_borders_mod:blocks/ipe",
-    "particle": "new_borders_mod:blocks/ipetop"
+    "particle": "new_borders_mod:blocks/ipetop2"
   }
 }

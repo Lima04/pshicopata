@@ -16,7 +16,7 @@ public class SentinelHardDiscItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:sentinel_hard_disc")
 	public static final Item block = null;
 	public SentinelHardDiscItem(NewBordersModModElements instance) {
-		super(instance, 231);
+		super(instance, 174);
 	}
 
 	@Override

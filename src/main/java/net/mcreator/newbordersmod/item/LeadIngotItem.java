@@ -16,7 +16,7 @@ public class LeadIngotItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:lead_ingot")
 	public static final Item block = null;
 	public LeadIngotItem(NewBordersModModElements instance) {
-		super(instance, 147);
+		super(instance, 168);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class TwinCherriesItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:twin_cherries")
 	public static final Item block = null;
 	public TwinCherriesItem(NewBordersModModElements instance) {
-		super(instance, 269);
+		super(instance, 122);
 	}
 
 	@Override

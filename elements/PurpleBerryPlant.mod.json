@@ -63,7 +63,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": true,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "SWEET_BERRY_BUSH"
     },
     "luminance": 0.0,
     "unbreakable": false,

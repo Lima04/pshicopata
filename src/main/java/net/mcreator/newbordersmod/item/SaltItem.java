@@ -16,7 +16,7 @@ public class SaltItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:salt")
 	public static final Item block = null;
 	public SaltItem(NewBordersModModElements instance) {
-		super(instance, 380);
+		super(instance, 182);
 	}
 
 	@Override

@@ -43,12 +43,12 @@ import java.util.HashMap;
 
 @NewBordersModModElements.ModElement.Tag
 public class HeatCanonItem extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:heat_cannon")
+	@ObjectHolder("new_borders_mod:heat_canon")
 	public static final Item block = null;
-	@ObjectHolder("new_borders_mod:entitybulletheat_cannon")
+	@ObjectHolder("new_borders_mod:entitybulletheat_canon")
 	public static final EntityType arrow = null;
 	public HeatCanonItem(NewBordersModModElements instance) {
-		super(instance, 365);
+		super(instance, 221);
 	}
 
 	@Override
@@ -56,7 +56,7 @@ public class HeatCanonItem extends NewBordersModModElements.ModElement {
 		elements.items.add(() -> new ItemRanged());
 		elements.entities.add(() -> (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
 				.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
-				.size(0.5f, 0.5f)).build("entitybulletheat_cannon").setRegistryName("entitybulletheat_cannon"));
+				.size(0.5f, 0.5f)).build("entitybulletheat_canon").setRegistryName("entitybulletheat_canon"));
 	}
 
 	@Override
@@ -68,7 +68,7 @@ public class HeatCanonItem extends NewBordersModModElements.ModElement {
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
 			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(1551));
-			setRegistryName("heat_cannon");
+			setRegistryName("heat_canon");
 		}
 
 		@Override

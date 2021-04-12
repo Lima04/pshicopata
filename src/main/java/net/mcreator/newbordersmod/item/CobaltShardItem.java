@@ -13,10 +13,10 @@ import net.mcreator.newbordersmod.NewBordersModModElements;
 
 @NewBordersModModElements.ModElement.Tag
 public class CobaltShardItem extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:cobalt_shard")
+	@ObjectHolder("new_borders_mod:cobalt_crystal")
 	public static final Item block = null;
 	public CobaltShardItem(NewBordersModModElements instance) {
-		super(instance, 114);
+		super(instance, 163);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class CobaltShardItem extends NewBordersModModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("cobalt_shard");
+			setRegistryName("cobalt_crystal");
 		}
 
 		@Override

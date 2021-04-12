@@ -39,7 +39,7 @@ public class CobaltBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cobalt")
 	public static final Block block = null;
 	public CobaltBlock(NewBordersModModElements instance) {
-		super(instance, 113);
+		super(instance, 19);
 	}
 
 	@Override

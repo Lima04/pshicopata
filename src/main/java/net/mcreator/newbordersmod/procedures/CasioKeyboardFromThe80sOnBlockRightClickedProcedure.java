@@ -14,7 +14,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class CasioKeyboardFromThe80sOnBlockRightClickedProcedure extends NewBordersModModElements.ModElement {
 	public CasioKeyboardFromThe80sOnBlockRightClickedProcedure(NewBordersModModElements instance) {
-		super(instance, 239);
+		super(instance, 350);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

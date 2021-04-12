@@ -23,7 +23,7 @@ public class MagmaBricksBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:magma_bricks")
 	public static final Block block = null;
 	public MagmaBricksBlock(NewBordersModModElements instance) {
-		super(instance, 460);
+		super(instance, 57);
 	}
 
 	@Override

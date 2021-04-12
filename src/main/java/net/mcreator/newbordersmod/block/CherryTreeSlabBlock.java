@@ -29,7 +29,7 @@ public class CherryTreeSlabBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cherry_tree_slab")
 	public static final Block block = null;
 	public CherryTreeSlabBlock(NewBordersModModElements instance) {
-		super(instance, 251);
+		super(instance, 17);
 	}
 
 	@Override

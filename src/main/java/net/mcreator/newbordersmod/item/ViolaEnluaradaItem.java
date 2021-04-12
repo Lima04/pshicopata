@@ -16,7 +16,7 @@ public class ViolaEnluaradaItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:viola_enluarada")
 	public static final Item block = null;
 	public ViolaEnluaradaItem(NewBordersModModElements instance) {
-		super(instance, 83);
+		super(instance, 159);
 	}
 
 	@Override

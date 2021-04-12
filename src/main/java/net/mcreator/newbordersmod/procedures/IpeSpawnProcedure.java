@@ -18,7 +18,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class IpeSpawnProcedure extends NewBordersModModElements.ModElement {
 	public IpeSpawnProcedure(NewBordersModModElements instance) {
-		super(instance, 92);
+		super(instance, 268);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

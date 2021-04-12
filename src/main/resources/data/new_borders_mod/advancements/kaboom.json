@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "new_borders_mod:normal_canon"
     },
@@ -33,5 +32,6 @@
   },
   "rewards": {
     "experience": 1
-  }
+  },
+  "parent": "new_borders_mod:going_nuclear"
 }

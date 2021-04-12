@@ -6345,23 +6345,6 @@
       "registry_name": "shale_tile_stairs_recipe"
     },
     {
-      "name": "SulfurOreEntityWalksOnTheBlock",
-      "type": "procedure",
-      "sortid": 614,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sulfur_ore_entity_walks_on_the_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "SulfurOreBlockDestroyedByPlayer",
       "type": "procedure",
       "sortid": 615,
@@ -6395,23 +6378,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nether_sulfur_ore_block_destroyed_by_player",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "NetherSulfurOreEntityWalksOnTheBlock",
-      "type": "procedure",
-      "sortid": 617,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nether_sulfur_ore_entity_walks_on_the_block",
       "metadata": {
         "dependencies": [
           {
@@ -7784,6 +7750,78 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stone"
+    },
+    {
+      "name": "OilShaleShard",
+      "type": "item",
+      "sortid": 715,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil_shale_shard"
+    },
+    {
+      "name": "BucketOfShaleShards",
+      "type": "item",
+      "sortid": 716,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bucket_of_shale_shards"
+    },
+    {
+      "name": "BucketOfShaleShardsRecipe",
+      "type": "recipe",
+      "sortid": 717,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bucket_of_shale_shards_recipe"
+    },
+    {
+      "name": "ShaleOilBucket",
+      "type": "item",
+      "sortid": 718,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_oil_bucket"
+    },
+    {
+      "name": "ShaleOilBucketRecipe",
+      "type": "recipe",
+      "sortid": 719,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_oil_bucket_recipe"
+    },
+    {
+      "name": "ShaleOilBucketBlast",
+      "type": "recipe",
+      "sortid": 720,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_oil_bucket_blast"
+    },
+    {
+      "name": "ShaleOil",
+      "type": "fuel",
+      "sortid": 721,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shale_oil"
+    },
+    {
+      "name": "MooglowDrops",
+      "type": "loottable",
+      "sortid": 722,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mooglow_drops"
     }
   ],
   "variable_elements": [],
@@ -8044,6 +8082,7 @@
       "entity.new_borders_mod.sentinel": "Sentinel",
       "block.new_borders_mod.polished_siltstone_slab": "Polished Siltstone Slab",
       "block.new_borders_mod.polished_salt_pillar_slab": "Polished Salt Pillar Slab",
+      "item.new_borders_mod.oil_shale_shard": "Oil Shale Shard",
       "biome.new_borders_mod.tropical_savanna": "Tropical Savanna",
       "biome.new_borders_mod.mount": "Mount",
       "block.new_borders_mod.lead_ore": "Lead Ore",
@@ -8116,6 +8155,7 @@
       "item.new_borders_mod.sulfur": "Sulfur",
       "advancements.kaboom.descr": "1.21 GIGAWATTS?",
       "block.new_borders_mod.eucalyptus_air_2": "Eucalyptus Air 2",
+      "item.new_borders_mod.shale_oil_bucket": "Shale Oil Bucket",
       "block.new_borders_mod.polished_slate_slab": "Polished Slate Slab",
       "item.new_borders_mod.cooked_salted_mutton": "Cooked Salted Mutton",
       "item.new_borders_mod.candy": "Candy",
@@ -8130,7 +8170,7 @@
       "block.new_borders_mod.babacu_phase_1": "Babacu Phase 1",
       "item.new_borders_mod.salted_steak": "Salted Steak",
       "subtitles.canariobaia": "canario",
-      "item.new_borders_mod.cobalt_shovel": "Cobalt Pickaxe",
+      "item.new_borders_mod.cobalt_shovel": "Cobalt Shovel",
       "item.new_borders_mod.samba_de_verao.desc": "Marcos Valle - Samba De Verao",
       "block.new_borders_mod.babacu_planks": "Babacu Planks",
       "block.new_borders_mod.nether_sulfur_ore": "Nether Sulfur Ore",
@@ -8164,7 +8204,7 @@
       "item.new_borders_mod.cobalt_crystal": "Cobalt Crystal",
       "item.new_borders_mod.cobalt_armor_boots": "Cobalt Boots",
       "block.new_borders_mod.polished_siltstone": "Polished Siltstone",
-      "item.new_borders_mod.cobalt_axe": "Cobalt Sword",
+      "item.new_borders_mod.cobalt_axe": "Cobalt Axe",
       "block.new_borders_mod.slate": "Slate",
       "item.new_borders_mod.duskstone_gem": "Duskstone Gem",
       "block.new_borders_mod.lead_block": "Lead Block",
@@ -8271,13 +8311,14 @@
       "block.new_borders_mod.candy_ore": "Candy Ore",
       "advancements.daft_punk.descr": "Look at this old casio keyboard from the 1980s i have found",
       "block.new_borders_mod.eucalyptus_leaves": "Eucalyptus Leaves",
+      "item.new_borders_mod.bucket_of_shale_shards": "Bucket of Shale Shards",
       "entity.new_borders_mod.mosquito": "Mosquito",
       "item.new_borders_mod.salted_rotten_flesh": "Salted Rotten Flesh",
       "item.new_borders_mod.anti_phantom_missile_battery_item": "Anti Phantom Missile Battery",
       "block.new_borders_mod.stylised_slate_brick_slab": "Stylised Slate Brick Slab",
       "entity.new_borders_mod.winterfell_pillager": "Winterfell Pillager",
       "item.new_borders_mod.raw_salted_cod": "Raw Salted Cod",
-      "item.new_borders_mod.cobalt_hoe": "Cobalt Pickaxe",
+      "item.new_borders_mod.cobalt_hoe": "Cobalt Hoe",
       "block.new_borders_mod.polished_salt_bricks": "Polished Salt Bricks",
       "block.new_borders_mod.ipe_air": "Ipe Air",
       "biome.new_borders_mod.permafrost": "Permafrost",

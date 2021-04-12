@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:OilShaleShard"
+      },
+      {
+        "value": "CUSTOM:OilShaleShard"
+      },
+      {
+        "value": "CUSTOM:OilShaleShard"
+      },
+      {
+        "value": "CUSTOM:OilShaleShard"
+      },
+      {
+        "value": "CUSTOM:OilShaleShard"
+      },
+      {
+        "value": "CUSTOM:OilShaleShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BUCKET"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BucketOfShaleShards"
+    },
+    "name": "bucket_of_shale_shards_recipe",
+    "namespace": "mod"
+  }
+}

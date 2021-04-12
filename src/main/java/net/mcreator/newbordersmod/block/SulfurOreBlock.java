@@ -22,14 +22,12 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.fluid.IFluidState;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.newbordersmod.procedures.SulfurOreEntityWalksOnTheBlockProcedure;
 import net.mcreator.newbordersmod.procedures.SulfurOreBlockDestroyedByPlayerProcedure;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
@@ -70,19 +68,6 @@ public class SulfurOreBlock extends NewBordersModModElements.ModElement {
 				SulfurOreBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
-		}
-
-		@Override
-		public void onEntityWalk(World world, BlockPos pos, Entity entity) {
-			super.onEntityWalk(world, pos, entity);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				SulfurOreEntityWalksOnTheBlockProcedure.executeProcedure($_dependencies);
-			}
 		}
 	}
 	@Override

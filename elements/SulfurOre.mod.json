@@ -95,9 +95,6 @@
     "onDestroyedByPlayer": {
       "name": "SulfurOreBlockDestroyedByPlayer"
     },
-    "onEntityWalksOn": {
-      "name": "SulfurOreEntityWalksOnTheBlock"
-    },
     "spawnWorldTypes": [
       "Surface"
     ],

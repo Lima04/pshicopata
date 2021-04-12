@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "loottable",
   "definition": {
-    "type": "Block",
+    "type": "Entity",
     "pools": [
       {
         "minrolls": 1,
@@ -14,16 +14,16 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:ShaleShard"
+              "value": "Items.LEATHER"
             },
             "weight": 1,
-            "minCount": 4,
-            "maxCount": 6,
+            "minCount": 0,
+            "maxCount": 2,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
+            "affectedByFortune": true,
             "explosionDecay": false,
-            "silkTouchMode": 2
+            "silkTouchMode": 0
           }
         ]
       },
@@ -37,44 +37,21 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Shale"
+              "value": "Items.BEEF"
             },
             "weight": 1,
             "minCount": 1,
-            "maxCount": 1,
+            "maxCount": 3,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
+            "affectedByFortune": true,
             "explosionDecay": false,
-            "silkTouchMode": 1
-          }
-        ]
-      },
-      {
-        "minrolls": 1,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:OilShaleShard"
-            },
-            "weight": 50,
-            "minCount": 0,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 2
+            "silkTouchMode": 0
           }
         ]
       }
     ],
-    "name": "blocks/shale",
+    "name": "entities/mooglow",
     "namespace": "mod"
   }
 }

@@ -8,19 +8,19 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:stone"
     },
     "1": {
       "item": "minecraft:stone"
     },
     "2": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:stone"
     },
     "3": {
       "item": "minecraft:stone_slab"
     },
     "4": {
-      "item": "new_borders_mod:lollipop_essence"
+      "item": "new_borders_mod:duskstone_gem"
     },
     "5": {
       "item": "minecraft:stone_slab"

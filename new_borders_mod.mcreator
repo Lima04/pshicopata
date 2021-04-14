@@ -7740,6 +7740,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ruby_shovel"
+    },
+    {
+      "name": "StatueRecipe",
+      "type": "recipe",
+      "sortid": 734,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "statue_recipe"
     }
   ],
   "variable_elements": [],

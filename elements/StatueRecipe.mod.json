@@ -10,19 +10,19 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.DIAMOND"
+        "value": "Blocks.STONE#0"
       },
       {
         "value": "Blocks.STONE#0"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": "Blocks.STONE#0"
       },
       {
         "value": "Blocks.NORMAL_STONE_SLAB"
       },
       {
-        "value": "CUSTOM:LollipopEssence"
+        "value": "CUSTOM:DuskstoneGem"
       },
       {
         "value": "Blocks.NORMAL_STONE_SLAB"

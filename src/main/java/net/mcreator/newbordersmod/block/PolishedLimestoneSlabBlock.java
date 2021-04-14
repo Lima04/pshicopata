@@ -26,7 +26,7 @@ public class PolishedLimestoneSlabBlock extends NewBordersModModElements.ModElem
 	@ObjectHolder("new_borders_mod:polished_limestone_slab")
 	public static final Block block = null;
 	public PolishedLimestoneSlabBlock(NewBordersModModElements instance) {
-		super(instance, 65);
+		super(instance, 68);
 	}
 
 	@Override

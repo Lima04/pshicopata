@@ -16,7 +16,7 @@ public class CoarseSaltItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:coarse_salt")
 	public static final Item block = null;
 	public CoarseSaltItem(NewBordersModModElements instance) {
-		super(instance, 186);
+		super(instance, 185);
 	}
 
 	@Override

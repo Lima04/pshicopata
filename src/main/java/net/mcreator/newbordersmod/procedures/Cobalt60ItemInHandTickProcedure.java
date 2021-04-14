@@ -13,7 +13,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class Cobalt60ItemInHandTickProcedure extends NewBordersModModElements.ModElement {
 	public Cobalt60ItemInHandTickProcedure(NewBordersModModElements instance) {
-		super(instance, 283);
+		super(instance, 296);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

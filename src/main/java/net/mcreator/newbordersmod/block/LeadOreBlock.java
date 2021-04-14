@@ -38,7 +38,7 @@ public class LeadOreBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:lead_ore")
 	public static final Block block = null;
 	public LeadOreBlock(NewBordersModModElements instance) {
-		super(instance, 20);
+		super(instance, 19);
 	}
 
 	@Override

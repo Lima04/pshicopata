@@ -16,7 +16,7 @@ public class GabbroAshesItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:gabbro_ashes")
 	public static final Item block = null;
 	public GabbroAshesItem(NewBordersModModElements instance) {
-		super(instance, 173);
+		super(instance, 170);
 	}
 
 	@Override

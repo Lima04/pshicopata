@@ -46,7 +46,7 @@ public class BrimstoneBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:brimstone")
 	public static final Block block = null;
 	public BrimstoneBlock(NewBordersModModElements instance) {
-		super(instance, 96);
+		super(instance, 27);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class BabacuPhase4OnBlockRightClickedProcedure extends NewBordersModModElements.ModElement {
 	public BabacuPhase4OnBlockRightClickedProcedure(NewBordersModModElements instance) {
-		super(instance, 378);
+		super(instance, 384);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

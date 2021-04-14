@@ -17,7 +17,7 @@ public class RubySwordItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ruby_sword")
 	public static final Item block = null;
 	public RubySwordItem(NewBordersModModElements instance) {
-		super(instance, 727);
+		super(instance, 214);
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class RubySwordItem extends NewBordersModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4.5f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
@@ -40,7 +40,7 @@ public class RubySwordItem extends NewBordersModModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 10;
 			}
 
 			public Ingredient getRepairMaterial() {

@@ -13,7 +13,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class BabacuPhase1UpdateTickProcedure extends NewBordersModModElements.ModElement {
 	public BabacuPhase1UpdateTickProcedure(NewBordersModModElements instance) {
-		super(instance, 373);
+		super(instance, 379);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -19,7 +19,7 @@ public class CutPolishedSaltBrickSlabBlock extends NewBordersModModElements.ModE
 	@ObjectHolder("new_borders_mod:cut_polished_salt_brick_slab")
 	public static final Block block = null;
 	public CutPolishedSaltBrickSlabBlock(NewBordersModModElements instance) {
-		super(instance, 53);
+		super(instance, 56);
 	}
 
 	@Override

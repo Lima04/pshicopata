@@ -25,7 +25,7 @@ public class PinonBlockGravityBlock extends NewBordersModModElements.ModElement 
 	@ObjectHolder("new_borders_mod:pinon_block_gravity")
 	public static final Block block = null;
 	public PinonBlockGravityBlock(NewBordersModModElements instance) {
-		super(instance, 239);
+		super(instance, 252);
 	}
 
 	@Override

@@ -50,7 +50,7 @@ import net.mcreator.newbordersmod.NewBordersModModElements;
 public class DrownedPirateEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public DrownedPirateEntity(NewBordersModModElements instance) {
-		super(instance, 198);
+		super(instance, 197);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

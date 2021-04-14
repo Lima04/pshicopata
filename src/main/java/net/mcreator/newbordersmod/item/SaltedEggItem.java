@@ -16,7 +16,7 @@ public class SaltedEggItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:salted_egg")
 	public static final Item block = null;
 	public SaltedEggItem(NewBordersModModElements instance) {
-		super(instance, 142);
+		super(instance, 140);
 	}
 
 	@Override

@@ -33,7 +33,7 @@ public class RidgeBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ridge")
 	public static final CustomBiome biome = null;
 	public RidgeBiome(NewBordersModModElements instance) {
-		super(instance, 264);
+		super(instance, 277);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class HeatedLeadItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:heated_lead")
 	public static final Item block = null;
 	public HeatedLeadItem(NewBordersModModElements instance) {
-		super(instance, 423);
+		super(instance, 429);
 	}
 
 	@Override

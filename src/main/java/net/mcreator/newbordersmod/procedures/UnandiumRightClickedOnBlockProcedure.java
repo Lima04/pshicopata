@@ -19,7 +19,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class UnandiumRightClickedOnBlockProcedure extends NewBordersModModElements.ModElement {
 	public UnandiumRightClickedOnBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 305);
+		super(instance, 318);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

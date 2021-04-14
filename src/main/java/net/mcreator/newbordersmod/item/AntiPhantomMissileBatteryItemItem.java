@@ -26,7 +26,7 @@ public class AntiPhantomMissileBatteryItemItem extends NewBordersModModElements.
 	@ObjectHolder("new_borders_mod:anti_phantom_missile_battery_item")
 	public static final Item block = null;
 	public AntiPhantomMissileBatteryItemItem(NewBordersModModElements instance) {
-		super(instance, 208);
+		super(instance, 213);
 	}
 
 	@Override

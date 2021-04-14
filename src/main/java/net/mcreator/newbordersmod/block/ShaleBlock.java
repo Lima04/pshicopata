@@ -33,7 +33,7 @@ public class ShaleBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:shale")
 	public static final Block block = null;
 	public ShaleBlock(NewBordersModModElements instance) {
-		super(instance, 78);
+		super(instance, 81);
 	}
 
 	@Override

@@ -13,7 +13,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class CobaltBombRedstoneOnProcedure extends NewBordersModModElements.ModElement {
 	public CobaltBombRedstoneOnProcedure(NewBordersModModElements instance) {
-		super(instance, 285);
+		super(instance, 298);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

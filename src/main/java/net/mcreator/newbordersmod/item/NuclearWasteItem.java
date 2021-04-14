@@ -22,7 +22,7 @@ public class NuclearWasteItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:nuclear_waste")
 	public static final Item block = null;
 	public NuclearWasteItem(NewBordersModModElements instance) {
-		super(instance, 170);
+		super(instance, 168);
 	}
 
 	@Override

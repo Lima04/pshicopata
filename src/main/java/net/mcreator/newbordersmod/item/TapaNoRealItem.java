@@ -16,7 +16,7 @@ public class TapaNoRealItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:tapa_no_real")
 	public static final Item block = null;
 	public TapaNoRealItem(NewBordersModModElements instance) {
-		super(instance, 155);
+		super(instance, 153);
 	}
 
 	@Override

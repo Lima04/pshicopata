@@ -23,7 +23,6 @@ import net.minecraft.pathfinding.FlyingPathNavigator;
 import net.minecraft.network.IPacket;
 import net.minecraft.entity.passive.fish.TropicalFishEntity;
 import net.minecraft.entity.passive.fish.CodEntity;
-import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
@@ -37,6 +36,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
@@ -56,7 +56,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class SeagullFlyingEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public SeagullFlyingEntity(NewBordersModModElements instance) {
-		super(instance, 192);
+		super(instance, 191);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -88,7 +88,7 @@ public class SeagullFlyingEntity extends NewBordersModModElements.ModElement {
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
-			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 10, 1, 8));
+			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 12, 1, 8));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos,
@@ -107,7 +107,7 @@ public class SeagullFlyingEntity extends NewBordersModModElements.ModElement {
 			};
 		});
 	}
-	public static class CustomEntity extends MonsterEntity {
+	public static class CustomEntity extends CreatureEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}

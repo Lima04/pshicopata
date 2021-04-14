@@ -17,7 +17,7 @@ public class CobaltShovelItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cobalt_shovel")
 	public static final Item block = null;
 	public CobaltShovelItem(NewBordersModModElements instance) {
-		super(instance, 224);
+		super(instance, 231);
 	}
 
 	@Override

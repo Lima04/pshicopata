@@ -38,7 +38,7 @@ public class SlateBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:slate")
 	public static final Block block = null;
 	public SlateBlock(NewBordersModModElements instance) {
-		super(instance, 82);
+		super(instance, 85);
 	}
 
 	@Override

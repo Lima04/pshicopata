@@ -36,7 +36,7 @@ public class TropicalSavannaBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:tropical_savanna")
 	public static final CustomBiome biome = null;
 	public TropicalSavannaBiome(NewBordersModModElements instance) {
-		super(instance, 275);
+		super(instance, 288);
 	}
 
 	@Override

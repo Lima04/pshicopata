@@ -30,7 +30,7 @@ public class RockyDesertBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:rocky_desert")
 	public static final CustomBiome biome = null;
 	public RockyDesertBiome(NewBordersModModElements instance) {
-		super(instance, 363);
+		super(instance, 369);
 	}
 
 	@Override

@@ -1,0 +1,33 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:babacu_planks"
+    },
+    "1": {
+      "item": "new_borders_mod:babacu_planks"
+    },
+    "2": {
+      "item": "new_borders_mod:babacu_planks"
+    },
+    "3": {
+      "item": "new_borders_mod:babacu_planks"
+    },
+    "4": {
+      "item": "new_borders_mod:babacu_planks"
+    },
+    "5": {
+      "item": "new_borders_mod:babacu_planks"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:babacu_door",
+    "count": 3
+  }
+}

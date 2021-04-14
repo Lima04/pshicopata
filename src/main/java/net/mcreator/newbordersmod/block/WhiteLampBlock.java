@@ -26,7 +26,7 @@ public class WhiteLampBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:white_lamp")
 	public static final Block block = null;
 	public WhiteLampBlock(NewBordersModModElements instance) {
-		super(instance, 36);
+		super(instance, 39);
 	}
 
 	@Override

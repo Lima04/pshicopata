@@ -26,7 +26,7 @@ public class ShaleTileSlabBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:shale_tile_slab")
 	public static final Block block = null;
 	public ShaleTileSlabBlock(NewBordersModModElements instance) {
-		super(instance, 80);
+		super(instance, 83);
 	}
 
 	@Override

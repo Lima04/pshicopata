@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "Cobalt59",
+	"textures": {
+		"0": "Texturas/Cobalt 59",
+		"particle": "Texturas/Cobalt 59"
+	},
+	"elements": [
+		{
+			"name": "Item",
+			"from": [7, 0, 7],
+			"to": [9, 3, 9],
+			"faces": {
+				"north": {"uv": [4, 3, 8, 13], "texture": "#0"},
+				"east": {"uv": [9, 3, 13, 13], "texture": "#0"},
+				"south": {"uv": [8, 3, 12, 13], "texture": "#0"},
+				"west": {"uv": [8, 3, 4, 13], "texture": "#0"},
+				"up": {"uv": [5, 4, 8, 7], "texture": "#0"},
+				"down": {"uv": [9, 4, 12, 7], "texture": "#0"}
+			}
+		}
+	]
+}

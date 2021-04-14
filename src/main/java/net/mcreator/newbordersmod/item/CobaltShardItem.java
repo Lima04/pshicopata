@@ -16,7 +16,7 @@ public class CobaltShardItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cobalt_crystal")
 	public static final Item block = null;
 	public CobaltShardItem(NewBordersModModElements instance) {
-		super(instance, 163);
+		super(instance, 161);
 	}
 
 	@Override

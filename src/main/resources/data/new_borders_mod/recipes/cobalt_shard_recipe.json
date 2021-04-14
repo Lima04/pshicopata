@@ -3,35 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "new_borders_mod:cobalt_shard"
-    },
-    {
-      "item": "new_borders_mod:cobalt_shard"
-    },
-    {
-      "item": "new_borders_mod:cobalt_shard"
-    },
-    {
-      "item": "new_borders_mod:cobalt_shard"
-    },
-    {
-      "item": "new_borders_mod:cobalt_shard"
-    },
-    {
-      "item": "new_borders_mod:cobalt_shard"
-    },
-    {
-      "item": "new_borders_mod:cobalt_shard"
-    },
-    {
-      "item": "new_borders_mod:cobalt_shard"
-    },
-    {
-      "item": "new_borders_mod:cobalt_shard"
+      "item": "new_borders_mod:cobalt_crystal"
     }
   ],
   "result": {
-    "item": "new_borders_mod:cobalt_crystal",
-    "count": 1
+    "item": "new_borders_mod:cobalt_shard",
+    "count": 9
   }
 }

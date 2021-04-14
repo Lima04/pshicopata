@@ -18,7 +18,7 @@ public class SnowBrickSlabBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:snow_brick_slab")
 	public static final Block block = null;
 	public SnowBrickSlabBlock(NewBordersModModElements instance) {
-		super(instance, 41);
+		super(instance, 44);
 	}
 
 	@Override

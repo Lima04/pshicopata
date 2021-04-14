@@ -23,7 +23,7 @@ public class GlowingObsidianBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:glowing_obsidian")
 	public static final Block block = null;
 	public GlowingObsidianBlock(NewBordersModModElements instance) {
-		super(instance, 28);
+		super(instance, 31);
 	}
 
 	@Override

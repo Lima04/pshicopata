@@ -18,7 +18,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class BabacuAir2GenerateProcedure extends NewBordersModModElements.ModElement {
 	public BabacuAir2GenerateProcedure(NewBordersModModElements instance) {
-		super(instance, 406);
+		super(instance, 412);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

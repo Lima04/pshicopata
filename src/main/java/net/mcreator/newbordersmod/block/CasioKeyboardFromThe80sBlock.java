@@ -49,7 +49,7 @@ public class CasioKeyboardFromThe80sBlock extends NewBordersModModElements.ModEl
 	@ObjectHolder("new_borders_mod:casio_keyboard_from_the_80s")
 	public static final Block block = null;
 	public CasioKeyboardFromThe80sBlock(NewBordersModModElements instance) {
-		super(instance, 39);
+		super(instance, 42);
 	}
 
 	@Override

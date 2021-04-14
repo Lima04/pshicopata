@@ -25,7 +25,7 @@ public class SlateStairsBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:slate_stairs")
 	public static final Block block = null;
 	public SlateStairsBlock(NewBordersModModElements instance) {
-		super(instance, 87);
+		super(instance, 90);
 	}
 
 	@Override

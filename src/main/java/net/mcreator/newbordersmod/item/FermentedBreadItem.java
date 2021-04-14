@@ -17,7 +17,7 @@ public class FermentedBreadItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:fermented_bread")
 	public static final Item block = null;
 	public FermentedBreadItem(NewBordersModModElements instance) {
-		super(instance, 138);
+		super(instance, 136);
 	}
 
 	@Override

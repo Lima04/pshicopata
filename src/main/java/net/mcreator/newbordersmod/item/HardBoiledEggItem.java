@@ -17,7 +17,7 @@ public class HardBoiledEggItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:hard_boiled_egg")
 	public static final Item block = null;
 	public HardBoiledEggItem(NewBordersModModElements instance) {
-		super(instance, 144);
+		super(instance, 142);
 	}
 
 	@Override

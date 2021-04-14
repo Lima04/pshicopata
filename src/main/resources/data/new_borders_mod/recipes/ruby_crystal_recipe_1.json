@@ -1,0 +1,16 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "new_borders_mod:topaz_crystal"
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": {
+    "item": "new_borders_mod:ruby_crystal",
+    "count": 1
+  }
+}

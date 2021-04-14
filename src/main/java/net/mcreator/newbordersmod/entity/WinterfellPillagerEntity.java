@@ -44,7 +44,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class WinterfellPillagerEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public WinterfellPillagerEntity(NewBordersModModElements instance) {
-		super(instance, 201);
+		super(instance, 200);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

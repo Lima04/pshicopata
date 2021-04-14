@@ -1,0 +1,33 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:elder_prismarine_bricks"
+    },
+    "3": {
+      "item": "new_borders_mod:elder_prismarine_bricks"
+    },
+    "4": {
+      "item": "new_borders_mod:elder_prismarine_bricks"
+    },
+    "6": {
+      "item": "new_borders_mod:elder_prismarine_bricks"
+    },
+    "7": {
+      "item": "new_borders_mod:elder_prismarine_bricks"
+    },
+    "8": {
+      "item": "new_borders_mod:elder_prismarine_bricks"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:elder_prismarine_brick_stairs",
+    "count": 4
+  }
+}

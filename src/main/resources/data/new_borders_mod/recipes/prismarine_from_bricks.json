@@ -1,0 +1,13 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:prismarine_bricks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:prismarine_shard",
+    "count": 9
+  }
+}

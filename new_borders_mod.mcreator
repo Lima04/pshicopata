@@ -8184,6 +8184,195 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "topaz_boots_recipe"
+    },
+    {
+      "name": "ElderPrismarineShard",
+      "type": "item",
+      "sortid": 764,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_prismarine_shard"
+    },
+    {
+      "name": "ElderPrismarine",
+      "type": "block",
+      "sortid": 765,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_prismarine"
+    },
+    {
+      "name": "ElderPrismarineBricks",
+      "type": "block",
+      "sortid": 766,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_prismarine_bricks"
+    },
+    {
+      "name": "PrismarineFromBlock",
+      "type": "recipe",
+      "sortid": 767,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "prismarine_from_block"
+    },
+    {
+      "name": "PrismarineFromBricks",
+      "type": "recipe",
+      "sortid": 768,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "prismarine_from_bricks"
+    },
+    {
+      "name": "ElderPrismarineFromBlock",
+      "type": "recipe",
+      "sortid": 769,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_prismarine_from_block"
+    },
+    {
+      "name": "ElderPrismarineFromBricks",
+      "type": "recipe",
+      "sortid": 770,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_prismarine_from_bricks"
+    },
+    {
+      "name": "ElderPrismarineRecipe",
+      "type": "recipe",
+      "sortid": 771,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_prismarine_recipe"
+    },
+    {
+      "name": "ElderPrismarineBricksRecipe",
+      "type": "recipe",
+      "sortid": 772,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_prismarine_bricks_recipe"
+    },
+    {
+      "name": "ElderPrismarineSlab",
+      "type": "block",
+      "sortid": 773,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_prismarine_slab"
+    },
+    {
+      "name": "ElderPrismarineStairs",
+      "type": "block",
+      "sortid": 774,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_prismarine_stairs"
+    },
+    {
+      "name": "ElderPrismarineBrickSlab",
+      "type": "block",
+      "sortid": 775,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_prismarine_brick_slab"
+    },
+    {
+      "name": "ElderPrismarineBrickStairs",
+      "type": "block",
+      "sortid": 776,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_prismarine_brick_stairs"
+    },
+    {
+      "name": "EPSlabRecipe",
+      "type": "recipe",
+      "sortid": 777,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ep_slab_recipe"
+    },
+    {
+      "name": "EPStairsRecipe",
+      "type": "recipe",
+      "sortid": 778,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ep_stairs_recipe"
+    },
+    {
+      "name": "EPSlabSC",
+      "type": "recipe",
+      "sortid": 779,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ep_slab_sc"
+    },
+    {
+      "name": "EPStairsSC",
+      "type": "recipe",
+      "sortid": 780,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ep_stairs_sc"
+    },
+    {
+      "name": "EPBSlabRecipe",
+      "type": "recipe",
+      "sortid": 781,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epb_slab_recipe"
+    },
+    {
+      "name": "EPBStairsRecipe",
+      "type": "recipe",
+      "sortid": 782,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epb_stairs_recipe"
+    },
+    {
+      "name": "EPBSlabSC",
+      "type": "recipe",
+      "sortid": 783,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epb_slab_sc"
+    },
+    {
+      "name": "EPBStairsSC",
+      "type": "recipe",
+      "sortid": 784,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epb_stairs_sc"
     }
   ],
   "variable_elements": [],
@@ -8435,6 +8624,7 @@
   "language_map": {
     "en_us": {
       "item.new_borders_mod.cooked_pinon": "Cooked Pinon",
+      "block.new_borders_mod.elder_prismarine_stairs": "Elder Prismarine Stairs",
       "subtitles.pifer": "Poopifers",
       "item.new_borders_mod.pinch_of_salt": "Pinch of Salt",
       "biome.new_borders_mod.wastelands": "Wastelands",
@@ -8481,7 +8671,7 @@
       "block.new_borders_mod.ipe_fence_gate": "Ipe Fence Gate",
       "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
       "advancements.what_a_jerk.descr": "Successfully make rotten flesh safe for consumption.",
-      "advancements.the_yellow_twin.descr": "You found the topaz!",
+      "advancements.the_yellow_twin.descr": "You found topaz!",
       "biome.new_borders_mod.redwood_taiga": "Redwood Taiga",
       "item.new_borders_mod.the_poopifers_the_first_shit_2003.desc": "The Poopifers - The First Shit (Album) (2003)",
       "block.new_borders_mod.cut_chiseled_salt_bricks": "Cut Chiseled Salt Bricks",
@@ -8629,10 +8819,12 @@
       "block.new_borders_mod.salt_ore": "Salt Ore",
       "item.new_borders_mod.zombie_jerky": "Zombie Jerky",
       "block.new_borders_mod.magma_brick_stairs": "Magma Brick Stairs",
+      "item.new_borders_mod.elder_prismarine_shard": "Elder Prismarine Shard",
       "item.new_borders_mod.viola_enluarada": "Viola Enluarada",
       "item.new_borders_mod.seagull_flying_spawn_egg": "Seagull Spawn Egg",
       "item.new_borders_mod.canary_bay": "Canary Bay",
       "block.new_borders_mod.cut_polished_salt_brick_slab": "Cut Polished Salt Brick Slab",
+      "block.new_borders_mod.elder_prismarine": "Elder Prismarine",
       "item.new_borders_mod.cobalt_armor_helmet": "Cobalt Helmet",
       "item.new_borders_mod.topaz_armor_leggings": "Topaz Leggings",
       "block.new_borders_mod.cobalt_door": "Cobalt Door",
@@ -8666,6 +8858,7 @@
       "item.new_borders_mod.night_sword": "Night Sword",
       "block.new_borders_mod.ipe_log": "Ipe Log",
       "block.new_borders_mod.siltstone_stairs": "Siltstone Stairs",
+      "block.new_borders_mod.elder_prismarine_bricks": "Elder Prismarine Bricks",
       "block.new_borders_mod.redwood_door": "Redwood Door",
       "block.new_borders_mod.snow_brick_stairs": "Snow Brick Stairs",
       "item.new_borders_mod.ice_shard": "Ice Shard",
@@ -8685,6 +8878,7 @@
       "item.new_borders_mod.salted_rotten_flesh": "Salted Rotten Flesh",
       "item.new_borders_mod.anti_phantom_missile_battery_item": "Anti Phantom Missile Battery",
       "block.new_borders_mod.stylised_slate_brick_slab": "Stylised Slate Brick Slab",
+      "block.new_borders_mod.elder_prismarine_slab": "Elder Prismarine Slab",
       "entity.new_borders_mod.winterfell_pillager": "Winterfell Pillager",
       "item.new_borders_mod.raw_salted_cod": "Raw Salted Cod",
       "item.new_borders_mod.topaz_armor_chestplate": "Topaz Chestplate",
@@ -8714,6 +8908,7 @@
       "block.new_borders_mod.pinon_block_gravity": "Pinon Block(Gravity)",
       "block.new_borders_mod.snow_brick_slab": "Snow Brick Slab",
       "block.new_borders_mod.babacu_leaves_begining": "Babacu Leaves Beginning",
+      "block.new_borders_mod.elder_prismarine_brick_stairs": "Elder Prismarine Brick Stairs",
       "block.new_borders_mod.topaz_ore": "Topaz Ore",
       "item.new_borders_mod.lead_ingot": "Lead Ingot",
       "block.new_borders_mod.cobalt_60_blocks": "Cobalt 60 Block",
@@ -8783,6 +8978,7 @@
       "item.new_borders_mod.babacu_ranged": "Babacu",
       "item.new_borders_mod.weird_bread_dough": "Weird Bread Dough",
       "block.new_borders_mod.glowshroom": "Glowshroom",
+      "block.new_borders_mod.elder_prismarine_brick_slab": "Elder Prismarine Brick Slab",
       "item.new_borders_mod.cobalt_pickaxe": "Cobalt Pickaxe",
       "item.new_borders_mod.cobalt_59": "Cobalt 59",
       "item.new_borders_mod.cooked_salted_salmon": "Cooked Salted Salmon",
@@ -8802,7 +8998,7 @@
       "entity.new_borders_mod.statue": "Statue",
       "item.new_borders_mod.flour": "Flour",
       "block.new_borders_mod.cherry_tree_stairs": "Cherry Tree Stairs",
-      "advancements.the_red_twin.descr": "You found the ruby!",
+      "advancements.the_red_twin.descr": "You found ruby!",
       "biome.new_borders_mod.salt_flats": "Salt Flats",
       "block.new_borders_mod.cherry_tree_log": "Cherry Tree Log"
     }

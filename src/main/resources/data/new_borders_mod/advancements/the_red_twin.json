@@ -33,5 +33,5 @@
   "rewards": {
     "experience": 1
   },
-  "parent": "new_borders_mod:music"
+  "parent": "minecraft:story/iron_tools"
 }

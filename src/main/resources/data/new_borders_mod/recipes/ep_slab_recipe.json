@@ -1,0 +1,22 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "new_borders_mod:elder_prismarine"
+    },
+    "1": {
+      "item": "new_borders_mod:elder_prismarine"
+    },
+    "2": {
+      "item": "new_borders_mod:elder_prismarine"
+    }
+  },
+  "result": {
+    "item": "new_borders_mod:elder_prismarine_slab",
+    "count": 6
+  }
+}

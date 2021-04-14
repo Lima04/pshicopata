@@ -10,33 +10,33 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.LeavesBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.newbordersmod.item.LicoriceItem;
+import net.mcreator.newbordersmod.item.RubyCrystalItem;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 import java.util.List;
 import java.util.Collections;
 
 @NewBordersModModElements.ModElement.Tag
-public class CandyLeavesBlock extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:candy_leaves")
+public class RubyOreBlock extends NewBordersModModElements.ModElement {
+	@ObjectHolder("new_borders_mod:ruby_ore")
 	public static final Block block = null;
-	public CandyLeavesBlock(NewBordersModModElements instance) {
-		super(instance, 100);
+	public RubyOreBlock(NewBordersModModElements instance) {
+		super(instance, 726);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
-	public static class CustomBlock extends LeavesBlock {
+	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.SLIME).hardnessAndResistance(0.25f, 10f).lightValue(0).notSolid());
-			setRegistryName("candy_leaves");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0));
+			setRegistryName("ruby_ore");
 		}
 
 		@Override
@@ -44,7 +44,7 @@ public class CandyLeavesBlock extends NewBordersModModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(LicoriceItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(RubyCrystalItem.block, (int) (1)));
 		}
 	}
 }

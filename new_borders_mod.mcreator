@@ -1546,15 +1546,6 @@
       "registry_name": "abandoned_factory"
     },
     {
-      "name": "CandyLog",
-      "type": "block",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "candy_log"
-    },
-    {
       "name": "ThePoopifersTheFirstShit2003",
       "type": "musicdisc",
       "sortid": 160,
@@ -1564,50 +1555,6 @@
       "registry_name": "the_poopifers_the_first_shit_2003"
     },
     {
-      "name": "CandyLeaves",
-      "type": "block",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "candy_leaves"
-    },
-    {
-      "name": "CandyForest",
-      "type": "biome",
-      "sortid": 313,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "candy_forest"
-    },
-    {
-      "name": "Candy",
-      "type": "food",
-      "sortid": 118,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "candy"
-    },
-    {
-      "name": "CandyFoodEaten",
-      "type": "procedure",
-      "sortid": 314,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "candy_food_eaten",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "TemperateJungle",
       "type": "biome",
       "sortid": 315,
@@ -1615,89 +1562,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "temperate_jungle"
-    },
-    {
-      "name": "Licorice",
-      "type": "food",
-      "sortid": 119,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "licorice"
-    },
-    {
-      "name": "LicoriceSword",
-      "type": "tool",
-      "sortid": 213,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "candy_sword"
-    },
-    {
-      "name": "LicoriceSwordRecipe",
-      "type": "recipe",
-      "sortid": 316,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "licorice_sword_recipe"
-    },
-    {
-      "name": "BigCandyAir",
-      "type": "block",
-      "sortid": 317,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "big_candy_air"
-    },
-    {
-      "name": "BigCandyTree",
-      "type": "structure",
-      "sortid": 318,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "big_candy_tree"
-    },
-    {
-      "name": "BigCandyAirSpawn",
-      "type": "structure",
-      "sortid": 319,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "big_candy_air_spawn"
-    },
-    {
-      "name": "BigCandySpawn",
-      "type": "procedure",
-      "sortid": 320,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "big_candy_spawn",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "GlowshroomBlock",
@@ -1770,33 +1634,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cumarmorrecipe"
-    },
-    {
-      "name": "LollipopEssence",
-      "type": "item",
-      "sortid": 172,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "lollipop_essence"
-    },
-    {
-      "name": "CandyBlock",
-      "type": "block",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "candy_ore"
-    },
-    {
-      "name": "LollipopOre",
-      "type": "block",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "lollipop_ore"
     },
     {
       "name": "GhostShipCaptainTrasure",
@@ -2090,15 +1927,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "LollipopCharge",
-      "type": "gun",
-      "sortid": 218,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "lollipop_charge"
     },
     {
       "name": "Sentinel",
@@ -7822,6 +7650,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mooglow_drops"
+    },
+    {
+      "name": "SunSwordRecipe",
+      "type": "recipe",
+      "sortid": 723,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sun_sword_recipe"
+    },
+    {
+      "name": "LeadBlockReverse",
+      "type": "recipe",
+      "sortid": 724,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_block_reverse"
+    },
+    {
+      "name": "RubyCrystal",
+      "type": "item",
+      "sortid": 725,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_crystal"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 726,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore"
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "sortid": 727,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_sword"
     }
   ],
   "variable_elements": [],
@@ -8141,13 +8014,11 @@
       "item.new_borders_mod.the_poopifers_the_first_shit_2003": "The Poopifers - The First Shit (Album) (2003)",
       "advancements.seasoning_season.descr": "Things are about to get saltier.",
       "block.new_borders_mod.polished_salt_stairs": "Polished Salt Stairs",
-      "item.new_borders_mod.licorice": "Licorice",
       "item.new_borders_mod.dia_d.desc": "Marcos Valle - Dia D",
       "biome.new_borders_mod.tropical_savanna_hills": "Tropical Savanna Hills",
       "entity.new_borders_mod.seagull_stay": "Seagull",
       "block.new_borders_mod.eucalyptus_air_3": "Eucalyptus Air 3",
       "block.new_borders_mod.babacu_leavess": "Babacu Leaves",
-      "block.new_borders_mod.lollipop_ore": "Lollipop Ore",
       "biome.new_borders_mod.glowshroom_jungle": "Glowshroom Forest",
       "block.new_borders_mod.polished_slate_brick_stairs": "Polished Slate Brick Stairs",
       "item.new_borders_mod.raw_salted_mutton": "Raw Salted Mutton",
@@ -8158,10 +8029,10 @@
       "item.new_borders_mod.shale_oil_bucket": "Shale Oil Bucket",
       "block.new_borders_mod.polished_slate_slab": "Polished Slate Slab",
       "item.new_borders_mod.cooked_salted_mutton": "Cooked Salted Mutton",
-      "item.new_borders_mod.candy": "Candy",
       "item.new_borders_mod.purple_berry_seeds": "Purple Berry Seeds",
       "block.new_borders_mod.babacu_phase_4": "Babacu Phase 3",
       "block.new_borders_mod.babacu_phase_3": "Babacu Phase 3",
+      "item.new_borders_mod.ruby_crystal": "Ruby Crystal",
       "block.new_borders_mod.babacu_phase_5": "Babacu Phase 5",
       "block.new_borders_mod.casio_keyboard_from_the_80s": "Casio Keyboard From The 80s",
       "biome.new_borders_mod.temperate_jungle": "Temperate Jungle",
@@ -8178,10 +8049,10 @@
       "entity.new_borders_mod.seagull_flying": "Seagull",
       "block.new_borders_mod.cut_polished_salt_brick_stairs": "Cut Polished Salt Brick Stairs",
       "item.new_borders_mod.gabbro_ashes": "Gabbro Ashes",
+      "item.new_borders_mod.ruby_sword": "Ruby Sword",
       "block.new_borders_mod.ipe_planks": "Ipe Planks",
       "block.new_borders_mod.polished_siltstone_stairs": "Polished Siltstone Stairs",
       "item.new_borders_mod.estrelar.desc": "Marcos Valle - Estrelar ",
-      "biome.new_borders_mod.candy_forest": "Candy Forest",
       "item.new_borders_mod.dia_d": "Dia D",
       "subtitles.frostbittensteps": "Footsteps",
       "advancements.what_a_jerk.title": "What a Jerk",
@@ -8251,7 +8122,6 @@
       "item.new_borders_mod.radar": "Radar",
       "block.new_borders_mod.nightstone_ore": "Nightstone Ore",
       "block.new_borders_mod.cherry_tree_slab": "Cherry Tree Slab",
-      "item.new_borders_mod.lollipop_essence": "Lollipop Essence",
       "item.new_borders_mod.sentinel_hard_disc": "Sentinel Hard Disc",
       "block.new_borders_mod.polished_limestone_brick_stairs": "Polished Limestone Brick Stairs",
       "advancements.nutraloaf.descr": "...I wouldn\u0027t eat that if I were you.",
@@ -8261,14 +8131,12 @@
       "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
       "item.new_borders_mod.cooked_salted_cod": "Cooked Salted Cod",
       "block.new_borders_mod.salt_ore": "Salt Ore",
-      "item.new_borders_mod.lollipop_charge": "Lollipop Charge",
       "item.new_borders_mod.zombie_jerky": "Zombie Jerky",
       "block.new_borders_mod.magma_brick_stairs": "Magma Brick Stairs",
       "item.new_borders_mod.viola_enluarada": "Viola Enluarada",
       "item.new_borders_mod.seagull_flying_spawn_egg": "Seagull Spawn Egg",
       "item.new_borders_mod.canary_bay": "Canary Bay",
       "block.new_borders_mod.cut_polished_salt_brick_slab": "Cut Polished Salt Brick Slab",
-      "item.new_borders_mod.candy_sword": "Candy Sword",
       "item.new_borders_mod.cobalt_armor_helmet": "Cobalt Helmet",
       "block.new_borders_mod.cobalt_door": "Cobalt Door",
       "block.new_borders_mod.siltstone": "Siltstone",
@@ -8280,9 +8148,9 @@
       "block.new_borders_mod.babacu_sapling": "Babacu Sapling",
       "advancements.guts_of_steel.descr": "You actually ate it???",
       "advancements.going_nuclear.descr": "You found a Cobalt Shard, let\u0027s see where this is going to end",
-      "block.new_borders_mod.candy_leaves": "Candy Leaves",
       "block.new_borders_mod.white_cherry_blossoms": "White Cherry Blossoms",
       "subtitles.frostbittenambient": "Frostbitten groans",
+      "block.new_borders_mod.ruby_ore": "Ruby Ore",
       "block.new_borders_mod.redwood_planks": "Redwood Planks",
       "block.new_borders_mod.polished_salt_block": "Polished Salt Block",
       "block.new_borders_mod.redwoodair_3": "Redwoodair 3",
@@ -8300,7 +8168,6 @@
       "block.new_borders_mod.snow_brick_stairs": "Snow Brick Stairs",
       "item.new_borders_mod.ice_shard": "Ice Shard",
       "subtitles.sentinel1": "Sentinel Chipset",
-      "block.new_borders_mod.big_candy_air": "Big Candy Air",
       "subtitles.sentinel2": "Cleaner Sentinel Chipset",
       "block.new_borders_mod.polished_siltstone_brick_slab": "Polished Siltstone Brick Slab",
       "item.new_borders_mod.heat_cannon": "Heat Cannon",
@@ -8308,7 +8175,6 @@
       "block.new_borders_mod.polished_salt_slab": "Polished Salt Slab",
       "advancements.seasoning_season.title": "Seasoning Season",
       "advancements.dia_d_hora_h.descr": "Brazilian disco is so good",
-      "block.new_borders_mod.candy_ore": "Candy Ore",
       "advancements.daft_punk.descr": "Look at this old casio keyboard from the 1980s i have found",
       "block.new_borders_mod.eucalyptus_leaves": "Eucalyptus Leaves",
       "item.new_borders_mod.bucket_of_shale_shards": "Bucket of Shale Shards",
@@ -8409,7 +8275,6 @@
       "item.new_borders_mod.unandium": "Unandium",
       "item.new_borders_mod.pinon_nut": "Pinon",
       "item.new_borders_mod.cobalt_60": "Cobalt 60",
-      "block.new_borders_mod.candy_log": "Candy Log",
       "item.new_borders_mod.cleaner_sentinel_spawn_egg": "Cleaner Sentinel Spawn Egg",
       "block.new_borders_mod.polished_siltstone_bricks": "Polished Siltstone Bricks",
       "biome.new_borders_mod.tropical_plains": "Tropical Plains",

@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "lollipop_essence",
+    "texture": "ruby",
     "customModelName": "Normal",
-    "name": "Lollipop Essence",
+    "name": "Ruby Crystal",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

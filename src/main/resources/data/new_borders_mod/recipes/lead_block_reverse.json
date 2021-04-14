@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "new_borders_mod:ipe_log"
+      "item": "new_borders_mod:lead_block"
     }
   ],
   "result": {
-    "item": "new_borders_mod:ipe_planks",
+    "item": "new_borders_mod:lead_ingot",
     "count": 4
   }
 }

@@ -45,7 +45,7 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 
 import net.mcreator.newbordersmod.procedures.StatueThisEntityKillsAnotherOneProcedure;
 import net.mcreator.newbordersmod.procedures.StatueRightClickedOnEntityProcedure;
-import net.mcreator.newbordersmod.item.LollipopChargeItem;
+import net.mcreator.newbordersmod.item.HeatCanonItem;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 import java.util.Map;
@@ -211,7 +211,7 @@ public class StatueEntity extends NewBordersModModElements.ModElement {
 		}
 
 		public void attackEntityWithRangedAttack(LivingEntity target, float flval) {
-			LollipopChargeItem.shoot(this, target);
+			HeatCanonItem.shoot(this, target);
 		}
 	}
 

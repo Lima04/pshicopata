@@ -109,7 +109,7 @@
     "rangedAttackItem": {
       "value": "CUSTOM:LollipopCharge"
     },
-    "rangedItemType": "LollipopCharge",
+    "rangedItemType": "HeatCanon",
     "spawnThisMob": false,
     "doesDespawnWhenIdle": false,
     "spawningProbability": 20,

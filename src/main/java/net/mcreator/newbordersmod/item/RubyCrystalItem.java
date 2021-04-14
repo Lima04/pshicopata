@@ -12,11 +12,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 @NewBordersModModElements.ModElement.Tag
-public class LollipopEssenceItem extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:lollipop_essence")
+public class RubyCrystalItem extends NewBordersModModElements.ModElement {
+	@ObjectHolder("new_borders_mod:ruby_crystal")
 	public static final Item block = null;
-	public LollipopEssenceItem(NewBordersModModElements instance) {
-		super(instance, 172);
+	public RubyCrystalItem(NewBordersModModElements instance) {
+		super(instance, 725);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class LollipopEssenceItem extends NewBordersModModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("lollipop_essence");
+			setRegistryName("ruby_crystal");
 		}
 
 		@Override

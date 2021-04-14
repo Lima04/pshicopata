@@ -3,14 +3,14 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "ruby_sword",
+    "texture": "topaz_shovel",
     "customModelName": "Normal",
-    "name": "Ruby Sword",
+    "name": "Topaz Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "TOOLS"
     },
-    "toolType": "Sword",
+    "toolType": "Spade",
     "harvestLevel": 2,
     "efficiency": 6.0,
     "attackSpeed": 1.0,

@@ -3,19 +3,19 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "ruby_sword",
+    "texture": "topaz_axe",
     "customModelName": "Normal",
-    "name": "Ruby Sword",
+    "name": "Topaz Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "TOOLS"
     },
-    "toolType": "Sword",
+    "toolType": "Axe",
     "harvestLevel": 2,
     "efficiency": 6.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 0.9,
     "enchantability": 10,
-    "damageVsEntity": 5.0,
+    "damageVsEntity": 9.0,
     "usageCount": 1561,
     "blocksAffected": [],
     "hasGlow": false,

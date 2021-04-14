@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:TopazCrystal"
       },
       {
-        "value": "CUSTOM:NightStoneGem"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:NightStoneGem"
-      },
-      {
-        "value": "CUSTOM:NightStoneGem"
-      },
-      {
-        "value": "CUSTOM:NightStoneGem"
+        "value": "CUSTOM:TopazCrystal"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.END_ROD"
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:NightSword"
+      "value": "CUSTOM:TopazHoe"
     },
-    "name": "night_sword_recipe",
+    "name": "topaz_hoe_recipe_1",
     "namespace": "mod"
   }
 }

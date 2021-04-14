@@ -26,7 +26,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.newbordersmod.item.RubyCrystalItem;
+import net.mcreator.newbordersmod.item.TopazCrystalItem;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 import java.util.Random;
@@ -34,11 +34,11 @@ import java.util.List;
 import java.util.Collections;
 
 @NewBordersModModElements.ModElement.Tag
-public class RubyOreBlock extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:ruby_ore")
+public class TopazOreBlock extends NewBordersModModElements.ModElement {
+	@ObjectHolder("new_borders_mod:topaz_ore")
 	public static final Block block = null;
-	public RubyOreBlock(NewBordersModModElements instance) {
-		super(instance, 95);
+	public TopazOreBlock(NewBordersModModElements instance) {
+		super(instance, 731);
 	}
 
 	@Override
@@ -50,7 +50,7 @@ public class RubyOreBlock extends NewBordersModModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0));
-			setRegistryName("ruby_ore");
+			setRegistryName("topaz_ore");
 		}
 
 		@Override
@@ -58,7 +58,7 @@ public class RubyOreBlock extends NewBordersModModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(RubyCrystalItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(TopazCrystalItem.block, (int) (1)));
 		}
 	}
 	@Override
@@ -75,7 +75,7 @@ public class RubyOreBlock extends NewBordersModModElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("ruby_ore", "ruby_ore", blockAt -> {
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("topaz_ore", "topaz_ore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;

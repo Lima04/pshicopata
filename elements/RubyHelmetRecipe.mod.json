@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:RubyCrystal"
       },
       {
-        "value": "CUSTOM:NightStoneGem"
+        "value": "CUSTOM:RubyCrystal"
       },
       {
-        "value": ""
+        "value": "CUSTOM:RubyCrystal"
       },
       {
-        "value": "CUSTOM:NightStoneGem"
-      },
-      {
-        "value": "CUSTOM:NightStoneGem"
-      },
-      {
-        "value": "CUSTOM:NightStoneGem"
+        "value": "CUSTOM:RubyCrystal"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.END_ROD"
+        "value": "CUSTOM:RubyCrystal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:NightSword"
+      "value": "CUSTOM:RubyArmor.helmet"
     },
-    "name": "night_sword_recipe",
+    "name": "ruby_helmet_recipe",
     "namespace": "mod"
   }
 }

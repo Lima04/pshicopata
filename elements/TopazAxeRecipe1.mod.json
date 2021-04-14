@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:NightStoneGem"
+        "value": "CUSTOM:TopazCrystal"
+      },
+      {
+        "value": "CUSTOM:TopazCrystal"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:NightStoneGem"
+        "value": "Items.STICK"
       },
       {
-        "value": "CUSTOM:NightStoneGem"
-      },
-      {
-        "value": "CUSTOM:NightStoneGem"
+        "value": "CUSTOM:TopazCrystal"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.END_ROD"
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:NightSword"
+      "value": "CUSTOM:TopazAxe"
     },
-    "name": "night_sword_recipe",
+    "name": "topaz_axe_recipe_1",
     "namespace": "mod"
   }
 }

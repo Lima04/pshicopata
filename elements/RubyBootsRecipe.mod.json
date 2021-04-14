@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:NightStoneGem"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:NightStoneGem"
-      },
-      {
-        "value": "CUSTOM:NightStoneGem"
-      },
-      {
-        "value": "CUSTOM:NightStoneGem"
+        "value": "CUSTOM:RubyCrystal"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.END_ROD"
+        "value": "CUSTOM:RubyCrystal"
+      },
+      {
+        "value": "CUSTOM:RubyCrystal"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:RubyCrystal"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:NightSword"
+      "value": "CUSTOM:RubyArmor.boots"
     },
-    "name": "night_sword_recipe",
+    "name": "ruby_boots_recipe",
     "namespace": "mod"
   }
 }

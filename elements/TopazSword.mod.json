@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "ruby_sword",
+    "texture": "topaz_sword",
     "customModelName": "Normal",
-    "name": "Ruby Sword",
+    "name": "Topaz Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"

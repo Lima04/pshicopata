@@ -27,7 +27,7 @@ public class SteppeBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:steppe")
 	public static final CustomBiome biome = null;
 	public SteppeBiome(NewBordersModModElements instance) {
-		super(instance, 278);
+		super(instance, 280);
 	}
 
 	@Override

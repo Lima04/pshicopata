@@ -12,7 +12,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class NightstoneOreEntityWalksOnTheBlockProcedure extends NewBordersModModElements.ModElement {
 	public NightstoneOreEntityWalksOnTheBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 416);
+		super(instance, 411);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -27,7 +27,7 @@ public class SnowyBlossomForestBiome extends NewBordersModModElements.ModElement
 	@ObjectHolder("new_borders_mod:snowy_blossom_forest")
 	public static final CustomBiome biome = null;
 	public SnowyBlossomForestBiome(NewBordersModModElements instance) {
-		super(instance, 411);
+		super(instance, 406);
 	}
 
 	@Override

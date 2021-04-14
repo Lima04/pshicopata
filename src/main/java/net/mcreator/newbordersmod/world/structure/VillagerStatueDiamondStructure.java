@@ -31,7 +31,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class VillagerStatueDiamondStructure extends NewBordersModModElements.ModElement {
 	public VillagerStatueDiamondStructure(NewBordersModModElements instance) {
-		super(instance, 608);
+		super(instance, 603);
 	}
 
 	@Override

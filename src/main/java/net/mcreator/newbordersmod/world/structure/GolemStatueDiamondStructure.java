@@ -31,7 +31,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class GolemStatueDiamondStructure extends NewBordersModModElements.ModElement {
 	public GolemStatueDiamondStructure(NewBordersModModElements instance) {
-		super(instance, 610);
+		super(instance, 605);
 	}
 
 	@Override

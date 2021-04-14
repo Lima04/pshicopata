@@ -56,7 +56,7 @@ import net.mcreator.newbordersmod.NewBordersModModElements;
 public class JungleSkeletonEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public JungleSkeletonEntity(NewBordersModModElements instance) {
-		super(instance, 202);
+		super(instance, 197);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -93,7 +93,7 @@ public class JungleSkeletonEntity extends NewBordersModModElements.ModElement {
 			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("new_borders_mod:textures/jungle_skeleton.png");
+					return new ResourceLocation("new_borders_mod:textures/jungle_skeleton2.png");
 				}
 			};
 			customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
@@ -123,15 +123,14 @@ public class JungleSkeletonEntity extends NewBordersModModElements.ModElement {
 		protected void registerGoals() {
 			super.registerGoals();
 			this.targetSelector.addGoal(1, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
-			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, true));
+			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, PlayerEntity.class, true, false));
 			this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, VillagerEntity.class, true, false));
 			this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ZombieEntity.class, true, false));
-			this.targetSelector.addGoal(5, new HurtByTargetGoal(this));
-			this.goalSelector.addGoal(6, new MeleeAttackGoal(this, 1.2, true));
-			this.goalSelector.addGoal(7, new AvoidEntityGoal(this, LlamaEntity.class, (float) 6, 1, 1.2));
-			this.goalSelector.addGoal(8, new RandomWalkingGoal(this, 1));
-			this.goalSelector.addGoal(9, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(10, new SwimGoal(this));
+			this.goalSelector.addGoal(5, new MeleeAttackGoal(this, 1.2, true));
+			this.goalSelector.addGoal(6, new AvoidEntityGoal(this, LlamaEntity.class, (float) 6, 1, 1.2));
+			this.goalSelector.addGoal(7, new RandomWalkingGoal(this, 1));
+			this.goalSelector.addGoal(8, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(9, new SwimGoal(this));
 		}
 
 		@Override

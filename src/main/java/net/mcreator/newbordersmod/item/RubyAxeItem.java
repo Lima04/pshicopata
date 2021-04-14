@@ -17,7 +17,7 @@ public class RubyAxeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ruby_axe")
 	public static final Item block = null;
 	public RubyAxeItem(NewBordersModModElements instance) {
-		super(instance, 730);
+		super(instance, 226);
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class RubyAxeItem extends NewBordersModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 5f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {

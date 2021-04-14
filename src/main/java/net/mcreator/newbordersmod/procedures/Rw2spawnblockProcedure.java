@@ -18,7 +18,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class Rw2spawnblockProcedure extends NewBordersModModElements.ModElement {
 	public Rw2spawnblockProcedure(NewBordersModModElements instance) {
-		super(instance, 246);
+		super(instance, 248);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

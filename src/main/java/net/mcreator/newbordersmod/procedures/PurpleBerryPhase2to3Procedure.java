@@ -13,7 +13,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class PurpleBerryPhase2to3Procedure extends NewBordersModModElements.ModElement {
 	public PurpleBerryPhase2to3Procedure(NewBordersModModElements instance) {
-		super(instance, 501);
+		super(instance, 496);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

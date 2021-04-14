@@ -17,7 +17,7 @@ public class RubyHoeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ruby_hoe")
 	public static final Item block = null;
 	public RubyHoeItem(NewBordersModModElements instance) {
-		super(instance, 732);
+		super(instance, 228);
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class RubyHoeItem extends NewBordersModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 5f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {

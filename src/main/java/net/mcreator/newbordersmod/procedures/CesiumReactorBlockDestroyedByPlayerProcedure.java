@@ -14,7 +14,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class CesiumReactorBlockDestroyedByPlayerProcedure extends NewBordersModModElements.ModElement {
 	public CesiumReactorBlockDestroyedByPlayerProcedure(NewBordersModModElements instance) {
-		super(instance, 481);
+		super(instance, 476);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

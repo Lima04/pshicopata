@@ -17,7 +17,7 @@ public class SaltedSteakItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:salted_steak")
 	public static final Item block = null;
 	public SaltedSteakItem(NewBordersModModElements instance) {
-		super(instance, 129);
+		super(instance, 124);
 	}
 
 	@Override

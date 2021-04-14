@@ -58,7 +58,7 @@ public class WasteWaterBlock extends NewBordersModModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public WasteWaterBlock(NewBordersModModElements instance) {
-		super(instance, 171);
+		super(instance, 166);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

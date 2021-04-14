@@ -17,7 +17,7 @@ public class CobaltHoeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cobalt_hoe")
 	public static final Item block = null;
 	public CobaltHoeItem(NewBordersModModElements instance) {
-		super(instance, 226);
+		super(instance, 224);
 	}
 
 	@Override

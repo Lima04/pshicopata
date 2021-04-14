@@ -31,7 +31,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class AbandonedFactoryStructure extends NewBordersModModElements.ModElement {
 	public AbandonedFactoryStructure(NewBordersModModElements instance) {
-		super(instance, 312);
+		super(instance, 314);
 	}
 
 	@Override

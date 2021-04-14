@@ -12,7 +12,7 @@ import net.mcreator.newbordersmod.NewBordersModModElements;
 @NewBordersModModElements.ModElement.Tag
 public class FifodaPainting extends NewBordersModModElements.ModElement {
 	public FifodaPainting(NewBordersModModElements instance) {
-		super(instance, 597);
+		super(instance, 592);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

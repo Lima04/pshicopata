@@ -17,7 +17,7 @@ public class CookedSaltedSalmonItem extends NewBordersModModElements.ModElement 
 	@ObjectHolder("new_borders_mod:cooked_salted_salmon")
 	public static final Item block = null;
 	public CookedSaltedSalmonItem(NewBordersModModElements instance) {
-		super(instance, 127);
+		super(instance, 122);
 	}
 
 	@Override

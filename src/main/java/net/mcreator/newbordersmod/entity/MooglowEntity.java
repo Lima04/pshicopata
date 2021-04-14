@@ -19,16 +19,15 @@ import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.entity.passive.CowEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
-import net.minecraft.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.entity.ai.goal.PanicGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
-import net.minecraft.entity.ai.goal.HurtByTargetGoal;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.client.renderer.entity.model.CowModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
@@ -40,7 +39,7 @@ import net.mcreator.newbordersmod.NewBordersModModElements;
 public class MooglowEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public MooglowEntity(NewBordersModModElements instance) {
-		super(instance, 190);
+		super(instance, 185);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -64,7 +63,7 @@ public class MooglowEntity extends NewBordersModModElements.ModElement {
 			}
 		});
 	}
-	public static class CustomEntity extends CowEntity {
+	public static class CustomEntity extends CreatureEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -84,11 +83,10 @@ public class MooglowEntity extends NewBordersModModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false));
-			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 1));
-			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(5, new SwimGoal(this));
+			this.goalSelector.addGoal(1, new RandomWalkingGoal(this, 1));
+			this.goalSelector.addGoal(2, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(3, new SwimGoal(this));
+			this.goalSelector.addGoal(4, new PanicGoal(this, 1));
 		}
 
 		@Override

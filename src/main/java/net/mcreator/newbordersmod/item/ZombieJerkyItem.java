@@ -23,7 +23,7 @@ public class ZombieJerkyItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:zombie_jerky")
 	public static final Item block = null;
 	public ZombieJerkyItem(NewBordersModModElements instance) {
-		super(instance, 133);
+		super(instance, 128);
 	}
 
 	@Override

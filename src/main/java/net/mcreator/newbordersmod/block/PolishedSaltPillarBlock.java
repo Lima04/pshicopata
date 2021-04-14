@@ -25,7 +25,7 @@ public class PolishedSaltPillarBlock extends NewBordersModModElements.ModElement
 	@ObjectHolder("new_borders_mod:polished_salt_pillar")
 	public static final Block block = null;
 	public PolishedSaltPillarBlock(NewBordersModModElements instance) {
-		super(instance, 50);
+		super(instance, 47);
 	}
 
 	@Override

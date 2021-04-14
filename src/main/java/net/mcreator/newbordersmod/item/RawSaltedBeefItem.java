@@ -17,7 +17,7 @@ public class RawSaltedBeefItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:raw_salted_beef")
 	public static final Item block = null;
 	public RawSaltedBeefItem(NewBordersModModElements instance) {
-		super(instance, 128);
+		super(instance, 123);
 	}
 
 	@Override

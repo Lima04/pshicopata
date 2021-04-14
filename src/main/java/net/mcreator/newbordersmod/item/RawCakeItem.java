@@ -16,7 +16,7 @@ public class RawCakeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:raw_cake")
 	public static final Item block = null;
 	public RawCakeItem(NewBordersModModElements instance) {
-		super(instance, 146);
+		super(instance, 141);
 	}
 
 	@Override

@@ -13,7 +13,7 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "glass_door_item",
     "particleTexture": "",
     "blockBase": "Door",
     "hasTransparency": true,

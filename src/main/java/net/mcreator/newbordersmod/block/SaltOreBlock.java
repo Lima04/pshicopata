@@ -34,7 +34,7 @@ public class SaltOreBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:salt_ore")
 	public static final Block block = null;
 	public SaltOreBlock(NewBordersModModElements instance) {
-		super(instance, 25);
+		super(instance, 22);
 	}
 
 	@Override

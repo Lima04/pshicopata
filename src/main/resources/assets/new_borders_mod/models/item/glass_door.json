@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "new_borders_mod:blocks/glass_door_bototm"
+    "layer0": "new_borders_mod:items/glass_door_item"
   }
 }

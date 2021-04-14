@@ -13,7 +13,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class PurpleBerryPlantUpdateTickProcedure extends NewBordersModModElements.ModElement {
 	public PurpleBerryPlantUpdateTickProcedure(NewBordersModModElements instance) {
-		super(instance, 364);
+		super(instance, 359);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -33,7 +33,7 @@ public class IpairBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ipe_air")
 	public static final Block block = null;
 	public IpairBlock(NewBordersModModElements instance) {
-		super(instance, 265);
+		super(instance, 267);
 	}
 
 	@Override

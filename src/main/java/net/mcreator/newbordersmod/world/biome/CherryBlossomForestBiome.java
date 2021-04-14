@@ -28,7 +28,7 @@ public class CherryBlossomForestBiome extends NewBordersModModElements.ModElemen
 	@ObjectHolder("new_borders_mod:cherry_blossom_forest")
 	public static final CustomBiome biome = null;
 	public CherryBlossomForestBiome(NewBordersModModElements instance) {
-		super(instance, 356);
+		super(instance, 351);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class NightSwordItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:night_sword")
 	public static final Item block = null;
 	public NightSwordItem(NewBordersModModElements instance) {
-		super(instance, 214);
+		super(instance, 211);
 	}
 
 	@Override

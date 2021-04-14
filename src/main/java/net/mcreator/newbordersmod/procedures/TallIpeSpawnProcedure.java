@@ -18,7 +18,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class TallIpeSpawnProcedure extends NewBordersModModElements.ModElement {
 	public TallIpeSpawnProcedure(NewBordersModModElements instance) {
-		super(instance, 272);
+		super(instance, 274);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

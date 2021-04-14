@@ -8,21 +8,21 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.AxeItem;
+import net.minecraft.item.HoeItem;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 @NewBordersModModElements.ModElement.Tag
-public class RubySwordItem extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:ruby_sword")
+public class RubyHoeItem extends NewBordersModModElements.ModElement {
+	@ObjectHolder("new_borders_mod:ruby_hoe")
 	public static final Item block = null;
-	public RubySwordItem(NewBordersModModElements instance) {
-		super(instance, 727);
+	public RubyHoeItem(NewBordersModModElements instance) {
+		super(instance, 732);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new AxeItem(new IItemTier() {
+		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
 				return 1561;
 			}
@@ -32,7 +32,7 @@ public class RubySwordItem extends NewBordersModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 5f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class RubySwordItem extends NewBordersModModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(RubyCrystalItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-		}.setRegistryName("ruby_sword"));
+		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}.setRegistryName("ruby_hoe"));
 	}
 }

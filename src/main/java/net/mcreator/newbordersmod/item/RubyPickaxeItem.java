@@ -4,25 +4,25 @@ package net.mcreator.newbordersmod.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.AxeItem;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 @NewBordersModModElements.ModElement.Tag
-public class RubySwordItem extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:ruby_sword")
+public class RubyPickaxeItem extends NewBordersModModElements.ModElement {
+	@ObjectHolder("new_borders_mod:ruby_pickaxe")
 	public static final Item block = null;
-	public RubySwordItem(NewBordersModModElements instance) {
-		super(instance, 727);
+	public RubyPickaxeItem(NewBordersModModElements instance) {
+		super(instance, 731);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new AxeItem(new IItemTier() {
+		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
 				return 1561;
 			}
@@ -32,7 +32,7 @@ public class RubySwordItem extends NewBordersModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 5f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,6 +47,6 @@ public class RubySwordItem extends NewBordersModModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(RubyCrystalItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-		}.setRegistryName("ruby_sword"));
+		}.setRegistryName("ruby_pickaxe"));
 	}
 }

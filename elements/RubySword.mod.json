@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "licoricesword",
+    "texture": "ruby_sword",
     "customModelName": "Normal",
-    "name": "Candy Sword",
+    "name": "Ruby Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
     },
     "toolType": "Sword",
-    "harvestLevel": 1,
-    "efficiency": 4.0,
+    "harvestLevel": 2,
+    "efficiency": 6.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 3.5,
-    "usageCount": 300,
+    "damageVsEntity": 6.5,
+    "usageCount": 1561,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:Candy"
+        "value": "CUSTOM:RubyCrystal"
       }
     ],
     "stayInGridWhenCrafting": false,

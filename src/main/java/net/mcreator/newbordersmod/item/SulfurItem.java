@@ -16,7 +16,7 @@ public class SulfurItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:sulfur")
 	public static final Item block = null;
 	public SulfurItem(NewBordersModModElements instance) {
-		super(instance, 187);
+		super(instance, 188);
 	}
 
 	@Override

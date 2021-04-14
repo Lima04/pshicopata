@@ -1,5 +1,5 @@
 {
-  "parent": "new_borders_mod:block/candy_log",
+  "parent": "new_borders_mod:block/ruby_ore",
   "display": {
     "thirdperson": {
       "rotation": [

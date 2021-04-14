@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "new_borders_mod:blocks/vazio",
-    "particle": "new_borders_mod:blocks/vazio"
-  }
-}

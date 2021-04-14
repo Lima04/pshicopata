@@ -47,7 +47,7 @@
     "material": {
       "value": "PLANTS"
     },
-    "tickRate": 10,
+    "tickRate": 1200,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",

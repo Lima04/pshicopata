@@ -5,15 +5,15 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:IpeLog"
+        "value": "CUSTOM:SunstoneGem"
       },
       {
         "value": ""
@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:SunstoneGem"
       },
       {
         "value": ""
@@ -31,16 +31,16 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.BLAZE_ROD"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:IpePlanks"
+      "value": "CUSTOM:SunSword"
     },
-    "name": "ipe_planks_recipe",
+    "name": "sun_sword_recipe",
     "namespace": "mod"
   }
 }

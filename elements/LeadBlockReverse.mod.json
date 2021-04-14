@@ -5,24 +5,15 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 4,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Candy"
-      },
-      {
         "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Candy"
       },
       {
         "value": ""
@@ -31,16 +22,25 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Licorice"
+        "value": "CUSTOM:LeadBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LicoriceSword"
+      "value": "CUSTOM:LeadIngot"
     },
-    "name": "licorice_sword_recipe",
+    "name": "lead_block_reverse",
     "namespace": "mod"
   }
 }

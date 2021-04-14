@@ -8,17 +8,17 @@
   ],
   "key": {
     "0": {
-      "item": "new_borders_mod:candy"
+      "item": "new_borders_mod:sunstone_gem"
     },
     "1": {
-      "item": "new_borders_mod:candy"
+      "item": "new_borders_mod:sunstone_gem"
     },
     "2": {
-      "item": "new_borders_mod:licorice"
+      "item": "minecraft:blaze_rod"
     }
   },
   "result": {
-    "item": "new_borders_mod:candy_sword",
+    "item": "new_borders_mod:sun_sword",
     "count": 1
   }
 }

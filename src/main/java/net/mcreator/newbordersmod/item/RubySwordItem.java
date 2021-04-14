@@ -13,30 +13,30 @@ import net.minecraft.item.IItemTier;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
 @NewBordersModModElements.ModElement.Tag
-public class LicoriceSwordItem extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:candy_sword")
+public class RubySwordItem extends NewBordersModModElements.ModElement {
+	@ObjectHolder("new_borders_mod:ruby_sword")
 	public static final Item block = null;
-	public LicoriceSwordItem(NewBordersModModElements instance) {
-		super(instance, 213);
+	public RubySwordItem(NewBordersModModElements instance) {
+		super(instance, 727);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 300;
+				return 1561;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 6f;
 			}
 
 			public float getAttackDamage() {
-				return 1.5f;
+				return 4.5f;
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 2;
 			}
 
 			public int getEnchantability() {
@@ -44,9 +44,9 @@ public class LicoriceSwordItem extends NewBordersModModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(CandyItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(RubyCrystalItem.block, (int) (1)));
 			}
 		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
-		}.setRegistryName("candy_sword"));
+		}.setRegistryName("ruby_sword"));
 	}
 }

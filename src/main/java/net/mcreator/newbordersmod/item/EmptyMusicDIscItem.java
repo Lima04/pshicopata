@@ -16,7 +16,7 @@ public class EmptyMusicDIscItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:empty_music_d_isc")
 	public static final Item block = null;
 	public EmptyMusicDIscItem(NewBordersModModElements instance) {
-		super(instance, 150);
+		super(instance, 149);
 	}
 
 	@Override

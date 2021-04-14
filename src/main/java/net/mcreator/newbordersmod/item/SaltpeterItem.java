@@ -16,7 +16,7 @@ public class SaltpeterItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:saltpeter")
 	public static final Item block = null;
 	public SaltpeterItem(NewBordersModModElements instance) {
-		super(instance, 184);
+		super(instance, 188);
 	}
 
 	@Override

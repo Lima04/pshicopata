@@ -29,7 +29,7 @@ public class RubyArmorItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ruby_armor_boots")
 	public static final Item boots = null;
 	public RubyArmorItem(NewBordersModModElements instance) {
-		super(instance, 220);
+		super(instance, 228);
 	}
 
 	@Override

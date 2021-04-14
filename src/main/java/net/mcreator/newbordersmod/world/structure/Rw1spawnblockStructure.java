@@ -36,7 +36,7 @@ import java.util.HashMap;
 @NewBordersModModElements.ModElement.Tag
 public class Rw1spawnblockStructure extends NewBordersModModElements.ModElement {
 	public Rw1spawnblockStructure(NewBordersModModElements instance) {
-		super(instance, 245);
+		super(instance, 256);
 	}
 
 	@Override

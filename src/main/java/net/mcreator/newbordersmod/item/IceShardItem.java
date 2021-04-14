@@ -16,7 +16,7 @@ public class IceShardItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ice_shard")
 	public static final Item block = null;
 	public IceShardItem(NewBordersModModElements instance) {
-		super(instance, 168);
+		super(instance, 171);
 	}
 
 	@Override

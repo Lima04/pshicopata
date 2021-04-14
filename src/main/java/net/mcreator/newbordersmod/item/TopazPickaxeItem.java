@@ -17,7 +17,7 @@ public class TopazPickaxeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:topaz_pickaxe")
 	public static final Item block = null;
 	public TopazPickaxeItem(NewBordersModModElements instance) {
-		super(instance, 734);
+		super(instance, 237);
 	}
 
 	@Override
@@ -44,7 +44,7 @@ public class TopazPickaxeItem extends NewBordersModModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(RubyCrystalItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(TopazCrystalItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("topaz_pickaxe"));

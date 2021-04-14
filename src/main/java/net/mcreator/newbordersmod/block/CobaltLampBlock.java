@@ -26,7 +26,7 @@ public class CobaltLampBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cobalt_lamp")
 	public static final Block block = null;
 	public CobaltLampBlock(NewBordersModModElements instance) {
-		super(instance, 34);
+		super(instance, 40);
 	}
 
 	@Override

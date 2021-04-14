@@ -26,7 +26,7 @@ public class BrownRiverBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:brown_river")
 	public static final CustomBiome biome = null;
 	public BrownRiverBiome(NewBordersModModElements instance) {
-		super(instance, 399);
+		super(instance, 410);
 	}
 
 	@Override

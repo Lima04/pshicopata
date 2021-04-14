@@ -26,7 +26,7 @@ public class SlateSlabBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:slate_slab")
 	public static final Block block = null;
 	public SlateSlabBlock(NewBordersModModElements instance) {
-		super(instance, 83);
+		super(instance, 89);
 	}
 
 	@Override

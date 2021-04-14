@@ -31,7 +31,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class VillagerStatueStructure extends NewBordersModModElements.ModElement {
 	public VillagerStatueStructure(NewBordersModModElements instance) {
-		super(instance, 599);
+		super(instance, 610);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class RawSaltedSalmonItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:raw_salted_salmon")
 	public static final Item block = null;
 	public RawSaltedSalmonItem(NewBordersModModElements instance) {
-		super(instance, 121);
+		super(instance, 124);
 	}
 
 	@Override

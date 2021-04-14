@@ -22,7 +22,7 @@ public class BlockOfSaltBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:block_of_salt")
 	public static final Block block = null;
 	public BlockOfSaltBlock(NewBordersModModElements instance) {
-		super(instance, 40);
+		super(instance, 46);
 	}
 
 	@Override

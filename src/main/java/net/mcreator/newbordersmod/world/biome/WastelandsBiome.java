@@ -22,7 +22,7 @@ public class WastelandsBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:wastelands")
 	public static final CustomBiome biome = null;
 	public WastelandsBiome(NewBordersModModElements instance) {
-		super(instance, 499);
+		super(instance, 510);
 	}
 
 	@Override

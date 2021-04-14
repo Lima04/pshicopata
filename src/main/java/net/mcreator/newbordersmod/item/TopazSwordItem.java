@@ -17,7 +17,7 @@ public class TopazSwordItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:topaz_sword")
 	public static final Item block = null;
 	public TopazSwordItem(NewBordersModModElements instance) {
-		super(instance, 732);
+		super(instance, 222);
 	}
 
 	@Override
@@ -44,7 +44,7 @@ public class TopazSwordItem extends NewBordersModModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(RubyCrystalItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(TopazCrystalItem.block, (int) (1)));
 			}
 		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("topaz_sword"));

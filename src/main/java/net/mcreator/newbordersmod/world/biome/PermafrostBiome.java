@@ -29,7 +29,7 @@ public class PermafrostBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:permafrost")
 	public static final CustomBiome biome = null;
 	public PermafrostBiome(NewBordersModModElements instance) {
-		super(instance, 339);
+		super(instance, 350);
 	}
 
 	@Override

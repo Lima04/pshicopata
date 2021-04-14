@@ -9,7 +9,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class SunstoneOreEntityWalksOnTheBlockProcedure extends NewBordersModModElements.ModElement {
 	public SunstoneOreEntityWalksOnTheBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 428);
+		super(instance, 439);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

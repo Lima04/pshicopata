@@ -4,6 +4,7 @@ package net.mcreator.newbordersmod.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.gen.placement.Placement;
@@ -38,7 +39,7 @@ public class TopazOreBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:topaz_ore")
 	public static final Block block = null;
 	public TopazOreBlock(NewBordersModModElements instance) {
-		super(instance, 731);
+		super(instance, 26);
 	}
 
 	@Override
@@ -49,7 +50,8 @@ public class TopazOreBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(2)
+					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("topaz_ore");
 		}
 

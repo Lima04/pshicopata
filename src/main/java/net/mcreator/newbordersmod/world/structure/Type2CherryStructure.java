@@ -36,7 +36,7 @@ import java.util.HashMap;
 @NewBordersModModElements.ModElement.Tag
 public class Type2CherryStructure extends NewBordersModModElements.ModElement {
 	public Type2CherryStructure(NewBordersModModElements instance) {
-		super(instance, 684);
+		super(instance, 695);
 	}
 
 	@Override

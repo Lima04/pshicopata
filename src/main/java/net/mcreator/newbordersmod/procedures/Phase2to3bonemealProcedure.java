@@ -19,7 +19,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class Phase2to3bonemealProcedure extends NewBordersModModElements.ModElement {
 	public Phase2to3bonemealProcedure(NewBordersModModElements instance) {
-		super(instance, 497);
+		super(instance, 508);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

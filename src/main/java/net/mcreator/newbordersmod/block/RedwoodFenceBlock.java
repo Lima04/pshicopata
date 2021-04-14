@@ -34,7 +34,7 @@ public class RedwoodFenceBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:redwood_fence")
 	public static final Block block = null;
 	public RedwoodFenceBlock(NewBordersModModElements instance) {
-		super(instance, 109);
+		super(instance, 112);
 	}
 
 	@Override

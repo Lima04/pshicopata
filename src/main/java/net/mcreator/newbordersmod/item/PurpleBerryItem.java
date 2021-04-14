@@ -23,7 +23,7 @@ public class PurpleBerryItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:purple_berry")
 	public static final Item block = null;
 	public PurpleBerryItem(NewBordersModModElements instance) {
-		super(instance, 115);
+		super(instance, 118);
 	}
 
 	@Override

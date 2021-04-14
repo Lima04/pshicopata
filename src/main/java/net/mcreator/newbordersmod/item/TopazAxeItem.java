@@ -17,7 +17,7 @@ public class TopazAxeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:topaz_axe")
 	public static final Item block = null;
 	public TopazAxeItem(NewBordersModModElements instance) {
-		super(instance, 733);
+		super(instance, 238);
 	}
 
 	@Override
@@ -44,7 +44,7 @@ public class TopazAxeItem extends NewBordersModModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(RubyCrystalItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(TopazCrystalItem.block, (int) (1)));
 			}
 		}, 1, -3.1f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("topaz_axe"));

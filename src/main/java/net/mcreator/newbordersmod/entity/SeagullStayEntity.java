@@ -45,7 +45,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class SeagullStayEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public SeagullStayEntity(NewBordersModModElements instance) {
-		super(instance, 189);
+		super(instance, 193);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

@@ -17,7 +17,7 @@ public class CookedPinonItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cooked_pinon")
 	public static final Item block = null;
 	public CookedPinonItem(NewBordersModModElements instance) {
-		super(instance, 114);
+		super(instance, 117);
 	}
 
 	@Override

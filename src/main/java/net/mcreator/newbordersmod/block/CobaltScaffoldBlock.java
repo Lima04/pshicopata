@@ -33,7 +33,7 @@ public class CobaltScaffoldBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cobalt_scaffold")
 	public static final Block block = null;
 	public CobaltScaffoldBlock(NewBordersModModElements instance) {
-		super(instance, 32);
+		super(instance, 38);
 	}
 
 	@Override

@@ -31,7 +31,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class IpeStructure extends NewBordersModModElements.ModElement {
 	public IpeStructure(NewBordersModModElements instance) {
-		super(instance, 269);
+		super(instance, 280);
 	}
 
 	@Override

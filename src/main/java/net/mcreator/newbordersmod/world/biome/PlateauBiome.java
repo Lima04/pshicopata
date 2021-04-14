@@ -33,7 +33,7 @@ public class PlateauBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:plateau")
 	public static final CustomBiome biome = null;
 	public PlateauBiome(NewBordersModModElements instance) {
-		super(instance, 254);
+		super(instance, 265);
 	}
 
 	@Override

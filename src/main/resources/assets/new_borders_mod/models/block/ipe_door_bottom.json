@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "new_borders_mod:blocks/ipe_door_bottom",
+    "top": "new_borders_mod:blocks/ipe_door_top"
+  }
+}

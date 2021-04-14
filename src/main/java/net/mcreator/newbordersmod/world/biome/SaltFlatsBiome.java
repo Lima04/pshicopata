@@ -26,7 +26,7 @@ public class SaltFlatsBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:salt_flats")
 	public static final CustomBiome biome = null;
 	public SaltFlatsBiome(NewBordersModModElements instance) {
-		super(instance, 438);
+		super(instance, 449);
 	}
 
 	@Override

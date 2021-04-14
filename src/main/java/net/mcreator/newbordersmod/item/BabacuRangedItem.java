@@ -44,7 +44,7 @@ public class BabacuRangedItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:entitybulletbabacu_ranged")
 	public static final EntityType arrow = null;
 	public BabacuRangedItem(NewBordersModModElements instance) {
-		super(instance, 216);
+		super(instance, 224);
 	}
 
 	@Override

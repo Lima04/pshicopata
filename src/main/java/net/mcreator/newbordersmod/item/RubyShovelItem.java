@@ -17,7 +17,7 @@ public class RubyShovelItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ruby_shovel")
 	public static final Item block = null;
 	public RubyShovelItem(NewBordersModModElements instance) {
-		super(instance, 227);
+		super(instance, 235);
 	}
 
 	@Override

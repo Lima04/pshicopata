@@ -47,7 +47,7 @@ public class GlowshroomBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:glowshroom")
 	public static final Block block = null;
 	public GlowshroomBlock(NewBordersModModElements instance) {
-		super(instance, 108);
+		super(instance, 111);
 	}
 
 	@Override

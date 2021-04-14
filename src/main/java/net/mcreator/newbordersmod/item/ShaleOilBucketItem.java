@@ -17,7 +17,7 @@ public class ShaleOilBucketItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:shale_oil_bucket")
 	public static final Item block = null;
 	public ShaleOilBucketItem(NewBordersModModElements instance) {
-		super(instance, 200);
+		super(instance, 204);
 	}
 
 	@Override

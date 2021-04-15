@@ -26,7 +26,7 @@ public class PurpleBerrySeedsItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:purple_berry_seeds")
 	public static final Item block = null;
 	public PurpleBerrySeedsItem(NewBordersModModElements instance) {
-		super(instance, 181);
+		super(instance, 187);
 	}
 
 	@Override

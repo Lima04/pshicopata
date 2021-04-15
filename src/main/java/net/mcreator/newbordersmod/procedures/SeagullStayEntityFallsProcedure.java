@@ -17,7 +17,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class SeagullStayEntityFallsProcedure extends NewBordersModModElements.ModElement {
 	public SeagullStayEntityFallsProcedure(NewBordersModModElements instance) {
-		super(instance, 355);
+		super(instance, 365);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

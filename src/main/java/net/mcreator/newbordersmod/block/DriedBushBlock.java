@@ -30,7 +30,7 @@ public class DriedBushBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:dried_bush")
 	public static final Block block = null;
 	public DriedBushBlock(NewBordersModModElements instance) {
-		super(instance, 105);
+		super(instance, 111);
 	}
 
 	@Override

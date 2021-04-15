@@ -16,7 +16,7 @@ public class SunstoneGemItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:sunstone_gem")
 	public static final Item block = null;
 	public SunstoneGemItem(NewBordersModModElements instance) {
-		super(instance, 173);
+		super(instance, 179);
 	}
 
 	@Override

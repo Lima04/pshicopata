@@ -50,7 +50,7 @@ public class CyanRoseBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cyan_rose")
 	public static final Block block = null;
 	public CyanRoseBlock(NewBordersModModElements instance) {
-		super(instance, 110);
+		super(instance, 116);
 	}
 
 	@Override

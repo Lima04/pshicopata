@@ -29,7 +29,7 @@ public class IpeFenceBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ipe_fence")
 	public static final Block block = null;
 	public IpeFenceBlock(NewBordersModModElements instance) {
-		super(instance, 113);
+		super(instance, 119);
 	}
 
 	@Override

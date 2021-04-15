@@ -58,7 +58,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class StatueEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public StatueEntity(NewBordersModModElements instance) {
-		super(instance, 199);
+		super(instance, 205);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

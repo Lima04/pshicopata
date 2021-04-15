@@ -53,7 +53,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class AntiPhantomMissileBatteryEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public AntiPhantomMissileBatteryEntity(NewBordersModModElements instance) {
-		super(instance, 190);
+		super(instance, 196);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

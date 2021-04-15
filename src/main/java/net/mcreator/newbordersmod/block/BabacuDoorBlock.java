@@ -32,7 +32,7 @@ public class BabacuDoorBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_door")
 	public static final Block block = null;
 	public BabacuDoorBlock(NewBordersModModElements instance) {
-		super(instance, 209);
+		super(instance, 216);
 	}
 
 	@Override

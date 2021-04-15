@@ -18,7 +18,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class Rw1spawnblockAdditionalGenerationConditionProcedure extends NewBordersModModElements.ModElement {
 	public Rw1spawnblockAdditionalGenerationConditionProcedure(NewBordersModModElements instance) {
-		super(instance, 257);
+		super(instance, 267);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

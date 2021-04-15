@@ -13,7 +13,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class CesiumReactorBlockDestroyedByExplosionProcedure extends NewBordersModModElements.ModElement {
 	public CesiumReactorBlockDestroyedByExplosionProcedure(NewBordersModModElements instance) {
-		super(instance, 486);
+		super(instance, 496);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

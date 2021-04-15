@@ -13,7 +13,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class PinonNeighbourBlockChangesProcedure extends NewBordersModModElements.ModElement {
 	public PinonNeighbourBlockChangesProcedure(NewBordersModModElements instance) {
-		super(instance, 253);
+		super(instance, 263);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -16,7 +16,7 @@ public class PinonNutItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:pinon_nut")
 	public static final Item block = null;
 	public PinonNutItem(NewBordersModModElements instance) {
-		super(instance, 116);
+		super(instance, 122);
 	}
 
 	@Override

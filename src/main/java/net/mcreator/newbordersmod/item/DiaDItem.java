@@ -16,7 +16,7 @@ public class DiaDItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:dia_d")
 	public static final Item block = null;
 	public DiaDItem(NewBordersModModElements instance) {
-		super(instance, 155);
+		super(instance, 161);
 	}
 
 	@Override

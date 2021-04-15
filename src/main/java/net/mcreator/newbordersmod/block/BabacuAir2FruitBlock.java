@@ -29,7 +29,7 @@ public class BabacuAir2FruitBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_air_2_fruit")
 	public static final Block block = null;
 	public BabacuAir2FruitBlock(NewBordersModModElements instance) {
-		super(instance, 407);
+		super(instance, 417);
 	}
 
 	@Override

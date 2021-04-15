@@ -16,7 +16,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class PurpleBerryPlantBerryOnBlockRightClickedProcedure extends NewBordersModModElements.ModElement {
 	public PurpleBerryPlantBerryOnBlockRightClickedProcedure(NewBordersModModElements instance) {
-		super(instance, 371);
+		super(instance, 381);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -54,6 +54,18 @@ public class PurpleBerryPlantBerryOnBlockRightClickedProcedure extends NewBorder
 					_bs = _bs.with(_property, (Comparable) entry.getValue());
 			}
 			world.setBlockState(_bp, _bs, 3);
+		}
+		if (!world.getWorld().isRemote) {
+			ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(PurpleBerryItem.block, (int) (1)));
+			entityToSpawn.setPickupDelay((int) 0);
+			entityToSpawn.setNoDespawn();
+			world.addEntity(entityToSpawn);
+		}
+		if (!world.getWorld().isRemote) {
+			ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(PurpleBerryItem.block, (int) (1)));
+			entityToSpawn.setPickupDelay((int) 0);
+			entityToSpawn.setNoDespawn();
+			world.addEntity(entityToSpawn);
 		}
 		if (!world.getWorld().isRemote) {
 			ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(PurpleBerryItem.block, (int) (1)));

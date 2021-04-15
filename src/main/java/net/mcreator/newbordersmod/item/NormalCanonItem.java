@@ -48,7 +48,7 @@ public class NormalCanonItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:entitybulletnormal_canon")
 	public static final EntityType arrow = null;
 	public NormalCanonItem(NewBordersModModElements instance) {
-		super(instance, 225);
+		super(instance, 235);
 	}
 
 	@Override

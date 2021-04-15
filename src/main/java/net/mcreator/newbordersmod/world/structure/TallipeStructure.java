@@ -31,7 +31,7 @@ import java.util.Random;
 @NewBordersModModElements.ModElement.Tag
 public class TallipeStructure extends NewBordersModModElements.ModElement {
 	public TallipeStructure(NewBordersModModElements instance) {
-		super(instance, 283);
+		super(instance, 293);
 	}
 
 	@Override

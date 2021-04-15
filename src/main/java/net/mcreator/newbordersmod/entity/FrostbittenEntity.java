@@ -45,7 +45,7 @@ import net.mcreator.newbordersmod.NewBordersModModElements;
 public class FrostbittenEntity extends NewBordersModModElements.ModElement {
 	public static EntityType entity = null;
 	public FrostbittenEntity(NewBordersModModElements instance) {
-		super(instance, 195);
+		super(instance, 201);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

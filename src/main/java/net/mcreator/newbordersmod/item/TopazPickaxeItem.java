@@ -17,7 +17,7 @@ public class TopazPickaxeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:topaz_pickaxe")
 	public static final Item block = null;
 	public TopazPickaxeItem(NewBordersModModElements instance) {
-		super(instance, 237);
+		super(instance, 248);
 	}
 
 	@Override

@@ -13,7 +13,7 @@ import net.mcreator.newbordersmod.NewBordersModModElements;
 @NewBordersModModElements.ModElement.Tag
 public class ShaleOilFuel extends NewBordersModModElements.ModElement {
 	public ShaleOilFuel(NewBordersModModElements instance) {
-		super(instance, 722);
+		super(instance, 731);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

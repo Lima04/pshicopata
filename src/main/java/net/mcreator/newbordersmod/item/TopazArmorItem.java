@@ -29,7 +29,7 @@ public class TopazArmorItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:topaz_armor_boots")
 	public static final Item boots = null;
 	public TopazArmorItem(NewBordersModModElements instance) {
-		super(instance, 757);
+		super(instance, 239);
 	}
 
 	@Override

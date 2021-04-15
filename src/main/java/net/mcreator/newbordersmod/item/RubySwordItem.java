@@ -17,7 +17,7 @@ public class RubySwordItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ruby_sword")
 	public static final Item block = null;
 	public RubySwordItem(NewBordersModModElements instance) {
-		super(instance, 214);
+		super(instance, 231);
 	}
 
 	@Override

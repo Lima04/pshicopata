@@ -17,7 +17,7 @@ public class RubyHoeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ruby_hoe")
 	public static final Item block = null;
 	public RubyHoeItem(NewBordersModModElements instance) {
-		super(instance, 236);
+		super(instance, 247);
 	}
 
 	@Override

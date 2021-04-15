@@ -44,7 +44,7 @@ public class CesiumReactorBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cesium_reactor")
 	public static final Block block = null;
 	public CesiumReactorBlock(NewBordersModModElements instance) {
-		super(instance, 206);
+		super(instance, 213);
 	}
 
 	@Override

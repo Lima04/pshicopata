@@ -16,7 +16,7 @@ public class ElderPrismarineShardItem extends NewBordersModModElements.ModElemen
 	@ObjectHolder("new_borders_mod:elder_prismarine_shard")
 	public static final Item block = null;
 	public ElderPrismarineShardItem(NewBordersModModElements instance) {
-		super(instance, 764);
+		super(instance, 211);
 	}
 
 	@Override

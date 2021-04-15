@@ -16,7 +16,7 @@ public class CookieDoughItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cookie_dough")
 	public static final Item block = null;
 	public CookieDoughItem(NewBordersModModElements instance) {
-		super(instance, 139);
+		super(instance, 145);
 	}
 
 	@Override

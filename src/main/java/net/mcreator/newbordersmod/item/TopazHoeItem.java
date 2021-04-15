@@ -17,7 +17,7 @@ public class TopazHoeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:topaz_hoe")
 	public static final Item block = null;
 	public TopazHoeItem(NewBordersModModElements instance) {
-		super(instance, 240);
+		super(instance, 251);
 	}
 
 	@Override

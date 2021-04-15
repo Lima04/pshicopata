@@ -18,7 +18,7 @@ public class PrismarineCutlassItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:prismarine_cutlass")
 	public static final Item block = null;
 	public PrismarineCutlassItem(NewBordersModModElements instance) {
-		super(instance, 223);
+		super(instance, 233);
 	}
 
 	@Override

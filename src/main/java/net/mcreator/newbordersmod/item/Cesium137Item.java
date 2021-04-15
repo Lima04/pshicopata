@@ -22,7 +22,7 @@ public class Cesium137Item extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cesium_137")
 	public static final Item block = null;
 	public Cesium137Item(NewBordersModModElements instance) {
-		super(instance, 167);
+		super(instance, 173);
 	}
 
 	@Override

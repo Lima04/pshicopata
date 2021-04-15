@@ -16,7 +16,7 @@ public class RadarItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:radar")
 	public static final Item block = null;
 	public RadarItem(NewBordersModModElements instance) {
-		super(instance, 212);
+		super(instance, 222);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class ElderPrismarineBrickStairsBlock extends NewBordersModModElements.Mo
 	@ObjectHolder("new_borders_mod:elder_prismarine_brick_stairs")
 	public static final Block block = null;
 	public ElderPrismarineBrickStairsBlock(NewBordersModModElements instance) {
-		super(instance, 776);
+		super(instance, 104);
 	}
 
 	@Override

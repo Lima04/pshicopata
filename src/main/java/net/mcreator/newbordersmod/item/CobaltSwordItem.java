@@ -17,7 +17,7 @@ public class CobaltSwordItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cobalt_sword")
 	public static final Item block = null;
 	public CobaltSwordItem(NewBordersModModElements instance) {
-		super(instance, 220);
+		super(instance, 230);
 	}
 
 	@Override

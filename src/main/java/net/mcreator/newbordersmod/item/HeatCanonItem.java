@@ -48,7 +48,7 @@ public class HeatCanonItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:entitybulletheat_canon")
 	public static final EntityType arrow = null;
 	public HeatCanonItem(NewBordersModModElements instance) {
-		super(instance, 226);
+		super(instance, 236);
 	}
 
 	@Override

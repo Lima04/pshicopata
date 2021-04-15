@@ -7,10 +7,12 @@ import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.newbordersmod.item.PurpleBerryItem;
 import net.mcreator.newbordersmod.block.PurpleBerryPlantBerryBlock;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
@@ -19,7 +21,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class Phase2to3bonemealProcedure extends NewBordersModModElements.ModElement {
 	public Phase2to3bonemealProcedure(NewBordersModModElements instance) {
-		super(instance, 508);
+		super(instance, 518);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -53,6 +55,21 @@ public class Phase2to3bonemealProcedure extends NewBordersModModElements.ModElem
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+		if ((!((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
+				.getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem())
+				|| (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
+						.getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem())))) {
+			if (!world.getWorld().isRemote) {
+				ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(PurpleBerryItem.block, (int) (1)));
+				entityToSpawn.setPickupDelay((int) 0);
+				world.addEntity(entityToSpawn);
+			}
+			if (!world.getWorld().isRemote) {
+				ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(PurpleBerryItem.block, (int) (1)));
+				entityToSpawn.setPickupDelay((int) 0);
+				world.addEntity(entityToSpawn);
+			}
+		}
 		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem())) {
 			{

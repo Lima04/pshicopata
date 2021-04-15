@@ -27,7 +27,7 @@ public class EucalyptusForestBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:eucalyptus_forest")
 	public static final CustomBiome biome = null;
 	public EucalyptusForestBiome(NewBordersModModElements instance) {
-		super(instance, 425);
+		super(instance, 435);
 	}
 
 	@Override

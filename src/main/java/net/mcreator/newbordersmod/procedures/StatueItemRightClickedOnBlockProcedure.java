@@ -20,7 +20,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class StatueItemRightClickedOnBlockProcedure extends NewBordersModModElements.ModElement {
 	public StatueItemRightClickedOnBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 352);
+		super(instance, 362);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -23,7 +23,7 @@ public class WeirdBreadItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:weird_bread")
 	public static final Item block = null;
 	public WeirdBreadItem(NewBordersModModElements instance) {
-		super(instance, 138);
+		super(instance, 144);
 	}
 
 	@Override

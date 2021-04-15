@@ -27,7 +27,7 @@ public class IpeDoorBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ipe_door")
 	public static final Block block = null;
 	public IpeDoorBlock(NewBordersModModElements instance) {
-		super(instance, 207);
+		super(instance, 214);
 	}
 
 	@Override

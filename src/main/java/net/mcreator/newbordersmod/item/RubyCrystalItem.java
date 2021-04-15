@@ -16,7 +16,7 @@ public class RubyCrystalItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ruby_crystal")
 	public static final Item block = null;
 	public RubyCrystalItem(NewBordersModModElements instance) {
-		super(instance, 177);
+		super(instance, 183);
 	}
 
 	@Override

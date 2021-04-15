@@ -36,7 +36,7 @@ import java.util.HashMap;
 @NewBordersModModElements.ModElement.Tag
 public class EucalyptusAir2sStructure extends NewBordersModModElements.ModElement {
 	public EucalyptusAir2sStructure(NewBordersModModElements instance) {
-		super(instance, 424);
+		super(instance, 434);
 	}
 
 	@Override

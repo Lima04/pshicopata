@@ -18,7 +18,7 @@ import java.util.Iterator;
 @NewBordersModModElements.ModElement.Tag
 public class WeirdBreadFoodEatenProcedure extends NewBordersModModElements.ModElement {
 	public WeirdBreadFoodEatenProcedure(NewBordersModModElements instance) {
-		super(instance, 643);
+		super(instance, 653);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

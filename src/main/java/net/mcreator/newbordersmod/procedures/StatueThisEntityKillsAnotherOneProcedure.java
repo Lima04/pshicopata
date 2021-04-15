@@ -14,7 +14,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class StatueThisEntityKillsAnotherOneProcedure extends NewBordersModModElements.ModElement {
 	public StatueThisEntityKillsAnotherOneProcedure(NewBordersModModElements instance) {
-		super(instance, 353);
+		super(instance, 363);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

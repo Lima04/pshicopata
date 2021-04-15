@@ -17,7 +17,7 @@ public class RubyPickaxeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ruby_pickaxe")
 	public static final Item block = null;
 	public RubyPickaxeItem(NewBordersModModElements instance) {
-		super(instance, 233);
+		super(instance, 244);
 	}
 
 	@Override

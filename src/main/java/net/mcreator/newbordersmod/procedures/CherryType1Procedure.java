@@ -18,7 +18,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class CherryType1Procedure extends NewBordersModModElements.ModElement {
 	public CherryType1Procedure(NewBordersModModElements instance) {
-		super(instance, 691);
+		super(instance, 701);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

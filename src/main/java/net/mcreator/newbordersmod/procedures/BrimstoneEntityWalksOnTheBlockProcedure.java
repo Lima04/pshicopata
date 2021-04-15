@@ -13,7 +13,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class BrimstoneEntityWalksOnTheBlockProcedure extends NewBordersModModElements.ModElement {
 	public BrimstoneEntityWalksOnTheBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 665);
+		super(instance, 675);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

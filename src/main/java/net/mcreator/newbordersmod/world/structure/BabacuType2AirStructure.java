@@ -36,7 +36,7 @@ import java.util.HashMap;
 @NewBordersModModElements.ModElement.Tag
 public class BabacuType2AirStructure extends NewBordersModModElements.ModElement {
 	public BabacuType2AirStructure(NewBordersModModElements instance) {
-		super(instance, 395);
+		super(instance, 405);
 	}
 
 	@Override

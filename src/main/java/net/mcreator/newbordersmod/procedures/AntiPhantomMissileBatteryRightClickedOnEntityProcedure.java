@@ -13,7 +13,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class AntiPhantomMissileBatteryRightClickedOnEntityProcedure extends NewBordersModModElements.ModElement {
 	public AntiPhantomMissileBatteryRightClickedOnEntityProcedure(NewBordersModModElements instance) {
-		super(instance, 498);
+		super(instance, 508);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

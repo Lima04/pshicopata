@@ -50,7 +50,7 @@ public class RoseBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:rose")
 	public static final Block block = null;
 	public RoseBlock(NewBordersModModElements instance) {
-		super(instance, 109);
+		super(instance, 115);
 	}
 
 	@Override

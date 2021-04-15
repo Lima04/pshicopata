@@ -13,7 +13,7 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class NetherSulfurOreBlockDestroyedByPlayerProcedure extends NewBordersModModElements.ModElement {
 	public NetherSulfurOreBlockDestroyedByPlayerProcedure(NewBordersModModElements instance) {
-		super(instance, 621);
+		super(instance, 631);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

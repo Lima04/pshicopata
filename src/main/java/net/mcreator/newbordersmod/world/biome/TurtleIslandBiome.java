@@ -33,7 +33,7 @@ public class TurtleIslandBiome extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:tropical_plains")
 	public static final CustomBiome biome = null;
 	public TurtleIslandBiome(NewBordersModModElements instance) {
-		super(instance, 601);
+		super(instance, 611);
 	}
 
 	@Override

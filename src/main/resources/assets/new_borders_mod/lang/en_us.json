@@ -47,7 +47,7 @@
   "block.new_borders_mod.ipe_fence_gate": "Ipe Fence Gate",
   "block.new_borders_mod.glowshroom_block": "Glowshroom Block",
   "advancements.what_a_jerk.descr": "Successfully make rotten flesh safe for consumption.",
-  "advancements.the_yellow_twin.descr": "You found the topaz!",
+  "advancements.the_yellow_twin.descr": "You found topaz!",
   "biome.new_borders_mod.redwood_taiga": "Redwood Taiga",
   "item.new_borders_mod.the_poopifers_the_first_shit_2003.desc": "The Poopifers - The First Shit (Album) (2003)",
   "block.new_borders_mod.cut_chiseled_salt_bricks": "Cut Chiseled Salt Bricks",
@@ -194,7 +194,6 @@
   "item.new_borders_mod.sentinel_spawn_egg": "Sentinel Spawn Egg",
   "item.new_borders_mod.cooked_salted_cod": "Cooked Salted Cod",
   "block.new_borders_mod.salt_ore": "Salt Ore",
-  "block.new_borders_mod.babacu_trapdoor": "Babacu Trapdoor",
   "item.new_borders_mod.zombie_jerky": "Zombie Jerky",
   "block.new_borders_mod.magma_brick_stairs": "Magma Brick Stairs",
   "item.new_borders_mod.elder_prismarine_shard": "Elder Prismarine Shard",
@@ -376,8 +375,7 @@
   "entity.new_borders_mod.statue": "Statue",
   "item.new_borders_mod.flour": "Flour",
   "block.new_borders_mod.cherry_tree_stairs": "Cherry Tree Stairs",
-  "advancements.the_red_twin.descr": "You found the ruby!",
-  "block.new_borders_mod.ipe_trapdoor": "Ipe Trapdoor",
+  "advancements.the_red_twin.descr": "You found ruby!",
   "biome.new_borders_mod.salt_flats": "Salt Flats",
   "block.new_borders_mod.cherry_tree_log": "Cherry Tree Log"
 }

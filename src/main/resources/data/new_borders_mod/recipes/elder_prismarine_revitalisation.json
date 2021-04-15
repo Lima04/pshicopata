@@ -1,0 +1,30 @@
+{
+  "group": "new_borders_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "new_borders_mod:elder_prismarine_shard"
+    },
+    "3": {
+      "item": "new_borders_mod:elder_prismarine_shard"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "new_borders_mod:elder_prismarine_shard"
+    },
+    "7": {
+      "item": "new_borders_mod:elder_prismarine_shard"
+    }
+  },
+  "result": {
+    "item": "minecraft:prismarine_shard",
+    "count": 4
+  }
+}

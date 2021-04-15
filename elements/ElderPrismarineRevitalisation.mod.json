@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ElderPrismarineShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ElderPrismarineShard"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:ElderPrismarineShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ElderPrismarineShard"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.PRISMARINE_SHARD"
+    },
+    "name": "elder_prismarine_revitalisation",
+    "namespace": "mod"
+  }
+}

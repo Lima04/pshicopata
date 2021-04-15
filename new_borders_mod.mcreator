@@ -8373,6 +8373,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "epb_stairs_sc"
+    },
+    {
+      "name": "ElderRuinLoot",
+      "type": "loottable",
+      "sortid": 785,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_ruin_loot"
+    },
+    {
+      "name": "ElderRuin1",
+      "type": "structure",
+      "sortid": 786,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_ruin_1"
+    },
+    {
+      "name": "ElderRuin2",
+      "type": "structure",
+      "sortid": 787,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_ruin_2"
+    },
+    {
+      "name": "ElderRuin3",
+      "type": "structure",
+      "sortid": 788,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_ruin_3"
+    },
+    {
+      "name": "ElderPrismarineRevitalisation",
+      "type": "recipe",
+      "sortid": 789,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elder_prismarine_revitalisation"
     }
   ],
   "variable_elements": [],

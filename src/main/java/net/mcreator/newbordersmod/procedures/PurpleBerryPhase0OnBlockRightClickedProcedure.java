@@ -2,7 +2,7 @@ package net.mcreator.newbordersmod.procedures;
 
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.state.IProperty;
+import net.minecraft.state.Property;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
@@ -13,39 +13,40 @@ import net.minecraft.block.BlockState;
 
 import net.mcreator.newbordersmod.block.PurpleBerryPlantBlock;
 import net.mcreator.newbordersmod.NewBordersModModElements;
+import net.mcreator.newbordersmod.NewBordersModMod;
 
 import java.util.Map;
 
 @NewBordersModModElements.ModElement.Tag
 public class PurpleBerryPhase0OnBlockRightClickedProcedure extends NewBordersModModElements.ModElement {
 	public PurpleBerryPhase0OnBlockRightClickedProcedure(NewBordersModModElements instance) {
-		super(instance, 521);
+		super(instance, 511);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure PurpleBerryPhase0OnBlockRightClicked!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency entity for procedure PurpleBerryPhase0OnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure PurpleBerryPhase0OnBlockRightClicked!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency x for procedure PurpleBerryPhase0OnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure PurpleBerryPhase0OnBlockRightClicked!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency y for procedure PurpleBerryPhase0OnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure PurpleBerryPhase0OnBlockRightClicked!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency z for procedure PurpleBerryPhase0OnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure PurpleBerryPhase0OnBlockRightClicked!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency world for procedure PurpleBerryPhase0OnBlockRightClicked!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -59,17 +60,21 @@ public class PurpleBerryPhase0OnBlockRightClickedProcedure extends NewBordersMod
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockState _bs = PurpleBerryPlantBlock.block.getDefaultState();
 				BlockState _bso = world.getBlockState(_bp);
-				for (Map.Entry<IProperty<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-					IProperty _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
-					if (_bs.has(_property))
-						_bs = _bs.with(_property, (Comparable) entry.getValue());
+				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+					Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
+					if (_property != null && _bs.get(_property) != null)
+						try {
+							_bs = _bs.with(_property, (Comparable) entry.getValue());
+						} catch (Exception e) {
+						}
 				}
 				world.setBlockState(_bp, _bs, 3);
 			}
 			world.addParticle(ParticleTypes.COMPOSTER, x, y, z, 0, 1, 0);
 			if (entity instanceof PlayerEntity) {
 				ItemStack _stktoremove = new ItemStack(Items.BONE_MEAL, (int) (1));
-				((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
+				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+						((PlayerEntity) entity).container.func_234641_j_());
 			}
 		}
 		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
@@ -78,17 +83,21 @@ public class PurpleBerryPhase0OnBlockRightClickedProcedure extends NewBordersMod
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockState _bs = PurpleBerryPlantBlock.block.getDefaultState();
 				BlockState _bso = world.getBlockState(_bp);
-				for (Map.Entry<IProperty<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-					IProperty _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
-					if (_bs.has(_property))
-						_bs = _bs.with(_property, (Comparable) entry.getValue());
+				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+					Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
+					if (_property != null && _bs.get(_property) != null)
+						try {
+							_bs = _bs.with(_property, (Comparable) entry.getValue());
+						} catch (Exception e) {
+						}
 				}
 				world.setBlockState(_bp, _bs, 3);
 			}
 			world.addParticle(ParticleTypes.COMPOSTER, x, y, z, 0, 1, 0);
 			if (entity instanceof PlayerEntity) {
 				ItemStack _stktoremove = new ItemStack(Items.BONE_MEAL, (int) (1));
-				((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
+				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+						((PlayerEntity) entity).container.func_234641_j_());
 			}
 		}
 	}

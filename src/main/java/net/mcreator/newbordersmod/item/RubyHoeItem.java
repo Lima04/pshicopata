@@ -17,7 +17,7 @@ public class RubyHoeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ruby_hoe")
 	public static final Item block = null;
 	public RubyHoeItem(NewBordersModModElements instance) {
-		super(instance, 247);
+		super(instance, 236);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class RubyHoeItem extends NewBordersModModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(RubyCrystalItem.block, (int) (1)));
 			}
-		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 0, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("ruby_hoe"));
 	}
 }

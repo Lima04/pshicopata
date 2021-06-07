@@ -4,8 +4,8 @@ package net.mcreator.newbordersmod.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
-import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.state.properties.SlabType;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -26,7 +26,7 @@ public class ElderPrismarineSlabBlock extends NewBordersModModElements.ModElemen
 	@ObjectHolder("new_borders_mod:elder_prismarine_slab")
 	public static final Block block = null;
 	public ElderPrismarineSlabBlock(NewBordersModModElements instance) {
-		super(instance, 101);
+		super(instance, 773);
 	}
 
 	@Override
@@ -37,8 +37,8 @@ public class ElderPrismarineSlabBlock extends NewBordersModModElements.ModElemen
 	}
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.3f, 4.5f).lightValue(0).harvestLevel(0)
-					.harvestTool(ToolType.PICKAXE));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.3f, 4.5f).setLightLevel(s -> 0)
+					.harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("elder_prismarine_slab");
 		}
 

@@ -7,19 +7,20 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
+import net.mcreator.newbordersmod.NewBordersModMod;
 
 import java.util.Map;
 
 @NewBordersModModElements.ModElement.Tag
 public class NetherSulfurOreBlockDestroyedByPlayerProcedure extends NewBordersModModElements.ModElement {
 	public NetherSulfurOreBlockDestroyedByPlayerProcedure(NewBordersModModElements instance) {
-		super(instance, 631);
+		super(instance, 621);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure NetherSulfurOreBlockDestroyedByPlayer!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency entity for procedure NetherSulfurOreBlockDestroyedByPlayer!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

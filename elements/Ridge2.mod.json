@@ -1,5 +1,5 @@
 {
-  "_fv": 13,
+  "_fv": 18,
   "_type": "biome",
   "definition": {
     "name": "Ridge",
@@ -9,42 +9,61 @@
     "undergroundBlock": {
       "value": "Blocks.DIRT#0"
     },
-    "treeType": 0,
-    "vanillaTreeType": "Big trees",
-    "minHeight": 7,
-    "spawnVines": false,
-    "treeVines": {
+    "ambientSound": {
       "value": ""
     },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 0,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.0,
+    "biomeCategory": "JUNGLE",
+    "parent": {
+      "value": "mountains"
+    },
+    "rainingPossibility": 1.0,
+    "temperature": 0.8,
+    "baseHeight": 2.3000000000000003,
+    "heightVariation": 0.7000000000000001,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 9,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 20,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "maxWaterDepth": 0,
     "treeStem": {
       "value": ""
     },
     "treeBranch": {
       "value": ""
     },
-    "treeFruits": {
+    "treeVines": {
       "value": ""
     },
-    "treesPerChunk": 20,
-    "grassPerChunk": 4,
-    "seagrassPerChunk": 0,
-    "flowersPerChunk": 4,
-    "mushroomsPerChunk": 0,
-    "bigMushroomsChunk": 0,
-    "sandPathcesPerChunk": 0,
-    "gravelPatchesPerChunk": 0,
-    "reedsPerChunk": 0,
-    "cactiPerChunk": 0,
-    "rainingPossibility": 1.0,
-    "temperature": 0.8,
-    "baseHeight": 2.3000000000000003,
-    "heightVariation": 0.7000000000000001,
-    "spawnBiome": true,
-    "biomeWeight": 9,
-    "biomeType": "WARM",
-    "biomeCategory": "JUNGLE",
-    "parent": {
-      "value": "mountains"
+    "treeFruits": {
+      "value": ""
     },
     "spawnStronghold": true,
     "spawnMineshaft": true,
@@ -57,7 +76,6 @@
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "oceanRuinType": "NONE",
-    "biomeDictionaryTypes": [],
     "defaultFeatures": [
       "Caves",
       "MonsterRooms",
@@ -65,7 +83,8 @@
       "Ores",
       "Lakes",
       "JungleGrass",
-      "JunglePlants"
+      "JunglePlants",
+      "FrozenTopLayer"
     ],
     "spawnEntries": [
       {

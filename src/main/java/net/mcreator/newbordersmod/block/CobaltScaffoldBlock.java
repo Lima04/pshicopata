@@ -7,10 +7,9 @@ import net.minecraftforge.common.ToolType;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IWorldReader;
-import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -50,14 +49,10 @@ public class CobaltScaffoldBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(50f, 64000f).lightValue(0).harvestLevel(5)
-					.harvestTool(ToolType.PICKAXE).doesNotBlockMovement().notSolid());
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(50f, 64000f).setLightLevel(s -> 0)
+					.harvestLevel(5).harvestTool(ToolType.PICKAXE).setRequiresTool().doesNotBlockMovement().notSolid()
+					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("cobalt_scaffold");
-		}
-
-		@Override
-		public boolean isNormalCube(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return false;
 		}
 
 		@Override

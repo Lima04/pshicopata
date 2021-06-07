@@ -7,19 +7,20 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
+import net.mcreator.newbordersmod.NewBordersModMod;
 
 import java.util.Map;
 
 @NewBordersModModElements.ModElement.Tag
 public class Cobalt60ItemInHandTickProcedure extends NewBordersModModElements.ModElement {
 	public Cobalt60ItemInHandTickProcedure(NewBordersModModElements instance) {
-		super(instance, 306);
+		super(instance, 296);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure Cobalt60ItemInHandTick!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency entity for procedure Cobalt60ItemInHandTick!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

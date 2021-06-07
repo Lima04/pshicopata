@@ -1,20 +1,27 @@
 
 package net.mcreator.newbordersmod.world.biome;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.BiomeManager;
 
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
-import net.minecraft.world.gen.placement.Placement;
-import net.minecraft.world.gen.placement.IPlacementConfig;
-import net.minecraft.world.gen.feature.structure.ShipwreckConfig;
-import net.minecraft.world.gen.feature.SeaGrassConfig;
+import net.minecraft.world.gen.feature.structure.StructureFeatures;
+import net.minecraft.world.gen.feature.ProbabilityConfig;
+import net.minecraft.world.gen.feature.Features;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
+import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
+import net.minecraft.world.biome.BiomeGenerationSettings;
+import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.util.registry.WorldGenRegistries;
+import net.minecraft.util.registry.Registry;
+import net.minecraft.util.RegistryKey;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
@@ -23,41 +30,43 @@ import net.mcreator.newbordersmod.NewBordersModModElements;
 
 @NewBordersModModElements.ModElement.Tag
 public class BrownRiverBiome extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:brown_river")
-	public static final CustomBiome biome = null;
+	public static Biome biome;
 	public BrownRiverBiome(NewBordersModModElements instance) {
-		super(instance, 420);
+		super(instance, 410);
+		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
-
-	@Override
-	public void initElements() {
-		elements.biomes.add(() -> new CustomBiome());
+	private static class BiomeRegisterHandler {
+		@SubscribeEvent
+		public void registerBiomes(RegistryEvent.Register<Biome> event) {
+			if (biome == null) {
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(12638463).setWaterColor(-9087744).setWaterFogColor(-2647040)
+						.withSkyColor(7972607).withFoliageColor(10387789).withGrassColor(9470285).build();
+				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
+						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.WATER.getDefaultState(),
+								Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
+				biomeGenerationSettings.withStructure(StructureFeatures.SHIPWRECK);
+				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.SEAGRASS
+						.withConfiguration(new ProbabilityConfig(0.3F)).func_242731_b(27).withPlacement(Features.Placements.SEAGRASS_DISK_PLACEMENT));
+				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
+				DefaultBiomeFeatures.withMonsterRoom(biomeGenerationSettings);
+				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
+				DefaultBiomeFeatures.withOceanCavesAndCanyons(biomeGenerationSettings);
+				DefaultBiomeFeatures.withClayDisks(biomeGenerationSettings);
+				DefaultBiomeFeatures.withSimpleSeagrass(biomeGenerationSettings);
+				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
+				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
+				mobSpawnInfo.withSpawner(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(EntityType.COD, 60, 1, 4));
+				mobSpawnInfo.withSpawner(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(EntityType.SALMON, 80, 1, 4));
+				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.RIVER).depth(-0.7000000000000001f).scale(0f)
+						.temperature(0.6f).downfall(0.8f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
+						.withGenerationSettings(biomeGenerationSettings.build()).build();
+				event.getRegistry().register(biome.setRegistryName("new_borders_mod:brown_river"));
+			}
+		}
 	}
-
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 6));
-	}
-	static class CustomBiome extends Biome {
-		public CustomBiome() {
-			super(new Biome.Builder().downfall(0.8f).depth(-0.7000000000000001f).scale(0f).temperature(0.6f).precipitation(Biome.RainType.RAIN)
-					.category(Biome.Category.RIVER).waterColor(-9087744).waterFogColor(-2647040).parent("jungle")
-					.surfaceBuilder(SurfaceBuilder.DEFAULT,
-							new SurfaceBuilderConfig(Blocks.WATER.getDefaultState(), Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
-			setRegistryName("brown_river");
-			DefaultBiomeFeatures.addCarvers(this);
-			DefaultBiomeFeatures.addMonsterRooms(this);
-			DefaultBiomeFeatures.addStructures(this);
-			DefaultBiomeFeatures.addOres(this);
-			DefaultBiomeFeatures.addOceanCarvers(this);
-			DefaultBiomeFeatures.addSwampClayDisks(this);
-			DefaultBiomeFeatures.addTallSeagrassLush(this);
-			this.addStructure(Feature.SHIPWRECK.withConfiguration(new ShipwreckConfig(false)));
-			this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.SEAGRASS.withConfiguration(new SeaGrassConfig(27, 0.3D))
-					.withPlacement(Placement.TOP_SOLID_HEIGHTMAP.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
-			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.COD, 60, 1, 4));
-			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.SALMON, 80, 1, 4));
-		}
+		BiomeManager.addBiome(BiomeManager.BiomeType.WARM,
+				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 6));
 	}
 }

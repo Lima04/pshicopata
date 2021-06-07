@@ -4,10 +4,10 @@ package net.mcreator.newbordersmod.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
-import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -28,7 +28,7 @@ public class CherryTreeFenceGateBlock extends NewBordersModModElements.ModElemen
 	@ObjectHolder("new_borders_mod:cherry_tree_fence_gate")
 	public static final Block block = null;
 	public CherryTreeFenceGateBlock(NewBordersModModElements instance) {
-		super(instance, 226);
+		super(instance, 216);
 	}
 
 	@Override
@@ -38,8 +38,8 @@ public class CherryTreeFenceGateBlock extends NewBordersModModElements.ModElemen
 	}
 	public static class CustomBlock extends FenceGateBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).lightValue(0).harvestLevel(0)
-					.harvestTool(ToolType.AXE));
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).setLightLevel(s -> 0).harvestLevel(0)
+					.harvestTool(ToolType.AXE).setRequiresTool());
 			setRegistryName("cherry_tree_fence_gate");
 		}
 

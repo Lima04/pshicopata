@@ -1,5 +1,5 @@
 {
-  "_fv": 13,
+  "_fv": 18,
   "_type": "biome",
   "definition": {
     "name": "Tropical Plains",
@@ -9,42 +9,46 @@
     "undergroundBlock": {
       "value": "Blocks.DIRT#0"
     },
-    "treeType": 0,
-    "vanillaTreeType": "Default",
-    "minHeight": 7,
-    "spawnVines": false,
-    "treeVines": {
-      "value": ""
+    "moodSoundDelay": 0,
+    "spawnParticles": false,
+    "particlesProbability": 0.0,
+    "biomeCategory": "PLAINS",
+    "parent": {
+      "value": "warm_ocean"
     },
+    "rainingPossibility": 0.9,
+    "temperature": 0.9,
+    "baseHeight": 0.1,
+    "heightVariation": 0.1,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 2,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 20,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "maxWaterDepth": 0,
     "treeStem": {
       "value": ""
     },
     "treeBranch": {
       "value": ""
     },
-    "treeFruits": {
+    "treeVines": {
       "value": ""
     },
-    "treesPerChunk": 0,
-    "grassPerChunk": 4,
-    "seagrassPerChunk": 20,
-    "flowersPerChunk": 4,
-    "mushroomsPerChunk": 0,
-    "bigMushroomsChunk": 0,
-    "sandPathcesPerChunk": 12,
-    "gravelPatchesPerChunk": 0,
-    "reedsPerChunk": 0,
-    "cactiPerChunk": 0,
-    "rainingPossibility": 0.9,
-    "temperature": 0.9,
-    "baseHeight": 0.1,
-    "heightVariation": 0.1,
-    "spawnBiome": true,
-    "biomeWeight": 2,
-    "biomeType": "WARM",
-    "biomeCategory": "PLAINS",
-    "parent": {
-      "value": "warm_ocean"
+    "treeFruits": {
+      "value": ""
     },
     "spawnStronghold": true,
     "spawnMineshaft": true,
@@ -57,13 +61,13 @@
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "oceanRuinType": "NONE",
-    "biomeDictionaryTypes": [],
     "defaultFeatures": [
       "Caves",
       "MonsterRooms",
       "Structures",
       "Ores",
-      "Lakes"
+      "Lakes",
+      "FrozenTopLayer"
     ],
     "spawnEntries": [
       {

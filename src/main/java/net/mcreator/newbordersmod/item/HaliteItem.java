@@ -16,7 +16,7 @@ public class HaliteItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:halite")
 	public static final Item block = null;
 	public HaliteItem(NewBordersModModElements instance) {
-		super(instance, 182);
+		super(instance, 176);
 	}
 
 	@Override

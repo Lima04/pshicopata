@@ -4,7 +4,7 @@ package net.mcreator.newbordersmod.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
-import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -24,7 +24,7 @@ public class ElderPrismarineBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:elder_prismarine")
 	public static final Block block = null;
 	public ElderPrismarineBlock(NewBordersModModElements instance) {
-		super(instance, 99);
+		super(instance, 765);
 	}
 
 	@Override
@@ -35,8 +35,8 @@ public class ElderPrismarineBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.3f, 4.5f).lightValue(0).harvestLevel(0)
-					.harvestTool(ToolType.PICKAXE));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.3f, 4.5f).setLightLevel(s -> 0)
+					.harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("elder_prismarine");
 		}
 

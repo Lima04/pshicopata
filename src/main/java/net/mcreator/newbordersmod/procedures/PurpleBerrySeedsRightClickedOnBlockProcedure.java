@@ -10,39 +10,40 @@ import net.minecraft.block.Blocks;
 import net.mcreator.newbordersmod.item.PurpleBerrySeedsItem;
 import net.mcreator.newbordersmod.block.PurpleBerryPhase0Block;
 import net.mcreator.newbordersmod.NewBordersModModElements;
+import net.mcreator.newbordersmod.NewBordersModMod;
 
 import java.util.Map;
 
 @NewBordersModModElements.ModElement.Tag
 public class PurpleBerrySeedsRightClickedOnBlockProcedure extends NewBordersModModElements.ModElement {
 	public PurpleBerrySeedsRightClickedOnBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 378);
+		super(instance, 368);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure PurpleBerrySeedsRightClickedOnBlock!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency entity for procedure PurpleBerrySeedsRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure PurpleBerrySeedsRightClickedOnBlock!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency x for procedure PurpleBerrySeedsRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure PurpleBerrySeedsRightClickedOnBlock!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency y for procedure PurpleBerrySeedsRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure PurpleBerrySeedsRightClickedOnBlock!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency z for procedure PurpleBerrySeedsRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure PurpleBerrySeedsRightClickedOnBlock!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency world for procedure PurpleBerrySeedsRightClickedOnBlock!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -54,7 +55,8 @@ public class PurpleBerrySeedsRightClickedOnBlockProcedure extends NewBordersModM
 			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), PurpleBerryPhase0Block.block.getDefaultState(), 3);
 			if (entity instanceof PlayerEntity) {
 				ItemStack _stktoremove = new ItemStack(PurpleBerrySeedsItem.block, (int) (1));
-				((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
+				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+						((PlayerEntity) entity).container.func_234641_j_());
 			}
 		}
 	}

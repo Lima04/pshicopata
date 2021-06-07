@@ -16,7 +16,7 @@ public class TopazCrystalItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:topaz_crystal")
 	public static final Item block = null;
 	public TopazCrystalItem(NewBordersModModElements instance) {
-		super(instance, 184);
+		super(instance, 178);
 	}
 
 	@Override

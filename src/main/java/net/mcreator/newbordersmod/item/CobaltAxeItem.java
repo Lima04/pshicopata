@@ -17,7 +17,7 @@ public class CobaltAxeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cobalt_axe")
 	public static final Item block = null;
 	public CobaltAxeItem(NewBordersModModElements instance) {
-		super(instance, 241);
+		super(instance, 230);
 	}
 
 	@Override

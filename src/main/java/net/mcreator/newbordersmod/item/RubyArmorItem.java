@@ -29,38 +29,50 @@ public class RubyArmorItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ruby_armor_boots")
 	public static final Item boots = null;
 	public RubyArmorItem(NewBordersModModElements instance) {
-		super(instance, 238);
+		super(instance, 228);
 	}
 
 	@Override
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
+			@Override
 			public int getDurability(EquipmentSlotType slot) {
 				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
 			}
 
+			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
 				return new int[]{2, 5, 6, 2}[slot.getIndex()];
 			}
 
+			@Override
 			public int getEnchantability() {
 				return 9;
 			}
 
+			@Override
 			public net.minecraft.util.SoundEvent getSoundEvent() {
 				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
 			}
 
+			@Override
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(RubyCrystalItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
+			@Override
 			public String getName() {
 				return "ruby_armor";
 			}
 
+			@Override
 			public float getToughness() {
+				return 0f;
+			}
+
+			@Override
+			public float getKnockbackResistance() {
 				return 0f;
 			}
 		};

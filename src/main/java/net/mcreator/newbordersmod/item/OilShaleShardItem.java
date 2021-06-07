@@ -16,7 +16,7 @@ public class OilShaleShardItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:oil_shale_shard")
 	public static final Item block = null;
 	public OilShaleShardItem(NewBordersModModElements instance) {
-		super(instance, 208);
+		super(instance, 202);
 	}
 
 	@Override

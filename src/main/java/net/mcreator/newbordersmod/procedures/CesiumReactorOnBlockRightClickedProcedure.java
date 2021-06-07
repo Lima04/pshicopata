@@ -16,6 +16,7 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.newbordersmod.gui.CesiumReactorImputGui;
 import net.mcreator.newbordersmod.NewBordersModModElements;
+import net.mcreator.newbordersmod.NewBordersModMod;
 
 import java.util.Map;
 
@@ -24,33 +25,33 @@ import io.netty.buffer.Unpooled;
 @NewBordersModModElements.ModElement.Tag
 public class CesiumReactorOnBlockRightClickedProcedure extends NewBordersModModElements.ModElement {
 	public CesiumReactorOnBlockRightClickedProcedure(NewBordersModModElements instance) {
-		super(instance, 327);
+		super(instance, 317);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure CesiumReactorOnBlockRightClicked!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency entity for procedure CesiumReactorOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure CesiumReactorOnBlockRightClicked!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency x for procedure CesiumReactorOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure CesiumReactorOnBlockRightClicked!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency y for procedure CesiumReactorOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure CesiumReactorOnBlockRightClicked!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency z for procedure CesiumReactorOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure CesiumReactorOnBlockRightClicked!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency world for procedure CesiumReactorOnBlockRightClicked!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

@@ -17,7 +17,7 @@ public class TopazAxeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:topaz_axe")
 	public static final Item block = null;
 	public TopazAxeItem(NewBordersModModElements instance) {
-		super(instance, 249);
+		super(instance, 238);
 	}
 
 	@Override

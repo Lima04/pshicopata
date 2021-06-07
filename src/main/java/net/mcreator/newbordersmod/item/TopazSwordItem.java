@@ -17,7 +17,7 @@ public class TopazSwordItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:topaz_sword")
 	public static final Item block = null;
 	public TopazSwordItem(NewBordersModModElements instance) {
-		super(instance, 232);
+		super(instance, 222);
 	}
 
 	@Override

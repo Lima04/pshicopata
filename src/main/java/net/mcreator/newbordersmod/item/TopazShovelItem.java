@@ -17,7 +17,7 @@ public class TopazShovelItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:topaz_shovel")
 	public static final Item block = null;
 	public TopazShovelItem(NewBordersModModElements instance) {
-		super(instance, 250);
+		super(instance, 239);
 	}
 
 	@Override

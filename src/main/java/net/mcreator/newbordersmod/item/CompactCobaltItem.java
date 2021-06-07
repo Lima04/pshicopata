@@ -16,7 +16,7 @@ public class CompactCobaltItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:compact_cobalt")
 	public static final Item block = null;
 	public CompactCobaltItem(NewBordersModModElements instance) {
-		super(instance, 168);
+		super(instance, 162);
 	}
 
 	@Override

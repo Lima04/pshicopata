@@ -19,6 +19,7 @@ import net.mcreator.newbordersmod.item.Cobalt60Item;
 import net.mcreator.newbordersmod.item.Cobalt59Item;
 import net.mcreator.newbordersmod.item.Cesium137Item;
 import net.mcreator.newbordersmod.NewBordersModModElements;
+import net.mcreator.newbordersmod.NewBordersModMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -26,33 +27,33 @@ import java.util.Map;
 @NewBordersModModElements.ModElement.Tag
 public class OnButtonProcedure extends NewBordersModModElements.ModElement {
 	public OnButtonProcedure(NewBordersModModElements instance) {
-		super(instance, 329);
+		super(instance, 319);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure OnButton!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency entity for procedure OnButton!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure OnButton!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency x for procedure OnButton!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure OnButton!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency y for procedure OnButton!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure OnButton!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency z for procedure OnButton!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure OnButton!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency world for procedure OnButton!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -188,8 +189,8 @@ public class OnButtonProcedure extends NewBordersModModElements.ModElement {
 				}
 				if (entity instanceof PlayerEntity)
 					((PlayerEntity) entity).closeScreen();
-				if (world instanceof World && !world.getWorld().isRemote) {
-					world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 8, Explosion.Mode.BREAK);
+				if (world instanceof World && !((World) world).isRemote) {
+					((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 8, Explosion.Mode.BREAK);
 				}
 			}
 		}
@@ -317,8 +318,8 @@ public class OnButtonProcedure extends NewBordersModModElements.ModElement {
 				}
 				if (entity instanceof PlayerEntity)
 					((PlayerEntity) entity).closeScreen();
-				if (world instanceof World && !world.getWorld().isRemote) {
-					world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 8, Explosion.Mode.BREAK);
+				if (world instanceof World && !((World) world).isRemote) {
+					((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 8, Explosion.Mode.BREAK);
 				}
 			}
 		}
@@ -446,8 +447,8 @@ public class OnButtonProcedure extends NewBordersModModElements.ModElement {
 				}
 				if (entity instanceof PlayerEntity)
 					((PlayerEntity) entity).closeScreen();
-				if (world instanceof World && !world.getWorld().isRemote) {
-					world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 8, Explosion.Mode.BREAK);
+				if (world instanceof World && !((World) world).isRemote) {
+					((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 8, Explosion.Mode.BREAK);
 				}
 			}
 		}
@@ -575,8 +576,8 @@ public class OnButtonProcedure extends NewBordersModModElements.ModElement {
 				}
 				if (entity instanceof PlayerEntity)
 					((PlayerEntity) entity).closeScreen();
-				if (world instanceof World && !world.getWorld().isRemote) {
-					world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 8, Explosion.Mode.BREAK);
+				if (world instanceof World && !((World) world).isRemote) {
+					((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 8, Explosion.Mode.BREAK);
 				}
 			}
 		}
@@ -607,8 +608,8 @@ public class OnButtonProcedure extends NewBordersModModElements.ModElement {
 			}
 			if (entity instanceof PlayerEntity)
 				((PlayerEntity) entity).closeScreen();
-			if (world instanceof World && !world.getWorld().isRemote) {
-				world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 8, Explosion.Mode.BREAK);
+			if (world instanceof World && !((World) world).isRemote) {
+				((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 8, Explosion.Mode.BREAK);
 			}
 		}
 		if (((new Object() {

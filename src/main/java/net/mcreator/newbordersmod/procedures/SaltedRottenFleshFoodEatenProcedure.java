@@ -6,19 +6,20 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
+import net.mcreator.newbordersmod.NewBordersModMod;
 
 import java.util.Map;
 
 @NewBordersModModElements.ModElement.Tag
 public class SaltedRottenFleshFoodEatenProcedure extends NewBordersModModElements.ModElement {
 	public SaltedRottenFleshFoodEatenProcedure(NewBordersModModElements instance) {
-		super(instance, 486);
+		super(instance, 476);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure SaltedRottenFleshFoodEaten!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency entity for procedure SaltedRottenFleshFoodEaten!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

@@ -17,7 +17,7 @@ public class CobaltHoeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cobalt_hoe")
 	public static final Item block = null;
 	public CobaltHoeItem(NewBordersModModElements instance) {
-		super(instance, 243);
+		super(instance, 232);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class CobaltHoeItem extends NewBordersModModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(CobaltShardItem.block, (int) (1)));
 			}
-		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 0, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("cobalt_hoe"));
 	}
 }

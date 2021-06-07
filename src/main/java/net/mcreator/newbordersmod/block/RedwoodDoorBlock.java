@@ -4,9 +4,9 @@ package net.mcreator.newbordersmod.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
-import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.state.properties.DoubleBlockHalf;
 import net.minecraft.state.properties.BlockStateProperties;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -27,7 +27,7 @@ public class RedwoodDoorBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:redwood_door")
 	public static final Block block = null;
 	public RedwoodDoorBlock(NewBordersModModElements instance) {
-		super(instance, 215);
+		super(instance, 208);
 	}
 
 	@Override
@@ -37,8 +37,8 @@ public class RedwoodDoorBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends DoorBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
-					.harvestTool(ToolType.AXE));
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
+					.harvestTool(ToolType.AXE).setRequiresTool());
 			setRegistryName("redwood_door");
 		}
 

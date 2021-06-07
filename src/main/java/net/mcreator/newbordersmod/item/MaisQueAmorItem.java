@@ -16,7 +16,7 @@ public class MaisQueAmorItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:mais_que_amor")
 	public static final Item block = null;
 	public MaisQueAmorItem(NewBordersModModElements instance) {
-		super(instance, 162);
+		super(instance, 156);
 	}
 
 	@Override

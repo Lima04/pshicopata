@@ -3,7 +3,7 @@ package net.mcreator.newbordersmod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -24,7 +24,7 @@ public class BabacuLeavessBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_leavess")
 	public static final Block block = null;
 	public BabacuLeavessBlock(NewBordersModModElements instance) {
-		super(instance, 110);
+		super(instance, 104);
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class BabacuLeavessBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).lightValue(0).notSolid());
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0).notSolid());
 			setRegistryName("babacu_leavess");
 		}
 

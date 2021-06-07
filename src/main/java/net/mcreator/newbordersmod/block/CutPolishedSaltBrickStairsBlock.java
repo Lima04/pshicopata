@@ -30,9 +30,10 @@ public class CutPolishedSaltBrickStairsBlock extends NewBordersModModElements.Mo
 	}
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2f, 3f)).getDefaultState(),
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 3f).lightValue(0).harvestLevel(1)
-							.harvestTool(ToolType.PICKAXE));
+			super(() -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 3f).setLightLevel(s -> 0)
+					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()).getDefaultState(),
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 3f).setLightLevel(s -> 0).harvestLevel(1)
+							.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("cut_polished_salt_brick_stairs");
 		}
 	}

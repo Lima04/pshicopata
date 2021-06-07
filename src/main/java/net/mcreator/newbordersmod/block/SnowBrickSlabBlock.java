@@ -29,7 +29,7 @@ public class SnowBrickSlabBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.PACKED_ICE).sound(SoundType.SNOW).hardnessAndResistance(0.2f, 0.2f).lightValue(0));
+			super(Block.Properties.create(Material.PACKED_ICE).sound(SoundType.SNOW).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0));
 			setRegistryName("snow_brick_slab");
 		}
 	}

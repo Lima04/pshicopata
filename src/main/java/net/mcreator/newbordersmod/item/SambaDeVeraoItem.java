@@ -16,7 +16,7 @@ public class SambaDeVeraoItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:samba_de_verao")
 	public static final Item block = null;
 	public SambaDeVeraoItem(NewBordersModModElements instance) {
-		super(instance, 156);
+		super(instance, 150);
 	}
 
 	@Override

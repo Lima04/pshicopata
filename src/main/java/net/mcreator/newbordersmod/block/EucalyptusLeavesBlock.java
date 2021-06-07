@@ -3,10 +3,10 @@ package net.mcreator.newbordersmod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -29,7 +29,7 @@ public class EucalyptusLeavesBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:eucalyptus_leaves")
 	public static final Block block = null;
 	public EucalyptusLeavesBlock(NewBordersModModElements instance) {
-		super(instance, 109);
+		super(instance, 103);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class EucalyptusLeavesBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).lightValue(0).notSolid());
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0).notSolid());
 			setRegistryName("eucalyptus_leaves");
 		}
 
@@ -54,7 +54,7 @@ public class EucalyptusLeavesBlock extends NewBordersModModElements.ModElement {
 		}
 
 		@Override
-		public MaterialColor getMaterialColor(BlockState state, IBlockReader blockAccess, BlockPos pos) {
+		public MaterialColor getMaterialColor() {
 			return MaterialColor.SNOW;
 		}
 

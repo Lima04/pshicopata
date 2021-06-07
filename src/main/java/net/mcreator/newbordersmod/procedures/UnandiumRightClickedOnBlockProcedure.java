@@ -13,39 +13,40 @@ import net.mcreator.newbordersmod.item.NuclearWasteItem;
 import net.mcreator.newbordersmod.item.CompactCobaltItem;
 import net.mcreator.newbordersmod.block.WasteWaterBlock;
 import net.mcreator.newbordersmod.NewBordersModModElements;
+import net.mcreator.newbordersmod.NewBordersModMod;
 
 import java.util.Map;
 
 @NewBordersModModElements.ModElement.Tag
 public class UnandiumRightClickedOnBlockProcedure extends NewBordersModModElements.ModElement {
 	public UnandiumRightClickedOnBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 328);
+		super(instance, 318);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure UnandiumRightClickedOnBlock!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency entity for procedure UnandiumRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure UnandiumRightClickedOnBlock!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency x for procedure UnandiumRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure UnandiumRightClickedOnBlock!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency y for procedure UnandiumRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure UnandiumRightClickedOnBlock!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency z for procedure UnandiumRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure UnandiumRightClickedOnBlock!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency world for procedure UnandiumRightClickedOnBlock!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -78,7 +79,8 @@ public class UnandiumRightClickedOnBlockProcedure extends NewBordersModModElemen
 			if (((found) == (true))) {
 				if (entity instanceof PlayerEntity) {
 					ItemStack _stktoremove = new ItemStack(UnandiumItem.block, (int) (1));
-					((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
+					((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+							((PlayerEntity) entity).container.func_234641_j_());
 				}
 				if (entity instanceof PlayerEntity) {
 					ItemStack _setstack = new ItemStack(NuclearWasteItem.block, (int) (1));
@@ -108,7 +110,8 @@ public class UnandiumRightClickedOnBlockProcedure extends NewBordersModModElemen
 			if (((found) == (true))) {
 				if (entity instanceof PlayerEntity) {
 					ItemStack _stktoremove = new ItemStack(UnandiumItem.block, (int) (1));
-					((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
+					((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+							((PlayerEntity) entity).container.func_234641_j_());
 				}
 				if (entity instanceof PlayerEntity) {
 					ItemStack _setstack = new ItemStack(CompactCobaltItem.block, (int) (1));

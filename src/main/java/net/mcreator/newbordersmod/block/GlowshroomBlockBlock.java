@@ -18,7 +18,7 @@ public class GlowshroomBlockBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:glowshroom_block")
 	public static final Block block = null;
 	public GlowshroomBlockBlock(NewBordersModModElements instance) {
-		super(instance, 114);
+		super(instance, 108);
 	}
 
 	@Override
@@ -28,8 +28,8 @@ public class GlowshroomBlockBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(0.2f, 0.2f).lightValue(12).harvestLevel(0)
-					.harvestTool(ToolType.AXE));
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 12)
+					.harvestLevel(0).harvestTool(ToolType.AXE).setRequiresTool());
 			setRegistryName("glowshroom_block");
 		}
 	}

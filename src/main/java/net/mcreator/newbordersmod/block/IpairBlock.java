@@ -6,10 +6,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.World;
-import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -33,7 +32,7 @@ public class IpairBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ipe_air")
 	public static final Block block = null;
 	public IpairBlock(NewBordersModModElements instance) {
-		super(instance, 288);
+		super(instance, 278);
 	}
 
 	@Override
@@ -49,13 +48,9 @@ public class IpairBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.AIR).sound(SoundType.GLASS).hardnessAndResistance(0.1f, 10f).lightValue(0).notSolid());
+			super(Block.Properties.create(Material.AIR).sound(SoundType.GLASS).hardnessAndResistance(0.1f, 10f).setLightLevel(s -> 0).notSolid()
+					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("ipe_air");
-		}
-
-		@Override
-		public boolean isNormalCube(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return false;
 		}
 
 		@Override

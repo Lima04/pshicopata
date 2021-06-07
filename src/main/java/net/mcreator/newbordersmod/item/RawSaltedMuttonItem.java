@@ -17,7 +17,7 @@ public class RawSaltedMuttonItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:raw_salted_mutton")
 	public static final Item block = null;
 	public RawSaltedMuttonItem(NewBordersModModElements instance) {
-		super(instance, 134);
+		super(instance, 128);
 	}
 
 	@Override

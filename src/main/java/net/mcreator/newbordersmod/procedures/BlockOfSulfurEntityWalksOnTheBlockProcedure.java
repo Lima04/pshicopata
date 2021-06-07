@@ -7,19 +7,20 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
+import net.mcreator.newbordersmod.NewBordersModMod;
 
 import java.util.Map;
 
 @NewBordersModModElements.ModElement.Tag
 public class BlockOfSulfurEntityWalksOnTheBlockProcedure extends NewBordersModModElements.ModElement {
 	public BlockOfSulfurEntityWalksOnTheBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 678);
+		super(instance, 668);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure BlockOfSulfurEntityWalksOnTheBlock!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency entity for procedure BlockOfSulfurEntityWalksOnTheBlock!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

@@ -17,7 +17,7 @@ public class RubyAxeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:ruby_axe")
 	public static final Item block = null;
 	public RubyAxeItem(NewBordersModModElements instance) {
-		super(instance, 245);
+		super(instance, 234);
 	}
 
 	@Override

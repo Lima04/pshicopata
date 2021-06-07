@@ -1,81 +1,174 @@
 
 package net.mcreator.newbordersmod.world.biome;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.BiomeManager;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.gen.treedecorator.TrunkVineTreeDecorator;
+import net.minecraft.world.gen.treedecorator.TreeDecoratorType;
+import net.minecraft.world.gen.treedecorator.LeaveVineTreeDecorator;
+import net.minecraft.world.gen.treedecorator.CocoaTreeDecorator;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.gen.placement.Placement;
-import net.minecraft.world.gen.placement.IPlacementConfig;
-import net.minecraft.world.gen.placement.FrequencyConfig;
-import net.minecraft.world.gen.feature.structure.VillageConfig;
-import net.minecraft.world.gen.feature.structure.MineshaftStructure;
-import net.minecraft.world.gen.feature.structure.MineshaftConfig;
-import net.minecraft.world.gen.feature.SeaGrassConfig;
-import net.minecraft.world.gen.feature.IFeatureConfig;
+import net.minecraft.world.gen.placement.NoiseDependant;
+import net.minecraft.world.gen.feature.structure.StructureFeatures;
+import net.minecraft.world.gen.feature.ProbabilityConfig;
+import net.minecraft.world.gen.feature.Features;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
+import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
+import net.minecraft.world.biome.BiomeGenerationSettings;
+import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.IWorldWriter;
+import net.minecraft.world.ISeedReader;
+import net.minecraft.util.registry.WorldGenRegistries;
+import net.minecraft.util.registry.Registry;
+import net.minecraft.util.math.MutableBoundingBox;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.RegistryKey;
+import net.minecraft.util.Direction;
+import net.minecraft.state.BooleanProperty;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.BlockState;
 
 import net.mcreator.newbordersmod.entity.MooglowEntity;
 import net.mcreator.newbordersmod.NewBordersModModElements;
 
+import java.util.Set;
+import java.util.Random;
+import java.util.List;
+
 @NewBordersModModElements.ModElement.Tag
 public class GlowshroomJungleBiome extends NewBordersModModElements.ModElement {
-	@ObjectHolder("new_borders_mod:glowshroom_jungle")
-	public static final CustomBiome biome = null;
+	public static Biome biome;
 	public GlowshroomJungleBiome(NewBordersModModElements instance) {
-		super(instance, 338);
+		super(instance, 328);
+		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
-
-	@Override
-	public void initElements() {
-		elements.biomes.add(() -> new CustomBiome());
+	private static class BiomeRegisterHandler {
+		@SubscribeEvent
+		public void registerBiomes(RegistryEvent.Register<Biome> event) {
+			if (biome == null) {
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(12638463).setWaterColor(4159204).setWaterFogColor(329011)
+						.withSkyColor(7972607).withFoliageColor(-13421569).withGrassColor(-13421569).build();
+				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
+						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
+								Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
+				biomeGenerationSettings.withStructure(StructureFeatures.STRONGHOLD);
+				biomeGenerationSettings.withStructure(StructureFeatures.MINESHAFT);
+				biomeGenerationSettings.withStructure(StructureFeatures.VILLAGE_PLAINS);
+				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
+						Feature.RANDOM_PATCH.withConfiguration(Features.Configs.GRASS_PATCH_CONFIG).withPlacement(Features.Placements.PATCH_PLACEMENT)
+								.withPlacement(Placement.COUNT_NOISE.configure(new NoiseDependant(-0.8D, 5, 20))));
+				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.SEAGRASS
+						.withConfiguration(new ProbabilityConfig(0.3F)).func_242731_b(20).withPlacement(Features.Placements.SEAGRASS_DISK_PLACEMENT));
+				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
+				DefaultBiomeFeatures.withMonsterRoom(biomeGenerationSettings);
+				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
+				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
+				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
+				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(MooglowEntity.entity, 15, 1, 4));
+				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.FOREST).depth(0.1f).scale(0.4f)
+						.temperature(0.5f).downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
+						.withGenerationSettings(biomeGenerationSettings.build()).build();
+				event.getRegistry().register(biome.setRegistryName("new_borders_mod:glowshroom_jungle"));
+			}
+		}
 	}
-
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 7));
+		BiomeManager.addBiome(BiomeManager.BiomeType.WARM,
+				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 7));
 	}
-	static class CustomBiome extends Biome {
-		public CustomBiome() {
-			super(new Biome.Builder().downfall(0.5f).depth(0.1f).scale(0.4f).temperature(0.5f).precipitation(Biome.RainType.RAIN)
-					.category(Biome.Category.FOREST).waterColor(4159204).waterFogColor(329011).parent("dark_forest")
-					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
-							Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
-			setRegistryName("glowshroom_jungle");
-			DefaultBiomeFeatures.addCarvers(this);
-			DefaultBiomeFeatures.addMonsterRooms(this);
-			DefaultBiomeFeatures.addStructures(this);
-			DefaultBiomeFeatures.addOres(this);
-			this.addStructure(Feature.STRONGHOLD.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
-			this.addStructure(Feature.MINESHAFT.withConfiguration(new MineshaftConfig(0.004D, MineshaftStructure.Type.NORMAL)));
-			this.addStructure(Feature.VILLAGE.withConfiguration(new VillageConfig("village/plains/town_centers", 6)));
-			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_PATCH.withConfiguration(DefaultBiomeFeatures.GRASS_CONFIG)
-					.withPlacement(Placement.COUNT_HEIGHTMAP_DOUBLE.configure(new FrequencyConfig(20))));
-			this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.SEAGRASS.withConfiguration(new SeaGrassConfig(20, 0.3D))
-					.withPlacement(Placement.TOP_SOLID_HEIGHTMAP.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(MooglowEntity.entity, 15, 1, 4));
+	private static class CustomLeaveVineTreeDecorator extends LeaveVineTreeDecorator {
+		public static final CustomLeaveVineTreeDecorator instance = new CustomLeaveVineTreeDecorator();
+		public static com.mojang.serialization.Codec<LeaveVineTreeDecorator> codec;
+		public static TreeDecoratorType tdt;
+		static {
+			codec = com.mojang.serialization.Codec.unit(() -> instance);
+			tdt = new TreeDecoratorType(codec);
+			tdt.setRegistryName("glowshroom_jungle_lvtd");
+			ForgeRegistries.TREE_DECORATOR_TYPES.register(tdt);
+		}
+		@Override
+		protected TreeDecoratorType<?> func_230380_a_() {
+			return tdt;
 		}
 
-		@OnlyIn(Dist.CLIENT)
 		@Override
-		public int getGrassColor(double posX, double posZ) {
-			return -13421569;
+		protected void func_227424_a_(IWorldWriter ww, BlockPos bp, BooleanProperty bpr, Set<BlockPos> sbc, MutableBoundingBox mbb) {
+			this.func_227423_a_(ww, bp, Blocks.AIR.getDefaultState(), sbc, mbb);
+		}
+	}
+
+	private static class CustomTrunkVineTreeDecorator extends TrunkVineTreeDecorator {
+		public static final CustomTrunkVineTreeDecorator instance = new CustomTrunkVineTreeDecorator();
+		public static com.mojang.serialization.Codec<CustomTrunkVineTreeDecorator> codec;
+		public static TreeDecoratorType tdt;
+		static {
+			codec = com.mojang.serialization.Codec.unit(() -> instance);
+			tdt = new TreeDecoratorType(codec);
+			tdt.setRegistryName("glowshroom_jungle_tvtd");
+			ForgeRegistries.TREE_DECORATOR_TYPES.register(tdt);
+		}
+		@Override
+		protected TreeDecoratorType<?> func_230380_a_() {
+			return tdt;
 		}
 
-		@OnlyIn(Dist.CLIENT)
 		@Override
-		public int getFoliageColor() {
-			return -13421569;
+		protected void func_227424_a_(IWorldWriter ww, BlockPos bp, BooleanProperty bpr, Set<BlockPos> sbc, MutableBoundingBox mbb) {
+			this.func_227423_a_(ww, bp, Blocks.AIR.getDefaultState(), sbc, mbb);
+		}
+	}
+
+	private static class CustomCocoaTreeDecorator extends CocoaTreeDecorator {
+		public static final CustomCocoaTreeDecorator instance = new CustomCocoaTreeDecorator();
+		public static com.mojang.serialization.Codec<CustomCocoaTreeDecorator> codec;
+		public static TreeDecoratorType tdt;
+		static {
+			codec = com.mojang.serialization.Codec.unit(() -> instance);
+			tdt = new TreeDecoratorType(codec);
+			tdt.setRegistryName("glowshroom_jungle_ctd");
+			ForgeRegistries.TREE_DECORATOR_TYPES.register(tdt);
+		}
+		public CustomCocoaTreeDecorator() {
+			super(0.2f);
+		}
+
+		@Override
+		protected TreeDecoratorType<?> func_230380_a_() {
+			return tdt;
+		}
+
+		@Override
+		public void func_225576_a_(ISeedReader p_225576_1_, Random p_225576_2_, List<BlockPos> p_225576_3_, List<BlockPos> p_225576_4_,
+				Set<BlockPos> p_225576_5_, MutableBoundingBox p_225576_6_) {
+			if (!(p_225576_2_.nextFloat() >= 0.2F)) {
+				int i = p_225576_3_.get(0).getY();
+				p_225576_3_.stream().filter((p_236867_1_) -> {
+					return p_236867_1_.getY() - i <= 2;
+				}).forEach((p_242865_5_) -> {
+					for (Direction direction : Direction.Plane.HORIZONTAL) {
+						if (p_225576_2_.nextFloat() <= 0.25F) {
+							Direction direction1 = direction.getOpposite();
+							BlockPos blockpos = p_242865_5_.add(direction1.getXOffset(), 0, direction1.getZOffset());
+							if (Feature.isAirAt(p_225576_1_, blockpos)) {
+								BlockState blockstate = Blocks.AIR.getDefaultState();
+								this.func_227423_a_(p_225576_1_, blockpos, blockstate, p_225576_5_, p_225576_6_);
+							}
+						}
+					}
+				});
+			}
 		}
 	}
 }

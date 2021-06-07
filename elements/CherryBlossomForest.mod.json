@@ -1,5 +1,5 @@
 {
-  "_fv": 13,
+  "_fv": 18,
   "_type": "biome",
   "definition": {
     "name": "Cherry Blossom Forest",
@@ -9,42 +9,46 @@
     "undergroundBlock": {
       "value": "Blocks.DIRT#0"
     },
-    "treeType": 0,
-    "vanillaTreeType": "Default",
-    "minHeight": 7,
-    "spawnVines": false,
-    "treeVines": {
-      "value": ""
+    "moodSoundDelay": 0,
+    "spawnParticles": false,
+    "particlesProbability": 0.0,
+    "biomeCategory": "FOREST",
+    "parent": {
+      "value": "taiga"
     },
+    "rainingPossibility": 0.5,
+    "temperature": 0.2,
+    "baseHeight": 0.4,
+    "heightVariation": 0.1,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 20,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "maxWaterDepth": 0,
     "treeStem": {
       "value": ""
     },
     "treeBranch": {
       "value": ""
     },
-    "treeFruits": {
+    "treeVines": {
       "value": ""
     },
-    "treesPerChunk": 0,
-    "grassPerChunk": 4,
-    "seagrassPerChunk": 20,
-    "flowersPerChunk": 4,
-    "mushroomsPerChunk": 0,
-    "bigMushroomsChunk": 0,
-    "sandPathcesPerChunk": 0,
-    "gravelPatchesPerChunk": 0,
-    "reedsPerChunk": 0,
-    "cactiPerChunk": 0,
-    "rainingPossibility": 0.5,
-    "temperature": 0.2,
-    "baseHeight": 0.4,
-    "heightVariation": 0.1,
-    "spawnBiome": true,
-    "biomeWeight": 10,
-    "biomeType": "WARM",
-    "biomeCategory": "FOREST",
-    "parent": {
-      "value": "taiga"
+    "treeFruits": {
+      "value": ""
     },
     "spawnStronghold": true,
     "spawnMineshaft": true,
@@ -57,13 +61,13 @@
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "oceanRuinType": "NONE",
-    "biomeDictionaryTypes": [],
     "defaultFeatures": [
       "Caves",
       "MonsterRooms",
       "Structures",
       "Ores",
-      "Bamboo"
+      "Bamboo",
+      "FrozenTopLayer"
     ],
     "spawnEntries": []
   }

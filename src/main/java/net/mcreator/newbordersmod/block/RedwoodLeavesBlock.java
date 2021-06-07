@@ -3,7 +3,7 @@ package net.mcreator.newbordersmod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -24,7 +24,7 @@ public class RedwoodLeavesBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:redwood_leaves")
 	public static final Block block = null;
 	public RedwoodLeavesBlock(NewBordersModModElements instance) {
-		super(instance, 105);
+		super(instance, 99);
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class RedwoodLeavesBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.3f, 10f).lightValue(0).notSolid());
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.3f, 10f).setLightLevel(s -> 0).notSolid());
 			setRegistryName("redwood_leaves");
 		}
 

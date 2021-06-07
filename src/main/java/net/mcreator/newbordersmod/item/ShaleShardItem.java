@@ -16,7 +16,7 @@ public class ShaleShardItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:shale_shard")
 	public static final Item block = null;
 	public ShaleShardItem(NewBordersModModElements instance) {
-		super(instance, 192);
+		super(instance, 186);
 	}
 
 	@Override

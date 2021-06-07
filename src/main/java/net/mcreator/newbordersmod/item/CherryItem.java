@@ -17,7 +17,7 @@ public class CherryItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cherry")
 	public static final Item block = null;
 	public CherryItem(NewBordersModModElements instance) {
-		super(instance, 125);
+		super(instance, 119);
 	}
 
 	@Override

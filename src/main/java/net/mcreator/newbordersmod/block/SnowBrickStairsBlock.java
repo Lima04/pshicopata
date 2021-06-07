@@ -29,8 +29,10 @@ public class SnowBrickStairsBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(0.2f, 0.2f)).getDefaultState(),
-					Block.Properties.create(Material.PACKED_ICE).sound(SoundType.SNOW).hardnessAndResistance(0.2f, 0.2f).lightValue(0));
+			super(() -> new Block(
+					Block.Properties.create(Material.PACKED_ICE).sound(SoundType.SNOW).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0))
+							.getDefaultState(),
+					Block.Properties.create(Material.PACKED_ICE).sound(SoundType.SNOW).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0));
 			setRegistryName("snow_brick_stairs");
 		}
 	}

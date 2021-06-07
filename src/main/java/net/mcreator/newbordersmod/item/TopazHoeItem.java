@@ -17,7 +17,7 @@ public class TopazHoeItem extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:topaz_hoe")
 	public static final Item block = null;
 	public TopazHoeItem(NewBordersModModElements instance) {
-		super(instance, 251);
+		super(instance, 240);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class TopazHoeItem extends NewBordersModModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(TopazCrystalItem.block, (int) (1)));
 			}
-		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 0, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("topaz_hoe"));
 	}
 }

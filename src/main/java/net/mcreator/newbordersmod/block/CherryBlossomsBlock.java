@@ -24,7 +24,7 @@ public class CherryBlossomsBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:cherry_blossoms")
 	public static final Block block = null;
 	public CherryBlossomsBlock(NewBordersModModElements instance) {
-		super(instance, 107);
+		super(instance, 101);
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class CherryBlossomsBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).lightValue(0).notSolid());
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0).notSolid());
 			setRegistryName("cherry_blossoms");
 		}
 
@@ -49,7 +49,7 @@ public class CherryBlossomsBlock extends NewBordersModModElements.ModElement {
 		}
 
 		@Override
-		public MaterialColor getMaterialColor(BlockState state, IBlockReader blockAccess, BlockPos pos) {
+		public MaterialColor getMaterialColor() {
 			return MaterialColor.PINK;
 		}
 

@@ -19,7 +19,7 @@ public class ThePoopifersTheFirstShit2003Item extends NewBordersModModElements.M
 	@ObjectHolder("new_borders_mod:the_poopifers_the_first_shit_2003")
 	public static final Item block = null;
 	public ThePoopifersTheFirstShit2003Item(NewBordersModModElements instance) {
-		super(instance, 164);
+		super(instance, 158);
 	}
 
 	@Override

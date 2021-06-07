@@ -6,15 +6,14 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.World;
-import net.minecraft.world.IWorldReader;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Hand;
 import net.minecraft.util.Direction;
 import net.minecraft.util.ActionResultType;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -40,7 +39,7 @@ public class PurpleBerryPlantBerryBlock extends NewBordersModModElements.ModElem
 	@ObjectHolder("new_borders_mod:purple_berry_plant_berry")
 	public static final Block block = null;
 	public PurpleBerryPlantBerryBlock(NewBordersModModElements instance) {
-		super(instance, 377);
+		super(instance, 367);
 	}
 
 	@Override
@@ -56,24 +55,14 @@ public class PurpleBerryPlantBerryBlock extends NewBordersModModElements.ModElem
 	}
 	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.PLANTS).sound(SoundType.SWEET_BERRY_BUSH).hardnessAndResistance(0.1f, 0f).lightValue(0)
-					.doesNotBlockMovement().notSolid());
+			super(Block.Properties.create(Material.PLANTS).sound(SoundType.SWEET_BERRY_BUSH).hardnessAndResistance(0.1f, 0f).setLightLevel(s -> 0)
+					.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("purple_berry_plant_berry");
-		}
-
-		@Override
-		public boolean isNormalCube(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return false;
 		}
 
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
 			return true;
-		}
-
-		@Override
-		public int tickRate(IWorldReader world) {
-			return 12000;
 		}
 
 		@Override

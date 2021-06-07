@@ -8,6 +8,7 @@ import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
+import net.mcreator.newbordersmod.NewBordersModMod;
 
 import java.util.Map;
 import java.util.Iterator;
@@ -15,13 +16,13 @@ import java.util.Iterator;
 @NewBordersModModElements.ModElement.Tag
 public class ZombieJerkyFoodEatenProcedure extends NewBordersModModElements.ModElement {
 	public ZombieJerkyFoodEatenProcedure(NewBordersModModElements instance) {
-		super(instance, 492);
+		super(instance, 482);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure ZombieJerkyFoodEaten!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency entity for procedure ZombieJerkyFoodEaten!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

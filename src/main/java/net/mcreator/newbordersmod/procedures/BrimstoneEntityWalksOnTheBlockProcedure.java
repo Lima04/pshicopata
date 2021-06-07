@@ -7,19 +7,20 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
+import net.mcreator.newbordersmod.NewBordersModMod;
 
 import java.util.Map;
 
 @NewBordersModModElements.ModElement.Tag
 public class BrimstoneEntityWalksOnTheBlockProcedure extends NewBordersModModElements.ModElement {
 	public BrimstoneEntityWalksOnTheBlockProcedure(NewBordersModModElements instance) {
-		super(instance, 675);
+		super(instance, 665);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure BrimstoneEntityWalksOnTheBlock!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency entity for procedure BrimstoneEntityWalksOnTheBlock!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

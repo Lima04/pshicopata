@@ -4,7 +4,7 @@ package net.mcreator.newbordersmod.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
-import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -25,7 +25,7 @@ public class PinonBlockGravityBlock extends NewBordersModModElements.ModElement 
 	@ObjectHolder("new_borders_mod:pinon_block_gravity")
 	public static final Block block = null;
 	public PinonBlockGravityBlock(NewBordersModModElements instance) {
-		super(instance, 262);
+		super(instance, 252);
 	}
 
 	@Override
@@ -35,8 +35,8 @@ public class PinonBlockGravityBlock extends NewBordersModModElements.ModElement 
 	}
 	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
-					.harvestTool(ToolType.AXE));
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
+					.harvestTool(ToolType.AXE).setRequiresTool());
 			setRegistryName("pinon_block_gravity");
 		}
 

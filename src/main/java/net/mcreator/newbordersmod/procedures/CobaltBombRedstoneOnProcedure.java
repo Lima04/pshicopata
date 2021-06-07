@@ -7,34 +7,35 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.newbordersmod.NewBordersModModElements;
+import net.mcreator.newbordersmod.NewBordersModMod;
 
 import java.util.Map;
 
 @NewBordersModModElements.ModElement.Tag
 public class CobaltBombRedstoneOnProcedure extends NewBordersModModElements.ModElement {
 	public CobaltBombRedstoneOnProcedure(NewBordersModModElements instance) {
-		super(instance, 308);
+		super(instance, 298);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure CobaltBombRedstoneOn!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency x for procedure CobaltBombRedstoneOn!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure CobaltBombRedstoneOn!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency y for procedure CobaltBombRedstoneOn!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure CobaltBombRedstoneOn!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency z for procedure CobaltBombRedstoneOn!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure CobaltBombRedstoneOn!");
+				NewBordersModMod.LOGGER.warn("Failed to load dependency world for procedure CobaltBombRedstoneOn!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
@@ -72,26 +73,26 @@ public class CobaltBombRedstoneOnProcedure extends NewBordersModModElements.ModE
 														.getBlock() == Blocks.SAND.getDefaultState().getBlock()))))))) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.GLASS.getDefaultState(), 3);
 		}
-		if (world instanceof World && !world.getWorld().isRemote) {
-			world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 200, Explosion.Mode.BREAK);
+		if (world instanceof World && !((World) world).isRemote) {
+			((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 200, Explosion.Mode.BREAK);
 		}
-		if (world instanceof World && !world.getWorld().isRemote) {
-			world.getWorld().createExplosion(null, (int) x, (int) (y + 1), (int) z, (float) 200, Explosion.Mode.BREAK);
+		if (world instanceof World && !((World) world).isRemote) {
+			((World) world).createExplosion(null, (int) x, (int) (y + 1), (int) z, (float) 200, Explosion.Mode.BREAK);
 		}
-		if (world instanceof World && !world.getWorld().isRemote) {
-			world.getWorld().createExplosion(null, (int) x, (int) (y + (-1)), (int) z, (float) 200, Explosion.Mode.BREAK);
+		if (world instanceof World && !((World) world).isRemote) {
+			((World) world).createExplosion(null, (int) x, (int) (y + (-1)), (int) z, (float) 200, Explosion.Mode.BREAK);
 		}
-		if (world instanceof World && !world.getWorld().isRemote) {
-			world.getWorld().createExplosion(null, (int) x, (int) (y + 2), (int) z, (float) 200, Explosion.Mode.BREAK);
+		if (world instanceof World && !((World) world).isRemote) {
+			((World) world).createExplosion(null, (int) x, (int) (y + 2), (int) z, (float) 200, Explosion.Mode.BREAK);
 		}
-		if (world instanceof World && !world.getWorld().isRemote) {
-			world.getWorld().createExplosion(null, (int) x, (int) (y + (-2)), (int) z, (float) 200, Explosion.Mode.BREAK);
+		if (world instanceof World && !((World) world).isRemote) {
+			((World) world).createExplosion(null, (int) x, (int) (y + (-2)), (int) z, (float) 200, Explosion.Mode.BREAK);
 		}
-		if (world instanceof World && !world.getWorld().isRemote) {
-			world.getWorld().createExplosion(null, (int) x, (int) (y + 3), (int) z, (float) 200, Explosion.Mode.BREAK);
+		if (world instanceof World && !((World) world).isRemote) {
+			((World) world).createExplosion(null, (int) x, (int) (y + 3), (int) z, (float) 200, Explosion.Mode.BREAK);
 		}
-		if (world instanceof World && !world.getWorld().isRemote) {
-			world.getWorld().createExplosion(null, (int) x, (int) (y + (-3)), (int) z, (float) 200, Explosion.Mode.BREAK);
+		if (world instanceof World && !((World) world).isRemote) {
+			((World) world).createExplosion(null, (int) x, (int) (y + (-3)), (int) z, (float) 200, Explosion.Mode.BREAK);
 		}
 	}
 }

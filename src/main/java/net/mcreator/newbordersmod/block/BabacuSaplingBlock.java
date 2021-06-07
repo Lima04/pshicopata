@@ -6,12 +6,11 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
-import net.minecraft.world.IWorldReader;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -36,7 +35,7 @@ public class BabacuSaplingBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_sapling")
 	public static final Block block = null;
 	public BabacuSaplingBlock(NewBordersModModElements instance) {
-		super(instance, 388);
+		super(instance, 378);
 	}
 
 	@Override
@@ -52,23 +51,14 @@ public class BabacuSaplingBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 2f).lightValue(0).notSolid());
+			super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 2f).setLightLevel(s -> 0).notSolid()
+					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("babacu_sapling");
-		}
-
-		@Override
-		public boolean isNormalCube(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return false;
 		}
 
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
 			return true;
-		}
-
-		@Override
-		public int tickRate(IWorldReader world) {
-			return 1200;
 		}
 
 		@Override
@@ -85,7 +75,7 @@ public class BabacuSaplingBlock extends NewBordersModModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
+			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1200);
 		}
 
 		@Override
@@ -102,7 +92,7 @@ public class BabacuSaplingBlock extends NewBordersModModElements.ModElement {
 				$_dependencies.put("world", world);
 				BabacuSaplingUpdateTickProcedure.executeProcedure($_dependencies);
 			}
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
+			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1200);
 		}
 	}
 }

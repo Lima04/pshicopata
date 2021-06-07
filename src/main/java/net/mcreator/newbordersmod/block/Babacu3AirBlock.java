@@ -6,9 +6,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -29,7 +29,7 @@ public class Babacu3AirBlock extends NewBordersModModElements.ModElement {
 	@ObjectHolder("new_borders_mod:babacu_3_air")
 	public static final Block block = null;
 	public Babacu3AirBlock(NewBordersModModElements instance) {
-		super(instance, 393);
+		super(instance, 383);
 	}
 
 	@Override
@@ -45,14 +45,9 @@ public class Babacu3AirBlock extends NewBordersModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.AIR).sound(SoundType.GLASS).hardnessAndResistance(0f, 0f).lightValue(0).doesNotBlockMovement()
-					.notSolid());
+			super(Block.Properties.create(Material.AIR).sound(SoundType.GLASS).hardnessAndResistance(0f, 0f).setLightLevel(s -> 0)
+					.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("babacu_3_air");
-		}
-
-		@Override
-		public boolean isNormalCube(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return false;
 		}
 
 		@Override
